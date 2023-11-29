@@ -847,13 +847,244 @@
     "Visibility": "Good"
   }
   ,
-  "train_00027.mp4":,
-  "train_00028.mp4":,
-  "train_00029.mp4":,
-  "train_00030.mp4":,
-  "train_00031.mp4":,
-  "train_00032.mp4":,
-  "train_00033.mp4":,
+  "train_00027.mp4":{
+    "Scene": "Urban Residential",
+    "Weather": "Clear",
+    "Time of Day": "Daytime",
+    "Road Conditions": "Dry",
+    "Road Type": "Two-Way",
+    "Lane Information": {
+      "Total Number of Lanes": "2",
+      "Lane 1 (leftmost)": {
+        "Straight": "Allowed",
+        "Left": "Not Visible/Assumed Allowed",
+        "Right": "Not Visible/Assumed Allowed"
+      },
+      "Lane 2 (rightmost)": {
+        "Straight": "Allowed",
+        "Left": "Not Visible/Assumed Allowed",
+        "Right": "Allowed"
+      }
+    },
+    "Traffic Signs": {
+      "Visible Signs": ["Stop sign at intersection ahead"]
+    },
+    "Vehicles": {
+      "In Motion": "None visible",
+      "Parked": "Multiple vehicles parked on both sides of the street"
+    },
+    "Directionality": "Two-way",
+    "Ego-Vehicle Direction": "Facing uphill",
+    "Visibility": "Clear"
+  }
+  ,
+  "train_00028.mp4":{
+    "Scene": "Suburban",
+    "Weather": "Clear",
+    "Time of Day": "Daytime",
+    "Road Conditions": "Dry",
+    "Road Type": "Two-Way",
+    "Lane Information": {
+      "Total Number of Lanes": "3",
+      "Lane 1 (leftmost)": {
+        "Straight": "Allowed",
+        "Left": "Allowed",
+        "Right": "Not Allowed"
+      },
+      "Lane 2": {
+        "Straight": "Allowed",
+        "Left": "Not Allowed",
+        "Right": "Not Allowed"
+      },
+      "Lane 3 (rightmost)": {
+        "Straight": "Allowed",
+        "Left": "Not Allowed",
+        "Right": "Allowed"
+      }
+    },
+    "Traffic Signs": {
+      "Visible Signs": ["Speed Limit 30 mph"]
+    },
+    "Vehicles": {
+      "In Motion": "None",
+      "Parked": "Multiple vehicles parked on both sides of the road"
+    },
+    "Directionality": "Two-way",
+    "Ego-Vehicle Direction": "Facing forward",
+    "Visibility": "Clear"
+  }
+  ,
+  "train_00029.mp4":{
+    "Scene": "Suburban Residential",
+    "Weather": "Clear",
+    "Time of Day": "Daytime",
+    "Road Conditions": "Dry",
+    "Road Type": "Two-Way",
+    "Lane Information": {
+      "Total Number of Lanes": "2",
+      "Lane 1 (leftmost)": {
+        "Straight": "Allowed",
+        "Left": "Allowed",
+        "Right": "Allowed"
+      },
+      "Lane 2 (rightmost)": {
+        "Straight": "Allowed",
+        "Left": "Allowed",
+        "Right": "Allowed"
+      }
+    },
+    "Traffic Signs": {
+      "Visible Signs": ["Stop sign at the intersection"]
+    },
+    "Vehicles": {
+      "In Motion": "None",
+      "Parked": "Multiple vehicles parked on both sides of the street"
+    },
+    "Directionality": "Two-way",
+    "Ego-Vehicle Direction": "Facing forward",
+    "Visibility": "Clear"
+  }
+  ,
+  "train_00030.mp4":{
+    "Scene": "Highway",
+    "Weather": "Rainy",
+    "Time of Day": "Nighttime",
+    "Road Conditions": "Wet",
+    "Road Type": "Multi-Lane",
+    "Lane Information": {
+      "Total Number of Lanes": "3",
+      "Lane 1 (leftmost)": {
+        "Straight": "Allowed",
+        "Left": "Not Allowed",
+        "Right": "Not Allowed"
+      },
+      "Lane 2": {
+        "Straight": "Allowed",
+        "Left": "Not Allowed",
+        "Right": "Not Allowed"
+      },
+      "Lane 3 (rightmost)": {
+        "Straight": "Allowed",
+        "Left": "Not Allowed",
+        "Right": "Not Allowed"
+      }
+    },
+    "Traffic Signs": {
+      "Visible Signs": "No traffic signs visible due to rain"
+    },
+    "Vehicles": {
+      "In Motion": "Multiple vehicles in motion with headlights and tail lights visible",
+      "Parked": "None visible"
+    },
+    "Directionality": "Assumed One-Way due to highway",
+    "Ego-Vehicle Direction": "Following traffic",
+    "Visibility": {
+      "General": "Reduced due to rain",
+      "Specific Impairments": "Camera glare present"
+    }
+  }
+  ,
+  "train_00031.mp4":{
+    "Scene": "Urban Residential",
+    "Weather": "Clear",
+    "Time of Day": "Daytime",
+    "Road Conditions": "Dry",
+    "Road Type": "Two-Way",
+    "Lane Information": {
+      "Total Number of Lanes": "2",
+      "Lane 1 (leftmost)": {
+        "Straight": "Allowed",
+        "Left": "Allowed",
+        "Right": "Not Allowed"
+      },
+      "Lane 2 (rightmost)": {
+        "Straight": "Allowed",
+        "Left": "Not Allowed",
+        "Right": "Allowed"
+      }
+    },
+    "Traffic Signs": {
+      "Visible Signs": ["No visible traffic lights", "Other signs not clearly discernible"]
+    },
+    "Vehicles": {
+      "In Motion": "Several vehicles in traffic",
+      "Parked": "Parking spaces occupied by multiple vehicles on both sides of the street"
+    },
+    "Directionality": "Two-way",
+    "Ego-Vehicle Direction": "Facing uphill",
+    "Visibility": "Clear"
+  }
+  ,
+  "train_00032.mp4":{
+    "Scene": "Suburban",
+    "Weather": "Clear",
+    "Time of Day": "Daytime",
+    "Road Conditions": "Dry",
+    "Road Type": "Curved Road Leading to a T-Intersection",
+    "Lane Information": {
+      "Total Number of Lanes": "2",
+      "Lane 1 (leftmost)": {
+        "Straight": "Allowed",
+        "Left": "Not Allowed",
+        "Right": "Allowed at T-Intersection"
+      },
+      "Lane 2 (rightmost)": {
+        "Straight": "Allowed",
+        "Left": "Not Allowed",
+        "Right": "Allowed at T-Intersection"
+      }
+    },
+    "Traffic Signs": {
+      "Visible Signs": ["No Parking sign", "T-Intersection indication by discontinuation of double yellow line"]
+    },
+    "Vehicles": {
+      "In Motion": "None visible",
+      "Parked": "None visible"
+    },
+    "Directionality": "Two-way",
+    "Ego-Vehicle Direction": "Approaching a T-Intersection",
+    "Visibility": "Clear"
+  }
+  ,
+  "train_00033.mp4":{
+    "Scene": "Urban",
+    "Weather": "Rainy",
+    "Time of Day": "Daytime",
+    "Road Conditions": "Wet",
+    "Road Type": "Divided Highway",
+    "Lane Information": {
+      "Total Number of Lanes": "3",
+      "Lane 1": {
+        "Straight": "Allowed",
+        "Left": "Allowed",
+        "Right": "Not Allowed"
+      },
+      "Lane 2": {
+        "Straight": "Allowed",
+        "Left": "Not Allowed",
+        "Right": "Not Allowed"
+      },
+      "Lane 3": {
+        "Straight": "Allowed",
+        "Left": "Not Allowed",
+        "Right": "Allowed"
+      }
+    },
+    "Traffic Signs": {
+      "Visible Signs": ["Not clearly visible"]
+    },
+    "Vehicles": {
+      "In Motion": ["Obstructed by large vehicle"],
+      "Parked": "Available parking spaces occupied"
+    },
+    "Directionality": "Multi-lane with median",
+    "Ego-Vehicle Direction": "Following traffic, behind large vehicle",
+    "Visibility": {
+      "General": "Reduced due to rain",
+      "Specific Obstructions": ["Large vehicle"]
+    }
+  }
+  ,
   "train_00034.mp4":,
   "train_00035.mp4":,
   "train_00036.mp4":,
