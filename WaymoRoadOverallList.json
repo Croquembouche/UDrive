@@ -1,0 +1,36 @@
+{
+  "Categories": {
+    "Scene": ["Urban", "Suburban", "Highway", "Residential", "Commercial", "Intersection", "Divided Road", "Main Road", "One-Way Street", "Two-Way Street", "Curved Road", "T-Intersection", "School Zone"],
+    "Weather": ["Clear", "Rainy", "Overcast", "Partly Cloudy"],
+    "Time of Day": ["Daytime", "Nighttime", "Dusk/Dawn"],
+    "Road Conditions": ["Dry", "Wet"],
+    "Road Type": ["Residential Street", "Commercial Street", "Divided Highway", "Main Thoroughfare", "Residential with Sidewalk and Median", "Highway with Multiple Lanes", "Urban Street with Tram Tracks", "Residential with Shared Lane"],
+    "Lane Information": {
+      "Number of Lanes": ["1", "2", "3", "4", "5", "Multiple", "1 per direction", "1 Shared Lane", "At least 3"],
+      "Lane Markings": ["Visible", "Not Visible", "Not Clearly Visible", "Double Yellow Lines"],
+      "Allowed Maneuvers": ["Straight", "Left", "Right", "Lane Changing", "Merge"],
+      "Special Lanes": ["Bike Lane", "Taxi and Bus Lane", "Center Lane"]
+    },
+    "Traffic Signs": {
+      "Types": ["Speed Limit", "No Parking", "Traffic Light", "Pedestrian Crossing", "Stop Sign", "Exit Sign", "Electronic Sign", "Construction Warning"],
+      "Visibility": ["Visible", "Not Visible", "Not Clearly Visible"]
+    },
+    "Vehicles": {
+      "Total Number": ["None", "Few", "Several", "Multiple"],
+      "In Motion": ["True", "False"],
+      "Types": ["Pickup Truck", "Sedan", "Bus", "Cars", "Vans", "Various Vehicles"],
+      "States": ["Parked", "In Motion", "Stopped", "Merging", "In Queue"]
+    },
+    "Pedestrians": ["None", "Multiple", "Visible on Sidewalk", "Crossing Street", "Crossing"],
+    "Directionality": ["One-Way", "Two-Way", "Multi-directional with median", "Multi-lane with median", "Divided", "Assumed Two-Way"],
+    "Ego-Vehicle": {
+      "Direction": ["Forward", "Making a Left Turn", "Stopped at Intersection", "Approaching Intersection", "Following traffic"],
+      "Maneuver": ["Preparing to turn right", "Merging left", "Slowing Down, Preparing to Stop"]
+    },
+    "Visibility": {
+      "General": ["Good", "Reduced", "Limited", "Poor"],
+      "Specific Impairments": ["Camera glare", "Obstructed by truck", "Obstructed by large vehicle", "Reduced due to Camera Condition", "Reduced due to Lens Glare and Low Light Conditions", "Reduced due to Nighttime Conditions"]
+    },
+    "Camera Condition": ["Dirty", "Blurry due to Dust", "Glare present"]
+  }
+}
