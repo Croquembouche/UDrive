@@ -1,0 +1,176 @@
+{
+    "Scene": [
+        "Urban",
+        "Suburban",
+        "Highway",
+        "Residential",
+        "Commercial",
+        "Intersection",
+        "Parking Area",
+        "Construction",
+        "School Zone",
+        "Unknown",
+        "Rural"
+    ],
+    "TimeOfDay":[
+        "Daytime",
+        "Dusk/Dawn",
+        "Nighttime"
+    ],
+    "Weather": [
+        "Sunny",
+        "Clear",
+        "Rainy",
+        "Overcast",
+        "Cloudy",
+        "Partly Cloudy",
+        "Not Indicated"
+    ],
+    "RoadConditions": [
+        "Dry",
+        "Wet"
+    ],
+    "LaneInformation": {
+        "NumberOfLanes": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "Multiple"
+        ],
+        "LaneMarkings": [
+            "Visible",
+            "Not Visible",
+            "Not Clearly Visible"
+        ],
+        "SpecialLanes": [
+            "None",
+            "Bike Lane",
+            "Taxi and Bus Lane",
+            "Center Lane",
+            "Right Turn Only Lane",
+            "Left Turn Only Lane",
+            "Street Parking",
+            "Tram Tracks",
+            "HOV Lane"
+        ]
+    },
+    "TrafficSigns": {
+        "Types": [
+            "Speed Limit",
+            "Dead End",
+            "No Parking",
+            "Traffic Light",
+            "Tram Sign",
+            "Pedestrian Crossing",
+            "No Pavement Markings",
+            "Stop Sign",
+            "Exit Sign",
+            "Merge Sign",
+            "Speed Bump",
+            "Electronic Sign",
+            "Road Work",
+            "No Left Turn",
+            "Right Lane Must Turn Right",
+            "School Zone",
+            "Railroad Crossing",
+            "No Stopping",
+            "Route Sign",
+            "None"
+        ],
+        "Visibility": [
+            "Visible",
+            "Not Visible",
+            "Not Clearly Visible"
+        ],
+        "TrafficLightState":[
+            "Red",
+            "Green",
+            "Yellow"
+        ]
+    },
+    "Vehicles": {
+        "TotalNumber": [
+            "None",
+            "None",
+            "None",
+            "Few",
+            "Multiple"
+        ],
+        "InMotion": [
+            "True",
+            "False"
+        ],
+        "Types": [
+            "Pickup Truck",
+            "Sedan",
+            "Bus",
+            "Cars",
+            "Vans",
+            "Hatchback",
+            "Construction Vehicles",
+            "Cement Mixer Truck",
+            "Utility Truck"
+        ],
+        "States": [
+            "Parked",
+            "In Motion",
+            "Stopped",
+            "Merging",
+            "In Queue",
+            "Picking up a Passenger"
+        ]
+    },
+    "Pedestrians": [
+        "None",
+        "Multiple",
+        "Visible on Sidewalk",
+        "Crossing Street",
+        "Boarding Bus"
+    ],
+    "Directionality": [
+        "One-Way",
+        "Two-Way",
+        "Multi-directional with median",
+        "Divided"
+    ],
+    "Ego-Vehicle": {
+        "Direction": [
+            "Forward",
+            "Making a Left Turn",
+            "Making a Right Turn",
+            "Stopped at Intersection",
+            "Approaching Intersection"
+        ],
+        "Maneuver": [
+            "Waiting",
+            "Turning right",
+            "Merging left",
+            "Slowing Down",
+            "Moving",
+            "Following"
+        ]
+    },
+    "Visibility": {
+        "General": [
+            "Good",
+            "Reduced",
+            "Limited",
+            "Poor"
+        ],
+        "SpecificImpairments": [
+            "Camera glare",
+            "Obstructed",
+            "Shadows",
+            "Reduced"
+        ]
+    },
+    "CameraCondition": [
+        "Clear",
+        "Dirty",
+        "Blurry due to Dust/Snow",
+        "Glare"
+    ],
+    "Severity": [1,2,3,4,5,6,7,8,9,10]
+}

@@ -1,0 +1,3495 @@
+{ 
+  "000.mp4":{
+    "Scene": "Suburban Road",
+    "Weather": "Rainy",
+    "Road Conditions": "Wet",
+    "Road Type": "Residential Street",
+    "Lane Information": {
+      "Number of Lanes": "1",
+      "Lane Markings": "Not Visible",
+      "Allowed Maneuvers": {
+        "Straight": "Allowed",
+        "Left": "Prohibited",
+        "Right": "Allowed"
+      }
+    },
+    "Traffic Signs": {
+      "Speed Limit": "Visible (15 mph)",
+      "No Parking": "Visible"
+    },
+    "Vehicles": {
+      "Total Number": "2",
+      "Types": {
+        "Pickup Truck": "Parked",
+        "Sedan": "Parked"
+      }
+    },
+    "Directionality": "One-Way",
+    "Ego-Vehicle Direction": "Forward",
+    "Visibility": "Reduced due to rain"
+  },
+  "001.mp4":{
+    "Scene": "Urban Intersection",
+    "Weather": "Clear",
+    "Road Conditions": "Dry",
+    "Road Type": "Commercial Street",
+    "Intersection": "Present",
+    "Lane Information": {
+      "Number of Lanes": "2",
+      "Lane Markings": "Visible",
+      "Allowed Maneuvers": {
+        "Lane 1": {
+          "Straight": "Allowed",
+          "Left": "Prohibited",
+          "Right": "Prohibited"
+        },
+        "Lane 2": {
+          "Straight": "Allowed",
+          "Left": "Prohibited",
+          "Right": "Allowed"
+        }
+      }
+    },
+    "Traffic Signs": {
+      "Traffic Light": "Red",
+      "Pedestrian Crossing": "Visible"
+    },
+    "Vehicles": {
+      "Total Number": "Multiple",
+      "Types": {
+        "Bus": "In Motion, Perpendicular to Ego Vehicle",
+        "Cars": "Parked on both sides"
+      }
+    },
+    "Pedestrians": "Multiple, Crossing Street",
+    "Directionality": "One-Way",
+    "Ego-Vehicle Direction": "Stopped at Intersection",
+    "Visibility": "Good"
+  },
+  "002.mp4":{
+    "Scene": "Suburban Divided Road",
+    "Weather": "Clear",
+    "Road Conditions": "Dry",
+    "Road Type": "Residential with Sidewalk and Median",
+    "Division": "Physical Barrier (Trees)",
+    "Lane Information": {
+      "Number of Lanes": "3",
+      "Lane Markings": "Visible",
+      "Allowed Maneuvers": {
+        "Lane 1": {
+          "Straight": "Allowed",
+          "Left": "Prohibited",
+          "Right": "Prohibited"
+        },
+        "Lane 2": {
+          "Straight": "Allowed",
+          "Left": "Prohibited",
+          "Right": "Prohibited"
+        },
+        "Lane 3": {
+          "Straight": "Allowed",
+          "Left": "Prohibited",
+          "Right": "Allowed"
+        }
+      }
+    },
+    "Vehicles": {
+      "Total Number": "Multiple",
+      "All Vehicles": "In Motion"
+    },
+    "Pedestrians": "Visible on Sidewalk",
+    "Directionality": "One-Way (for each direction of travel, separated by median)",
+    "Ego-Vehicle Direction": "Forward",
+    "Visibility": "Good"
+  }
+  ,
+  "003.mp4":{
+    "Scene": "Suburban Residential Street",
+    "Weather": "Clear",
+    "Road Conditions": "Dry",
+    "Road Type": "Residential with Housing",
+    "Lane Information": {
+      "Number of Lanes": "2",
+      "Allowed Maneuvers": {
+        "Lane 1": {
+          "Direction": "For Oncoming Traffic",
+          "Straight": "Allowed",
+          "Left": "Allowed",
+          "Right": "Allowed"
+        },
+        "Lane 2": {
+          "Direction": "For Ego Vehicle",
+          "Straight": "Allowed",
+          "Left": "Allowed",
+          "Right": "Allowed"
+        }
+      }
+    },
+    "Vehicles": {
+      "Total Number": "Multiple",
+      "Types": {
+        "Vans": "Parked",
+        "Cars": "Parked"
+      }
+    },
+    "Directionality": "Two-Way",
+    "Ego-Vehicle Direction": "Making a Left Turn",
+    "Visibility": "Good"
+  }
+  ,
+  "004.mp4":{
+    "Scene": "Urban Divided Road",
+    "Weather": "Clear",
+    "Road Conditions": "Dry",
+    "Road Type": "Commercial Area with Divided Lanes",
+    "Lane Information": {
+      "Number of Lanes": "5",
+      "Lane Markings": "Visible",
+      "Allowed Maneuvers": {
+        "Lane 1": {
+          "Straight": "Prohibited",
+          "Left": "Allowed",
+          "Right": "Prohibited"
+        },
+        "Lane 2": {
+          "Straight": "Prohibited",
+          "Left": "Allowed (Bike Lane)",
+          "Right": "Prohibited"
+        },
+        "Lane 3": {
+          "Straight": "Allowed",
+          "Left": "Prohibited",
+          "Right": "Prohibited"
+        },
+        "Lane 4": {
+          "Straight": "Allowed",
+          "Left": "Prohibited",
+          "Right": "Prohibited"
+        },
+        "Lane 5": {
+          "Straight": "Prohibited",
+          "Left": "Prohibited",
+          "Right": "Allowed"
+        }
+      }
+    },
+    "Traffic Signs": {
+      "Traffic Light": "Red"
+    },
+    "Vehicles": {
+      "Total Number": "Multiple",
+      "In Motion": {
+        "Bus": "Moving Across the Intersection"
+      },
+      "Stopped": {
+        "Ego-Vehicle": "Slowing Down, Preparing to Stop",
+        "Others": "Stopped at Traffic Light"
+      }
+    },
+    "Directionality": "Divided, Assumed Two-Way",
+    "Ego-Vehicle Direction": "Approaching Intersection, Preparing to Stop",
+    "Visibility": "Good"
+  }
+  ,
+  "005.mp4":{
+    "Scene": "Suburban Main Road",
+    "Weather": "Overcast",
+    "Road Conditions": "Dry",
+    "Road Type": "Main Thoroughfare with Residential Access",
+    "Lane Information": {
+      "Number of Lanes": "5",
+      "Bike Lanes": "Present on both sides",
+      "Lane Markings": "Visible",
+      "Allowed Maneuvers": {
+        "Lane 1": {
+          "Straight": "Allowed",
+          "Left": "Prohibited",
+          "Right": "Prohibited"
+        },
+        "Lane 2": {
+          "Straight": "Allowed",
+          "Left": "Prohibited",
+          "Right": "Prohibited"
+        },
+        "Center Lane": {
+          "Straight": "Prohibited",
+          "Left": "Allowed",
+          "Right": "Prohibited"
+        },
+        "Lane 4": {
+          "Straight": "Allowed",
+          "Left": "Prohibited",
+          "Right": "Prohibited"
+        },
+        "Lane 5": {
+          "Straight": "Allowed",
+          "Left": "Prohibited",
+          "Right": "Allowed"
+        }
+      }
+    },
+    "Vehicles": {
+      "Total Number": "Multiple",
+      "Types": {
+        "Cars": "In Motion and Parked"
+      }
+    },
+    "Directionality": "Two-Way",
+    "Ego-Vehicle Direction": "Forward",
+    "Visibility": "Good"
+  }
+  ,
+  "006.mp4":{
+    "Scene": "Residential Road",
+    "Weather": "Rainy",
+    "Road Conditions": "Wet",
+    "Road Type": "Residential with Parking",
+    "Lane Information": {
+      "Number of Lanes": "1",
+      "Lane Markings": "Not Clearly Visible",
+      "Allowed Maneuvers": {
+        "Straight": "Allowed",
+        "Left": "Allowed",
+        "Right": "Prohibited" 
+      }
+    },
+    "Vehicles": {
+      "Total Number": "Several",
+      "Parked": "True",
+      "Types": {
+        "Cars": "Parked along the street"
+      }
+    },
+    "Directionality": "One-Way",
+    "Ego-Vehicle Direction": "Making a Left Turn",
+    "Visibility": "Reduced due to Rain"
+  }
+  ,
+  "007.mp4":{
+    "Scene": "Urban Residential Road",
+    "Time": "Night",
+    "Weather": "Not Indicated",
+    "Road Conditions": "Appears Dry",
+    "Road Type": "Residential with On-Street Parking",
+    "Lane Information": {
+      "Number of Lanes": "2",
+      "Lane Markings": "Double Yellow Lines Indicating Two-Way Traffic",
+      "Allowed Maneuvers": {
+        "Lane 1": {
+          "Straight": "Allowed",
+          "Left": "Allowed",
+          "Right": "Allowed"
+        },
+        "Lane 2": {
+          "Straight": "Allowed",
+          "Left": "Allowed",
+          "Right": "Allowed"
+        }
+      }
+    },
+    "Vehicles": {
+      "Total Number": "Multiple",
+      "Parked": "True",
+      "Types": {
+        "Cars": "Parked along both sides of the street"
+      },
+      "In Motion": {
+        "Vehicle": "Approaching with Headlights On"
+      }
+    },
+    "Directionality": "Two-Way",
+    "Visibility": "Limited due to Nighttime Conditions"
+  }
+  ,
+  "008.mp4":{
+    "Scene": "Urban Residential Road",
+    "Weather": "Partly Cloudy",
+    "Road Conditions": "Dry",
+    "Road Type": "Residential with On-Street Parking",
+    "Lane Information": {
+      "Number of Lanes": "2",
+      "Lane Markings": "Visible",
+      "Allowed Maneuvers": {
+        "Lane 1": {
+          "Straight": "Allowed",
+          "Left": "Allowed",
+          "Right": "Allowed"
+        },
+        "Lane 2": {
+          "Straight": "Allowed",
+          "Left": "Allowed",
+          "Right": "Allowed"
+        }
+      }
+    },
+    "Bike Lane": "Visible on the right",
+    "Traffic Signs": "Not Clearly Visible in the Scene",
+    "Vehicles": {
+      "Total Number": "Multiple",
+      "Parked": "Along both sides of the street",
+      "In Motion": "Several vehicles in the ego-vehicle's lane and opposite lane"
+    },
+    "Directionality": "Two-Way",
+    "Ego-Vehicle Direction": "Forward",
+    "Visibility": "Good"
+  }
+  ,
+  "009.mp4":{
+    "Scene": "Suburban Street",
+    "Weather": "Not Clearly Indicated",
+    "Road Conditions": "Dry",
+    "Road Type": "Residential with Shared Lane",
+    "Lane Information": {
+      "Number of Lanes": "1 Shared Lane",
+      "Lane Markings": "Not Clearly Visible",
+      "Allowed Maneuvers": {
+        "Straight": "Allowed",
+        "Left": "Allowed",
+        "Right": "Allowed"
+      }
+    },
+    "Vehicles": {
+      "Total Number": "Several",
+      "Parked": "Along both sides of the street"
+    },
+    "Directionality": "Two-Way",
+    "Ego-Vehicle Direction": "Forward",
+    "Camera Condition": "Dirty, affecting visibility",
+    "Visibility": "Reduced due to Camera Condition"
+  }
+  ,
+  "010.mp4":{
+    "Scene": "Urban Residential Intersection",
+    "Time": "Dusk/Dawn",
+    "Weather": "Not Indicated",
+    "Road Conditions": "Dry",
+    "Road Type": "Residential with Intersection",
+    "Lane Information": {
+      "Number of Lanes": "1 per direction",
+      "Lane Markings": "Visible",
+      "Allowed Maneuvers": {
+        "Straight": "Allowed",
+        "Left": "Allowed",
+        "Right": "Allowed"
+      }
+    },
+    "Traffic Signs": {
+      "Stop Sign": "Visible at the Intersection"
+    },
+    "Vehicles": {
+      "Total Number": "Few",
+      "Parked": "Along the street",
+      "In Motion": "None visible"
+    },
+    "Directionality": "Two-Way",
+    "Camera Condition": "Glare present, affecting visibility",
+    "Visibility": "Reduced due to Lens Glare and Low Light Conditions"
+  }
+  ,
+  "011.mp4":{
+    "Scene": "Highway",
+    "Weather": "Cloudy",
+    "Road Conditions": "Dry",
+    "Road Type": "Highway with Multiple Lanes",
+    "Lane Information": {
+      "Number of Lanes": "Multiple",
+      "Lane Markings": "Visible",
+      "Allowed Maneuvers": {
+        "Straight": "Allowed",
+        "Lane Changing": "Allowed with Caution"
+      }
+    },
+    "Traffic Signs": {
+      "Exit Sign": "Visible (Warner Rd 3/4 mile)",
+      "Electronic Sign": "Visible (Alert Message)"
+    },
+    "Vehicles": {
+      "Total Number": "Multiple",
+      "In Motion": "True"
+    },
+    "Camera Condition": "Blurry due to Dust",
+    "Visibility": "Reduced due to Camera Condition"
+  },
+  "012.mp4":{
+    "Scene": "Residential Nighttime",
+    "Time": "Night",
+    "Weather": "Not Indicated",
+    "Road Conditions": "Appears Dry",
+    "Road Type": "Residential Street",
+    "Lane Information": {
+      "Number of Lanes": "2",
+      "Lane Markings": "Not Visible",
+      "Allowed Maneuvers": {
+        "Straight": "Assumed Allowed",
+        "Left": "Assumed Allowed",
+        "Right": "Assumed Allowed"
+      }
+    },
+    "Traffic Signs": "Stop Sign Present",
+    "Directionality": "Two-Way",
+    "Visibility": "Poor due to Nighttime Conditions"
+  },
+  "013.mp4":{
+    "Scene": "Urban Street with Tram Tracks",
+    "Time": "Dusk or Dawn",
+    "Weather": "Sunny",
+    "Road Conditions": "Dry",
+    "Road Type": "Urban Street with Tram Tracks, No Tram Present",
+    "Lane Information": {
+      "Number of Lanes": "Multiple",
+      "Lane Markings": "Visible",
+      "Allowed Maneuvers": {
+        "Straight": "Allowed",
+        "Left": "Allowed",
+        "Right": "Allowed",
+        "Merge": "Attempted by Grey SUV"
+      }
+    },
+    "Traffic Light": "Green",
+    "Vehicles": {
+      "Total Number": "Multiple",
+      "In Motion": "Several vehicles in motion",
+      "Parked": "Cars parked along the street",
+      "Merging Vehicle": "Grey SUV attempting to merge left"
+    },
+    "Directionality": "Assumed Two-Way due to street layout",
+    "Visibility": "Good"
+  },
+  "014.mp4":{
+    "Scene": "Suburban Road",
+    "Time": "Day",
+    "Weather": "Sunny",
+    "Road Conditions": "Dry",
+    "Road Type": "Suburban Street with School Zone",
+    "School Zone": "Present",
+    "Lane Information": {
+      "Number of Lanes": "2",
+      "Lane Markings": "Visible",
+      "Allowed Maneuvers": {
+        "Straight": "Allowed",
+        "Left": "Allowed",
+        "Right": "Allowed"
+      }
+    },
+    "Traffic Signs": {
+      "Pedestrian Crossing": "Visible",
+      "School Zone": "Indicated by signage and road markings"
+    },
+    "Pedestrians": "Crossing the street, likely due to school zone",
+    "Vehicles": {
+      "Total Number": "Multiple",
+      "Parked": "Along the street",
+      "In Motion": "None visible"
+    },
+    "Directionality": "Two-Way",
+    "Visibility": "Good"
+  },
+  "015.mp4":{
+    "Scene": "Urban Street at Night",
+    "Time": "Night",
+    "Weather": "Not Indicated",
+    "Road Conditions": "Dry",
+    "Road Type": "Urban One-Way Street",
+    "Lane Information": {
+      "Number of Lanes": "4",
+      "Lane Markings": "Visible",
+      "Allowed Maneuvers": {
+        "Straight": "Allowed",
+        "Left": "Not Applicable",
+        "Right": "Not Applicable"
+      }
+    },
+    "Pedestrian Activity": "Crossing Road Outside of Crosswalk",
+    "Parking": "Designated Spaces Along Both Sides of the Road",
+    "Vehicles": {
+      "In Lane": "Bus and Other Vehicles in Motion",
+      "Parked": "Multiple Vehicles"
+    },
+    "Directionality": "One-Way",
+    "Visibility": "Moderate due to Nighttime Conditions"
+  },
+  "016.mp4":{
+    "Scene": "Urban Street",
+    "Time": "Dusk/Dawn",
+    "Weather": "Not Indicated",
+    "Road Conditions": "Dry",
+    "Road Type": "One-Way Urban Street with Parking",
+    "Lane Information": {
+      "Number of Lanes": "3",
+      "Lane Markings": "Visible",
+      "Allowed Maneuvers": {
+        "Straight": "Allowed"
+      }
+    },
+    "Parking": {
+      "Designated Spaces": "Along both sides of the street"
+    },
+    "Vehicles": {
+      "Total Number": "Multiple",
+      "In Motion": {
+        "Dark Brown Car": "Merging Left",
+        "Ego Vehicle": "Following"
+      },
+      "Parked": "Several vehicles"
+    },
+    "Directionality": "One-Way",
+    "Visibility": "Good"
+  },
+  "017.mp4":{
+    "Scene": "Suburban Road Adjacent to Park",
+    "Time": "Day",
+    "Weather": "Clear",
+    "Road Conditions": "Dry",
+    "Road Type": "Suburban Road with Divided Lanes and Parking",
+    "Lane Information": {
+      "Number of Lanes": "2",
+      "Lane Markings": "Visible, including a Division Line",
+      "Allowed Maneuvers": {
+        "Straight": "Allowed",
+        "Left": "Allowed",
+        "Right": "Allowed"
+      }
+    },
+    "Parking": {
+      "Designated Spaces": "Along the side of the road"
+    },
+    "Vehicles": {
+      "Total Number": "Multiple",
+      "In Motion": {
+        "Various Vehicles": "In various lanes"
+      },
+      "Parked": "Along the side of the road"
+    },
+    "Directionality": "Two-Way",
+    "Visibility": "Good"
+  },
+  "018.mp4":{
+    "Scene": "Commercial Area at Night",
+    "Time": "Night",
+    "Weather": "Not Indicated",
+    "Road Conditions": "Dry",
+    "Road Type": "Two-Way Street in a Commercial Area",
+    "Lane Information": {
+      "Number of Lanes": "Not Clearly Discernible",
+      "Lane Markings": "Not Visible",
+      "Allowed Maneuvers": "Not Clearly Discernible"
+    },
+    "Traffic Signs": "Not Visible in the Scene",
+    "Vehicles": {
+      "Total Number": "Few",
+      "In Motion": {
+        "Black Pickup Truck": "Picking up a Passenger"
+      },
+      "Parked": "Not Clearly Discernible"
+    },
+    "Directionality": "Two-Way",
+    "Visibility": "Reduced due to Nighttime Conditions"
+  },
+  "019.mp4":{
+    "Scene": "Residential Neighborhood",
+    "Time": "Day",
+    "Weather": "Sunny",
+    "Road Conditions": "Dry",
+    "Road Type": "Residential Street",
+    "Lane Information": {
+      "Number of Lanes": "1 per direction",
+      "Lane Markings": "Not Clearly Visible",
+      "Allowed Maneuvers": {
+        "Straight": "Allowed",
+        "Left": "Allowed",
+        "Right": "Allowed"
+      }
+    },
+    "Parking": {
+      "Designated Spaces": "Not marked but cars are parked along the street"
+    },
+    "Vehicles": {
+      "Total Number": "Multiple",
+      "Parked": "Along the sides of the street",
+      "In Motion": "None visible in the immediate vicinity of the ego vehicle"
+    },
+    "Directionality": "Two-Way",
+    "Visibility": "Good"
+  }
+  ,
+  "020.mp4":{
+    "Scene": "Residential Street",
+    "Time": "Day",
+    "Weather": "Clear",
+    "Road Conditions": "Dry",
+    "Road Type": "Residential with Shared Lane",
+    "Lane Information": {
+      "Number of Lanes": "1 Shared Lane",
+      "Lane Markings": "Not Visible",
+      "Allowed Maneuvers": {
+        "Straight": "Allowed",
+        "Left": "Allowed",
+        "Right": "Allowed"
+      }
+    },
+    "Parking": {
+      "Designated Spaces": "Cars parked along the street, with 'No Parking' signs visible indicating restrictions"
+    },
+    "Vehicles": {
+      "Total Number": "Multiple",
+      "Parked": "Along the street",
+      "In Motion": "None visible"
+    },
+    "Directionality": "Two-Way",
+    "Visibility": "Good"
+  }
+  ,
+  "021.mp4":{
+    "Scene": "Suburban Street",
+    "Time": "Day",
+    "Weather": "Partly Cloudy",
+    "Road Conditions": "Dry",
+    "Road Type": "Suburban Street with a Median",
+    "Lane Information": {
+      "Number of Lanes": "2",
+      "Lane Markings": "Visible",
+      "Allowed Maneuvers": {
+        "Straight": "Allowed",
+        "Left": "Allowed",
+        "Right": "Allowed"
+      }
+    },
+    "Vehicles": {
+      "Total Number": "Multiple",
+      "In Motion": {
+        "Cement Mixer Truck": "Present in Right Lane",
+        "Other Vehicles": "In various lanes"
+      },
+      "Parked": "None visible"
+    },
+    "Directionality": "Two-Way",
+    "Median": "Present",
+    "Visibility": "Good"
+  }
+  ,
+  "022.mp4":{
+    "Scene": "Urban Commercial Street",
+    "Time": "Day",
+    "Weather": "Overcast",
+    "Road Conditions": "Dry",
+    "Road Type": "Urban Street with Multiple Lanes",
+    "Lane Information": {
+      "Number of Lanes": "At least 2 visible",
+      "Lane Markings": "Double yellow lines indicate two-way traffic",
+      "Special Lanes": {
+        "Taxi and Bus Lane": "Marked in Red"
+      },
+      "Allowed Maneuvers": {
+        "Straight": "Allowed",
+        "Left": "Restricted to certain times",
+        "Right": "Allowed where signage permits"
+      }
+    },
+    "Traffic Signs": {
+      "Left Turn": "Allowed only during specified times",
+      "Other Signs": "Not Clearly Visible in the Image"
+    },
+    "Traffic Light": "Not Visible in the Image",
+    "Pedestrians": "Visible on Sidewalk",
+    "Vehicles": {
+      "In Lane": "Various Vehicles including a Utility Truck in the rightmost lane",
+      "Parked": "Along the Street"
+    },
+    "Directionality": "Two-Way",
+    "Visibility": "Good despite Overcast Weather"
+  }
+  ,
+  "023.mp4":{
+    "Scene": "Urban Residential Area",
+    "Time": "Day",
+    "Weather": "Overcast",
+    "Road Conditions": "Dry",
+    "Road Type": "Urban Street with Crosswalks",
+    "Lane Information": {
+      "Number of Lanes": "Multiple",
+      "Lane Markings": "Visible",
+      "Crosswalks": "Clearly Marked",
+      "Allowed Maneuvers": {
+        "Straight": "Allowed",
+        "Left": "Allowed",
+        "Right": "Allowed"
+      }
+    },
+    "Traffic Signs": "Not Clearly Visible",
+    "Traffic Light": "Not Visible in the Image",
+    "Pedestrians": "One crossing the street",
+    "Vehicles": {
+      "In Motion": "Several vehicles in both directions",
+      "Parked": "Along the sides of the street"
+    },
+    "Directionality": "Two-Way",
+    "Visibility": "Good despite Overcast Weather"
+  }
+  ,
+  "024.mp4":{
+    "Scene": "Urban Intersection",
+    "Time": "Day",
+    "Weather": "Overcast",
+    "Road Conditions": "Dry",
+    "Road Type": "Urban Street with Marked Crosswalk",
+    "Lane Information": {
+      "Number of Lanes": "Multiple",
+      "Lane Markings": "Clearly Visible",
+      "Crosswalks": "Clearly Marked",
+      "Allowed Maneuvers": {
+        "Straight": "Allowed",
+        "Left": "Permitted with Traffic Light",
+        "Right": "Permitted with Traffic Light"
+      }
+    },
+    "Traffic Signs": "Visible",
+    "Traffic Light": {
+      "Ego Vehicle Direction": "Red",
+      "Cross Traffic": "Not Visible"
+    },
+    "Pedestrians": {
+      "Crossing": "Visible",
+      "Crosswalk Usage": "Proper"
+    },
+    "Vehicles": {
+      "In Motion": "Several vehicles waiting at the intersection",
+      "Parked": "Along the sides of the street"
+    },
+    "Directionality": "Two-Way for Ego Vehicle's Lane and for Cross Traffic",
+    "Visibility": "Good despite Overcast Weather"
+  }
+  ,
+  "025.mp4":{
+    "Scene": "Downtown City Street",
+    "Time": "Day",
+    "Weather": "Clear",
+    "Road Conditions": "Dry",
+    "Road Type": "One-Way Street",
+    "Lane Information": {
+      "Total Number of Lanes": "4",
+      "Lane Markings": "Clearly Visible",
+      "Bike Lane": "Present",
+      "Parking": "Spaces available along both sides of the street",
+      "Allowed Maneuvers": {
+        "Lane 1 (far left)": {
+          "Straight": "Allowed",
+          "Left": "Ego Vehicle is merging left"
+        },
+        "Lane 2": {
+          "Straight": "Allowed"
+        },
+        "Lane 3": {
+          "Straight": "Allowed"
+        },
+        "Lane 4 (far right)": {
+          "Straight": "Allowed",
+          "Bike Lane Adjacent": "Yes"
+        }
+      }
+    },
+    "Traffic Signs": "Not Clearly Visible",
+    "Traffic Light": "Not Visible in the Image",
+    "Pedestrians": "Not Visible in the Image",
+    "Vehicles": {
+      "In Motion": [
+        "Ego Vehicle is merging left",
+        "Other vehicles present in adjacent lanes"
+      ],
+      "Parked": "Along both sides of the street"
+    },
+    "Visibility": "Good"
+  }
+  ,
+  "026.mp4":{
+    "Scene": "Suburban Intersection",
+    "Time": "Day",
+    "Weather": "Clear",
+    "Road Conditions": "Dry",
+    "Road Type": "Intersection with multiple lanes",
+    "Lane Information": {
+      "Total Number of Lanes": "At least 3",
+      "Lane 1 (leftmost)": {
+        "Straight": "Allowed",
+        "Left": "Allowed if lanes available",
+        "Right": "Not Allowed"
+      },
+      "Lane 2": {
+        "Straight": "Allowed",
+        "Left": "Not Allowed",
+        "Right": "Not Allowed"
+      },
+      "Lane 3 (rightmost)": {
+        "Straight": "Not Allowed",
+        "Left": "Not Allowed",
+        "Right": "Allowed"
+      }
+    },
+    "Ego Vehicle": {
+      "Maneuver": "Preparing to turn right"
+    },
+    "Traffic Signs": [
+      "Construction Warning: No Pavement Markings",
+      "Hospital Nearby (H sign)"
+    ],
+    "Traffic Light": {
+      "Color": "Not discernible from image",
+      "Functioning": "Yes"
+    },
+    "Construction Zone": {
+      "Activity": "Present",
+      "Signage": "Warning signs indicating changes to regular traffic patterns"
+    },
+    "Pedestrians": "None visible",
+    "Vehicles": {
+      "In Queue": "Several vehicles in queue for intersection",
+      "Parked": "Along the side of the road"
+    },
+    "Visibility": "Good"
+  }
+  ,
+  "027.mp4":{
+    "Scene": "Urban Residential",
+    "Weather": "Clear",
+    "Time of Day": "Daytime",
+    "Road Conditions": "Dry",
+    "Road Type": "Two-Way",
+    "Lane Information": {
+      "Total Number of Lanes": "2",
+      "Lane 1 (leftmost)": {
+        "Straight": "Allowed",
+        "Left": "Not Visible/Assumed Allowed",
+        "Right": "Not Visible/Assumed Allowed"
+      },
+      "Lane 2 (rightmost)": {
+        "Straight": "Allowed",
+        "Left": "Not Visible/Assumed Allowed",
+        "Right": "Allowed"
+      }
+    },
+    "Traffic Signs": {
+      "Visible Signs": ["Stop sign at intersection ahead"]
+    },
+    "Vehicles": {
+      "In Motion": "None visible",
+      "Parked": "Multiple vehicles parked on both sides of the street"
+    },
+    "Directionality": "Two-way",
+    "Ego-Vehicle Direction": "Facing uphill",
+    "Visibility": "Clear"
+  }
+  ,
+  "028.mp4":{
+    "Scene": "Suburban",
+    "Weather": "Clear",
+    "Time of Day": "Daytime",
+    "Road Conditions": "Dry",
+    "Road Type": "Two-Way",
+    "Lane Information": {
+      "Total Number of Lanes": "3",
+      "Lane 1 (leftmost)": {
+        "Straight": "Allowed",
+        "Left": "Allowed",
+        "Right": "Not Allowed"
+      },
+      "Lane 2": {
+        "Straight": "Allowed",
+        "Left": "Not Allowed",
+        "Right": "Not Allowed"
+      },
+      "Lane 3 (rightmost)": {
+        "Straight": "Allowed",
+        "Left": "Not Allowed",
+        "Right": "Allowed"
+      }
+    },
+    "Traffic Signs": {
+      "Visible Signs": ["Speed Limit 30 mph"]
+    },
+    "Vehicles": {
+      "In Motion": "None",
+      "Parked": "Multiple vehicles parked on both sides of the road"
+    },
+    "Directionality": "Two-way",
+    "Ego-Vehicle Direction": "Facing forward",
+    "Visibility": "Clear"
+  }
+  ,
+  "029.mp4":{
+    "Scene": "Suburban Residential",
+    "Weather": "Clear",
+    "Time of Day": "Daytime",
+    "Road Conditions": "Dry",
+    "Road Type": "Two-Way",
+    "Lane Information": {
+      "Total Number of Lanes": "2",
+      "Lane 1 (leftmost)": {
+        "Straight": "Allowed",
+        "Left": "Allowed",
+        "Right": "Allowed"
+      },
+      "Lane 2 (rightmost)": {
+        "Straight": "Allowed",
+        "Left": "Allowed",
+        "Right": "Allowed"
+      }
+    },
+    "Traffic Signs": {
+      "Visible Signs": ["Stop sign at the intersection"]
+    },
+    "Vehicles": {
+      "In Motion": "None",
+      "Parked": "Multiple vehicles parked on both sides of the street"
+    },
+    "Directionality": "Two-way",
+    "Ego-Vehicle Direction": "Facing forward",
+    "Visibility": "Clear"
+  }
+  ,
+  "030.mp4":{
+    "Scene": "Highway",
+    "Weather": "Rainy",
+    "Time of Day": "Nighttime",
+    "Road Conditions": "Wet",
+    "Road Type": "Multi-Lane",
+    "Lane Information": {
+      "Total Number of Lanes": "3",
+      "Lane 1 (leftmost)": {
+        "Straight": "Allowed",
+        "Left": "Not Allowed",
+        "Right": "Not Allowed"
+      },
+      "Lane 2": {
+        "Straight": "Allowed",
+        "Left": "Not Allowed",
+        "Right": "Not Allowed"
+      },
+      "Lane 3 (rightmost)": {
+        "Straight": "Allowed",
+        "Left": "Not Allowed",
+        "Right": "Not Allowed"
+      }
+    },
+    "Traffic Signs": {
+      "Visible Signs": "No traffic signs visible due to rain"
+    },
+    "Vehicles": {
+      "In Motion": "Multiple vehicles in motion with headlights and tail lights visible",
+      "Parked": "None visible"
+    },
+    "Directionality": "Assumed One-Way due to highway",
+    "Ego-Vehicle Direction": "Following traffic",
+    "Visibility": {
+      "General": "Reduced due to rain",
+      "Specific Impairments": "Camera glare present"
+    }
+  }
+  ,
+  "031.mp4":{
+    "Scene": "Urban Residential",
+    "Weather": "Clear",
+    "Time of Day": "Daytime",
+    "Road Conditions": "Dry",
+    "Road Type": "Two-Way",
+    "Lane Information": {
+      "Total Number of Lanes": "2",
+      "Lane 1 (leftmost)": {
+        "Straight": "Allowed",
+        "Left": "Allowed",
+        "Right": "Not Allowed"
+      },
+      "Lane 2 (rightmost)": {
+        "Straight": "Allowed",
+        "Left": "Not Allowed",
+        "Right": "Allowed"
+      }
+    },
+    "Traffic Signs": {
+      "Visible Signs": ["No visible traffic lights", "Other signs not clearly discernible"]
+    },
+    "Vehicles": {
+      "In Motion": "Several vehicles in traffic",
+      "Parked": "Parking spaces occupied by multiple vehicles on both sides of the street"
+    },
+    "Directionality": "Two-way",
+    "Ego-Vehicle Direction": "Facing uphill",
+    "Visibility": "Clear"
+  }
+  ,
+  "032.mp4":{
+    "Scene": "Suburban",
+    "Weather": "Clear",
+    "Time of Day": "Daytime",
+    "Road Conditions": "Dry",
+    "Road Type": "Curved Road Leading to a T-Intersection",
+    "Lane Information": {
+      "Total Number of Lanes": "2",
+      "Lane 1 (leftmost)": {
+        "Straight": "Allowed",
+        "Left": "Not Allowed",
+        "Right": "Allowed at T-Intersection"
+      },
+      "Lane 2 (rightmost)": {
+        "Straight": "Allowed",
+        "Left": "Not Allowed",
+        "Right": "Allowed at T-Intersection"
+      }
+    },
+    "Traffic Signs": {
+      "Visible Signs": ["No Parking sign", "T-Intersection indication by discontinuation of double yellow line"]
+    },
+    "Vehicles": {
+      "In Motion": "None visible",
+      "Parked": "None visible"
+    },
+    "Directionality": "Two-way",
+    "Ego-Vehicle Direction": "Approaching a T-Intersection",
+    "Visibility": "Clear"
+  }
+  ,
+  "033.mp4":{
+    "Scene": "Urban",
+    "Weather": "Rainy",
+    "Time of Day": "Daytime",
+    "Road Conditions": "Wet",
+    "Road Type": "Divided Highway",
+    "Lane Information": {
+      "Total Number of Lanes": "3",
+      "Lane 1": {
+        "Straight": "Allowed",
+        "Left": "Allowed",
+        "Right": "Not Allowed"
+      },
+      "Lane 2": {
+        "Straight": "Allowed",
+        "Left": "Not Allowed",
+        "Right": "Not Allowed"
+      },
+      "Lane 3": {
+        "Straight": "Allowed",
+        "Left": "Not Allowed",
+        "Right": "Allowed"
+      }
+    },
+    "Traffic Signs": {
+      "Visible Signs": ["Not clearly visible"]
+    },
+    "Vehicles": {
+      "In Motion": ["Obstructed by large vehicle"],
+      "Parked": "Available parking spaces occupied"
+    },
+    "Directionality": "Multi-lane with median",
+    "Ego-Vehicle Direction": "Following traffic, behind large vehicle",
+    "Visibility": {
+      "General": "Reduced due to rain",
+      "Specific Obstructions": ["Large vehicle"]
+    }
+  }
+  ,
+  "034.mp4":{
+    "Scene": "Urban",
+    "Weather": "Overcast",
+    "Time of Day": "Daytime",
+    "Road Conditions": "Dry",
+    "Road Type": "Multi-Lane Road",
+    "Lane Information": {
+      "Total Number of Lanes": "3",
+      "Lane 1": {
+        "Straight": "Allowed",
+        "Left": "Not Allowed",
+        "Right": "Not Allowed"
+      },
+      "Lane 2": {
+        "Straight": "Allowed",
+        "Left": "Not Allowed",
+        "Right": "Not Allowed"
+      },
+      "Lane 3": {
+        "Straight": "Allowed",
+        "Left": "Allowed",
+        "Right": "Not Allowed"
+      }
+    },
+    "Traffic Signs": {
+      "Visible Signs": ["Merge sign indicating merging lanes or caution"]
+    },
+    "Vehicles": {
+      "In Motion": "Several vehicles in traffic in all lanes",
+      "Parked": "No visible parked vehicles"
+    },
+    "Directionality": "Two-way",
+    "Ego-Vehicle Direction": "Moving straight in traffic",
+    "Visibility": "Good"
+  }
+  ,
+  "035.mp4":{
+    "Scene": "Urban Commercial",
+    "Weather": "Clear",
+    "Time of Day": "Daytime",
+    "Road Conditions": "Dry",
+    "Road Type": "Street with Multiple Lanes and Adjacent Parking",
+    "Lane Information": {
+      "Total Number of Lanes": "3",
+      "Lane 1": {
+        "Straight": "Allowed",
+        "Left": "Not Allowed",
+        "Right": "Not Allowed"
+      },
+      "Lane 2": {
+        "Straight": "Allowed",
+        "Left": "Not Allowed",
+        "Right": "Not Allowed"
+      },
+      "Lane 3": {
+        "Straight": "Allowed",
+        "Left": "Not Allowed",
+        "Right": "Allowed"
+      }
+    },
+    "Traffic Signs": {
+      "Visible Signs": ["No Left Turn", "Traffic Lights"]
+    },
+    "Vehicles": {
+      "In Motion": "Several vehicles in lanes, including a green van in the center lane",
+      "Parked": "Vehicles parked along the curb"
+    },
+    "Directionality": "One-Way",
+    "Ego-Vehicle Direction": "Aligned with traffic, likely in lane 2 or 3",
+    "Visibility": "Good, with adequate daylight"
+  }
+  ,
+  "036.mp4":{
+    "Scene": "Suburban Residential",
+    "Weather": "Clear",
+    "Time of Day": "Daytime",
+    "Road Conditions": "Dry",
+    "Road Type": "Two-Way Residential Street",
+    "Lane Information": {
+      "Total Number of Lanes": "2",
+      "Lane 1": {
+        "Straight": "Allowed",
+        "Left": "Allowed",
+        "Right": "Not Allowed"
+      },
+      "Lane 2": {
+        "Straight": "Allowed",
+        "Left": "Not Allowed",
+        "Right": "Allowed"
+      },
+      "Bike Lane": {
+        "Presence": "Yes"
+      }
+    },
+    "Traffic Signs": {
+      "Visible Signs": []
+    },
+    "Vehicles": {
+      "Parked": "Vehicles parked along the street"
+    },
+    "Directionality": "Two-way",
+    "Ego-Vehicle Direction": "Approaching a T-Intersection",
+    "Visibility": "Good"
+  }
+  ,
+  "037.mp4":{
+    "Scene": "Urban",
+    "Weather": "Overcast",
+    "Time of Day": "Daytime",
+    "Road Conditions": "Dry",
+    "Road Type": "Four-Lane Road",
+    "Lane Information": {
+      "Total Number of Lanes": "4",
+      "Lane 1": {
+        "Straight": "Allowed",
+        "Left": "Not Allowed",
+        "Right": "Not Allowed"
+      },
+      "Lane 2": {
+        "Straight": "Allowed",
+        "Left": "Not Allowed",
+        "Right": "Not Allowed"
+      },
+      "Lane 3": {
+        "Straight": "Allowed",
+        "Left": "Not Allowed",
+        "Right": "Not Allowed"
+      },
+      "Lane 4": {
+        "Straight": "Not Allowed",
+        "Left": "Not Allowed",
+        "Right": "Allowed",
+        "Shared Use": "Bus Stop and Right Turn"
+      }
+    },
+    "Traffic Signs": {
+      "Visible Signs": ["No Left Turn"]
+    },
+    "Traffic Lights": {
+      "State": "Green"
+    },
+    "Crosswalk": {
+      "Visibility": "Visible",
+      "Usage": "Not in use"
+    },
+    "Vehicles": {
+      "In Motion": "Multiple vehicles traveling straight",
+      "Parked": "Not visible",
+      "Stopped": {
+        "Bus": "Stopped at bus station"
+      }
+    },
+    "Pedestrians": {
+      "At Bus Station": "Present",
+      "Crossing": "None observed"
+    },
+    "Directionality": "Multi-directional",
+    "Ego-Vehicle Direction": "Following traffic, behind stopped bus",
+    "Visibility": "Good"
+  }
+  ,
+  "038.mp4":{
+    "Scene": "Suburban Residential",
+    "Weather": "Clear",
+    "Time of Day": "Nighttime",
+    "Road Conditions": "Dry",
+    "Road Type": "Residential Street",
+    "Lane Information": {
+      "Total Number of Lanes": "2",
+      "Lane Markings": "Not clearly visible",
+      "Allowed Maneuvers": {
+        "Lane 1": {
+          "Straight": "Allowed",
+          "Left": "Allowed",
+          "Right": "Allowed"
+        },
+        "Lane 2": {
+          "Straight": "Allowed",
+          "Left": "Allowed",
+          "Right": "Allowed"
+        }
+      }
+    },
+    "Traffic Signs": {
+      "Visible Signs": ["Stop sign"]
+    },
+    "Vehicles": {
+      "Parked": "Several vehicles parked along the curb"
+    },
+    "Pedestrians": {
+      "Activity": "Not visible"
+    },
+    "Directionality": "Two-way",
+    "Ego-Vehicle Direction": "Approaching a stop sign",
+    "Visibility": "Limited due to low lighting"
+  }
+  ,
+  "039.mp4":{
+    "Scene": "Residential",
+    "Weather": "Clear",
+    "Time of Day": "Daytime",
+    "Road Conditions": "Dry",
+    "Road Type": "Residential Street",
+    "Lane Information": {
+      "Total Number of Lanes": "2",
+      "Lane Markings": "Not Clearly Visible",
+      "Allowed Maneuvers": {
+        "Lane 1": ["Straight", "Left", "Right"],
+        "Lane 2": ["Straight", "Parking"]
+      }
+    },
+    "Traffic Signs": {
+      "Types": ["No Parking"],
+      "Visibility": "Visible"
+    },
+    "Vehicles": {
+      "Total Number": "Several",
+      "In Motion": "False",
+      "Types": ["Sedan", "SUV"],
+      "States": ["Parked"]
+    },
+    "Pedestrians": "None",
+    "Directionality": "Assumed Two-Way",
+    "Ego-Vehicle": {
+      "Direction": "Forward",
+      "Maneuver": "Slowing Down, Preparing to Stop"
+    },
+    "Visibility": "Good",
+    "Camera Condition": "No impairments visible"
+  }
+  ,
+  "040.mp4":{
+    "Scene": "Urban",
+    "Weather": "Overcast",
+    "Time of Day": "Dusk/Dawn",
+    "Road Conditions": "Dry",
+    "Road Type": "Intersection",
+    "Lane Information": {
+      "Total Number of Lanes": "2",
+      "Lane Markings": "Visible",
+      "Allowed Maneuvers": {
+        "Lane 1": ["Straight", "Right"],
+        "Lane 2": ["Straight", "Left"]
+      },
+      "Special Lanes": ["Bike Lane"]
+    },
+    "Traffic Signs": {
+      "Types": ["Stop Sign"],
+      "Visibility": "Visible"
+    },
+    "Vehicles": {
+      "Total Number": "Few",
+      "In Motion": "True",
+      "Types": ["Sedan", "SUV"],
+      "States": ["In Motion"]
+    },
+    "Pedestrians": "None",
+    "Directionality": "Assumed Two-Way",
+    "Ego-Vehicle": {
+      "Direction": "Stopped at Intersection",
+      "Maneuver": "Preparing to turn right"
+    },
+    "Visibility": "Good",
+    "Camera Condition": "No impairments visible"
+  }
+  ,
+  "041.mp4":{
+    "Scene": "Highway",
+    "Weather": "Partly Cloudy",
+    "Time of Day": "Daytime",
+    "Road Conditions": "Dry",
+    "Road Type": "Highway with Multiple Lanes",
+    "Lane Information": {
+      "Total Number of Lanes": "Multiple",
+      "Lane Markings": "Visible",
+      "Allowed Maneuvers": {
+        "Lane 1": ["Straight", "Lane Changing"],
+        "Lane 2": ["Straight", "Lane Changing"],
+        "Lane 3": ["Straight", "Lane Changing"],
+        "Lane 4": ["Straight", "Lane Changing"],
+        "Lane 5": ["Straight", "Exit Right"]
+      }
+    },
+    "Traffic Signs": {
+      "Types": ["Exit Sign"],
+      "Visibility": "Visible"
+    },
+    "Vehicles": {
+      "Total Number": "Multiple",
+      "In Motion": "True",
+      "Types": ["Pickup Truck", "Sedan", "SUV", "Various Vehicles"],
+      "States": ["In Motion"]
+    },
+    "Pedestrians": "None",
+    "Directionality": "Multi-lane with median",
+    "Ego-Vehicle": {
+      "Direction": "Forward",
+      "Maneuver": "Lane Changing"
+    },
+    "Visibility": "Reduced due to Lens Glare and Low Light Conditions",
+    "Camera Condition": "Glare present"
+  }
+  ,
+  "042.mp4":{
+    "Scene": "Residential",
+    "Weather": "Overcast",
+    "Time of Day": "Daytime",
+    "Road Conditions": "Dry",
+    "Road Type": "Residential Street",
+    "Lane Information": {
+      "Total Number of Lanes": "1",
+      "Lane Markings": "Not Clearly Visible",
+      "Allowed Maneuvers": {
+        "Lane 1": ["Straight", "Parking"]
+      }
+    },
+    "Traffic Signs": {
+      "Types": ["No specific traffic signs visible"],
+      "Visibility": "Not Visible"
+    },
+    "Vehicles": {
+      "Total Number": "Several",
+      "In Motion": "False",
+      "Types": ["Sedan", "SUV", "Pickup Truck"],
+      "States": ["Parked"]
+    },
+    "Pedestrians": "None",
+    "Directionality": "Assumed Two-Way",
+    "Ego-Vehicle": {
+      "Direction": "Forward",
+      "Maneuver": "None"
+    },
+    "Visibility": "Limited",
+    "Camera Condition": "No impairments visible"
+  }
+  ,
+  "043.mp4":{
+    "Scene": "Suburban",
+    "Weather": "Clear",
+    "Time of Day": "Daytime",
+    "Road Conditions": "Dry",
+    "Road Type": "Main Thoroughfare",
+    "Lane Information": {
+      "Total Number of Lanes": "5",
+      "Lane Markings": "Visible",
+      "Allowed Maneuvers": {
+        "Lane 1": ["Straight", "Right"],
+        "Lane 2": ["Straight"],
+        "Center Lane": ["Left turn for both directions"],
+        "Lane 3": ["Straight"],
+        "Lane 4": ["Straight", "Left"]
+      },
+      "Special Lanes": ["Bike Lane"]
+    },
+    "Traffic Signs": {
+      "Types": ["Speed Limit"],
+      "Visibility": "Visible"
+    },
+    "Vehicles": {
+      "Total Number": "Few",
+      "In Motion": "True",
+      "Types": ["Sedan", "SUV"],
+      "States": ["In Motion"]
+    },
+    "Pedestrians": ["Visible on Sidewalk"],
+    "Directionality": "Multi-directional with median",
+    "Ego-Vehicle": {
+      "Direction": "Forward",
+      "Maneuver": "None"
+    },
+    "Visibility": "Good",
+    "Camera Condition": "No impairments visible"
+  }
+  ,
+  "044.mp4":{
+    "Scene": "Residential",
+    "Weather": "Rainy",
+    "Time of Day": "Daytime",
+    "Road Conditions": "Wet",
+    "Road Type": "Residential Street",
+    "Lane Information": {
+      "Total Number of Lanes": "2",
+      "Lane Markings": "Visible",
+      "Allowed Maneuvers": {
+        "Lane 1": ["Straight", "Parking"],
+        "Lane 2": ["Straight", "Parking"]
+      }
+    },
+    "Traffic Signs": {
+      "Types": ["Speed Limit", "Bump"],
+      "Visibility": "Visible"
+    },
+    "Vehicles": {
+      "Total Number": "Several",
+      "In Motion": "True",
+      "Types": ["Sedan"],
+      "States": ["In Motion", "Parked"]
+    },
+    "Pedestrians": ["Crossing"],
+    "Directionality": "Assumed Two-Way",
+    "Ego-Vehicle": {
+      "Direction": "Forward",
+      "Maneuver": "Slowing Down, Preparing to Stop"
+    },
+    "Visibility": "Reduced due to Rainy Conditions",
+    "Camera Condition": "No impairments visible"
+  }
+  ,
+  "045.mp4":{
+    "Scene": "Commercial",
+    "Weather": "Partly Cloudy",
+    "Time of Day": "Dusk/Dawn",
+    "Road Conditions": "Dry",
+    "Road Type": "Urban Street with Tram Tracks",
+    "Lane Information": {
+      "Total Number of Lanes": "2",
+      "Lane Markings": "Visible",
+      "Allowed Maneuvers": {
+        "Lane 1": ["Straight"],
+        "Lane 2": ["Straight", "Right"]
+      },
+      "Special Lanes": ["Bike Lane", "Street Parking"]
+    },
+    "Traffic Signs": {
+      "Types": ["Not Visible"],
+      "Visibility": "Not Visible"
+    },
+    "Vehicles": {
+      "Total Number": "Few",
+      "In Motion": "True",
+      "Types": ["Sedan"],
+      "States": ["In Motion", "Parked"]
+    },
+    "Pedestrians": ["None"],
+    "Directionality": "One-Way",
+    "Ego-Vehicle": {
+      "Direction": "Forward",
+      "Maneuver": "None"
+    },
+    "Visibility": "Good",
+    "Camera Condition": "No impairments visible"
+  }
+  ,
+  "046.mp4":{
+    "Scene": "Highway",
+    "Weather": "Clear",
+    "Time of Day": "Daytime",
+    "Road Conditions": "Dry",
+    "Road Type": "Divided Highway",
+    "Lane Information": {
+      "Total Number of Lanes": "5",
+      "Lane Markings": "Visible",
+      "Allowed Maneuvers": {
+        "Lane 1": ["Straight"],
+        "Lane 2": ["Straight"],
+        "Lane 3": ["Straight"],
+        "Lane 4": ["Straight"],
+        "Lane 5": ["Straight", "Exit"]
+      }
+    },
+    "Traffic Signs": {
+      "Types": ["Speed Limit"],
+      "Visibility": "Visible"
+    },
+    "Vehicles": {
+      "Total Number": "Several",
+      "In Motion": "True",
+      "Types": ["Sedan", "SUV", "Pickup Truck"],
+      "States": ["In Motion"]
+    },
+    "Pedestrians": "None",
+    "Directionality": "One-Way",
+    "Ego-Vehicle": {
+      "Direction": "Forward",
+      "Maneuver": "None"
+    },
+    "Visibility": "Good",
+    "Camera Condition": "No impairments visible"
+  }
+  ,
+  "047.mp4":{
+    "Scene": "Urban",
+    "Weather": "Rainy",
+    "Time of Day": "Dusk/Dawn",
+    "Road Conditions": "Wet",
+    "Road Type": "Commercial Street",
+    "Lane Information": {
+      "Total Number of Lanes": "2",
+      "Lane Markings": "Visible",
+      "Allowed Maneuvers": {
+        "Lane 1": ["Straight", "Left", "Parking"],
+        "Lane 2": ["Straight", "Right", "Parking"]
+      }
+    },
+    "Traffic Signs": {
+      "Types": ["Stop Sign"],
+      "Visibility": "Visible"
+    },
+    "Vehicles": {
+      "Total Number": "Few",
+      "In Motion": "True",
+      "Types": ["Sedan"],
+      "States": ["In Motion", "Parked"]
+    },
+    "Pedestrians": ["None"],
+    "Directionality": "Assumed Two-Way",
+    "Ego-Vehicle": {
+      "Direction": "Forward",
+      "Maneuver": "Approaching Intersection"
+    },
+    "Visibility": "Reduced due to Rainy Conditions",
+    "Camera Condition": "No impairments visible"
+  }
+  ,
+  "048.mp4":{
+    "Scene": "Suburban",
+    "Weather": "Clear",
+    "Time of Day": "Daytime",
+    "Road Conditions": "Dry",
+    "Road Type": "Intersection",
+    "Lane Information": {
+      "Total Number of Lanes": "Multiple",
+      "Lane Markings": "Visible",
+      "Allowed Maneuvers": {
+        "Lane 1": ["Left", "Straight", "Right"],
+        "Lane 2": ["Straight", "Right"]
+      }
+    },
+    "Traffic Signs": {
+      "Types": ["Traffic Light"],
+      "Visibility": "Visible"
+    },
+    "Vehicles": {
+      "Total Number": "Few",
+      "In Motion": "True",
+      "Types": ["Sedan", "Minivan"],
+      "States": ["In Motion"]
+    },
+    "Pedestrians": "None",
+    "Directionality": "Multi-directional with median",
+    "Ego-Vehicle": {
+      "Direction": "Stopped",
+      "Maneuver": "Waiting for Traffic Light"
+    },
+    "Visibility": "Good",
+    "Camera Condition": "No impairments visible"
+  }
+  ,
+  "049.mp4":{
+    "Scene": "Commercial",
+    "Weather": "Clear",
+    "Time of Day": "Daytime",
+    "Road Conditions": "Dry",
+    "Road Type": "Main Thoroughfare",
+    "Lane Information": {
+      "Total Number of Lanes": "3",
+      "Lane Markings": "Visible",
+      "Allowed Maneuvers": {
+        "Lane 1": ["Straight"],
+        "Lane 2": ["Straight"],
+        "Lane 3": ["Right", "Exit"]
+      }
+    },
+    "Traffic Signs": {
+      "Types": ["Speed Limit", "Exit Sign"],
+      "Visibility": "Visible"
+    },
+    "Vehicles": {
+      "Total Number": "Several",
+      "In Motion": "True",
+      "Types": ["Sedan", "Utility Truck", "Various Vehicles"],
+      "States": ["In Motion", "Stopped"]
+    },
+    "Pedestrians": "None",
+    "Directionality": "Divided",
+    "Ego-Vehicle": {
+      "Direction": "Forward",
+      "Maneuver": "Following traffic"
+    },
+    "Visibility": "Good",
+    "Camera Condition": "No impairments visible"
+  }
+  ,
+  "050.mp4":{
+    "Scene": "Residential",
+    "Weather": "Clear",
+    "Time of Day": "Daytime",
+    "Road Conditions": "Dry",
+    "Road Type": "Residential Street",
+    "Lane Information": {
+      "Total Number of Lanes": "1 per direction",
+      "Lane Markings": "Not Clearly Visible",
+      "Allowed Maneuvers": {
+        "Lane 1": ["Straight", "Parking"],
+        "Lane 2": ["Straight", "Parking"]
+      }
+    },
+    "Traffic Signs": {
+      "Types": ["Not Visible"],
+      "Visibility": "Not Visible"
+    },
+    "Vehicles": {
+      "Total Number": "Few",
+      "In Motion": "False",
+      "Types": ["Pickup Truck"],
+      "States": ["Parked"]
+    },
+    "Pedestrians": "None",
+    "Directionality": "Two-Way",
+    "Ego-Vehicle": {
+      "Direction": "Turning Right",
+      "Maneuver": "Preparing to turn right"
+    },
+    "Visibility": "Good",
+    "Camera Condition": "No impairments visible"
+  }
+  ,
+  "051.mp4":{
+    "Scene": "Urban",
+    "Weather": "Clear",
+    "Time of Day": "Nighttime",
+    "Road Conditions": "Wet",
+    "Road Type": "Urban Street",
+    "Lane Information": {
+      "Total Number of Lanes": "4",
+      "Lane Markings": "Not Clearly Visible",
+      "Allowed Maneuvers": {
+        "Lane 1": ["Straight", "Divided by Median"],
+        "Lane 2": ["Straight"],
+        "Lane 3": ["Straight"],
+        "Parking Lane": ["Parking"]
+      }
+    },
+    "Traffic Signs": {
+      "Types": ["Not Visible"],
+      "Visibility": "Not Visible"
+    },
+    "Vehicles": {
+      "Total Number": "Several",
+      "In Motion": "True",
+      "Types": ["Sedan", "Various Vehicles"],
+      "States": ["In Motion", "Parked"]
+    },
+    "Pedestrians": "None",
+    "Directionality": "Divided",
+    "Ego-Vehicle": {
+      "Direction": "Forward",
+      "Maneuver": "None"
+    },
+    "Visibility": "Reduced due to Nighttime Conditions",
+    "Camera Condition": "Reduced due to Lens Glare and Low Light Conditions"
+  }
+  ,
+  "052.mp4":{
+    "Scene": "Parking Area",
+    "Weather": "Partly Cloudy",
+    "Time of Day": "Daytime",
+    "Road Conditions": "Dry",
+    "Road Type": "Parking Lot",
+    "Lane Information": {
+      "Total Number of Lanes": "Not Applicable",
+      "Lane Markings": "Parking Spaces Visible",
+      "Allowed Maneuvers": {
+        "Area": ["Parking", "Maneuvering within the lot"]
+      }
+    },
+    "Traffic Signs": {
+      "Types": ["Not Visible"],
+      "Visibility": "Not Visible"
+    },
+    "Vehicles": {
+      "Total Number": "One",
+      "In Motion": "True",
+      "Types": ["SUV"],
+      "States": ["In Motion"]
+    },
+    "Pedestrians": "None",
+    "Directionality": "Not Applicable",
+    "Ego-Vehicle": {
+      "Direction": "Leaving Parking Space",
+      "Maneuver": "None"
+    },
+    "Visibility": "Good",
+    "Camera Condition": "No impairments visible"
+  }
+  ,
+  "053.mp4":{
+    "Scene": "Residential",
+    "Weather": "Clear",
+    "Time of Day": "Dusk/Dawn",
+    "Road Conditions": "Dry",
+    "Road Type": "Residential Street",
+    "Lane Information": {
+      "Total Number of Lanes": "2",
+      "Lane Markings": "Visible",
+      "Allowed Maneuvers": {
+        "Lane 1": ["Straight", "Parking"],
+        "Lane 2": ["Straight", "Parking"]
+      }
+    },
+    "Traffic Signs": {
+      "Types": ["Not Visible"],
+      "Visibility": "Not Visible"
+    },
+    "Vehicles": {
+      "Total Number": "Several",
+      "In Motion": "False",
+      "Types": ["Sedan", "SUV"],
+      "States": ["Parked"]
+    },
+    "Pedestrians": "None",
+    "Directionality": "Two-Way",
+    "Ego-Vehicle": {
+      "Direction": "Forward",
+      "Maneuver": "None"
+    },
+    "Visibility": "Good",
+    "Camera Condition": "No impairments visible"
+  }
+  ,
+  "054.mp4":{
+    "Scene": "Suburban",
+    "Weather": "Clear",
+    "Time of Day": "Daytime",
+    "Road Conditions": "Dry",
+    "Road Type": "Main Thoroughfare",
+    "Lane Information": {
+      "Total Number of Lanes": "3",
+      "Lane Markings": "Visible",
+      "Allowed Maneuvers": {
+        "Lane 1": ["Left Turn"],
+        "Lane 2": ["Straight"],
+        "Lane 3": ["Straight", "Right Turn"]
+      }
+    },
+    "Traffic Signs": {
+      "Types": ["Traffic Light"],
+      "Visibility": "Visible"
+    },
+    "Vehicles": {
+      "Total Number": "Few",
+      "In Motion": "True",
+      "Types": ["Sedan"],
+      "States": ["In Motion", "Turning Left"]
+    },
+    "Pedestrians": "None",
+    "Directionality": "Multi-directional with median",
+    "Ego-Vehicle": {
+      "Direction": "Turning Left",
+      "Maneuver": "Preparing to turn left"
+    },
+    "Visibility": "Good",
+    "Camera Condition": "No impairments visible"
+  }
+  ,
+  "055.mp4":{
+    "Scene": "Urban",
+    "Weather": "Overcast",
+    "Time of Day": "Dusk/Dawn",
+    "Road Conditions": "Dry",
+    "Road Type": "One-Way Street",
+    "Lane Information": {
+      "Total Number of Lanes": "3",
+      "Lane Markings": "Visible",
+      "Allowed Maneuvers": {
+        "Lane 1": ["Left Turn", "Parking"],
+        "Lane 2": ["Straight"],
+        "Lane 3": ["Right Turn"]
+      }
+    },
+    "Traffic Signs": {
+      "Types": ["Traffic Light"],
+      "Visibility": "Visible"
+    },
+    "Vehicles": {
+      "Total Number": "Several",
+      "In Motion": "False",
+      "Types": ["Sedan", "Commercial Van", "SUV"],
+      "States": ["Stopped at Intersection", "Parked"]
+    },
+    "Pedestrians": ["Crossing"],
+    "Directionality": "One-Way",
+    "Ego-Vehicle": {
+      "Direction": "Stopped",
+      "Maneuver": "Waiting for Traffic Light"
+    },
+    "Visibility": "Good",
+    "Camera Condition": "No impairments visible"
+  }
+  ,
+  "056.mp4":{
+    "Scene": "Suburban",
+    "Weather": "Rainy",
+    "Time of Day": "Dusk/Dawn",
+    "Road Conditions": "Wet",
+    "Road Type": "Two-Way Street",
+    "Lane Information": {
+      "Total Number of Lanes": "2",
+      "Lane Markings": "Visible",
+      "Allowed Maneuvers": {
+        "Lane 1": ["Straight", "Left Turn"],
+        "Lane 2": ["Straight"]
+      },
+      "Special Lanes": ["Bike Lane"]
+    },
+    "Traffic Signs": {
+      "Types": ["Pedestrian Crossing", "Other Warning Signs"],
+      "Visibility": "Visible"
+    },
+    "Vehicles": {
+      "Total Number": "Several",
+      "In Motion": "True",
+      "Types": ["Sedan", "Bus"],
+      "States": ["In Motion"]
+    },
+    "Pedestrians": "None",
+    "Directionality": "Assumed Two-Way",
+    "Ego-Vehicle": {
+      "Direction": "Forward",
+      "Maneuver": "None"
+    },
+    "Visibility": "Reduced due to Rainy Conditions",
+    "Camera Condition": "No impairments visible"
+  }
+  ,
+  "057.mp4":{
+    "Scene": "Commercial",
+    "Weather": "Overcast",
+    "Time of Day": "Daytime",
+    "Road Conditions": "Dry",
+    "Road Type": "Urban Street with Tram Tracks",
+    "Lane Information": {
+      "Total Number of Lanes": "2",
+      "Lane Markings": "Visible",
+      "Allowed Maneuvers": {
+        "Lane 1": ["Straight", "Shared with Tram"],
+        "Lane 2": ["Straight", "Right Turn"]
+      },
+      "Special Lanes": ["Bike Lane"]
+    },
+    "Traffic Signs": {
+      "Types": ["Traffic Light", "Tram Sign"],
+      "Visibility": "Visible"
+    },
+    "Vehicles": {
+      "Total Number": "Few",
+      "In Motion": "True",
+      "Types": ["Sedan", "Tram"],
+      "States": ["In Motion", "Stopped at Traffic Light"]
+    },
+    "Pedestrians": ["Crossing", "Visible on Sidewalk"],
+    "Directionality": "One-Way",
+    "Ego-Vehicle": {
+      "Direction": "Stopped",
+      "Maneuver": "Waiting for Traffic Light"
+    },
+    "Visibility": "Good",
+    "Camera Condition": "No impairments visible"
+  }
+  ,
+  "058.mp4":{
+    "Scene": "Suburban",
+    "Weather": "Clear",
+    "Time of Day": "Daytime",
+    "Road Conditions": "Dry",
+    "Road Type": "Residential Street",
+    "Lane Information": {
+      "Total Number of Lanes": "2",
+      "Lane Markings": "Visible",
+      "Allowed Maneuvers": {
+        "Lane 1": ["Straight"],
+        "Lane 2": ["Straight", "Merging"]
+      },
+      "Special Lanes": ["Bike Lane"]
+    },
+    "Traffic Signs": {
+      "Types": ["Not Visible"],
+      "Visibility": "Not Visible"
+    },
+    "Vehicles": {
+      "Total Number": "Few",
+      "In Motion": "True",
+      "Types": ["Sedan"],
+      "States": ["Merging", "In Motion"]
+    },
+    "Pedestrians": "None",
+    "Directionality": "Two-Way",
+    "Ego-Vehicle": {
+      "Direction": "Merging",
+      "Maneuver": "Merging into Street"
+    },
+    "Visibility": "Good",
+    "Camera Condition": "No impairments visible"
+  }
+  ,
+  "059.mp4":{
+    "Scene": "Residential",
+    "Weather": "Clear",
+    "Time of Day": "Daytime",
+    "Road Conditions": "Dry",
+    "Road Type": "Residential with Sidewalk and Median",
+    "Lane Information": {
+      "Total Number of Lanes": "1 per direction",
+      "Lane Markings": "Visible",
+      "Allowed Maneuvers": {
+        "Lane 1": ["Straight", "Parking", "Entering or Exiting Driveways"]
+      }
+    },
+    "Traffic Signs": {
+      "Types": ["Stop Sign"],
+      "Visibility": "Visible"
+    },
+    "Vehicles": {
+      "Total Number": "None",
+      "In Motion": "False",
+      "Types": ["None"],
+      "States": ["None"]
+    },
+    "Pedestrians": "None",
+    "Directionality": "Two-Way",
+    "Ego-Vehicle": {
+      "Direction": "Forward",
+      "Maneuver": "Driving"
+    },
+    "Visibility": "Good",
+    "Camera Condition": "No impairments visible"
+  }
+  ,
+  "060.mp4":{
+    "Scene Analysis": {
+      "Lane Information": {
+        "Total Regular Traffic Lanes": 2,
+        "Lane Markings": "Visible",
+        "Allowed Maneuvers": {
+          "Lane 1": ["Straight"],
+          "Lane 2": ["Straight", "Right"]
+        }
+      },
+      "Weather": "Overcast",
+      "Visibility": "Reduced",
+      "Time of Day": "Dusk/Dawn",
+      "Road Conditions": "Wet",
+      "Road Type": "Divided Highway",
+      "Vehicles": {
+        "Total Number": "Several",
+        "In Motion": "True",
+        "Types": "Various Vehicles"
+      },
+      "Directionality": "Assumed Two-Way",
+      "Ego-Vehicle": {
+        "Direction": "Forward"
+      }
+    }
+  }
+  ,
+  "061.mp4":{
+    "Scene Analysis": {
+      "Lane Information": {
+        "Total Regular Traffic Lanes": 3,
+        "Lane Markings": "Visible",
+        "Allowed Maneuvers": {
+          "Lane 1": ["Left Turn Only"],
+          "Lane 2": ["Straight", "Right Turn"],
+          "Lane 3": ["Right Turn Only"]
+        }
+      },
+      "Weather": "Clear",
+      "Visibility": "Good",
+      "Time of Day": "Daytime",
+      "Road Conditions": "Dry",
+      "Road Type": "Intersection",
+      "Traffic Signs": {
+        "Traffic Light": "Visible",
+        "Pedestrian Crossing": "Visible"
+      },
+      "Vehicles": {
+        "Total Number": "Few",
+        "In Motion": "False",
+        "Types": ["Pickup Truck", "Sedan"],
+        "States": ["Stopped at Intersection"]
+      },
+      "Directionality": "Multi-directional with median",
+      "Ego-Vehicle": {
+        "Direction": "Approaching Intersection",
+        "Maneuver": "Stopped"
+      }
+    }
+  }
+  ,
+  "062.mp4":{
+    "Scene Analysis": {
+      "Lane Information": {
+        "Total Regular Traffic Lanes": 3,
+        "Lane Markings": "Visible",
+        "Allowed Maneuvers": {
+          "Lane 1": ["Left Turn Only"],
+          "Lane 2": ["Straight"],
+          "Lane 3": ["Right Turn Only"]
+        }
+      },
+      "Weather": "Clear",
+      "Visibility": "Good",
+      "Time of Day": "Daytime",
+      "Road Conditions": "Dry",
+      "Road Type": "Main Road",
+      "Traffic Signs": {
+        "Traffic Light": "Visible"
+      },
+      "Vehicles": {
+        "Total Number": "Few",
+        "In Motion": "True",
+        "Types": ["Truck", "Sedan"],
+        "States": ["In Motion"]
+      },
+      "Directionality": "Multi-directional with median",
+      "Ego-Vehicle": {
+        "Direction": "Forward",
+        "Maneuver": "Following traffic"
+      }
+    }
+  }
+  ,
+  "063.mp4":{
+    "Scene Analysis": {
+      "Lane Information": {
+        "Total Regular Traffic Lanes": 3,
+        "Parking Lane": "Present",
+        "Lane Markings": "Visible",
+        "Allowed Maneuvers": {
+          "Lane 1": ["Straight"],
+          "Lane 2": ["Straight"],
+          "Lane 3": ["Straight"]
+        }
+      },
+      "Weather": "Rainy",
+      "Visibility": "Limited",
+      "Time of Day": "Daytime",
+      "Road Conditions": "Wet",
+      "Road Type": "One-Way Street",
+      "Traffic Signs": {
+        "Speed Limit": "Visible",
+        "Pedestrian Crossing": "Visible"
+      },
+      "Vehicles": {
+        "Total Number": "Few",
+        "In Motion": "True",
+        "Types": ["Sedan", "Coupe"],
+        "States": ["In Motion", "Parked"]
+      },
+      "Pedestrians": "Visible on Sidewalk",
+      "Directionality": "One-Way",
+      "Ego-Vehicle": {
+        "Direction": "Forward",
+        "Maneuver": "Driving"
+      }
+    }
+  }
+  ,
+  "064.mp4":{
+    "Scene Analysis": {
+      "Lane Information": {
+        "Total Regular Traffic Lanes": 4,
+        "Special Lanes": {
+          "Bike Lane": "Present",
+          "Parking Lane": "Present"
+        },
+        "Lane Markings": "Visible",
+        "Allowed Maneuvers": {
+          "Lane 1": ["Left Turn Only"],
+          "Lane 2": ["Straight", "Left Turn"],
+          "Lane 3": ["Straight"],
+          "Lane 4": ["Bus Lane", "Straight"]
+        }
+      },
+      "Weather": "Rainy",
+      "Visibility": "Reduced",
+      "Time of Day": "Daytime",
+      "Road Conditions": "Wet",
+      "Road Type": "Urban Street with Tram Tracks",
+      "Traffic Signs": {
+        "Traffic Light": "Visible"
+      },
+      "Vehicles": {
+        "Total Number": "Several",
+        "In Motion": "True",
+        "Types": ["SUV", "Sedan", "Various Vehicles"],
+        "States": ["In Motion", "Stopped at Traffic Light"]
+      },
+      "Pedestrians": ["Crossing Street", "Visible on Sidewalk"],
+      "Directionality": "Assumed Two-Way",
+      "Ego-Vehicle": {
+        "Direction": "Forward",
+        "Maneuver": "Stopped at Traffic Light"
+      }
+    }
+  }
+  ,
+  "065.mp4":{
+    "Scene Analysis": {
+      "Lane Information": {
+        "Total Regular Traffic Lanes": 3,
+        "Lane Markings": "Visible",
+        "Allowed Maneuvers": {
+          "Lane 1": ["Straight"],
+          "Lane 2": ["Straight"],
+          "Lane 3": ["Straight", "Left Turn"]
+        }
+      },
+      "Weather": "Partly Cloudy",
+      "Visibility": {
+        "General": "Good",
+        "Specific Impairments": "Reduced due to Dusk Lighting Conditions"
+      },
+      "Time of Day": "Dusk/Dawn",
+      "Road Conditions": "Dry",
+      "Road Type": "Commercial Street",
+      "Traffic Signs": {
+        "Traffic Light": "Visible",
+        "Pedestrian Crossing": "Visible"
+      },
+      "Vehicles": {
+        "Total Number": "Multiple",
+        "In Motion": "True",
+        "Types": ["Various Vehicles"],
+        "States": ["In Motion", "Stopped at Traffic Light"]
+      },
+      "Pedestrians": ["Crossing Street"],
+      "Directionality": "One-Way",
+      "Ego-Vehicle": {
+        "Direction": "Forward",
+        "Maneuver": "Stopped at Intersection"
+      }
+    }
+  }
+  ,
+  "066.mp4":{
+    "Scene Analysis": {
+      "Lane Information": {
+        "Total Regular Traffic Lanes": 3,
+        "Lane Markings": "Visible",
+        "Allowed Maneuvers": {
+          "Lane 1": ["Left Turn Only"],
+          "Lane 2": ["Straight"],
+          "Lane 3": ["Straight", "Right Turn"]
+        }
+      },
+      "Weather": "Clear",
+      "Visibility": "Good",
+      "Time of Day": "Daytime",
+      "Road Conditions": "Dry",
+      "Road Type": "Urban Street with Overpass",
+      "Traffic Signs": {
+        "Traffic Light": "Visible"
+      },
+      "Vehicles": {
+        "Total Number": "Several",
+        "In Motion": "True",
+        "Types": ["Utility Vehicle", "Sedan", "Commercial Truck", "Various Vehicles"],
+        "States": ["In Motion", "Stopped at Traffic Light"]
+      },
+      "Pedestrians": ["Visible on Sidewalk", "Crossing Street"],
+      "Directionality": "Assumed Two-Way",
+      "Ego-Vehicle": {
+        "Direction": "Forward",
+        "Maneuver": "Stopped at Traffic Light"
+      }
+    }
+  }
+  ,
+  "067.mp4":{
+    "Scene Analysis": {
+      "Lane Information": {
+        "Total Regular Traffic Lanes": 2,
+        "Special Lanes": {
+          "Bike Lane": "Present"
+        },
+        "Lane Markings": "Visible",
+        "Allowed Maneuvers": {
+          "Lane 1": ["Left Turn Only"],
+          "Lane 2": ["Straight"]
+        }
+      },
+      "Weather": "Clear",
+      "Visibility": "Good",
+      "Time of Day": "Daytime",
+      "Road Conditions": "Dry",
+      "Road Type": "Suburban",
+      "Traffic Signs": {
+        "Traffic Light": "Visible"
+      },
+      "Vehicles": {
+        "Total Number": "Few",
+        "In Motion": "True",
+        "Types": ["SUV", "Sedan"],
+        "States": ["Stopped", "Approaching Intersection"]
+      },
+      "Pedestrians": "None Visible",
+      "Directionality": "One-Way",
+      "Ego-Vehicle": {
+        "Direction": "Making a Left Turn",
+        "Maneuver": "Waiting for Traffic Clearance"
+      }
+    }
+  }
+  ,
+  "068.mp4":{
+    "Scene Analysis": {
+      "Lane Information": {
+        "Total Regular Traffic Lanes": 3,
+        "Lane Markings": "Visible",
+        "Allowed Maneuvers": {
+          "Lane 1": ["Straight", "Left Turn"],
+          "Lane 2": ["Straight"],
+          "Lane 3": ["Straight", "Right Turn"]
+        }
+      },
+      "Weather": "Rainy",
+      "Visibility": {
+        "General": "Reduced",
+        "Specific Impairments": ["Glare present", "Reduced due to Rain"]
+      },
+      "Time of Day": "Dusk/Dawn",
+      "Road Conditions": "Wet",
+      "Road Type": "Divided Highway",
+      "Traffic Signs": {
+        "Traffic Light": "Visible"
+      },
+      "Vehicles": {
+        "Total Number": "Several",
+        "In Motion": "True",
+        "Types": ["Sedan", "SUV"],
+        "States": ["In Motion", "Stopped at Traffic Light"]
+      },
+      "Pedestrians": "None Visible",
+      "Directionality": "Two-Way",
+      "Ego-Vehicle": {
+        "Direction": "Forward",
+        "Maneuver": "Stopped at Traffic Light"
+      }
+    }
+  }
+  ,
+  "069.mp4":{
+    "Scene Analysis": {
+      "Lane Information": {
+        "Total Regular Traffic Lanes": 2,
+        "Special Lanes": {
+          "Bike Lane": "Not Present",
+          "Bus Lane": "Not Present",
+          "Parking Lane": "Not Present"
+        },
+        "Lane Markings": "Not Clearly Visible",
+        "Allowed Maneuvers": {
+          "Lane 1": ["Straight"],
+          "Lane 2": ["Straight"]
+        }
+      },
+      "Weather": "Clear",
+      "Visibility": "Good",
+      "Time of Day": "Daytime",
+      "Road Conditions": "Dry",
+      "Road Type": "Residential Street",
+      "Traffic Signs": {
+        "Pedestrian Crossing": "Visible",
+        "No Parking": "Visible"
+      },
+      "Vehicles": {
+        "Total Number": "None",
+        "In Motion": "False",
+        "Types": "None",
+        "States": "None"
+      },
+      "Pedestrians": "None Visible",
+      "Directionality": "Two-Way",
+      "Ego-Vehicle": {
+        "Direction": "Forward",
+        "Maneuver": "Driving"
+      }
+    }
+  }
+  ,
+  "070.mp4":{
+    "Scene Analysis": {
+      "Lane Information": {
+        "Total Regular Traffic Lanes": 4,
+        "Lane Markings": "Visible",
+        "Allowed Maneuvers": {
+          "Lane 1": ["Straight"],
+          "Lane 2": ["Straight"],
+          "Lane 3": ["Straight"],
+          "Lane 4": ["Right Turn Only"]
+        }
+      },
+      "Weather": "Clear",
+      "Visibility": "Good",
+      "Time of Day": "Daytime",
+      "Road Conditions": "Dry",
+      "Road Type": "Residential Street",
+      "Traffic Signs": {
+        "Speed Limit": "Not Visible",
+        "No Parking": "Not Visible",
+        "Traffic Light": "Not Visible",
+        "Pedestrian Crossing": "Not Visible"
+      },
+      "Vehicles": {
+        "Total Number": "Several",
+        "In Motion": "True",
+        "Types": ["Sedan", "SUV"],
+        "States": ["In Motion", "Parked"]
+      },
+      "Pedestrians": ["None Visible"],
+      "Directionality": "Two-Way",
+      "Ego-Vehicle": {
+        "Direction": "Forward",
+        "Maneuver": "Driving"
+      }
+    }
+  }
+  ,
+  "071.mp4":{
+    "Scene Analysis": {
+      "Lane Information": {
+        "Total Regular Traffic Lanes": 4,
+        "Lane Markings": "Visible",
+        "Allowed Maneuvers": {
+          "Lane 1": ["Left Turn Only"],
+          "Lane 2": ["Straight"],
+          "Lane 3": ["Straight"],
+          "Lane 4": ["Right Turn Only"]
+        }
+      },
+      "Weather": "Clear",
+      "Visibility": "Good",
+      "Time of Day": "Daytime",
+      "Road Conditions": "Dry",
+      "Road Type": "Main Road",
+      "Traffic Signs": {
+        "Traffic Light": "Visible",
+        "Pedestrian Crossing": "Visible"
+      },
+      "Vehicles": {
+        "Total Number": "Several",
+        "In Motion": "True",
+        "Types": ["Sedan", "SUV", "Pickup Truck"],
+        "States": ["In Motion", "Stopped"]
+      },
+      "Pedestrians": "None Visible",
+      "Directionality": "Two-Way",
+      "Ego-Vehicle": {
+        "Direction": "Forward",
+        "Maneuver": "Driving"
+      }
+    }
+  }
+  ,
+  "072.mp4":{
+    "Scene Analysis": {
+      "Lane Information": {
+        "Total Regular Traffic Lanes": 5,
+        "Lane Markings": "Visible",
+        "Allowed Maneuvers": {
+          "Lane 1": ["Left Turn Only"],
+          "Lane 2": ["Straight"],
+          "Lane 3": ["Straight"],
+          "Lane 4": ["Straight"],
+          "Lane 5": ["Right Turn Only"]
+        }
+      },
+      "Weather": "Clear",
+      "Visibility": "Good",
+      "Time of Day": "Daytime",
+      "Road Conditions": "Dry",
+      "Road Type": "Intersection",
+      "Traffic Signs": {
+        "Traffic Light": "Visible"
+      },
+      "Vehicles": {
+        "Total Number": "Few",
+        "In Motion": "True",
+        "Types": ["Sedan"],
+        "States": ["In Motion"]
+      },
+      "Pedestrians": "None Visible",
+      "Directionality": "Two-Way",
+      "Ego-Vehicle": {
+        "Direction": "Forward",
+        "Maneuver": "Driving"
+      }
+    }
+  }
+  ,
+  "073.mp4":{
+    "Scene Analysis": {
+      "Lane Information": {
+        "Total Regular Traffic Lanes": 2,
+        "Special Lanes": {
+          "Bike Lane": "Present",
+          "Parking Lane": "Present"
+        },
+        "Lane Markings": "Visible",
+        "Allowed Maneuvers": {
+          "Lane 1": ["Straight", "Left Turn"],
+          "Lane 2": ["Straight", "Right Turn"]
+        }
+      },
+      "Weather": "Partly Cloudy",
+      "Visibility": {
+        "General": "Good",
+        "Specific Impairments": "Obstructed by Tree Branches"
+      },
+      "Time of Day": "Dusk/Dawn",
+      "Road Conditions": "Dry",
+      "Road Type": "Urban Street",
+      "Traffic Signs": {
+        "Pedestrian Crossing": "Visible",
+        "School Zone": "Visible"
+      },
+      "Vehicles": {
+        "Total Number": "Several",
+        "In Motion": "True",
+        "Types": ["Sedan", "SUV"],
+        "States": ["In Motion", "Parked"]
+      },
+      "Pedestrians": ["None Visible"],
+      "Directionality": "One-Way",
+      "Ego-Vehicle": {
+        "Direction": "Forward",
+        "Maneuver": "Driving"
+      }
+    }
+  }
+  ,
+  "074.mp4":{
+    "Scene Analysis": {
+      "Lane Information": {
+        "Total Regular Traffic Lanes": 3,
+        "Special Lanes": {
+          "Bike Lane": "Present",
+          "Parking Lane": "Not Present"
+        },
+        "Lane Markings": "Visible",
+        "Allowed Maneuvers": {
+          "Lane 1": ["Left Turn Only", "Straight (shared with bicycle crossing)"],
+          "Lane 2": ["Straight"],
+          "Lane 3": ["Right Turn Only"]
+        }
+      },
+      "Weather": "Clear",
+      "Visibility": "Good",
+      "Time of Day": "Daytime",
+      "Road Conditions": "Dry",
+      "Road Type": "Urban Street",
+      "Traffic Signs": {
+        "Pedestrian Crossing": "Visible",
+        "Bicycle Crossing": "Visible",
+        "Yield to Bikes": "Visible"
+      },
+      "Vehicles": {
+        "Total Number": "Few",
+        "In Motion": "True",
+        "Types": ["SUV", "Sedan"],
+        "States": ["In Motion"]
+      },
+      "Pedestrians": ["None Visible"],
+      "Directionality": "Two-Way",
+      "Ego-Vehicle": {
+        "Direction": "Forward",
+        "Maneuver": "Driving"
+      }
+    }
+  }
+  ,
+  "075.mp4":{
+    "Scene Analysis": {
+      "Lane Information": {
+        "Total Regular Traffic Lanes": "Indeterminate",
+        "Special Lanes": {
+          "Bike Lane": "Not Visible",
+          "Bus Lane": "Not Visible",
+          "Parking Lane": "Not Visible"
+        },
+        "Lane Markings": "Not Visible",
+        "Allowed Maneuvers": "Indeterminate"
+      },
+      "Weather": "Clear",
+      "Visibility": {
+        "General": "Good",
+        "Specific Impairments": "None Observed"
+      },
+      "Time of Day": "Daytime",
+      "Road Conditions": "Appears Dry",
+      "Road Type": "Urban Area",
+      "Traffic Signs": {
+        "Speed Limit": "Not Visible",
+        "No Parking": "Not Visible",
+        "Traffic Light": "Not Visible",
+        "Pedestrian Crossing": "Not Visible"
+      },
+      "Vehicles": {
+        "Total Number": "One (FedEx Truck)",
+        "In Motion": "False",
+        "Types": ["Delivery Truck"],
+        "States": ["Stopped"]
+      },
+      "Pedestrians": ["Visible"],
+      "Directionality": "Indeterminate",
+      "Ego-Vehicle": {
+        "Direction": "Stopped",
+        "Maneuver": "Not Applicable"
+      }
+    }
+  }
+  ,
+  "076.mp4":{
+    "Scene Analysis": {
+      "Lane Information": {
+        "Total Regular Traffic Lanes": 2,
+        "Special Lanes": {
+          "Parking Lane": "Present"
+        },
+        "Lane Markings": "Visible",
+        "Allowed Maneuvers": {
+          "Lane 1": ["Straight", "Left Turn", "Right Turn"],
+          "Lane 2": ["Straight", "Left Turn", "Right Turn"]
+        }
+      },
+      "Weather": "Clear",
+      "Visibility": "Good",
+      "Time of Day": "Daytime",
+      "Road Conditions": "Dry",
+      "Road Type": "Residential Street",
+      "Traffic Signs": {
+        "Dead End": "Visible",
+        "Pedestrian Crossing": "Not Visible"
+      },
+      "Vehicles": {
+        "Total Number": "Several",
+        "In Motion": ["True", "False"],
+        "Types": ["SUV", "Sedan"],
+        "States": ["Parked", "In Motion"]
+      },
+      "Pedestrians": "None Visible",
+      "Directionality": "Two-Way",
+      "Ego-Vehicle": {
+        "Direction": "Forward",
+        "Maneuver": "Driving"
+      }
+    }
+  }
+  ,
+  "077.mp4":{
+    "Scene Analysis": {
+      "Lane Information": {
+        "Total Regular Traffic Lanes": 2,
+        "Special Lanes": {
+          "Bike Lane": "Present"
+        },
+        "Lane Markings": "Visible",
+        "Allowed Maneuvers": {
+          "Lane 1": ["Straight"],
+          "Lane 2": ["Straight", "Right Turn Optional"]
+        }
+      },
+      "Weather": "Clear",
+      "Visibility": "Good",
+      "Time of Day": "Daytime",
+      "Road Conditions": "Dry",
+      "Road Type": "Main Road",
+      "Traffic Signs": {
+        "Traffic Light": "Not Visible",
+        "Pedestrian Crossing": "Not Visible"
+      },
+      "Vehicles": {
+        "Total Number": "Several",
+        "In Motion": "True",
+        "Types": ["Sedan", "SUV"],
+        "States": ["In Motion"]
+      },
+      "Pedestrians": "None Visible",
+      "Directionality": "Two-Way",
+      "Ego-Vehicle": {
+        "Direction": "Forward",
+        "Maneuver": "Driving"
+      }
+    }
+  }
+  ,
+  "078.mp4":{
+    "Scene Analysis": {
+      "Lane Information": {
+        "Total Regular Traffic Lanes": 2,
+        "Special Lanes": {
+          "Bike Lane": "Not Visible",
+          "Parking Lane": "Present"
+        },
+        "Lane Markings": "Visible",
+        "Allowed Maneuvers": {
+          "Lane 1": ["Left Turn Only"],
+          "Lane 2": ["Right Turn Only"]
+        }
+      },
+      "Weather": "Clear",
+      "Visibility": "Good",
+      "Time of Day": "Daytime",
+      "Road Conditions": "Dry",
+      "Road Type": "T-Intersection",
+      "Traffic Signs": {
+        "Stop Sign": "Visible"
+      },
+      "Vehicles": {
+        "Total Number": "None",
+        "In Motion": "False",
+        "Types": "None",
+        "States": "None"
+      },
+      "Pedestrians": "None Visible",
+      "Directionality": "Assumed Two-Way",
+      "Ego-Vehicle": {
+        "Direction": "Forward",
+        "Maneuver": "Approaching Stop Sign"
+      }
+    }
+  }
+  ,
+  "079.mp4":{
+    "Scene Analysis": {
+      "Lane Information": {
+        "Total Regular Traffic Lanes": 2,
+        "Special Lanes": {
+          "Tram Tracks": "Present in Lane 1"
+        },
+        "Lane Markings": "Visible",
+        "Allowed Maneuvers": {
+          "Lane 1": ["Left Turn", "Straight"],
+          "Lane 2": ["Straight", "Right Turn"]
+        }
+      },
+      "Weather": "Clear",
+      "Visibility": "Good",
+      "Time of Day": "Daytime",
+      "Road Conditions": "Dry",
+      "Road Type": "Urban Street with Tram Tracks",
+      "Traffic Signs": {
+        "Pedestrian Crossing": "Visible"
+      },
+      "Vehicles": {
+        "Total Number": "Several",
+        "In Motion": "True",
+        "Types": ["Sedan", "SUV", "Tram"],
+        "States": ["In Motion", "Parked"]
+      },
+      "Pedestrians": ["Crossing Street", "Visible on Sidewalk"],
+      "Directionality": "Two-Way",
+      "Ego-Vehicle": {
+        "Direction": "Forward",
+        "Maneuver": "Driving or Preparing to Turn"
+      }
+    }
+  }
+  ,
+  "080.mp4":{
+    "Scene Analysis": {
+      "Lane Information": {
+        "Total Regular Traffic Lanes": "Indeterminate from Image",
+        "Special Lanes": {
+          "Bike Lane": "Present",
+          "Turn Lanes": "Presence indicated by vehicle positions"
+        },
+        "Lane Markings": "Not Clearly Visible"
+      },
+      "Weather": "Clear",
+      "Visibility": "Good",
+      "Time of Day": "Daytime",
+      "Road Conditions": "Dry",
+      "Road Type": "Urban Street with Intersection",
+      "Traffic Signs": {
+        "Traffic Light": "Visible",
+        "Right Lane Must Turn Right": "Visible"
+      },
+      "Vehicles": {
+        "Total Number": "Several",
+        "In Motion": "True",
+        "Types": ["SUV", "Sedan", "Bicycle"],
+        "States": ["Turning", "Stopped", "Cycling"]
+      },
+      "Pedestrians": ["Crossing Street", "Visible on Sidewalk"],
+      "Directionality": "Multi-directional with median",
+      "Ego-Vehicle": {
+        "Direction": "Merging Left onto Main Road",
+        "Maneuver": "Making a Left Turn"
+      },
+      "Other Vehicle": {
+        "White SUV": {
+          "Direction": "Merging Right onto Main Street",
+          "Maneuver": "Making a Right Turn"
+        }
+      }
+    }
+  }
+  ,
+  "081.mp4":{
+    "Scene Analysis": {
+      "Lane Information": {
+        "Total Regular Traffic Lanes": 1,
+        "Special Lanes": {
+          "Parking Lane": "Present on both sides"
+        },
+        "Lane Markings": "Not Clearly Visible",
+        "Allowed Maneuvers": {
+          "Lane 1": ["Straight", "Parking"]
+        }
+      },
+      "Weather": "Partly Cloudy",
+      "Visibility": "Good",
+      "Time of Day": "Daytime",
+      "Road Conditions": "Dry",
+      "Road Type": "Residential Street",
+      "Traffic Signs": {
+        "Stop Sign": "Not Visible",
+        "Pedestrian Crossing": "Not Visible"
+      },
+      "Vehicles": {
+        "Total Number": "Several",
+        "In Motion": "False",
+        "Types": ["Sedan", "SUV"],
+        "States": ["Parked"]
+      },
+      "Pedestrians": "None Visible",
+      "Directionality": "Assumed Two-Way due to the nature of residential streets",
+      "Ego-Vehicle": {
+        "Direction": "Forward",
+        "Maneuver": "Driving"
+      }
+    }
+  }
+  ,
+  "082.mp4":{
+    "Scene Analysis": {
+      "Lane Information": {
+        "Total Regular Traffic Lanes": 3,
+        "Special Lanes": {
+          "Bike Lane": "Not Visible",
+          "Parking Lane": "Not Visible",
+          "Turn Lanes": "Visible for left and right turns"
+        },
+        "Lane Markings": "Visible",
+        "Allowed Maneuvers": {
+          "Lane 1": ["Straight", "Left Turn Optional"],
+          "Lane 2": ["Straight"],
+          "Lane 3": ["Straight", "Right Turn Optional"]
+        }
+      },
+      "Weather": "Clear",
+      "Visibility": "Good",
+      "Time of Day": "Daytime",
+      "Road Conditions": "Dry",
+      "Road Type": "Main Thoroughfare",
+      "Traffic Signs": {
+        "Traffic Light": "Visible",
+        "Pedestrian Crossing": "Not Visible",
+        "Speed Limit": "Not Visible"
+      },
+      "Vehicles": {
+        "Total Number": "Multiple",
+        "In Motion": "True",
+        "Types": ["Sedan", "SUV", "Pickup Truck"],
+        "States": ["In Motion"]
+      },
+      "Pedestrians": "None Visible",
+      "Directionality": "Two-Way",
+      "Ego-Vehicle": {
+        "Direction": "Forward",
+        "Maneuver": "Driving"
+      }
+    }
+  }
+  ,
+  "083.mp4":{
+    "Scene Analysis": {
+      "Lane Information": {
+        "Total Regular Traffic Lanes": 4,
+        "Special Lanes": {
+          "HOV Lane": "Present, Leftmost Lane"
+        },
+        "Lane Markings": "Visible",
+        "Allowed Maneuvers": {
+          "Lane 1 (HOV)": ["Straight"],
+          "Lane 2": ["Straight"],
+          "Lane 3": ["Straight", "Exit Right Optional"],
+          "Lane 4": ["Right Exit Only"]
+        }
+      },
+      "Weather": "Clear",
+      "Visibility": "Good",
+      "Time of Day": "Daytime",
+      "Road Conditions": "Dry",
+      "Road Type": "Divided Highway",
+      "Traffic Signs": {
+        "Exit Sign": "Visible for Priest Drive",
+        "Directional Sign": "Visible for I-10 East Tucson and I-10 West Phoenix"
+      },
+      "Vehicles": {
+        "Total Number": "Multiple",
+        "In Motion": "True",
+        "Types": ["Sedan", "SUV", "Pickup Truck"],
+        "States": ["In Motion"]
+      },
+      "Pedestrians": "None Visible",
+      "Directionality": "One-Way",
+      "Ego-Vehicle": {
+        "Direction": "Forward",
+        "Maneuver": "Driving on Highway"
+      }
+    }
+  }
+  ,
+  "084.mp4":{
+    "Scene Analysis": {
+      "Lane Information": {
+        "Total Regular Traffic Lanes": 1,
+        "Special Lanes": {
+          "Parking Lane": "Present on both sides"
+        },
+        "Lane Markings": "Visible",
+        "Allowed Maneuvers": {
+          "Lane 1": ["Straight"]
+        }
+      },
+      "Weather": "Overcast",
+      "Visibility": "Good",
+      "Time of Day": "Daytime",
+      "Road Conditions": "Dry",
+      "Road Type": "Residential Street",
+      "Traffic Signs": {
+        "Pedestrian Crossing": "Visible",
+        "Stop Sign": "Not Visible"
+      },
+      "Vehicles": {
+        "Total Number": "Few",
+        "In Motion": "False",
+        "Types": ["Sedan"],
+        "States": ["Parked"]
+      },
+      "Pedestrians": "None Visible",
+      "Directionality": "Two-Way",
+      "Ego-Vehicle": {
+        "Direction": "Forward",
+        "Maneuver": "Driving"
+      }
+    }
+  }
+  ,
+  "085.mp4":{
+    "Scene Analysis": {
+      "Lane Information": {
+        "Total Regular Traffic Lanes": 4,
+        "Special Lanes": {
+          "Taxi Lane": "Taxi Only"
+        },
+        "Lane Markings": "Visible",
+        "Allowed Maneuvers": {
+          "Lane 1": ["Straight"],
+          "Lane 2": ["Straight"],
+          "Lane 3": ["Taxi Only, Straight"],
+          "Lane 4": ["Right Turn Only"]
+        }
+      },
+      "Weather": "Overcast",
+      "Visibility": "Good",
+      "Time of Day": "Dusk/Dawn",
+      "Road Conditions": "Dry",
+      "Road Type": "Commercial Street",
+      "Traffic Signs": {
+        "Traffic Light": "Visible",
+        "Directional Sign": "Visible, indicating bus and taxi lane"
+      },
+      "Vehicles": {
+        "Total Number": "Multiple",
+        "In Motion": "True",
+        "Types": ["Sedan", "SUV", "Taxi"],
+        "States": ["In Motion", "Stopped"]
+      },
+      "Pedestrians": ["Crossing Street", "Visible on Sidewalk"],
+      "Directionality": "One-Way",
+      "Ego-Vehicle": {
+        "Direction": "Forward",
+        "Maneuver": "Driving or Preparing to Turn"
+      }
+    }
+  }
+  ,
+  "086.mp4":{
+    "Scene Analysis": {
+      "Lane Information": {
+        "Total Regular Traffic Lanes": 1,
+        "Special Lanes": {
+          "Parking Lane": "Present on the right side"
+        },
+        "Lane Markings": "Visible",
+        "Allowed Maneuvers": {
+          "Lane 1": ["Straight"]
+        }
+      },
+      "Weather": "Overcast",
+      "Visibility": "Good",
+      "Time of Day": "Daytime",
+      "Road Conditions": "Dry",
+      "Road Type": "Residential Street",
+      "Traffic Signs": {
+        "Stop Sign": "Visible at the intersection"
+      },
+      "Vehicles": {
+        "Total Number": "Several",
+        "In Motion": "True",
+        "Types": ["Sedan", "SUV"],
+        "States": ["In Motion", "Parked"]
+      },
+      "Pedestrians": "None Visible",
+      "Directionality": "Two-Way",
+      "Ego-Vehicle": {
+        "Direction": "Forward",
+        "Maneuver": "Driving"
+      }
+    }
+  }
+  ,
+  "087.mp4":{
+    "Scene Analysis": {
+      "Lane Information": {
+        "Total Regular Traffic Lanes": 2,
+        "Special Lanes": {
+          "Parking Lane": "Present on the right side"
+        },
+        "Lane Markings": "Visible",
+        "Allowed Maneuvers": {
+          "Lane 1": ["Straight", "Left Turn"],
+          "Lane 2": ["Straight", "Right Turn"]
+        }
+      },
+      "Weather": "Clear",
+      "Visibility": "Good",
+      "Time of Day": "Daytime",
+      "Road Conditions": "Dry",
+      "Road Type": "Urban Street",
+      "Traffic Signs": {
+        "Traffic Light": "Visible",
+        "Pedestrian Crossing": "Visible"
+      },
+      "Vehicles": {
+        "Total Number": "Multiple",
+        "In Motion": "True",
+        "Types": ["Sedan", "SUV", "Commercial Vehicles"],
+        "States": ["In Motion", "Stopped at Intersection"]
+      },
+      "Pedestrians": ["Crossing Street", "Visible on Sidewalk"],
+      "Directionality": "One-Way",
+      "Ego-Vehicle": {
+        "Direction": "Forward",
+        "Maneuver": "Stopped at Intersection"
+      }
+    }
+  }
+  ,
+  "088.mp4":{
+    "Scene Analysis": {
+      "Lane Information": {
+        "Total Regular Traffic Lanes": 1,
+        "Special Lanes": {
+          "Bike Lane": "Not present",
+          "Bus Taxi Only Lane": "Present",
+          "Parking Lane": "Present to the right"
+        },
+        "Lane Markings": "Visible",
+        "Allowed Maneuvers": {
+          "Lane 1": ["Straight", "Left Turn", "Right Turn"]
+        }
+      },
+      "Weather": "Clear",
+      "Visibility": "Good",
+      "Time of Day": "Daytime",
+      "Road Conditions": "Dry",
+      "Road Type": "Urban Street",
+      "Traffic Signs": {
+        "Traffic Light": "Visible",
+        "Pedestrian Crossing": "Visible"
+      },
+      "Vehicles": {
+        "Total Number": "Several",
+        "In Motion": "True",
+        "Types": ["Sedans", "SUVs"],
+        "States": ["In Motion"]
+      },
+      "Pedestrians": ["Multiple, crossing street", "Visible on Sidewalk"],
+      "Directionality": "Two-Way",
+      "Ego-Vehicle": {
+        "Direction": "Forward",
+        "Maneuver": "Driving forward"
+      }
+    }
+  }
+  ,
+  "089.mp4":{
+    "Scene Analysis": {
+      "Lane Information": {
+        "Total Regular Traffic Lanes": 3,
+        "Special Lanes": {
+          "Bike Lane": "Not present",
+          "Bus Lane": "Not visible in the scene",
+          "Parking Lane": "Present on both sides of the street"
+        },
+        "Lane Markings": "Visible",
+        "Allowed Maneuvers": {
+          "Lane 1": ["Straight"],
+          "Lane 2": ["Straight"],
+          "Lane 3": ["Straight"]
+        }
+      },
+      "Weather": "Clear",
+      "Visibility": "Good",
+      "Time of Day": "Daytime",
+      "Road Conditions": "Dry",
+      "Road Type": "Urban Street with multiple lanes",
+      "Traffic Signs": {
+        "Traffic Light": "Visible",
+        "Pedestrian Crossing": "Visible"
+      },
+      "Vehicles": {
+        "Total Number": "Several",
+        "In Motion": "True",
+        "Types": ["Sedans", "Vans", "Buses"],
+        "States": ["In Motion", "Parked"]
+      },
+      "Pedestrians": ["Multiple, visible on sidewalk", "Crossing street"],
+      "Directionality": "Two-Way",
+      "Ego-Vehicle": {
+        "Direction": "Forward",
+        "Maneuver": "Driving forward"
+      }
+    }
+  }
+  ,
+  "090.mp4":{
+    "Scene Analysis": {
+      "Lane Information": {
+        "Total Regular Traffic Lanes": 2,
+        "Special Lanes": {
+          "Bike Lane": "Not present",
+          "Bus Lane": "Not visible in the scene",
+          "Parking Lane": "Visible on both sides of the street"
+        },
+        "Lane Markings": "Visible",
+        "Allowed Maneuvers": {
+          "Lane 1": ["Straight"],
+          "Lane 2": ["Straight"]
+        }
+      },
+      "Weather": "Overcast",
+      "Visibility": "Good",
+      "Time of Day": "Daytime",
+      "Road Conditions": "Dry",
+      "Road Type": "Urban street with multiple lanes",
+      "Traffic Signs": {
+        "Traffic Light": "Visible",
+        "Pedestrian Crossing": "Visible"
+      },
+      "Vehicles": {
+        "Total Number": "Several",
+        "In Motion": "True",
+        "Types": ["SUVs", "Sedans"],
+        "States": ["In Motion", "Parked"]
+      },
+      "Pedestrians": ["Multiple, visible on sidewalk"],
+      "Directionality": "Two-Way",
+      "Ego-Vehicle": {
+        "Direction": "Forward",
+        "Maneuver": "Driving forward"
+      }
+    }
+  }
+  ,
+  "091.mp4":{
+    "Scene Analysis": {
+      "Lane Information": {
+        "Total Regular Traffic Lanes": 2,
+        "Special Lanes": {
+          "Bus Lane": "None",
+          "Parking Lane": "Visible on the right side"
+        },
+        "Lane Markings": "Visible, standard lane markings",
+        "Allowed Maneuvers": {
+          "Lane 1": ["Straight"],
+          "Lane 2": ["Straight"]
+        }
+      },
+      "Weather": "Overcast",
+      "Visibility": "Good, with slight obstructions from vehicles",
+      "Time of Day": "Daytime",
+      "Road Conditions": "Dry",
+      "Road Type": "Urban street",
+      "Traffic Signs": {
+        "Traffic Light": "Visible, green for the direction the ego-vehicle is facing",
+        "Stop Sign": "None visible"
+      },
+      "Vehicles": {
+        "Total Number": "Multiple",
+        "In Motion": "True",
+        "Types": ["Sedans", "SUVs", "Commercial Vehicles"],
+        "States": ["In motion", "Parked"]
+      },
+      "Pedestrians": ["Not visible in the scene"],
+      "Directionality": "Assumed Two-Way",
+      "Ego-Vehicle": {
+        "Direction": "Forward",
+        "Maneuver": "Driving straight, in traffic"
+      }
+    }
+  }
+  ,
+  "092.mp4":{
+    "Scene Analysis": {
+      "Lane Information": {
+        "Total Regular Traffic Lanes": 3,
+        "Special Lanes": {
+          "Bike Lane": "Not visible",
+          "Parking Lane": "Not visible",
+          "Taxi and Bus Lane": "Not visible"
+        },
+        "Lane Markings": "Visible, including a pedestrian crosswalk and stop line",
+        "Allowed Maneuvers": {
+          "Lane 1": ["Straight"],
+          "Lane 2": ["Straight"],
+          "Lane 3": ["Straight", "Right"]
+        }
+      },
+      "Weather": "Overcast",
+      "Visibility": "Good, but reduced due to wet road conditions",
+      "Time of Day": "Dusk/Dawn",
+      "Road Conditions": "Wet",
+      "Road Type": "Main Thoroughfare",
+      "Traffic Signs": {
+        "Traffic Light": "Visible at the intersection"
+      },
+      "Vehicles": {
+        "Total Number": "Few",
+        "In Motion": "False",
+        "Types": ["Pickup Truck", "Sedan"],
+        "States": ["Stopped at Intersection"]
+      },
+      "Pedestrians": ["Crossing Street"],
+      "Directionality": "Assumed Two-Way",
+      "Ego-Vehicle": {
+        "Direction": "Stopped at Intersection",
+        "Maneuver": "Stopped"
+      }
+    }
+  },
+  "093.mp4":{
+    "Scene Analysis": {
+      "Lane Information": {
+        "Total Regular Traffic Lanes": 2,
+        "Special Lanes": {
+          "Parking Lane": "Visible on both sides of the street"
+        },
+        "Lane Markings": "Visible, including a pedestrian crosswalk and stop line",
+        "Allowed Maneuvers": {
+          "Lane 1": ["Straight", "Possible left turn - not clearly visible"],
+          "Lane 2": ["Straight", "Possible right turn - not clearly visible"]
+        }
+      },
+      "Weather": "Clear with direct sunlight causing some glare",
+      "Visibility": "Good, with some glare from the sun",
+      "Time of Day": "Appears to be daytime",
+      "Road Conditions": "Dry",
+      "Road Type": "Urban street with commercial buildings",
+      "Traffic Signs": {
+        "Stop Sign": "Visible at the intersection"
+      },
+      "Vehicles": {
+        "Total Number": "Several",
+        "In Motion": "True",
+        "Types": ["Sedans", "SUVs", "Pickup Trucks"],
+        "States": ["In motion", "Parked"]
+      },
+      "Pedestrians": ["Not visible on the crosswalk, but pedestrians may be present on sidewalks"],
+      "Directionality": "Assumed Two-Way",
+      "Ego-Vehicle": {
+        "Direction": "Forward",
+        "Maneuver": "Approaching an intersection with a stop sign"
+      }
+    }
+  }
+  ,
+  "094.mp4":{
+    "Scene Analysis": {
+      "Lane Information": {
+        "Total Regular Traffic Lanes": 1,
+        "Special Lanes": {
+          "Construction Zone": "Present on the left, prohibiting left turn",
+          "Right Turn Only Lane": "Indicated by road markings"
+        },
+        "Lane Markings": "Visible",
+        "Allowed Maneuvers": {
+          "Lane 1": ["Straight", "Right Turn"]
+        }
+      },
+      "Weather": "Clear",
+      "Visibility": "Good",
+      "Time of Day": "Daytime",
+      "Road Conditions": "Dry",
+      "Road Type": "Urban street with active construction",
+      "Traffic Signs": {
+        "Road Work": "Visible",
+        "No Left Turn": "Visible",
+        "Right Lane Must Turn Right": "Visible"
+      },
+      "Vehicles": {
+        "Total Number": "Several",
+        "In Motion": "True",
+        "Types": ["Sedan", "Construction Vehicles"],
+        "States": ["In Motion", "Stopped due to construction"]
+      },
+      "Pedestrians": ["None visible"],
+      "Directionality": "Assumed Two-Way due to presence of multiple lanes and no clear indication of one-way signage",
+      "Ego-Vehicle": {
+        "Direction": "Forward",
+        "Maneuver": "Approaching intersection, likely to follow traffic signs and road markings"
+      }
+    }
+  },
+  "095.mp4":{
+    "Scene Analysis": {
+      "Lane Information": {
+        "Total Regular Traffic Lanes": 1,
+        "Special Lanes": "None",
+        "Lane Markings": "Visible",
+        "Allowed Maneuvers": {
+          "Lane 1": ["Straight", "Right Turn", "Left Turn"]
+        }
+      },
+      "Weather": "Overcast",
+      "Visibility": "Good",
+      "Time of Day": "Daytime",
+      "Road Conditions": "Dry",
+      "Road Type": "Residential Street",
+      "Traffic Signs": {
+        "Stop Sign": "Visible at intersection"
+      },
+      "Vehicles": {
+        "Total Number": "Few",
+        "In Motion": "True",
+        "Types": ["SUVs", "Sedans"],
+        "States": ["Parked", "In Motion"]
+      },
+      "Parking": {
+        "Road Side Parking": "Visible"
+      },
+      "Pedestrians": ["None visible"],
+      "Directionality": "Two-Way",
+      "Ego-Vehicle": {
+        "Direction": "Forward",
+        "Maneuver": "Approaching Stop Sign, preparing to stop"
+      }
+    }
+  }
+  ,
+  "096.mp4":{
+    "Scene Analysis": {
+      "Lane Information": {
+        "Total Regular Traffic Lanes": 2,
+        "Special Lanes": {
+          "Bike Lane": "Visible on the right side of the street"
+        },
+        "Lane Markings": "Visible",
+        "Allowed Maneuvers": {
+          "Lane 1": ["Straight"],
+          "Lane 2": ["Straight"]
+        }
+      },
+      "Weather": "Clear",
+      "Visibility": "Good",
+      "Time of Day": "Daytime",
+      "Road Conditions": "Dry",
+      "Road Type": "Suburban",
+      "Traffic Signs": {
+        "Visible": ["Speed Limit Sign", "No Parking Sign"]
+      },
+      "Vehicles": {
+        "Total Number": "Several",
+        "In Motion": "True",
+        "Types": ["Sedans", "SUVs"],
+        "States": ["In motion"]
+      },
+      "Pedestrians": ["None visible"],
+      "Directionality": "Assumed Two-Way",
+      "Ego-Vehicle": {
+        "Direction": "Forward",
+        "Maneuver": "Driving"
+      }
+    }
+  }
+  ,
+  "097.mp4":{
+    "Scene Analysis": {
+      "Lane Information": {
+        "Total Regular Traffic Lanes": 1,
+        "Special Lanes": {
+          "Bike Lane": "Visible on the right side of the street"
+        },
+        "Lane Markings": "Visible",
+        "Allowed Maneuvers": {
+          "Lane 1": ["Straight"]
+        }
+      },
+      "Weather": "Clear",
+      "Visibility": "Good",
+      "Time of Day": "Daytime",
+      "Road Conditions": "Dry",
+      "Road Type": "Residential Street",
+      "Traffic Signs": {
+        "Stop Sign": "Visible at the intersection",
+        "School Zone Sign": "Visible on the side of the road"
+      },
+      "Vehicles": {
+        "Total Number": "None",
+        "In Motion": "False",
+        "Types": [],
+        "States": []
+      },
+      "Pedestrians": ["None visible"],
+      "Directionality": "Assumed Two-Way",
+      "Ego-Vehicle": {
+        "Direction": "Forward",
+        "Maneuver": "Driving"
+      }
+    }
+  }
+  ,
+  "098.mp4":{
+    "Scene Analysis": {
+      "Lane Information": {
+        "Total Regular Traffic Lanes": 4,
+        "Special Lanes": {
+          "Bike Lane": "Visible on the right side of the street"
+        },
+        "Lane Markings": "Visible",
+        "Allowed Maneuvers": {
+          "Lane 1": ["Left"],
+          "Lane 2": ["Straight"],
+          "Lane 3": ["Straight"],
+          "Lane 4": ["Straight"],
+          "Lane 5": ["Right"]
+        }
+      },
+      "Weather": "Clear",
+      "Visibility": "Good",
+      "Time of Day": "Daytime",
+      "Road Conditions": "Dry",
+      "Road Type": "Divided Road",
+      "Traffic Signs": {
+        "Traffic Light": "Visible at the intersection"
+      },
+      "Vehicles": {
+        "Total Number": "Several",
+        "In Motion": "True",
+        "Types": ["Various Vehicles"], 
+        "States": ["In Motion"] 
+      },
+      "Pedestrians": ["None visible"],
+      "Directionality": "Assumed Two-Way",
+      "Ego-Vehicle": {
+        "Direction": "Forward",
+        "Maneuver": "Driving"
+      }
+    }
+  }
+  ,
+  "099.mp4":{
+    "Scene Analysis": {
+      "Lane Information": {
+        "Total Regular Traffic Lanes": "Indeterminate",
+        "Special Lanes": {},
+        "Lane Markings": "Not Clearly Visible",
+        "Allowed Maneuvers": {
+        }
+      },
+      "Weather": "Clear",
+      "Visibility": "Reduced due to Nighttime Conditions",
+      "Time of Day": "Nighttime",
+      "Road Conditions": "Appears Dry",
+      "Road Type": "Cannot be determined from this image",
+      "Traffic Signs": {
+        "Traffic Light": "Visible with red signal for the visible lanes"
+      },
+      "Vehicles": {
+        "Total Number": "Few",
+        "In Motion": "True",
+        "Types": ["Sedan"], 
+        "States": ["In Motion"] 
+      },
+      "Pedestrians": ["None visible"],
+      "Directionality": "Cannot be determined from this image",
+      "Ego-Vehicle": {
+        "Direction": "Indeterminate",
+        "Maneuver": "Indeterminate"
+      }
+    }
+  }
+}
