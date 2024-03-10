@@ -9,6 +9,7 @@
         "Parking Area",
         "Construction",
         "School Zone",
+        "Industrial",
         "Unknown",
         "Rural"
     ],
@@ -62,6 +63,7 @@
             "Dead End",
             "No Parking",
             "Traffic Light",
+            "Detour",
             "Bus Stop",
             "Tram Sign",
             "Pedestrian Crossing",
@@ -78,6 +80,7 @@
             "Railroad Crossing",
             "No Stopping",
             "Route Sign",
+            "One Way",
             "None"
         ],
         "Visibility": [
