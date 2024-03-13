@@ -109,13 +109,15 @@
         "Types": [
             "Pickup Truck",
             "Sedan",
+            "Bicycle",
             "Bus",
             "Cars",
             "Vans",
             "Hatchback",
             "Construction Vehicles",
             "Cement Mixer Truck",
-            "Utility Truck"
+            "Utility Truck",
+            "Delivery Truck"
         ],
         "States": [
             "Parked",
@@ -123,6 +125,7 @@
             "Stopped",
             "Merging",
             "In Queue",
+            "Door Open",
             "Violate Traffic Rules",
             "Picking up a Passenger",
             "Passenger Exiting"
