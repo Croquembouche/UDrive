@@ -81,6 +81,8 @@
             "No Stopping",
             "Route Sign",
             "One Way",
+            "Detour",
+            "Share the Road",
             "None"
         ],
         "Visibility": [
