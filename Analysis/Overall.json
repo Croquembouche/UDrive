@@ -119,7 +119,8 @@
             "Construction Vehicles",
             "Cement Mixer Truck",
             "Utility Truck",
-            "Delivery Truck"
+            "Delivery Truck",
+            "Police Car"
         ],
         "States": [
             "Parked",
@@ -130,7 +131,8 @@
             "Door Open",
             "Violate Traffic Rules",
             "Picking up a Passenger",
-            "Passenger Exiting"
+            "Passenger Exiting",
+            "Overtaking"
         ]
     },
     "Pedestrians": [
