@@ -120,7 +120,8 @@
             "Cement Mixer Truck",
             "Utility Truck",
             "Delivery Truck",
-            "Police Car"
+            "Police Car",
+            "Service Vehicle"
         ],
         "States": [
             "Parked",
@@ -163,7 +164,8 @@
             "Slowing Down",
             "Turning",
             "Moving",
-            "Following"
+            "Following",
+            "In Queue"
         ]
     },
     "Visibility": {
