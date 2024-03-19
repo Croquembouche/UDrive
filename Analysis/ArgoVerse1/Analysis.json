@@ -18094,52 +18094,396 @@
     ],
     "8a15674a-ae5c-38e2-bc4b-f4156d384072": [
         {
-            "id": "ring_front_center_315969684029102080.jpg",
-            "value": {}
-        },
-        {
             "id": "ring_front_center_315969684062402112.jpg",
-            "value": {}
+            "value": {
+              "Scene": "Commercial",
+              "TimeOfDay": "Daytime",
+              "Weather": "Overcast",
+              "RoadConditions": "Dry",
+              "LaneInformation": {
+                "NumberOfLanes": "Multiple",
+                "LaneMarkings": "Visible",
+                "SpecialLanes": ["Street Parking"]
+              },
+              "TrafficSigns": {
+                "Types": ["Speed Limit", "Parking"],
+                "Visibility": "Visible"
+              },
+              "Vehicles": {
+                "TotalNumber": "Multiple",
+                "InMotion": "False",
+                "Types": ["Sedan", "Van"],
+                "States": ["Parked"]
+              },
+              "Pedestrians": "None",
+              "Directionality": "One-Way",
+              "Ego-Vehicle": {
+                "Direction": "Forward",
+                "Maneuver": "Moving"
+              },
+              "Visibility": {
+                "General": "Good",
+                "SpecificImpairments": "Camera glare"
+              },
+              "CameraCondition": "Clear",
+              "Severity": 1
+            }            
         },
         {
             "id": "ring_front_center_315969685727403520.jpg",
-            "value": {}
+            "value": {
+              "Scene": "Commercial",
+              "TimeOfDay": "Daytime",
+              "Weather": "Overcast",
+              "RoadConditions": "Dry",
+              "LaneInformation": {
+                "NumberOfLanes": "Multiple",
+                "LaneMarkings": "Visible",
+                "SpecialLanes": ["None"]
+              },
+              "TrafficSigns": {
+                "Types": ["None"],
+                "Visibility": "Not Clearly Visible"
+              },
+              "Vehicles": {
+                "TotalNumber": "Few",
+                "InMotion": "False",
+                "Types": ["Sedan"],
+                "States": ["Parked", "Stopped"]
+              },
+              "Pedestrians": ["Visible on Sidewalk"],
+              "Directionality": "One-Way",
+              "Ego-Vehicle": {
+                "Direction": "Forward",
+                "Maneuver": "Moving"
+              },
+              "Visibility": {
+                "General": "Good",
+                "SpecificImpairments": "None"
+              },
+              "CameraCondition": "Clear",
+              "Severity": 2
+            }            
         },
         {
             "id": "ring_front_center_315969687392404752.jpg",
-            "value": {}
+            "value": {
+              "Scene": "Commercial",
+              "TimeOfDay": "Daytime",
+              "Weather": "Partly Cloudy",
+              "RoadConditions": "Dry",
+              "LaneInformation": {
+                "NumberOfLanes": "2",
+                "LaneMarkings": "Visible",
+                "SpecialLanes": ["Street Parking","Bike Lane"]
+              },
+              "TrafficSigns": {
+                "Types": ["Parking"],
+                "Visibility": "Visible"
+              },
+              "Vehicles": {
+                "TotalNumber": "Multiple",
+                "InMotion": "False",
+                "Types": ["Sedan", "SUV", "Pickup Truck"],
+                "States": ["Parked"]
+              },
+              "Pedestrians": ["Visible on Sidewalk"],
+              "Directionality": "One-Way",
+              "Ego-Vehicle": {
+                "Direction": "Forward",
+                "Maneuver": "Moving"
+              },
+              "Visibility": {
+                "General": "Good"
+              },
+              "CameraCondition": "Clear",
+              "Severity": 1
+            }            
         },
         {
             "id": "ring_front_center_315969689057403136.jpg",
-            "value": {}
+            "value": {
+              "Scene": "Commercial",
+              "TimeOfDay": "Daytime",
+              "Weather": "Partly Cloudy",
+              "RoadConditions": "Dry",
+              "LaneInformation": {
+                "NumberOfLanes": "2",
+                "LaneMarkings": "Visible",
+                "SpecialLanes": ["Street Parking","Bike Lane"]
+              },
+              "TrafficSigns": {
+                "Types": ["Speed Limit", "Parking"],
+                "Visibility": "Visible"
+              },
+              "Vehicles": {
+                "TotalNumber": "Multiple",
+                "InMotion": "True",
+                "Types": ["Sedan", "SUV", "Pickup Truck"],
+                "States": ["Parked", "In Motion"]
+              },
+              "Pedestrians": ["Visible on Sidewalk"],
+              "Directionality": "One-Way",
+              "Ego-Vehicle": {
+                "Direction": "Forward",
+                "Maneuver": "Moving"
+              },
+              "Visibility": {
+                "General": "Good"
+              },
+              "CameraCondition": "Clear",
+              "Severity": 1
+            }            
         },
         {
             "id": "ring_front_center_315969690722404768.jpg",
-            "value": {}
+            "value": {
+              "Scene": "Commercial",
+              "TimeOfDay": "Daytime",
+              "Weather": "Partly Cloudy",
+              "RoadConditions": "Dry",
+              "LaneInformation": {
+                "NumberOfLanes": "2",
+                "LaneMarkings": "Visible",
+                "SpecialLanes": ["Street Parking", "Bike Lane"]
+              },
+              "TrafficSigns": {
+                "Types": ["Parking"],
+                "Visibility": "Visible"
+              },
+              "Vehicles": {
+                "TotalNumber": "Multiple",
+                "InMotion": "False",
+                "Types": ["Sedan", "SUV", "Pickup Truck", "Utility Truck"],
+                "States": ["Parked"]
+              },
+              "Pedestrians": ["None"],
+              "Directionality": "One-Way",
+              "Ego-Vehicle": {
+                "Direction": "Forward",
+                "Maneuver": "Moving"
+              },
+              "Visibility": {
+                "General": "Good"
+              },
+              "CameraCondition": "Clear",
+              "Severity": 1
+            }            
         },
         {
             "id": "ring_front_center_315969692387401112.jpg",
-            "value": {}
+            "value": {
+              "Scene": "Commercial",
+              "TimeOfDay": "Daytime",
+              "Weather": "Partly Cloudy",
+              "RoadConditions": "Dry",
+              "LaneInformation": {
+                "NumberOfLanes": "2",
+                "LaneMarkings": "Visible",
+                "SpecialLanes": ["Street Parking", "Bike Lane"]
+              },
+              "TrafficSigns": {
+                "Types": ["Speed Limit", "Pedestrian Crossing"],
+                "Visibility": "Visible"
+              },
+              "Vehicles": {
+                "TotalNumber": "Multiple",
+                "InMotion": "False",
+                "Types": ["Sedan", "SUV"],
+                "States": ["Parked"]
+              },
+              "Pedestrians": ["Crossing Street", "Visible on Sidewalk"],
+              "Directionality": "One-Way",
+              "Ego-Vehicle": {
+                "Direction": "Forward",
+                "Maneuver": "Moving"
+              },
+              "Visibility": {
+                "General": "Good"
+              },
+              "CameraCondition": "Clear",
+              "Severity": 2
+            }            
+        },
+        {
+          "id":"ring_front_center_315969693219901592.jpg",
+          "value":{
+            "Scene": "Commercial",
+            "TimeOfDay": "Daytime",
+            "Weather": "Overcast",
+            "RoadConditions": "Dry",
+            "LaneInformation": {
+              "NumberOfLanes": "2",
+              "LaneMarkings": "Visible",
+              "SpecialLanes": "Street Parking"
+            },
+            "TrafficSigns": {
+              "Types": ["Pedestrian Crossing"],
+              "Visibility": "Visible"
+            },
+            "Vehicles": {
+              "TotalNumber": "Multiple",
+              "InMotion": "False",
+              "Types": ["Sedan", "Pickup Truck"],
+              "States": ["Parked", "In Queue"]
+            },
+            "Pedestrians": ["Multiple", "Visible on Sidewalk", "Crossing Street"],
+            "Directionality": "Two-Way",
+            "Ego-Vehicle": {
+              "Direction": "Forward",
+              "Maneuver": "Moving"
+            },
+            "Visibility": {
+              "General": "Good",
+              "SpecificImpairments": "None"
+            },
+            "CameraCondition": "Clear",
+            "Severity": 5
+          }          
         },
         {
             "id": "ring_front_center_315969694052404152.jpg",
-            "value": {}
+            "value": {
+              "Scene": "Commercial",
+              "TimeOfDay": "Daytime",
+              "Weather": "Overcast",
+              "RoadConditions": "Dry",
+              "LaneInformation": {
+                "NumberOfLanes": "2",
+                "LaneMarkings": "Visible",
+                "SpecialLanes": ["Street Parking"]
+              },
+              "TrafficSigns": {
+                "Types": ["Pedestrian Crossing"],
+                "Visibility": "Visible"
+              },
+              "Vehicles": {
+                "TotalNumber": "Multiple",
+                "InMotion": "True",
+                "Types": ["Sedan", "Pickup Truck"],
+                "States": ["In Motion", "Parked"]
+              },
+              "Pedestrians": ["Multiple", "Visible on Sidewalk"],
+              "Directionality": "Two-Way",
+              "Ego-Vehicle": {
+                "Direction": "Forward",
+                "Maneuver": "Following"
+              },
+              "Visibility": {
+                "General": "Good",
+                "SpecificImpairments": "None"
+              },
+              "CameraCondition": "Clear",
+              "Severity": 3
+            }            
         },
         {
             "id": "ring_front_center_315969695717403624.jpg",
-            "value": {}
+            "value": {
+              "Scene": "Commercial",
+              "TimeOfDay": "Daytime",
+              "Weather": "Overcast",
+              "RoadConditions": "Dry",
+              "LaneInformation": {
+                "NumberOfLanes": "2",
+                "LaneMarkings": "Visible",
+                "SpecialLanes": "Street Parking"
+              },
+              "TrafficSigns": {
+                "Types": ["Pedestrian Crossing"],
+                "Visibility": "Visible"
+              },
+              "Vehicles": {
+                "TotalNumber": "Multiple",
+                "InMotion": "True",
+                "Types": ["Sedan", "Pickup Truck"],
+                "States": ["In Motion", "Parked"]
+              },
+              "Pedestrians": ["Multiple", "Visible on Sidewalk"],
+              "Directionality": "Two-Way",
+              "Ego-Vehicle": {
+                "Direction": "Forward",
+                "Maneuver": "Following"
+              },
+              "Visibility": {
+                "General": "Good",
+                "SpecificImpairments": "None"
+              },
+              "CameraCondition": "Clear",
+              "Severity": 3
+            }
         },
         {
             "id": "ring_front_center_315969697382403904.jpg",
-            "value": {}
+            "value": {
+              "Scene": "Commercial",
+              "TimeOfDay": "Daytime",
+              "Weather": "Overcast",
+              "RoadConditions": "Dry",
+              "LaneInformation": {
+                "NumberOfLanes": "2",
+                "LaneMarkings": "Visible",
+                "SpecialLanes": "Street Parking"
+              },
+              "TrafficSigns": {
+                "Types": ["Pedestrian Crossing"],
+                "Visibility": "Visible"
+              },
+              "Vehicles": {
+                "TotalNumber": "Multiple",
+                "InMotion": "True",
+                "Types": ["Sedan"],
+                "States": ["Parked", "In Motion"]
+              },
+              "Pedestrians": ["None"],
+              "Directionality": "Two-Way",
+              "Ego-Vehicle": {
+                "Direction": "Forward",
+                "Maneuver": "Moving"
+              },
+              "Visibility": {
+                "General": "Good",
+                "SpecificImpairments": "None"
+              },
+              "CameraCondition": "Clear",
+              "Severity": 3
+            }            
         },
         {
             "id": "ring_front_center_315969699047402736.jpg",
-            "value": {}
-        },
-        {
-            "id": "ring_front_center_315969699613503072.jpg",
-            "value": {}
+            "value": {
+              "Scene": "Commercial",
+              "TimeOfDay": "Daytime",
+              "Weather": "Overcast",
+              "RoadConditions": "Dry",
+              "LaneInformation": {
+                "NumberOfLanes": "2",
+                "LaneMarkings": "Visible",
+                "SpecialLanes": ["Bike Lane", "Street Parking"]
+              },
+              "TrafficSigns": {
+                "Types": ["None"],
+                "Visibility": "Not Clearly Visible"
+              },
+              "Vehicles": {
+                "TotalNumber": "Multiple",
+                "InMotion": "True",
+                "Types": ["Sedan"],
+                "States": ["In Motion", "Parked"]
+              },
+              "Pedestrians": ["None"],
+              "Directionality": "Two-Way",
+              "Ego-Vehicle": {
+                "Direction": "Forward",
+                "Maneuver": "Moving"
+              },
+              "Visibility": {
+                "General": "Good",
+                "SpecificImpairments": "None"
+              },
+              "CameraCondition": "Clear",
+              "Severity": 3
+            }            
         }
     ],
     "91326240-9132-9132-9132-591327440896": [
