@@ -54,7 +54,8 @@
             "Left Turn Only Lane",
             "Street Parking",
             "Tram Tracks",
-            "HOV Lane"
+            "HOV Lane",
+            "Crosswalk"
         ]
     },
     "TrafficSigns": {
@@ -83,6 +84,8 @@
             "One Way",
             "Detour",
             "Share the Road",
+            "Road Work Ahead",
+            "Road Closed",
             "None"
         ],
         "Visibility": [
