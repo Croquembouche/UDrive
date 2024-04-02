@@ -79,6 +79,7 @@
             "Right Lane Must Turn Right",
             "School Zone",
             "Railroad Crossing",
+            "Do Not Stop on Tracks",
             "No Stopping",
             "Route Sign",
             "One Way",
@@ -119,6 +120,7 @@
             "Cars",
             "Vans",
             "Hatchback",
+            "Sports Car",
             "Construction Vehicles",
             "Cement Mixer Truck",
             "Utility Truck",
@@ -144,7 +146,8 @@
         "Multiple",
         "Visible on Sidewalk",
         "Crossing Street",
-        "Boarding Bus"
+        "Boarding Bus",
+        "Interacting with Vehicle"
     ],
     "Directionality": [
         "One-Way",
