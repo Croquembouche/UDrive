@@ -76,6 +76,7 @@
             "Electronic Sign",
             "Road Work",
             "No Left Turn",
+            "No Right Turn",
             "Right Lane Must Turn Right",
             "School Zone",
             "Railroad Crossing",
@@ -138,7 +139,8 @@
             "Violate Traffic Rules",
             "Picking up a Passenger",
             "Passenger Exiting",
-            "Overtaking"
+            "Overtaking",
+            "Stopped at Intersection"
         ]
     },
     "Pedestrians": [
