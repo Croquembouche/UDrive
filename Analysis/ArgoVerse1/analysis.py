@@ -8,6 +8,7 @@ from node2vec import Node2Vec
 from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import roc_auc_score
 from sklearn.model_selection import train_test_split
+from itertools import combinations
 
 
 # Load your data
@@ -202,44 +203,36 @@ def compareImages(G):
         writer.writerows(similarity_matrix)
 
 
-def predictMissingEdges(G):
-    node2vec = Node2Vec(G, dimensions=64, walk_length=30, num_walks=200, workers=4)
-    model = node2vec.fit(window=10, min_count=1, batch_words=4)
-    embeddings = model.wv
+def analyzeCombinations(G):
+    category_combinations = {}
+    for node, data in G.nodes(data=True):
+        if data['type'] == 'image':
+            categories = [n for n in nx.descendants(G, node) if G.nodes[n]['type'] == 'category']
+            print(categories)
+            for size in range(2, len(categories)+1):
+                for comb in combinations(categories, size):
+                    comb = tuple(sorted(comb))
+                    if comb not in category_combinations:
+                        category_combinations[comb] = 0
+                    category_combinations[comb] += 1
+    return category_combinations
 
-    # Prepare dataset for link prediction with domain-specific logic
-    positive_examples = [(u, v) for u, v in G.edges()]
-    negative_examples = []
-    
-    # Generate negative examples based on node types
-    for u in G.nodes(data=True):
-        for v in G.nodes(data=True):
-            if u[0] != v[0] and not G.has_edge(u[0], v[0]):
-                # Add logic to only include plausible connections
-                if (u[1]['type'] == 'category' and v[1]['type'] == 'category') and (u[1]['type'] != v[1]['type']):
-                    continue  # Skip adding negative examples between different types of categories
-                negative_examples.append((u[0], v[0]))
-
-    X = [embeddings[str(u)] + embeddings[str(v)] for u, v in positive_examples + negative_examples]
-    y = [1] * len(positive_examples) + [0] * len(negative_examples)
-
-    # Train-test split
-    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3, random_state=42)
-
-    # Train a logistic regression model to predict links
-    clf = LogisticRegression(random_state=42)
-    clf.fit(X_train, y_train)
-
-    # Predicting missing edges
-    missing_edges = [(u, v) for (u, v), p in zip(negative_examples, clf.predict_proba(X_test)[:, 1]) if p > 0.5]
-    return missing_edges
+def predictMissingCombinations(observed_combinations):
+    # Placeholder for predicting missing combinations based on observed
+    # This could involve comparing with a model or expected patterns
+    # For simplicity, here we might look for combinations that are below a certain frequency threshold
+    missing_combinations = {comb: count for comb, count in observed_combinations.items() if count < 3}  # Example threshold
+    return missing_combinations
 
 G = createBasicGraph()
 # compareScenarios(G)
 # compareImages(G)
 # analyasisDegreeCentrality(G, 20)
-missing_edges = predictMissingEdges(G)
-print("Potential Missing Edges:", missing_edges)
+
+
+category_combinations = analyzeCombinations(G)
+missing_combinations = predictMissingCombinations(category_combinations)
+print(missing_combinations)
 
 
 
