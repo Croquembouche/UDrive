@@ -1,0 +1,98 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d0" for="node" attr.name="type" attr.type="string"/>
+<graph edgedefault="directed"><node id="Waiting">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="4">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="Parked">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="Stop Sign">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="Few">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="NoPed">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="Dry">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="ring_front_center_315966710795411448.jpg">
+  <data key="d0">image</data>
+</node>
+<node id="Visible">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="Detour">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="Good">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="Road Closed">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="LaneVisible">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="Daytime">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="False">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="Two-Way">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="NoSpecialLanes">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="Stopped at Intersection">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="Sedan">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="Stopped">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="Sunny">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="Clear">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="Three">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="Urban">
+  <data key="d0">subsubcategory</data>
+</node>
+<edge source="ring_front_center_315966710795411448.jpg" target="Urban"/>
+<edge source="ring_front_center_315966710795411448.jpg" target="Daytime"/>
+<edge source="ring_front_center_315966710795411448.jpg" target="Sunny"/>
+<edge source="ring_front_center_315966710795411448.jpg" target="Dry"/>
+<edge source="ring_front_center_315966710795411448.jpg" target="Three"/>
+<edge source="ring_front_center_315966710795411448.jpg" target="LaneVisible"/>
+<edge source="ring_front_center_315966710795411448.jpg" target="NoSpecialLanes"/>
+<edge source="ring_front_center_315966710795411448.jpg" target="Stop Sign"/>
+<edge source="ring_front_center_315966710795411448.jpg" target="Detour"/>
+<edge source="ring_front_center_315966710795411448.jpg" target="Road Closed"/>
+<edge source="ring_front_center_315966710795411448.jpg" target="Visible"/>
+<edge source="ring_front_center_315966710795411448.jpg" target="Sedan"/>
+<edge source="ring_front_center_315966710795411448.jpg" target="Few"/>
+<edge source="ring_front_center_315966710795411448.jpg" target="False"/>
+<edge source="ring_front_center_315966710795411448.jpg" target="Parked"/>
+<edge source="ring_front_center_315966710795411448.jpg" target="Stopped"/>
+<edge source="ring_front_center_315966710795411448.jpg" target="NoPed"/>
+<edge source="ring_front_center_315966710795411448.jpg" target="Two-Way"/>
+<edge source="ring_front_center_315966710795411448.jpg" target="Stopped at Intersection"/>
+<edge source="ring_front_center_315966710795411448.jpg" target="Waiting"/>
+<edge source="ring_front_center_315966710795411448.jpg" target="Good"/>
+<edge source="ring_front_center_315966710795411448.jpg" target="Clear"/>
+<edge source="ring_front_center_315966710795411448.jpg" target="4"/>
+</graph></graphml>

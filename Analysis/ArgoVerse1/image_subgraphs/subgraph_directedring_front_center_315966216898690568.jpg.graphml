@@ -1,0 +1,98 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d0" for="node" attr.name="type" attr.type="string"/>
+<graph edgedefault="directed"><node id="Waiting">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="5">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="Parked">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="Few">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="NoImpairments">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="Two">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="Dry">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="Good">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="LaneVisible">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="Daytime">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="False">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="Two-Way">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="Pedestrian Crossing">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="Crosswalk">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="Not Clearly Visible">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="Stopped at Intersection">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="Crossing Street">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="ring_front_center_315966216898690568.jpg">
+  <data key="d0">image</data>
+</node>
+<node id="Sedan">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="Stopped">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="Sunny">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="Delivery Truck">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="Clear">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="Urban">
+  <data key="d0">subsubcategory</data>
+</node>
+<edge source="ring_front_center_315966216898690568.jpg" target="Urban"/>
+<edge source="ring_front_center_315966216898690568.jpg" target="Daytime"/>
+<edge source="ring_front_center_315966216898690568.jpg" target="Sunny"/>
+<edge source="ring_front_center_315966216898690568.jpg" target="Dry"/>
+<edge source="ring_front_center_315966216898690568.jpg" target="Two"/>
+<edge source="ring_front_center_315966216898690568.jpg" target="LaneVisible"/>
+<edge source="ring_front_center_315966216898690568.jpg" target="Crosswalk"/>
+<edge source="ring_front_center_315966216898690568.jpg" target="Pedestrian Crossing"/>
+<edge source="ring_front_center_315966216898690568.jpg" target="Not Clearly Visible"/>
+<edge source="ring_front_center_315966216898690568.jpg" target="Delivery Truck"/>
+<edge source="ring_front_center_315966216898690568.jpg" target="Sedan"/>
+<edge source="ring_front_center_315966216898690568.jpg" target="Few"/>
+<edge source="ring_front_center_315966216898690568.jpg" target="False"/>
+<edge source="ring_front_center_315966216898690568.jpg" target="Parked"/>
+<edge source="ring_front_center_315966216898690568.jpg" target="Stopped"/>
+<edge source="ring_front_center_315966216898690568.jpg" target="Crossing Street"/>
+<edge source="ring_front_center_315966216898690568.jpg" target="Two-Way"/>
+<edge source="ring_front_center_315966216898690568.jpg" target="Stopped at Intersection"/>
+<edge source="ring_front_center_315966216898690568.jpg" target="Waiting"/>
+<edge source="ring_front_center_315966216898690568.jpg" target="Good"/>
+<edge source="ring_front_center_315966216898690568.jpg" target="NoImpairments"/>
+<edge source="ring_front_center_315966216898690568.jpg" target="Clear"/>
+<edge source="ring_front_center_315966216898690568.jpg" target="5"/>
+</graph></graphml>

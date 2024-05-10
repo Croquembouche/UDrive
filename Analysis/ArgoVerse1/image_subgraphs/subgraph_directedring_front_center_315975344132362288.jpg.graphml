@@ -1,0 +1,94 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d0" for="node" attr.name="type" attr.type="string"/>
+<graph edgedefault="directed"><node id="3">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="Lane Not Clearly Visible">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="NoPed">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="Dry">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="Dusk/Dawn">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="MultipleVehicles">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="SignNotVisible">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="False">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="Forward">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="Two-Way">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="Reduced">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="NoSpecialLanes">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="ring_front_center_315975344132362288.jpg">
+  <data key="d0">image</data>
+</node>
+<node id="MultipleLanes">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="Pickup Truck">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="NoTrafficSigns">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="Sedan">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="In Queue">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="Following">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="Clear">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="Camera glare">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="Glare">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="Urban">
+  <data key="d0">subsubcategory</data>
+</node>
+<edge source="ring_front_center_315975344132362288.jpg" target="Urban"/>
+<edge source="ring_front_center_315975344132362288.jpg" target="Dusk/Dawn"/>
+<edge source="ring_front_center_315975344132362288.jpg" target="Clear"/>
+<edge source="ring_front_center_315975344132362288.jpg" target="Dry"/>
+<edge source="ring_front_center_315975344132362288.jpg" target="MultipleLanes"/>
+<edge source="ring_front_center_315975344132362288.jpg" target="Lane Not Clearly Visible"/>
+<edge source="ring_front_center_315975344132362288.jpg" target="NoSpecialLanes"/>
+<edge source="ring_front_center_315975344132362288.jpg" target="NoTrafficSigns"/>
+<edge source="ring_front_center_315975344132362288.jpg" target="SignNotVisible"/>
+<edge source="ring_front_center_315975344132362288.jpg" target="Pickup Truck"/>
+<edge source="ring_front_center_315975344132362288.jpg" target="Sedan"/>
+<edge source="ring_front_center_315975344132362288.jpg" target="MultipleVehicles"/>
+<edge source="ring_front_center_315975344132362288.jpg" target="False"/>
+<edge source="ring_front_center_315975344132362288.jpg" target="In Queue"/>
+<edge source="ring_front_center_315975344132362288.jpg" target="NoPed"/>
+<edge source="ring_front_center_315975344132362288.jpg" target="Two-Way"/>
+<edge source="ring_front_center_315975344132362288.jpg" target="Forward"/>
+<edge source="ring_front_center_315975344132362288.jpg" target="Following"/>
+<edge source="ring_front_center_315975344132362288.jpg" target="Reduced"/>
+<edge source="ring_front_center_315975344132362288.jpg" target="Camera glare"/>
+<edge source="ring_front_center_315975344132362288.jpg" target="Glare"/>
+<edge source="ring_front_center_315975344132362288.jpg" target="3"/>
+</graph></graphml>

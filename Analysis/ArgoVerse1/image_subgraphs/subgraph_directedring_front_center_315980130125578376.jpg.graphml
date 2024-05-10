@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d0" for="node" attr.name="type" attr.type="string"/>
+<graph edgedefault="directed"><node id="2">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="One Way">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="Parked">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="Moving">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="Few">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="NoPed">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="SUV">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="Dry">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="Visible">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="Good">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="LaneVisible">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="Dusk/Dawn">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="Overcast">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="False">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="Forward">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="NoSpecialLanes">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="Sedan">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="One-Way">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="Clear">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="ring_front_center_315980130125578376.jpg">
+  <data key="d0">image</data>
+</node>
+<node id="One">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="Urban">
+  <data key="d0">subsubcategory</data>
+</node>
+<edge source="ring_front_center_315980130125578376.jpg" target="Urban"/>
+<edge source="ring_front_center_315980130125578376.jpg" target="Dusk/Dawn"/>
+<edge source="ring_front_center_315980130125578376.jpg" target="Overcast"/>
+<edge source="ring_front_center_315980130125578376.jpg" target="Dry"/>
+<edge source="ring_front_center_315980130125578376.jpg" target="One"/>
+<edge source="ring_front_center_315980130125578376.jpg" target="LaneVisible"/>
+<edge source="ring_front_center_315980130125578376.jpg" target="NoSpecialLanes"/>
+<edge source="ring_front_center_315980130125578376.jpg" target="One Way"/>
+<edge source="ring_front_center_315980130125578376.jpg" target="Visible"/>
+<edge source="ring_front_center_315980130125578376.jpg" target="Sedan"/>
+<edge source="ring_front_center_315980130125578376.jpg" target="SUV"/>
+<edge source="ring_front_center_315980130125578376.jpg" target="Few"/>
+<edge source="ring_front_center_315980130125578376.jpg" target="False"/>
+<edge source="ring_front_center_315980130125578376.jpg" target="Parked"/>
+<edge source="ring_front_center_315980130125578376.jpg" target="NoPed"/>
+<edge source="ring_front_center_315980130125578376.jpg" target="One-Way"/>
+<edge source="ring_front_center_315980130125578376.jpg" target="Forward"/>
+<edge source="ring_front_center_315980130125578376.jpg" target="Moving"/>
+<edge source="ring_front_center_315980130125578376.jpg" target="Good"/>
+<edge source="ring_front_center_315980130125578376.jpg" target="Clear"/>
+<edge source="ring_front_center_315980130125578376.jpg" target="2"/>
+</graph></graphml>
