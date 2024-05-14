@@ -79,7 +79,7 @@ for scenario_name, image_list in data.items():
         try:
             TrafficSignsVisibility = image_analysis["value"]["TrafficSigns"]["Visibility"]   # this is always a string
             if TrafficSignsVisibility == "None":
-                image_analysis["value"]["TrafficSigns"]["Visibility"] = "NoSign"
+                image_analysis["value"]["TrafficSigns"]["Visibility"] = "NoTrafficSigns"
             elif TrafficSignsVisibility == "Not Visible":
                 image_analysis["value"]["TrafficSigns"]["Visibility"] = "SignNotVisible"
         except KeyError:
@@ -109,7 +109,10 @@ for scenario_name, image_list in data.items():
             image_analysis["value"]["Vehicles"]["Types"] = VehiclesTypes   
         if len(VehiclesTypes) == 1 and VehiclesTypes[0] == "None":
             VehiclesTypes[0] = "NoVehicleType"
-            image_analysis["value"]["Vehicles"]["Types"] = VehiclesTypes  
+            image_analysis["value"]["Vehicles"]["Types"] = VehiclesTypes
+        if len(VehiclesTypes) == 0:
+            VehiclesTypes = ["NoVehicleType"]
+            image_analysis["value"]["Vehicles"]["Types"] = VehiclesTypes
         temp = image_analysis["value"]["Vehicles"]["Types"]
         del image_analysis["value"]["Vehicles"]["Types"]
         image_analysis["value"]["TrafficSigns"]["VehicleTypes"] = temp             
@@ -121,7 +124,10 @@ for scenario_name, image_list in data.items():
         if len(VehiclesStates) == 1 and VehiclesStates[0] == "None":
             VehiclesStates[0] = "NoVehicleState"
             image_analysis["value"]["Vehicles"]["States"] = VehiclesStates
-
+        if len(VehiclesStates) == 0:
+            VehiclesStates = ["NoVehicleState"]
+            image_analysis["value"]["Vehicles"]["States"] = VehiclesStates
+            
         Pedestrians = image_analysis["value"]["Pedestrians"]                            # list
         if isinstance(Pedestrians, str):
             Pedestrians = Pedestrians.split(",")
@@ -153,6 +159,9 @@ for scenario_name, image_list in data.items():
                 image_analysis["value"]["Visibility"]["SpecificImpairments"] = VisibilitySpecificImpairments
             if len(VisibilitySpecificImpairments) == 1 and VisibilitySpecificImpairments[0] == "None":
                 VisibilitySpecificImpairments[0] = "NoImpairments"
+                image_analysis["value"]["Visibility"]["SpecificImpairments"] = VisibilitySpecificImpairments
+            if len(VisibilitySpecificImpairments) == 0:
+                VisibilitySpecificImpairments = ["NoImpairments"]
                 image_analysis["value"]["Visibility"]["SpecificImpairments"] = VisibilitySpecificImpairments
 
         try:

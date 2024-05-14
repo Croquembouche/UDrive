@@ -20577,8 +20577,7 @@
                 "Types": [
                   "No Parking"
                 ],
-                "Visibility": "Visible",
-                "TrafficLightState": []
+                "Visibility": "Visible"
               },
               "Vehicles": {
                 "TotalNumber": "Few",

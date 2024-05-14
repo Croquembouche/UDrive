@@ -9,6 +9,9 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import roc_auc_score
 from sklearn.model_selection import train_test_split
 from itertools import combinations
+from scipy.stats import truncnorm
+import random
+
 
 
 # Load your data
@@ -16,223 +19,382 @@ file_path = '/home/carla/Github/UDrive/unifiedAnalysis.json'  # Update this with
 with open(file_path, 'r') as file:
     data = json.load(file)
 
-def createBasicGraph():
-    # Initialize a graph
-    G = nx.DiGraph()
 
-    # Parse the data and populate the graph with nodes and edges
-    for scenario_id, entries in data.items():
-        G.add_node(scenario_id, type='scenario')
-        for entry in entries:
-            image_id = entry['id']  # Use the entry ID as the central node
-            G.add_edge(scenario_id, image_id) # always large - small
-            G.add_node(image_id, type='image')
-            
-            for category, value in entry['value'].items():
-                # Connect the entry to each category
-                G.add_node(category, type='category')
-                # G.add_edge(image_id, category)
+class DatasetAnalysis:
+    def createBasicGraph(self):
+        # Initialize a graph
+        G = nx.DiGraph()
+        subsubcategories = []
+        # Parse the data and populate the graph with nodes and edges
+        for scenario_id, entries in data.items():
+            G.add_node(scenario_id, type='scenario')
+            for entry in entries:
+                image_id = entry['id']  # Use the entry ID as the central node
+                G.add_edge(scenario_id, image_id) # always large - small
+                G.add_node(image_id, type='image')
                 
-                if isinstance(value, dict):
-                    # Handle subcategories
-                    for subcategory, subvalue in value.items():
-                        # Connect the category to its subcategory
-                        G.add_node(subcategory, type='subcategory')
-                        G.add_edge(category, subcategory)
-                        if isinstance(subvalue, list):
-                            # print(subvalue)
-                            for item in subvalue:
-                                G.add_node(item, type='subsubcategory')
-                                G.add_edge(subcategory, item)
-                                G.add_edge(image_id, item)
-                        else:
-                            G.add_node(subvalue, type='subsubcategory')
-                            G.add_edge(subcategory, subvalue)
-                            G.add_edge(image_id, subvalue)
-                        
-                        if isinstance(subvalue, list):
-                            # For lists, add each item and connect to the subcategory
-                            for item in subvalue:
-                                G.add_node(item, type='subsubcategory')
-                                G.add_edge(subcategory, item)
-                                G.add_edge(image_id, item)
-                elif isinstance(value, list):
-                    # Directly connect category to items in the list
-                    for item in value:
-                        G.add_node(item, type='subsubcategory')
-                        G.add_edge(category, item)
-                        G.add_edge(image_id, item)
-                else:
-                    G.add_node(value, type='subsubcategory')
-                    G.add_edge(category, value)
-                    G.add_edge(image_id, value)
+                for category, value in entry['value'].items():
+                    # Connect the entry to each category
+                    G.add_node(category, type='category')
+                    # G.add_edge(image_id, category)
                     
-    # Visualize the graph
-    # plt.figure(figsize=(12, 12))
-    # pos = nx.spring_layout(G, seed=42)
-    # nx.draw(G, pos, with_labels=True, node_size=20, font_size=8)
-    # plt.title("Network of Categories and Subcategories")
-    # plt.show()
-    print("Graph created")
-    # nx.write_graphml_lxml(G, "/home/carla/Github/UDrive/Analysis/ArgoVerse1/analysis_directed.graphml")
-    return G
+                    if isinstance(value, dict):
+                        # Handle subcategories
+                        for subcategory, subvalue in value.items():
+                            # Connect the category to its subcategory
+                            G.add_node(subcategory, type='subcategory')
+                            G.add_edge(category, subcategory)
+                            if isinstance(subvalue, list):
+                                # print(subvalue)
+                                for item in subvalue:
+                                    G.add_node(item, type='subsubcategory')
+                                    G.add_edge(subcategory, item)
+                                    G.add_edge(image_id, item)
+                                    if item not in subsubcategories:
+                                        subsubcategories.append(item)
+                            else:
+                                G.add_node(subvalue, type='subsubcategory')
+                                G.add_edge(subcategory, subvalue)
+                                G.add_edge(image_id, subvalue)
+                                if subvalue not in subsubcategories:
+                                        subsubcategories.append(subvalue)
+                            
+                            if isinstance(subvalue, list):
+                                # For lists, add each item and connect to the subcategory
+                                for item in subvalue:
+                                    G.add_node(item, type='subsubcategory')
+                                    G.add_edge(subcategory, item)
+                                    G.add_edge(image_id, item)
+                                    if item not in subsubcategories:
+                                        subsubcategories.append(item)
+                    elif isinstance(value, list):
+                        # Directly connect category to items in the list
+                        for item in value:
+                            G.add_node(item, type='subsubcategory')
+                            G.add_edge(category, item)
+                            G.add_edge(image_id, item)
+                            if item not in subsubcategories:
+                                subsubcategories.append(item)
+                    else:
+                        G.add_node(value, type='subsubcategory')
+                        G.add_edge(category, value)
+                        G.add_edge(image_id, value)
+                        if value not in subsubcategories:
+                            subsubcategories.append(value)
+                        
+        # Visualize the graph
+        # plt.figure(figsize=(12, 12))
+        # pos = nx.spring_layout(G, seed=42)
+        # nx.draw(G, pos, with_labels=True, node_size=20, font_size=8)
+        # plt.title("Network of Categories and Subcategories")
+        # plt.show()
+        print("Graph created")
+        # num_edges = G.number_of_edges()
+        # num_nodes = G.number_of_nodes()
+        self.G = G
+        # print(subsubcategories)
+        print(f"{len(subsubcategories)} number of subsubcategories")
+        # print(f"Number of Edges: {num_edges}")
+        # print(f"Number of Edges: {num_nodes}")
+        # nx.write_graphml_lxml(G, "/home/carla/Github/UDrive/Analysis/ArgoVerse1/analysis_directed.graphml")
+        # return G
 
 
-def analyasisDegreeCentrality(G, x):
-    degree_centrality = nx.degree_centrality(G)
-    top_x = sorted(degree_centrality, key=degree_centrality.get, reverse=True)[:x]
-    for key in top_x:
-        print(f"The most {x} common occurances are Key: {key}, Value: {degree_centrality[key]}")  
+    def calculateDegreeCentrality(self, x):
+        degree_centrality = nx.degree_centrality(self.G)
+        top_x = sorted(degree_centrality, key=degree_centrality.get, reverse=True)[:x]
+        for key in top_x:
+            print(f"The most {x} common occurances are Key: {key}, Value: {degree_centrality[key]}")  
 
-def calculateJaccardsimilarity(graph1, graph2):
-    # Example: Using Jaccard similarity on the edge sets
-    nodes1 = set(graph1.nodes())
-    nodes2 = set(graph2.nodes())
-    # print(nodes1)
-    intersection = nodes1.intersection(nodes2)
-    union = nodes1.union(nodes2)
-    similarity = len(intersection) / len(union)
-    return similarity
 
-def calculate_subgraph_density(graph):
-    # This function calculates the density for subgraphs centered on each image
-    densities = {}
-    for node in graph.nodes():
-        if graph.nodes[node]['type'] == 'image':
-            # Get descendants that form the subgraph for this image
-            descendants = nx.descendants(graph, node)
-            subgraph = graph.subgraph(descendants.union({node}))
-            densities[node] = nx.density(subgraph)
-        elif graph.nodes[node]['type'] == 'scenario':
-            scenario_name = node
-    
-    avg_density = sum(densities.values())/len(densities)
-    min_density = min(densities.values())
-    max_density = max(densities.values())
-    range_density = max_density - min_density
-    if range_density > 0:
-        normalized_densities = {key: (values - min_density) / range_density for key, values in densities.items()}
-    else:
-        normalized_densities = {key: 0 for key, value in densities.items()}
-    scenario_info = {
-        'scenario_name': scenario_name,
-        'densities': densities,
-        'avg_density': avg_density,
-        'min_density': min_density,
-        'max_density': max_density,
-        'normalized_density': normalized_densities
-    }
-    return scenario_info
+    def calculateBetweennessCentrality(self):
+        # Calculate betweenness centrality for all nodes
+        centrality = nx.betweenness_centrality(self.G)
         
+        values = list(centrality.values())
 
-# ---------------------- Functions that are in Progress ---------------------------
+        # Calculate the 95th percentile as the threshold
+        threshold = np.percentile(values, 95)
 
-def compareScenarios(G): 
-    scenario_subgraph_list = []
-    for node, attrs in G.nodes(data=True):
-        # print(node[0])
-        if attrs.get('type') == "scenario":
-            reachable_from_node = nx.descendants(G, node)
-            reachable_from_node.add(node)
-            subgraph = G.subgraph(reachable_from_node)
-            scenario_subgraph_list.append(subgraph)    
-            # nx.write_graphml_lxml(subgraph, f"/home/carla/Github/UDrive/Analysis/ArgoVerse1/scenario_subgraphs/subgraph_directed{node}.graphml")
-    
-    scenario_data = []
-    for scenario in scenario_subgraph_list:
-        scenario_info = calculate_subgraph_density(scenario)
-        scenario_data.append(scenario_info)
-    
-    with open('/home/carla/Github/UDrive/Analysis/ArgoVerse1/results/scenario_densities.csv', 'w', newline='') as csvfile:
-        fieldnames = ['scenario_name', 'densities', 'avg_density', 'min_density','max_density', 'normalized_density']
-        writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
+        # Identify nodes with high betweenness centrality above the 95th percentile
+        high_centrality_nodes = [node for node, cent in centrality.items() if cent >= threshold and ".jpg" not in node]
+
+        print(f"High Centrality Nodes: {high_centrality_nodes}")
+
+
+    def calculateJaccardsimilarity(self, graph1, graph2):
+        # Example: Using Jaccard similarity on the edge sets
+        nodes1 = set(graph1.nodes())
+        nodes2 = set(graph2.nodes())
+        # print(nodes1)
+        # print(nodes2)
+        intersection = nodes1.intersection(nodes2)
+        # print(intersection)
+        union = nodes1.union(nodes2)
+        # print(union)
+        similarity = len(intersection) / len(union)
+        # print(similarity)
+        return similarity
+
+    def calculate_subgraph_density(self, graph):
+        # This function calculates the density for subgraphs centered on each image
+        densities = {}
+        for node in graph.nodes():
+            if graph.nodes[node]['type'] == 'image':
+                # Get descendants that form the subgraph for this image
+                descendants = nx.descendants(graph, node)
+                subgraph = graph.subgraph(descendants.union({node}))
+                densities[node] = nx.density(subgraph)
+            elif graph.nodes[node]['type'] == 'scenario':
+                scenario_name = node
         
-        writer.writeheader()
-        for data in scenario_data:
-            # Flatten the 'densities' dictionary into a string to fit in a single CSV cell
-            data['densities'] = ', '.join(f"{k}:{v}" for k, v in data['densities'].items())
-            # print(data)
-            writer.writerow(data)
+        avg_density = sum(densities.values())/len(densities)
+        min_density = min(densities.values())
+        max_density = max(densities.values())
+        range_density = max_density - min_density
+        if range_density > 0:
+            normalized_densities = {key: (values - min_density) / range_density for key, values in densities.items()}
+        else:
+            normalized_densities = {key: 0 for key, value in densities.items()}
+        scenario_info = {
+            'scenario_name': scenario_name,
+            'densities': densities,
+            'avg_density': avg_density,
+            'min_density': min_density,
+            'max_density': max_density,
+            'normalized_density': normalized_densities
+        }
+        return scenario_info
+
+
+    def calculateImageNodeDistribution(self, image_subgraph_list):
+        image_subgraph_num_node = []
+        for subgraph in image_subgraph_list:
+            image_subgraph_num_node.append(subgraph.number_of_nodes()-1) # -1 to remove the root node
+        print(f"Number of images: {len(image_subgraph_list)}")
+        print(f"min_value: {np.min(image_subgraph_num_node)}, max_value: {np.max(image_subgraph_num_node)}, average_value: {np.mean(image_subgraph_num_node)}, std: {np.std(image_subgraph_num_node)}")
+
+    def get_truncated_normal(self, mean=0, sd=1, low=0, upp=10):
+        """Return a sample from a truncated normal distribution"""
+        return truncnorm(
+            (low - mean) / sd, (upp - mean) / sd, loc=mean, scale=sd)
+
+
+    def matrixAnalysis(self, matrix):
+        mask = matrix != 1.0
+        filtered_matrix = matrix[mask]
+        # Calculate mean ignoring 1s
+        mean_value = np.mean(filtered_matrix)
+        # Calculate minimum ignoring 1s
+        min_value = np.min(filtered_matrix)
+        # Calculate maximum ignoring 1s
+        max_value = np.max(filtered_matrix)
+        print(f"Mean: {mean_value}, Min: {min_value}, Max: {max_value}")
+
+    def createRandomImageGraph(self):
+        NUM_NODES = 161  # Includes the root node
+        MEAN_CONNECTIONS = 23.233253588516746
+        STD_DEV_CONNECTIONS = 1.9575383520655978
+        MIN_CONNECTIONS = 19
+
+        graph = nx.DiGraph()
+        # Add nodes (node 0 is the root node)
+        graph.add_nodes_from(range(NUM_NODES))
+
+        # Define root and special categories nodes
+        root_node = 0
+        special_categories = {
+            'scene_node': random.randint(1, 5),
+            'timeofday_node': random.randint(6, 8),
+            'weather_node': random.randint(9, 15),
+            'roadcondition_node': random.randint(16, 17),
+            'numlane_node': random.randint(18, 23),
+            'lanemarking_node': random.randint(24, 26),
+            'trafvis_node': random.randint(67, 69),
+            'trafstate_node': random.randint(70, 73),
+            'vehiclenum_node': random.randint(74, 76),
+            'direction_node': random.randint(120, 124),
+            'egodirection_node': random.randint(125, 129),
+            'egomanu_node': random.randint(130, 137),
+            'vis_node': random.randint(138, 141),
+            'cam_node': random.randint(142, 145),
+            'sev_node': random.randint(151, 160),
+        }
+
+        # Nodes to choose multiple from and their potential ranges
+        multiple_connection_categories = {
+            'speciallane_node': range(27, 37),
+            'vehiclemotion_node': range(77, 79),
+            'vehicletype_node': range(79, 105),
+            'vehiclestate_node': range(105, 116),
+            'ped_node': range(116, 120),
+            'impair_node': range(146, 151),
+        }
+
+        # Add edges from root node to special categories nodes
+        for node in special_categories.values():
+            graph.add_edge(root_node, node)
+
+        # Adjust total number of connections from the root, including the special categories
+        additional_connections_needed = max(MIN_CONNECTIONS, int(random.gauss(MEAN_CONNECTIONS, STD_DEV_CONNECTIONS))) - len(special_categories)
+        additional_connections_needed = max(0, additional_connections_needed)  # Ensure no negative number
+        potential_child_nodes = [n for n in range(1, NUM_NODES) if n not in special_categories.values()]
+
+        # Randomly choose additional nodes to connect from the root, avoiding duplicates
+        additional_child_nodes = random.sample(potential_child_nodes, min(additional_connections_needed, len(potential_child_nodes)))
+
+        # Connect these additional nodes to the root
+        for node in additional_child_nodes:
+            graph.add_edge(root_node, node)
+
+        # Remove unconnected nodes
+        unconnected_nodes = [node for node in graph.nodes if graph.degree(node) == 0]
+        graph.remove_nodes_from(unconnected_nodes)
+        
+        return graph
     
+    def randomAnalysis(self, similarity_threshold=0.9):
+        random_image_graph = []
+        for i in range(836):
+            temp = self.createRandomImageGraph()
+            random_image_graph.append(temp)
+            nx.write_graphml_lxml(temp, f"/home/carla/Github/UDrive/Analysis/ArgoVerse1/random_graphs/random_subgraph_directed-{i}.graphml")
+        n = len(random_image_graph)
+        similarity_matrix = similarity_matrix = np.zeros((n, n), dtype=object)
+        for i in range(0,n):
+            for j in range(i, n):
+                sim = self.calculateJaccardsimilarity(random_image_graph[i], random_image_graph[j])
+                similarity_matrix[i][j] = sim
+                similarity_matrix[j][i] = sim
+            similarity_matrix[i][i] = 1
+        self.matrixAnalysis(similarity_matrix)
+        to_remove = set()
+        similar_count = 0
+        for i in range(0, n):
+            for j in range(0, n):
+                if i != j and similarity_matrix[i][j] > similarity_threshold:
+                    to_remove.add(i)
+                    similar_count+=1
+                    break
+        print(f"Found {similar_count//2} number of similar scenes with threshold at {similarity_threshold}")
 
-  
 
-def compareImages(G): 
-    image_subgraph_list = []
-    image_names = []
-    image_count = 0
-    connection_count = 0
-    for node, attrs in G.nodes(data=True):
-        if attrs.get('type') == "image":
-            image_names.append(node)
-            direct_descendants = {node}
-            image_count += 1     
-            # # Add direct children (assuming direct connections to categories/subcategories)
-            for successor in G.successors(node):  # Directly connected nodes
-                direct_descendants.add(successor)
-                connection_count += 1
-            #     # If you also want subcategories directly connected to categories:
-            #     for sub_successor in G.successors(successor):
-            #         direct_descendants.add(sub_successor)
+    # ---------------------- Functions that are in Progress ---------------------------
+
+    def compareScenarios(self): 
+        scenario_subgraph_list = []
+        for node, attrs in self.G.nodes(data=True):
+            # print(node[0])
+            if attrs.get('type') == "scenario":
+                reachable_from_node = nx.descendants(self.G, node)
+                reachable_from_node.add(node)
+                subgraph = self.G.subgraph(reachable_from_node)
+                scenario_subgraph_list.append(subgraph)    
+                # nx.write_graphml_lxml(subgraph, f"/home/carla/Github/UDrive/Analysis/ArgoVerse1/scenario_subgraphs/subgraph_directed{node}.graphml")
+        # self.calculateBetweennessCentrality()
+        scenario_data = []
+        for scenario in scenario_subgraph_list:
+            scenario_info = self.calculate_subgraph_density(scenario)
+            scenario_data.append(scenario_info)
+        
+        with open('/home/carla/Github/UDrive/Analysis/ArgoVerse1/results/scenario_densities.csv', 'w', newline='') as csvfile:
+            fieldnames = ['scenario_name', 'densities', 'avg_density', 'min_density','max_density', 'normalized_density']
+            writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
             
-            # # Now create and save the subgraph for the image and its direct descendants
-            subgraph = G.subgraph(direct_descendants)
-            image_subgraph_list.append(subgraph)    
-            # nx.write_graphml_lxml(subgraph, f"/home/carla/Github/UDrive/Analysis/ArgoVerse1/image_subgraphs/subgraph_directed{node}.graphml")
-    image_average_degree = connection_count/image_count - 1
-    print(f"Average degree of image node is {image_average_degree}")
-    n = len(image_subgraph_list)
-    similarity_matrix = [[0] * (n + 1) for _ in range(n + 1)]
+            writer.writeheader()
+            for data in scenario_data:
+                # Flatten the 'densities' dictionary into a string to fit in a single CSV cell
+                data['densities'] = ', '.join(f"{k}:{v}" for k, v in data['densities'].items())
+                # print(data)
+                writer.writerow(data)
+        
 
-    # Set the first row and first column to image names
-    similarity_matrix[0] = [''] + image_names  # First row, starting with an empty string for the top-left cell
-    for i in range(1, n + 1):
-        similarity_matrix[i][0] = image_names[i - 1] 
+    def compareImages(self, similarity_threshold=0.9): 
+        image_subgraph_list = []
+        image_names = []
+        image_count = 0
+        connection_count = 0
+        for node, attrs in self.G.nodes(data=True):
+            if attrs.get('type') == "image":
+                image_names.append(node)
+                direct_descendants = {node}
+                image_count += 1
+                    
+                # # Add direct children (assuming direct connections to categories/subcategories)
+                for successor in self.G.successors(node):  # Directly connected nodes
+                    direct_descendants.add(successor)
+                    connection_count += 1
+                #     # If you also want subcategories directly connected to categories:
+                #     for sub_successor in G.successors(successor):
+                #         direct_descendants.add(sub_successor)
+                
+                # # Now create and save the subgraph for the image and its direct descendants
+                subgraph = self.G.subgraph(direct_descendants)
+                image_subgraph_list.append(subgraph)   
+                # nx.write_graphml_lxml(subgraph, f"/home/carla/Github/UDrive/Analysis/ArgoVerse1/image_subgraphs/subgraph_directed{node}.graphml")
+        self.calculateImageNodeDistribution(image_subgraph_list)
+        n = len(image_subgraph_list)
+        similarity_matrix = np.zeros((n + 1, n + 1), dtype=object)
+        
+        # Set the first row and first column to image names
+        similarity_matrix[0] = [''] + image_names  # First row, starting with an empty string for the top-left cell
+        for i in range(1, n + 1):
+            similarity_matrix[i][0] = image_names[i - 1] 
 
-    # Calculate similarities
-    for i in range(n):
-        for j in range(i+1, n):
-            sim = calculateJaccardsimilarity(image_subgraph_list[i], image_subgraph_list[j])
-            similarity_matrix[i+1][j+1] = sim
-            similarity_matrix[j+1][i+1] = sim
-        similarity_matrix[i + 1][i + 1] = 1
+        # Calculate similarities
+        for i in range(n):
+            for j in range(i+1, n):
+                sim = self.calculateJaccardsimilarity(image_subgraph_list[i], image_subgraph_list[j])
+                similarity_matrix[i+1][j+1] = sim
+                similarity_matrix[j+1][i+1] = sim
+            similarity_matrix[i + 1][i + 1] = 1
+        self.matrixAnalysis(similarity_matrix[1:, 1:] )
+        
+        # print(f"average: {average}, min: {min_value}, max: {max_value}")
+        # with open('/home/carla/Github/UDrive/Analysis/ArgoVerse1/results/imageJaccardSimilaritymatrix.csv', 'w', newline='') as f:
+        #     writer = csv.writer(f)
+        #     writer.writerows(similarity_matrix)
+
+        # Filter images based on similarity threshold
+        to_remove = set()
+        similar_count = 0
+        for i in range(1, n+1):
+            for j in range(1, n+1):
+                if i != j and similarity_matrix[i][j] > similarity_threshold:
+                    # print(i, j)
+                    to_remove.add(i)
+                    similar_count+=1
+                    break
+                    # print(similarity_matrix[i][j])
+                    print(similarity_matrix[i][0], similarity_matrix[j][0])
+        print(f"Found {similar_count//2} number of similar scenes with threshold at {similarity_threshold}")
+
+        # # Writing to CSV while skipping filtered out graphs
+        # filtered_similarity_matrix = [row for index, row in enumerate(similarity_matrix) if index not in to_remove]
+        # filtered_image_names = [name for index, name in enumerate(image_names) if index not in to_remove]
+
+        # with open('/home/carla/Github/UDrive/Analysis/ArgoVerse1/results/filtered_imageJaccardSimilaritymatrix.csv', 'w', newline='') as f:
+        #     writer = csv.writer(f)
+        #     writer.writerow([''] + filtered_image_names)
+        #     for name, row in zip(filtered_image_names, filtered_similarity_matrix):
+        #         writer.writerow([name] + row)
+    
 
 
-    with open('imageJaccardSimilaritymatrix.csv', 'w', newline='') as f:
-        writer = csv.writer(f)
-        writer.writerows(similarity_matrix)
 
 
-def analyzeCombinations(G):
-    category_combinations = {}
-    for node, data in G.nodes(data=True):
-        if data['type'] == 'image':
-            categories = [n for n in nx.descendants(G, node) if G.nodes[n]['type'] == 'category']
-            print(categories)
-            for size in range(2, len(categories)+1):
-                for comb in combinations(categories, size):
-                    comb = tuple(sorted(comb))
-                    if comb not in category_combinations:
-                        category_combinations[comb] = 0
-                    category_combinations[comb] += 1
-    return category_combinations
+G = DatasetAnalysis()
 
-def predictMissingCombinations(observed_combinations):
-    # Placeholder for predicting missing combinations based on observed
-    # This could involve comparing with a model or expected patterns
-    # For simplicity, here we might look for combinations that are below a certain frequency threshold
-    missing_combinations = {comb: count for comb, count in observed_combinations.items() if count < 3}  # Example threshold
-    return missing_combinations
-
-G = createBasicGraph()
-# compareScenarios(G)
-# compareImages(G)
-# analyasisDegreeCentrality(G, 20)
+G.createBasicGraph()
+print("Compare Scenarios")
+G.compareScenarios()
+print("ArgoVerse Results")
+G.compareImages(0.9)
+G.calculateDegreeCentrality(10)
+print("Random Graph Results")
+G.randomAnalysis(0.5)
 
 
-category_combinations = analyzeCombinations(G)
-missing_combinations = predictMissingCombinations(category_combinations)
-print(missing_combinations)
 
 
 

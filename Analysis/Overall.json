@@ -13,7 +13,7 @@
         "Unknown",
         "Rural"
     ],
-    "TimeOfDay":[
+    "TimeOfDay": [
         "Daytime",
         "Dusk/Dawn",
         "Nighttime"
@@ -55,7 +55,8 @@
             "Street Parking",
             "Tram Tracks",
             "HOV Lane",
-            "Crosswalk"
+            "Crosswalk",
+            "Bike Lane Sign"
         ]
     },
     "TrafficSigns": {
@@ -85,18 +86,21 @@
             "No Turn on Red",
             "Route Sign",
             "One Way",
-            "Detour",
             "Share the Road",
             "Road Work Ahead",
             "Road Closed",
-            "None"
+            "None",
+            "Parking Sign",
+            "NoTrafficSigns",
+            "NoSign"
         ],
         "Visibility": [
             "Visible",
             "Not Visible",
-            "Not Clearly Visible"
+            "Not Clearly Visible",
+            "SignNotVisible"
         ],
-        "TrafficLightState":[
+        "TrafficLightState": [
             "Red",
             "Green",
             "Yellow"
@@ -105,8 +109,6 @@
     "Vehicles": {
         "TotalNumber": [
             "None",
-            "None",
-            "None",
             "Few",
             "Multiple"
         ],
@@ -114,7 +116,7 @@
             "True",
             "False"
         ],
-        "Types": [
+        "VehicleTypes": [
             "Pickup Truck",
             "Sedan",
             "Bicycle",
@@ -127,8 +129,20 @@
             "Cement Mixer Truck",
             "Utility Truck",
             "Delivery Truck",
+            "Commercial Delivery Truck",
             "Police Car",
-            "Service Vehicle"
+            "Service Vehicle",
+            "Commercial Vehicle",
+            "Taxi",
+            "Convertible",
+            "Crossover",
+            "Motorcycle",
+            "Box Truck",
+            "Station Wagon",
+            "Minivan",
+            "Biodiesel Vehicle",
+            "Commercial Truck",
+            "Coupe"
         ],
         "States": [
             "Parked",
@@ -188,7 +202,8 @@
             "Camera glare",
             "Obstructed",
             "Shadows",
-            "Reduced"
+            "Reduced",
+            "NoImpairments"
         ]
     },
     "CameraCondition": [
@@ -197,5 +212,7 @@
         "Blurry due to Dust/Snow",
         "Glare"
     ],
-    "Severity": [1,2,3,4,5,6,7,8,9,10]
+    "Severity": [
+        1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+    ]
 }

@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><graph edgedefault="directed"><node id="0"/>
+<node id="4"/>
+<node id="6"/>
+<node id="11"/>
+<node id="15"/>
+<node id="17"/>
+<node id="18"/>
+<node id="24"/>
+<node id="27"/>
+<node id="29"/>
+<node id="68"/>
+<node id="72"/>
+<node id="74"/>
+<node id="102"/>
+<node id="109"/>
+<node id="110"/>
+<node id="112"/>
+<node id="120"/>
+<node id="127"/>
+<node id="134"/>
+<node id="141"/>
+<node id="143"/>
+<node id="145"/>
+<node id="148"/>
+<node id="152"/>
+<edge source="0" target="4"/>
+<edge source="0" target="6"/>
+<edge source="0" target="11"/>
+<edge source="0" target="17"/>
+<edge source="0" target="18"/>
+<edge source="0" target="24"/>
+<edge source="0" target="68"/>
+<edge source="0" target="72"/>
+<edge source="0" target="74"/>
+<edge source="0" target="120"/>
+<edge source="0" target="127"/>
+<edge source="0" target="134"/>
+<edge source="0" target="141"/>
+<edge source="0" target="145"/>
+<edge source="0" target="152"/>
+<edge source="0" target="110"/>
+<edge source="0" target="112"/>
+<edge source="0" target="29"/>
+<edge source="0" target="143"/>
+<edge source="0" target="102"/>
+<edge source="0" target="15"/>
+<edge source="0" target="148"/>
+<edge source="0" target="109"/>
+<edge source="0" target="27"/>
+</graph></graphml>
