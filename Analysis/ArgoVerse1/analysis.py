@@ -25,6 +25,9 @@ class DatasetAnalysis:
         # Initialize a graph
         G = nx.DiGraph()
         subsubcategories = []
+        low = 0
+        medium = 0
+        high = 0
         # Parse the data and populate the graph with nodes and edges
         for scenario_id, entries in data.items():
             G.add_node(scenario_id, type='scenario')
@@ -37,7 +40,13 @@ class DatasetAnalysis:
                     # Connect the entry to each category
                     G.add_node(category, type='category')
                     # G.add_edge(image_id, category)
-                    
+                    if category == "Severity":
+                        if 1 <= value and value <= 3: 
+                            low += 1
+                        elif 3 <= value and value <= 6: 
+                            medium += 1
+                        elif 7 <= value and value <= 10: 
+                            high += 1
                     if isinstance(value, dict):
                         # Handle subcategories
                         for subcategory, subvalue in value.items():
@@ -94,6 +103,7 @@ class DatasetAnalysis:
         self.G = G
         # print(subsubcategories)
         print(f"{len(subsubcategories)} number of subsubcategories")
+        print(f"The dataset contains {low} low-risk scenes, {medium} medium-risk scenes, and {high} high-risk scenes.")
         # print(f"Number of Edges: {num_edges}")
         # print(f"Number of Edges: {num_nodes}")
         # nx.write_graphml_lxml(G, "/home/carla/Github/UDrive/Analysis/ArgoVerse1/analysis_directed.graphml")
@@ -191,7 +201,7 @@ class DatasetAnalysis:
         max_value = np.max(filtered_matrix)
         print(f"Mean: {mean_value}, Min: {min_value}, Max: {max_value}")
 
-    def createRandomImageGraph(self):
+    def createRandomImageGraph(self, root_node):
         NUM_NODES = 161  # Includes the root node
         MEAN_CONNECTIONS = 23.233253588516746
         STD_DEV_CONNECTIONS = 1.9575383520655978
@@ -202,7 +212,6 @@ class DatasetAnalysis:
         graph.add_nodes_from(range(NUM_NODES))
 
         # Define root and special categories nodes
-        root_node = 0
         special_categories = {
             'scene_node': random.randint(1, 5),
             'timeofday_node': random.randint(6, 8),
@@ -234,6 +243,7 @@ class DatasetAnalysis:
         # Add edges from root node to special categories nodes
         for node in special_categories.values():
             graph.add_edge(root_node, node)
+        
 
         # Adjust total number of connections from the root, including the special categories
         additional_connections_needed = max(MIN_CONNECTIONS, int(random.gauss(MEAN_CONNECTIONS, STD_DEV_CONNECTIONS))) - len(special_categories)
@@ -256,9 +266,10 @@ class DatasetAnalysis:
     def randomAnalysis(self, similarity_threshold=0.9):
         random_image_graph = []
         for i in range(836):
-            temp = self.createRandomImageGraph()
+            temp = self.createRandomImageGraph(root_node=i+10000)
             random_image_graph.append(temp)
             nx.write_graphml_lxml(temp, f"/home/carla/Github/UDrive/Analysis/ArgoVerse1/random_graphs/random_subgraph_directed-{i}.graphml")
+        self.random_image_graph = random_image_graph
         n = len(random_image_graph)
         similarity_matrix = similarity_matrix = np.zeros((n, n), dtype=object)
         for i in range(0,n):
@@ -275,8 +286,49 @@ class DatasetAnalysis:
                 if i != j and similarity_matrix[i][j] > similarity_threshold:
                     to_remove.add(i)
                     similar_count+=1
-                    break
-        print(f"Found {similar_count//2} number of similar scenes with threshold at {similarity_threshold}")
+        print(f"Found {similar_count//2} pairs of similar scenes with threshold at {similarity_threshold}")
+        
+        # do it again for threshold = 0.5
+        similarity_threshold = 0.4
+        similarity_matrix = similarity_matrix = np.zeros((n, n), dtype=object)
+        for i in range(0,n):
+            for j in range(i, n):
+                sim = self.calculateJaccardsimilarity(random_image_graph[i], random_image_graph[j])
+                similarity_matrix[i][j] = sim
+                similarity_matrix[j][i] = sim
+            similarity_matrix[i][i] = 1
+        self.matrixAnalysis(similarity_matrix)
+        to_remove = set()
+        similar_count = 0
+        for i in range(0, n):
+            for j in range(0, n):
+                if i != j and similarity_matrix[i][j] > similarity_threshold:
+                    to_remove.add(i)
+                    similar_count+=1
+        print(f"Found {similar_count//2} pairs of similar scenes with threshold at {similarity_threshold}")
+
+    def checkScenario(self, image1, image2):
+        im1_parent = ""
+        im2_parent = ""
+        
+        found1 = False
+        found2 = False
+        while found1 == False and found2 == False:
+            for scenario in self.scenario_subgraph_list:
+                for node, attrs in scenario.nodes(data=True):   
+                    if attrs.get('type') == "image" and node == image1:
+                        im1_parent = [source for source, dest in scenario.edges() if dest == node][0]
+                        found1 = True
+                    if attrs.get('type') == "image" and node == image2:
+                        im2_parent = [source for source, dest in scenario.edges() if dest == node][0]
+                        found2 = True
+        # print(im1_parent, im2_parent)
+        if im1_parent == im2_parent:
+            return 1
+        else:
+            return 0
+
+
 
 
     # ---------------------- Functions that are in Progress ---------------------------
@@ -296,17 +348,18 @@ class DatasetAnalysis:
         for scenario in scenario_subgraph_list:
             scenario_info = self.calculate_subgraph_density(scenario)
             scenario_data.append(scenario_info)
-        
-        with open('/home/carla/Github/UDrive/Analysis/ArgoVerse1/results/scenario_densities.csv', 'w', newline='') as csvfile:
-            fieldnames = ['scenario_name', 'densities', 'avg_density', 'min_density','max_density', 'normalized_density']
-            writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
+        self.scenario_subgraph_list = scenario_subgraph_list
+        print(f"Total {len(scenario_subgraph_list)} scenarios")
+        # with open('/home/carla/Github/UDrive/Analysis/ArgoVerse1/results/scenario_densities.csv', 'w', newline='') as csvfile:
+        #     fieldnames = ['scenario_name', 'densities', 'avg_density', 'min_density','max_density', 'normalized_density']
+        #     writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
             
-            writer.writeheader()
-            for data in scenario_data:
-                # Flatten the 'densities' dictionary into a string to fit in a single CSV cell
-                data['densities'] = ', '.join(f"{k}:{v}" for k, v in data['densities'].items())
-                # print(data)
-                writer.writerow(data)
+        #     writer.writeheader()
+        #     for data in scenario_data:
+        #         # Flatten the 'densities' dictionary into a string to fit in a single CSV cell
+        #         data['densities'] = ', '.join(f"{k}:{v}" for k, v in data['densities'].items())
+        #         # print(data)
+        #         writer.writerow(data)
         
 
     def compareImages(self, similarity_threshold=0.9): 
@@ -358,16 +411,20 @@ class DatasetAnalysis:
         # Filter images based on similarity threshold
         to_remove = set()
         similar_count = 0
+        same_scenario = 0
+        different_scenario = 0
         for i in range(1, n+1):
             for j in range(1, n+1):
                 if i != j and similarity_matrix[i][j] > similarity_threshold:
-                    # print(i, j)
                     to_remove.add(i)
                     similar_count+=1
-                    break
-                    # print(similarity_matrix[i][j])
-                    print(similarity_matrix[i][0], similarity_matrix[j][0])
-        print(f"Found {similar_count//2} number of similar scenes with threshold at {similarity_threshold}")
+                    if similarity_matrix[i][0] != similarity_matrix[j][0]:
+                        same = self.checkScenario(similarity_matrix[i][0], similarity_matrix[j][0])
+                        if same:
+                            same_scenario += 1
+                        else:
+                            different_scenario += 1
+        print(f"Found {similar_count//2} number of similar scenes with threshold at {similarity_threshold}. {same_scenario//2} pairs come from the same scenario, {different_scenario//2} pairs come from different scenarios.")
 
         # # Writing to CSV while skipping filtered out graphs
         # filtered_similarity_matrix = [row for index, row in enumerate(similarity_matrix) if index not in to_remove]
@@ -380,19 +437,36 @@ class DatasetAnalysis:
         #         writer.writerow([name] + row)
     
 
+    def createRandomDataset(self):
+        random_dataset = nx.DiGraph()
+        # scenario_nodes = ['scenario_' + str(i) for i in range(65)]
+        # random_dataset.add_nodes_from(scenario_nodes)
+        for subgraph in self.random_image_graph:
+            for node in subgraph.nodes():
+                random_dataset.add_node(node)
+            
+            for edge in subgraph.edges():
+                u,v = edge
+                random_dataset.add_edge(u, v)
+
+        nx.write_graphml_lxml(random_dataset, f"/home/carla/Github/UDrive/Analysis/ArgoVerse1/randomdataset.graphml")
+
+        
+
+
 
 
 
 G = DatasetAnalysis()
-
 G.createBasicGraph()
 print("Compare Scenarios")
 G.compareScenarios()
-print("ArgoVerse Results")
-G.compareImages(0.9)
-G.calculateDegreeCentrality(10)
+# print("ArgoVerse Results")
+# G.compareImages(0.8)
+# G.calculateDegreeCentrality(10)
 print("Random Graph Results")
-G.randomAnalysis(0.5)
+G.randomAnalysis()
+G.createRandomDataset()
 
 
 
