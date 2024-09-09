@@ -1,0 +1,2 @@
+DQN and PPO trained very fast and can be generalized to mulitple different random spawn locations with limited action space and state space.
+A2C can't be generalized and is very prone to stuck in wall situations.
