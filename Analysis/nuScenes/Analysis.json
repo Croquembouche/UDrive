@@ -1322,18 +1322,426 @@
       "Severity": 9
     }
     ,
-    "n008-2018-05-21-11-06-59-0400__CAM_FRONT__1526915377912465.jpg": "",
-    "n008-2018-05-21-11-06-59-0400__CAM_FRONT__1526915379112465.jpg": "",
-    "n008-2018-05-21-11-06-59-0400__CAM_FRONT__1526915381112465.jpg": "",
-    "n008-2018-05-21-11-06-59-0400__CAM_FRONT__1526915383262465.jpg": "",
-    "n008-2018-05-21-11-06-59-0400__CAM_FRONT__1526915385862466.jpg": "",
-    "n008-2018-05-21-11-06-59-0400__CAM_FRONT__1526915388662465.jpg": "",
-    "n008-2018-05-21-11-06-59-0400__CAM_FRONT__1526915389662465.jpg": "",
-    "n008-2018-05-21-11-06-59-0400__CAM_FRONT__1526915392362465.jpg": "",
-    "n008-2018-05-21-11-06-59-0400__CAM_FRONT__1526915413262465.jpg": "",
-    "n008-2018-05-21-11-06-59-0400__CAM_FRONT__1526915414162465.jpg": "",
-    "n008-2018-05-21-11-06-59-0400__CAM_FRONT__1526915414612465.jpg": "",
-    "n008-2018-05-21-11-06-59-0400__CAM_FRONT__1526915416412465.jpg": "",
+    "n008-2018-05-21-11-06-59-0400__CAM_FRONT__1526915377912465.jpg": {
+      "Scene": "Commercial",
+      "TimeOfDay": "Daytime",
+      "Weather": "Clear",
+      "RoadConditions": "Dry",
+      "LaneInformation": {
+        "NumberOfLanes": "2",
+        "LaneMarkings": "Not Clearly Visible",
+        "SpecialLanes": "Street Parking"
+      },
+      "TrafficSigns": {
+        "Types": "Pedestrian Crossing",
+        "Visibility": "Visible"
+      },
+      "Vehicles": {
+        "TotalNumber": "Few",
+        "InMotion": "False",
+        "VehicleTypes": ["Pickup Truck", "Service Vehicle", "Construction Vehicles"],
+        "States": "Parked"
+      },
+      "Pedestrians": "None",
+      "Directionality": "One-Way",
+      "Ego-Vehicle": {
+        "Direction": "Forward",
+        "Maneuver": "Moving"
+      },
+      "Visibility": {
+        "General": "Good",
+        "SpecificImpairments": "NoImpairments"
+      },
+      "CameraCondition": "Clear",
+      "Severity": 2
+    }
+    ,
+    "n008-2018-05-21-11-06-59-0400__CAM_FRONT__1526915379112465.jpg": {
+      "Scene": "Commercial",
+      "TimeOfDay": "Daytime",
+      "Weather": "Clear",
+      "RoadConditions": "Dry",
+      "LaneInformation": {
+        "NumberOfLanes": "2",
+        "LaneMarkings": "Visible",
+        "SpecialLanes": "Crosswalk"
+      },
+      "TrafficSigns": {
+        "Types": "Pedestrian Crossing",
+        "Visibility": "Visible"
+      },
+      "Vehicles": {
+        "TotalNumber": "Few",
+        "InMotion": "False",
+        "VehicleTypes": ["Pickup Truck", "Utility Truck", "Construction Vehicles"],
+        "States": "Parked"
+      },
+      "Pedestrians": "None",
+      "Directionality": "One-Way",
+      "Ego-Vehicle": {
+        "Direction": "Forward",
+        "Maneuver": "Moving"
+      },
+      "Visibility": {
+        "General": "Good",
+        "SpecificImpairments": "NoImpairments"
+      },
+      "CameraCondition": "Clear",
+      "Severity": 3
+    }
+    ,
+    "n008-2018-05-21-11-06-59-0400__CAM_FRONT__1526915381112465.jpg": {
+      "Scene": "Commercial",
+      "TimeOfDay": "Daytime",
+      "Weather": "Clear",
+      "RoadConditions": "Dry",
+      "LaneInformation": {
+        "NumberOfLanes": "2",
+        "LaneMarkings": "Visible",
+        "SpecialLanes": "Crosswalk"
+      },
+      "TrafficSigns": {
+        "Types": "Pedestrian Crossing",
+        "Visibility": "Visible"
+      },
+      "Vehicles": {
+        "TotalNumber": "Few",
+        "InMotion": "False",
+        "VehicleTypes": ["Pickup Truck", "Utility Truck", "Construction Vehicles"],
+        "States": "Parked"
+      },
+      "Pedestrians": "None",
+      "Directionality": "One-Way",
+      "Ego-Vehicle": {
+        "Direction": "Forward",
+        "Maneuver": "Moving"
+      },
+      "Visibility": {
+        "General": "Good",
+        "SpecificImpairments": "NoImpairments"
+      },
+      "CameraCondition": "Clear",
+      "Severity": 3
+    }
+    ,
+    "n008-2018-05-21-11-06-59-0400__CAM_FRONT__1526915383262465.jpg": {
+      "Scene": "Commercial",
+      "TimeOfDay": "Daytime",
+      "Weather": "Clear",
+      "RoadConditions": "Dry",
+      "LaneInformation": {
+        "NumberOfLanes": "2",
+        "LaneMarkings": "Visible",
+        "SpecialLanes": "Crosswalk"
+      },
+      "TrafficSigns": {
+        "Types": ["Pedestrian Crossing", "One Way"],
+        "Visibility": "Visible"
+      },
+      "Vehicles": {
+        "TotalNumber": "Few",
+        "InMotion": "False",
+        "VehicleTypes": ["SUV", "Pickup Truck", "Compact Car"],
+        "States": "Parked"
+      },
+      "Pedestrians": "None",
+      "Directionality": "One-Way",
+      "Ego-Vehicle": {
+        "Direction": "Forward",
+        "Maneuver": "Moving"
+      },
+      "Visibility": {
+        "General": "Good",
+        "SpecificImpairments": "NoImpairments"
+      },
+      "CameraCondition": "Clear",
+      "Severity": 3
+    }
+    ,
+    "n008-2018-05-21-11-06-59-0400__CAM_FRONT__1526915385862466.jpg": {
+      "Scene": "Parking Area",
+      "TimeOfDay": "Daytime",
+      "Weather": "Clear",
+      "RoadConditions": "Dry",
+      "LaneInformation": {
+        "NumberOfLanes": "2",
+        "LaneMarkings": "Visible",
+        "SpecialLanes": "None",
+        "ConflictingLaneMarkings": "True"
+      },
+      "TrafficSigns": {
+        "Types": "None",
+        "Visibility": "Not Visible"
+      },
+      "Vehicles": {
+        "TotalNumber": "Few",
+        "InMotion": "False",
+        "VehicleTypes": "Sedan",
+        "States": "Parked"
+      },
+      "Pedestrians": "None",
+      "Directionality": "One-Way",
+      "Ego-Vehicle": {
+        "Direction": "Forward",
+        "Maneuver": "Moving"
+      },
+      "Visibility": {
+        "General": "Good",
+        "SpecificImpairments": "NoImpairments"
+      },
+      "CameraCondition": "Clear",
+      "Severity": 5
+    }
+    ,
+    "n008-2018-05-21-11-06-59-0400__CAM_FRONT__1526915388662465.jpg": {
+      "Scene": "Parking Area",
+      "TimeOfDay": "Daytime",
+      "Weather": "Clear",
+      "RoadConditions": "Dry",
+      "LaneInformation": {
+        "NumberOfLanes": "1",
+        "LaneMarkings": "Visible",
+        "SpecialLanes": "None"
+      },
+      "TrafficSigns": {
+        "Types": "Stop Sign",
+        "Visibility": "Visible"
+      },
+      "Vehicles": {
+        "TotalNumber": "Few",
+        "InMotion": "False",
+        "VehicleTypes": "Cars",
+        "States": "Parked"
+      },
+      "Pedestrians": "None",
+      "Directionality": "One-Way",
+      "Ego-Vehicle": {
+        "Direction": "Forward",
+        "Maneuver": "Moving"
+      },
+      "Visibility": {
+        "General": "Good",
+        "SpecificImpairments": "NoImpairments"
+      },
+      "CameraCondition": "Clear",
+      "Severity": 2
+    }
+    ,
+    "n008-2018-05-21-11-06-59-0400__CAM_FRONT__1526915389662465.jpg": {
+      "Scene": "Parking Area",
+      "TimeOfDay": "Daytime",
+      "Weather": "Clear",
+      "RoadConditions": "Dry",
+      "LaneInformation": {
+        "NumberOfLanes": "1",
+        "LaneMarkings": "Visible",
+        "SpecialLanes": "None",
+        "ConflictingLaneMarkings": "False"
+      },
+      "TrafficSigns": {
+        "Types": "Stop Sign",
+        "Visibility": "Visible"
+      },
+      "Vehicles": {
+        "TotalNumber": "Few",
+        "InMotion": "False",
+        "VehicleTypes": "Cars",
+        "States": "Parked"
+      },
+      "Pedestrians": "None",
+      "Directionality": "One-Way",
+      "Ego-Vehicle": {
+        "Direction": "Forward",
+        "Maneuver": "Moving"
+      },
+      "Visibility": {
+        "General": "Good",
+        "SpecificImpairments": "NoImpairments"
+      },
+      "CameraCondition": "Clear",
+      "Severity": 2
+    }
+    ,
+    "n008-2018-05-21-11-06-59-0400__CAM_FRONT__1526915392362465.jpg": {
+      "Scene": "Parking Area",
+      "TimeOfDay": "Daytime",
+      "Weather": "Clear",
+      "RoadConditions": "Dry",
+      "LaneInformation": {
+        "NumberOfLanes": "1",
+        "LaneMarkings": "Visible",
+        "SpecialLanes": "None",
+        "ConflictingLaneMarkings": "False"
+      },
+      "TrafficSigns": {
+        "Types": "Stop Sign",
+        "Visibility": "Visible"
+      },
+      "Vehicles": {
+        "TotalNumber": "Few",
+        "InMotion": "False",
+        "VehicleTypes": "Cars",
+        "States": "Parked"
+      },
+      "Pedestrians": "None",
+      "Directionality": "One-Way",
+      "Ego-Vehicle": {
+        "Direction": "Forward",
+        "Maneuver": "Moving"
+      },
+      "Visibility": {
+        "General": "Good",
+        "SpecificImpairments": "NoImpairments"
+      },
+      "CameraCondition": "Clear",
+      "Severity": 2
+    }
+    ,
+    "n008-2018-05-21-11-06-59-0400__CAM_FRONT__1526915413262465.jpg": {
+      "Scene": "Commercial",
+      "TimeOfDay": "Daytime",
+      "Weather": "Sunny",
+      "RoadConditions": "Dry",
+      "LaneInformation": {
+        "NumberOfLanes": "1",
+        "LaneMarkings": "Visible",
+        "SpecialLanes": "None",
+        "ConflictingLaneMarkings": "False"
+      },
+      "TrafficSigns": {
+        "Types": "None",
+        "Visibility": "Not Visible"
+      },
+      "Vehicles": {
+        "TotalNumber": "Few",
+        "InMotion": "False",
+        "VehicleTypes": [
+          "Cars",
+          "Commercial Delivery Truck"
+        ],
+        "States": [
+          "Parked"
+        ]
+      },
+      "Pedestrians": "None",
+      "Directionality": "Two-Way",
+      "Ego-Vehicle": {
+        "Direction": "Forward",
+        "Maneuver": "Moving"
+      },
+      "Visibility": {
+        "General": "Good",
+        "SpecificImpairments": "NoImpairments"
+      },
+      "CameraCondition": "Clear",
+      "Severity": 2
+    }
+    ,
+    "n008-2018-05-21-11-06-59-0400__CAM_FRONT__1526915414162465.jpg": {
+      "Scene": "Commercial",
+      "TimeOfDay": "Daytime",
+      "Weather": "Sunny",
+      "RoadConditions": "Dry",
+      "LaneInformation": {
+        "NumberOfLanes": "1",
+        "LaneMarkings": "Visible",
+        "SpecialLanes": "None",
+        "ConflictingLaneMarkings": "False"
+      },
+      "TrafficSigns": {
+        "Types": "None",
+        "Visibility": "Not Visible"
+      },
+      "Vehicles": {
+        "TotalNumber": "Few",
+        "InMotion": "False",
+        "VehicleTypes": "Cars",
+        "States": "Parked"
+      },
+      "Pedestrians": "None",
+      "Directionality": "Two-Way",
+      "Ego-Vehicle": {
+        "Direction": "Forward",
+        "Maneuver": "Moving"
+      },
+      "Visibility": {
+        "General": "Good",
+        "SpecificImpairments": "NoImpairments"
+      },
+      "CameraCondition": "Clear",
+      "Severity": 3
+    }
+    ,
+    "n008-2018-05-21-11-06-59-0400__CAM_FRONT__1526915414612465.jpg": {
+      "Scene": "Commercial",
+      "TimeOfDay": "Daytime",
+      "Weather": "Sunny",
+      "RoadConditions": "Dry",
+      "LaneInformation": {
+        "NumberOfLanes": "1",
+        "LaneMarkings": "Visible",
+        "SpecialLanes": "None",
+        "ConflictingLaneMarkings": "False"
+      },
+      "TrafficSigns": {
+        "Types": "None",
+        "Visibility": "Not Visible"
+      },
+      "Vehicles": {
+        "TotalNumber": "Few",
+        "InMotion": "False",
+        "VehicleTypes": "Cars",
+        "States": "Parked"
+      },
+      "Pedestrians": "None",
+      "Directionality": "Two-Way",
+      "Ego-Vehicle": {
+        "Direction": "Forward",
+        "Maneuver": "Moving"
+      },
+      "Visibility": {
+        "General": "Good",
+        "SpecificImpairments": "NoImpairments"
+      },
+      "CameraCondition": "Clear",
+      "Severity": 3
+    }
+    ,
+    "n008-2018-05-21-11-06-59-0400__CAM_FRONT__1526915416412465.jpg": {
+      "Scene": "Commercial",
+      "TimeOfDay": "Daytime",
+      "Weather": "Sunny",
+      "RoadConditions": "Dry",
+      "LaneInformation": {
+        "NumberOfLanes": "1",
+        "LaneMarkings": "Visible",
+        "SpecialLanes": "None",
+        "ConflictingLaneMarkings": "False"
+      },
+      "TrafficSigns": {
+        "Types": "None",
+        "Visibility": "Not Visible"
+      },
+      "Vehicles": {
+        "TotalNumber": "Few",
+        "InMotion": "False",
+        "VehicleTypes": "Cars",
+        "States": "Parked"
+      },
+      "Pedestrians": "None",
+      "Directionality": "Two-Way",
+      "Ego-Vehicle": {
+        "Direction": "Forward",
+        "Maneuver": "Moving"
+      },
+      "Visibility": {
+        "General": "Good",
+        "SpecificImpairments": "NoImpairments"
+      },
+      "CameraCondition": "Clear",
+      "Severity": 3
+    }
+    ,
     "n008-2018-05-21-11-06-59-0400__CAM_FRONT__1526915418262465.jpg": "",
     "n008-2018-05-21-11-06-59-0400__CAM_FRONT__1526915420662465.jpg": "",
     "n008-2018-05-21-11-06-59-0400__CAM_FRONT__1526915423662465.jpg": "",
