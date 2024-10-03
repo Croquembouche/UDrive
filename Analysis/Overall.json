@@ -93,7 +93,8 @@
             "None",
             "Parking Sign",
             "NoTrafficSigns",
-            "NoSign"
+            "NoSign",
+            "Two-Way Traffic"
         ],
         "Visibility": [
             "Visible",
@@ -156,7 +157,8 @@
             "Picking up a Passenger",
             "Passenger Exiting",
             "Overtaking",
-            "Stopped at Intersection"
+            "Stopped at Intersection",
+            "Blocking Parts of the Road"
         ]
     },
     "Pedestrians": [
