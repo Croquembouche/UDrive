@@ -169,6 +169,16 @@
         "Boarding Bus",
         "Interacting with Vehicle"
     ],
+    "Policeman": {
+        "Presence": ["True", "False"],
+        "States": [
+        "Directing Traffic"
+        ]
+    },
+    "Animals": {
+        "Type": ["Bird"],
+        "State": ["Crossing Road"]
+    },
     "Directionality": [
         "One-Way",
         "Two-Way",
