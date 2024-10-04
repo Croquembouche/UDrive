@@ -56,7 +56,8 @@
             "Tram Tracks",
             "HOV Lane",
             "Crosswalk",
-            "Bike Lane Sign"
+            "Bike Lane Sign",
+            "Road Work"
         ],
         "Conflicting Lane Markings": ["True", "False"]
     },
