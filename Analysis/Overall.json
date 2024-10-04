@@ -56,7 +56,8 @@
             "Tram Tracks",
             "HOV Lane",
             "Crosswalk",
-            "Bike Lane Sign"
+            "Bike Lane Sign",
+            "Road Work"
         ],
         "Conflicting Lane Markings": ["True", "False"]
     },
@@ -93,7 +94,8 @@
             "None",
             "Parking Sign",
             "NoTrafficSigns",
-            "NoSign"
+            "NoSign",
+            "Two-Way Traffic"
         ],
         "Visibility": [
             "Visible",
@@ -156,7 +158,8 @@
             "Picking up a Passenger",
             "Passenger Exiting",
             "Overtaking",
-            "Stopped at Intersection"
+            "Stopped at Intersection",
+            "Blocking Parts of the Road"
         ]
     },
     "Pedestrians": [
@@ -167,6 +170,16 @@
         "Boarding Bus",
         "Interacting with Vehicle"
     ],
+    "Policeman": {
+        "Presence": ["True", "False"],
+        "States": [
+        "Directing Traffic"
+        ]
+    },
+    "Animals": {
+        "Type": ["Bird"],
+        "State": ["Crossing Road"]
+    },
     "Directionality": [
         "One-Way",
         "Two-Way",
