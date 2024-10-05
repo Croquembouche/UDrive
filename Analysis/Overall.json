@@ -51,6 +51,7 @@
             "Taxi and Bus Lane",
             "Center Lane",
             "Right Turn Only Lane",
+            "Forward Only Lane",
             "Left Turn Only Lane",
             "Street Parking",
             "Tram Tracks",
@@ -58,8 +59,7 @@
             "Crosswalk",
             "Bike Lane Sign",
             "Road Work"
-        ],
-        "Conflicting Lane Markings": ["True", "False"]
+        ]
     },
     "TrafficSigns": {
         "Types": [
