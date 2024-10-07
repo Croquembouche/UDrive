@@ -13,7 +13,7 @@ unified_data = {}
 for image_name, image_analysis in data.items():
     try:
         Scene = image_analysis["Scene"]                                    # this is always a string
-    except KeyError:
+    except:
         print(image_name, "scene")
     try:
         TimeOfDay = image_analysis["TimeOfDay"]                            # this is always a string
@@ -152,8 +152,11 @@ for image_name, image_analysis in data.items():
     if len(VehiclesStates) == 0:
         VehiclesStates = ["NoVehicleState"]
         image_analysis["Vehicles"]["States"] = VehiclesStates
-        
-    Pedestrians = image_analysis["Pedestrians"]                            # list
+
+    try:    
+        Pedestrians = image_analysis["Pedestrians"]                            # list
+    except KeyError:
+        print(image_name)
     if isinstance(Pedestrians, str):
         Pedestrians = Pedestrians.split(",")
         image_analysis["Pedestrians"] = Pedestrians

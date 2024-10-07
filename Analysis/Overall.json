@@ -87,6 +87,7 @@
             "Do Not Stop on Tracks",
             "No Stopping",
             "No Turn on Red",
+            "No U-Turn",
             "Route Sign",
             "One Way",
             "Share the Road",
@@ -164,7 +165,8 @@
             "Overtaking",
             "Stopped at Intersection",
             "Blocking Parts of the Road",
-            "Turning Left"
+            "Turning Left",
+            "Utility Work"
         ]
     },
     "Pedestrians": [
@@ -179,6 +181,14 @@
         "Presence": ["True", "False"],
         "States": [
         "Directing Traffic"
+        ]
+    },
+    "Bicyclist": {
+        "Presence": ["True", "False"],
+        "Location": [
+        "In Bike Lane",
+        "In Vehicle Lane",
+        "On Sidewalk"
         ]
     },
     "Animals": {
@@ -209,7 +219,8 @@
             "Moving",
             "Following",
             "In Queue",
-            "Merging"
+            "Merging",
+            "Proceeding through intersection"
         ]
     },
     "Visibility": {
