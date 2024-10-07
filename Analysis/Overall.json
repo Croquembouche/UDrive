@@ -58,7 +58,8 @@
             "HOV Lane",
             "Crosswalk",
             "Bike Lane Sign",
-            "Road Work"
+            "Road Work",
+            "Traffic Cones Blocking Parts of the Road"
         ]
     },
     "TrafficSigns": {
@@ -95,7 +96,8 @@
             "Parking Sign",
             "NoTrafficSigns",
             "NoSign",
-            "Two-Way Traffic"
+            "Two-Way Traffic",
+            "Construction Warning"
         ],
         "Visibility": [
             "Visible",
@@ -145,7 +147,8 @@
             "Minivan",
             "Biodiesel Vehicle",
             "Commercial Truck",
-            "Coupe"
+            "Coupe",
+            "Trolley"
         ],
         "States": [
             "Parked",
@@ -155,11 +158,13 @@
             "In Queue",
             "Door Open",
             "Violate Traffic Rules",
+            "Waiting to Turn Right",
             "Picking up a Passenger",
             "Passenger Exiting",
             "Overtaking",
             "Stopped at Intersection",
-            "Blocking Parts of the Road"
+            "Blocking Parts of the Road",
+            "Turning Left"
         ]
     },
     "Pedestrians": [
@@ -192,7 +197,8 @@
             "Making a Left Turn",
             "Making a Right Turn",
             "Stopped at Intersection",
-            "Approaching Intersection"
+            "Approaching Intersection",
+            "Merging Right"
         ],
         "Maneuver": [
             "Waiting",
@@ -202,7 +208,8 @@
             "Turning",
             "Moving",
             "Following",
-            "In Queue"
+            "In Queue",
+            "Merging"
         ]
     },
     "Visibility": {
