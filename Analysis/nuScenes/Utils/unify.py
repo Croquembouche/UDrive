@@ -72,7 +72,7 @@ for image_name, image_analysis in data.items():
             if TrafficSignsTypes[x] == "Bus Stop":
                 TrafficSignsTypes[x] = "Bus Stop Sign"
         image_analysis["TrafficSigns"]["Types"] = TrafficSignsTypes
-    if len(TrafficSignsTypes) == 1 and TrafficSignsTypes[0] == "None":
+    if len(TrafficSignsTypes) <= 1 or TrafficSignsTypes[0] == "None":
         TrafficSignsTypes[0] = "NoTrafficSigns"
         image_analysis["TrafficSigns"]["Types"] = TrafficSignsTypes
     temp = image_analysis["TrafficSigns"]["Types"]

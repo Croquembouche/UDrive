@@ -59,7 +59,8 @@
             "Crosswalk",
             "Bike Lane Sign",
             "Road Work",
-            "Traffic Cones Blocking Parts of the Road"
+            "Traffic Cones Blocking Parts of the Road",
+            "Bridge"
         ]
     },
     "TrafficSigns": {
@@ -98,7 +99,8 @@
             "NoTrafficSigns",
             "NoSign",
             "Two-Way Traffic",
-            "Construction Warning"
+            "Construction Warning",
+            "Yield Sign"
         ],
         "Visibility": [
             "Visible",
@@ -175,7 +177,9 @@
         "Visible on Sidewalk",
         "Crossing Street",
         "Boarding Bus",
-        "Interacting with Vehicle"
+        "Interacting with Vehicle",
+        "Wheelchair on the Street",
+        "Wheelchair on the Sidewalk"
     ],
     "Policeman": {
         "Presence": ["True", "False"],
@@ -208,7 +212,8 @@
             "Making a Right Turn",
             "Stopped at Intersection",
             "Approaching Intersection",
-            "Merging Right"
+            "Merging Right",
+            "Merging Left"
         ],
         "Maneuver": [
             "Waiting",
