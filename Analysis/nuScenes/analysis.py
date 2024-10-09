@@ -49,9 +49,7 @@ class DatasetAnalysis:
         high = 0
         # Parse the data and populate the graph with nodes and edges
         for image_id, entries in data.items():
-
             G.add_node(image_id, type='image')
-            
             for category, value in entries.items():
                 # Connect the entry to each category
                 G.add_node(category, type='category')
@@ -118,11 +116,13 @@ class DatasetAnalysis:
         # num_edges = G.number_of_edges()
         # num_nodes = G.number_of_nodes()
         self.G = G
-        print(subsubcategories)
+        # print(subsubcategories)
         print(f"{len(subsubcategories)} number of subsubcategories")
         print(f"The dataset contains {low} low-risk scenes, {medium} medium-risk scenes, and {high} high-risk scenes.")
         # print(f"Number of Edges: {num_edges}")
         # print(f"Number of Edges: {num_nodes}")
+        # Export to GEXF
+        nx.write_gexf(G, "/media/william/blueicedrive/Github/UDrive/Analysis/nuScenes/analysis_directed.gexf")
         # nx.write_graphml_lxml(G, "/media/william/blueicedrive/Github/UDrive/Analysis/nuScenes/analysis_directed.graphml")
         # self.exportToCSV()
         return G

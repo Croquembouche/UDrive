@@ -72,8 +72,11 @@ for image_name, image_analysis in data.items():
             if TrafficSignsTypes[x] == "Bus Stop":
                 TrafficSignsTypes[x] = "Bus Stop Sign"
         image_analysis["TrafficSigns"]["Types"] = TrafficSignsTypes
-    if len(TrafficSignsTypes) <= 1 or TrafficSignsTypes[0] == "None":
+    if len(TrafficSignsTypes) == 1 and TrafficSignsTypes[0] == "None":
         TrafficSignsTypes[0] = "NoTrafficSigns"
+        image_analysis["TrafficSigns"]["Types"] = TrafficSignsTypes
+    if TrafficSignsTypes == "" or TrafficSignsTypes == []:
+        TrafficSignsTypes = ["NoTrafficSigns"]
         image_analysis["TrafficSigns"]["Types"] = TrafficSignsTypes
     temp = image_analysis["TrafficSigns"]["Types"]
     del image_analysis["TrafficSigns"]["Types"]
@@ -160,11 +163,14 @@ for image_name, image_analysis in data.items():
     if isinstance(Pedestrians, str):
         Pedestrians = Pedestrians.split(",")
         image_analysis["Pedestrians"] = Pedestrians
-    if len(Pedestrians) == 1 and Pedestrians[0] == "None":
-        Pedestrians[0] = "NoPed"
-        image_analysis["Pedestrians"] = Pedestrians
-    elif Pedestrians[0] == "Multiple":
-        image_analysis["Pedestrians"] = ["MultiplePed"]
+    try:
+        if len(Pedestrians) == 1 and Pedestrians[0] == "None":
+            Pedestrians[0] = "NoPed"
+            image_analysis["Pedestrians"] = Pedestrians
+        elif Pedestrians[0] == "Multiple":
+            image_analysis["Pedestrians"] = ["MultiplePed"]
+    except:
+        print(image_name, "ped")
 
     Directionality = image_analysis["Directionality"]                      # string
 
