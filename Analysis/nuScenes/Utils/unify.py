@@ -78,6 +78,8 @@ for image_name, image_analysis in data.items():
     if TrafficSignsTypes == "" or TrafficSignsTypes == []:
         TrafficSignsTypes = ["NoTrafficSigns"]
         image_analysis["TrafficSigns"]["Types"] = TrafficSignsTypes
+    if "Traffic Light" in TrafficSignsTypes and "TrafficLightState" not in  image_analysis["TrafficSigns"]:
+        print("missing traffic light state", image_name)
     temp = image_analysis["TrafficSigns"]["Types"]
     del image_analysis["TrafficSigns"]["Types"]
     image_analysis["TrafficSigns"]["TrafficSignsTypes"] = temp

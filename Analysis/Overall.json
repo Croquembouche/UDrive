@@ -105,13 +105,14 @@
         "Visibility": [
             "Visible",
             "Not Visible",
-            "Not Clearly Visible",
-            "SignNotVisible"
+            "Not Clearly Visible"
         ],
         "TrafficLightState": [
             "Red",
             "Green",
-            "Yellow"
+            "Yellow",
+            "In Transition(NoState)",
+            "In Transition(TwoState)"
         ]
     },
     "Vehicles": {
