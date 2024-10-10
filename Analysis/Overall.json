@@ -57,10 +57,10 @@
             "Tram Tracks",
             "HOV Lane",
             "Crosswalk",
-            "Bike Lane Sign",
             "Road Work",
             "Traffic Cones Blocking Parts of the Road",
-            "Bridge"
+            "Bridge",
+            "Roundabout"
         ]
     },
     "TrafficSigns": {
@@ -80,6 +80,9 @@
             "Speed Bump",
             "Electronic Sign",
             "Road Work",
+            "Speeding Fine Doubled",
+            "Double Fines End",
+            "Work Zone",
             "No Left Turn",
             "No Right Turn",
             "Right Lane Must Turn Right",
@@ -88,6 +91,7 @@
             "Do Not Stop on Tracks",
             "No Stopping",
             "No Turn on Red",
+            "No Trucks Allowed",
             "No U-Turn",
             "Route Sign",
             "One Way",
@@ -100,7 +104,8 @@
             "NoSign",
             "Two-Way Traffic",
             "Construction Warning",
-            "Yield Sign"
+            "Yield Sign",
+            "Bike Lane Sign"
         ],
         "Visibility": [
             "Visible",
@@ -112,7 +117,8 @@
             "Green",
             "Yellow",
             "In Transition(NoState)",
-            "In Transition(TwoState)"
+            "In Transition(TwoState)",
+            "Broken(NoState)"
         ]
     },
     "Vehicles": {
@@ -197,8 +203,8 @@
         ]
     },
     "Animals": {
-        "Type": ["Bird"],
-        "State": ["Crossing Road"]
+        "Type": ["Bird", "Dog"],
+        "State": ["Crossing Road", "On Sidewalk"]
     },
     "Directionality": [
         "One-Way",
@@ -214,14 +220,18 @@
             "Stopped at Intersection",
             "Approaching Intersection",
             "Merging Right",
-            "Merging Left"
+            "Merging Left",
+            "Exiting Roundabout",
+            "Entering Roundabout"
         ],
         "Maneuver": [
             "Waiting",
+            "Stopped",
             "Turning right",
             "Merging left",
             "Slowing Down",
             "Turning",
+            "Yielding",
             "Moving",
             "Following",
             "In Queue",

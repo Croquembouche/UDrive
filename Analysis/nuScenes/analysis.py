@@ -116,7 +116,7 @@ class DatasetAnalysis:
         # num_edges = G.number_of_edges()
         # num_nodes = G.number_of_nodes()
         self.G = G
-        # print(subsubcategories)
+        print(subsubcategories)
         print(f"{len(subsubcategories)} number of subsubcategories")
         print(f"The dataset contains {low} low-risk scenes, {medium} medium-risk scenes, and {high} high-risk scenes.")
         # print(f"Number of Edges: {num_edges}")

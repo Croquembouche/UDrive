@@ -212,5 +212,48 @@ for image_name, image_analysis in data.items():
 
     Severity = image_analysis["Severity"]                                      # integer
 
+    try:
+        policeman = image_analysis["Policeman"]
+        police_present = image_analysis["Policeman"]["Presence"]
+        if police_present == "False":
+            del image_analysis["Policeman"]
+        elif police_present == "True":
+            image_analysis["Policeman"]["Presence"] = "PolicemanPresent"
+
+    except:
+        pass
+
+    try:
+        bicyclist = image_analysis["Bicyclist"]
+        if bicyclist == "None":
+            del image_analysis["Bicyclist"]
+        bicyclist_present = image_analysis["Bicyclist"]["Presence"]
+        if bicyclist_present == "False" or bicyclist_present == "None" or bicyclist_present == "":
+            del image_analysis["Bicyclist"]
+        elif police_present == "True":
+            image_analysis["Bicyclist"]["Presence"] = "BicyclistPresent"
+    except:
+        pass
+
+    try:
+        animals = image_analysis["Animals"] 
+        if animals == "None":
+            del image_analysis["Animals"]
+        animal_present = image_analysis["Animals"]["Presence"]
+        if animal_present == "False" or animal_present == "None":
+            del image_analysis["Animals"]
+        elif animal_present == "True":
+            animal_present = image_analysis["Animals"]["Presence"] == "AnimalPresent"
+    except:
+        pass
+
+    try: 
+        if image_analysis["Animals"]["Type"] == "None" or image_analysis["Animals"]["Type"] == [] or image_analysis["Animals"]["Type"] == "":
+            del image_analysis["Animals"]
+    except:
+        pass
+
+
+
 with open("/media/william/blueicedrive/Github/UDrive/Analysis/nuScenes/unifiedAnalysis.json", "w") as outfile:
     json.dump(data, outfile)
