@@ -105,7 +105,9 @@
             "Two-Way Traffic",
             "Construction Warning",
             "Yield Sign",
-            "Bike Lane Sign"
+            "Bike Lane Sign",
+            "Weight Limit",
+            "Directional Arrow"
         ],
         "Visibility": [
             "Visible",
@@ -158,7 +160,9 @@
             "Biodiesel Vehicle",
             "Commercial Truck",
             "Coupe",
-            "Trolley"
+            "Trolley",
+            "Compact Car",
+            "Forklift"
         ],
         "States": [
             "Parked",
@@ -236,7 +240,8 @@
             "Following",
             "In Queue",
             "Merging",
-            "Proceeding through intersection"
+            "Proceeding through intersection",
+            "Overtaking on Opposing Lane"
         ]
     },
     "Visibility": {

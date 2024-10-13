@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d0" for="node" attr.name="type" attr.type="string"/>
+<graph edgedefault="directed"><node id="Industrial">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="2">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="Daytime">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="False">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="Sunny">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="Pickup Truck">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="NoImpairments">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="None">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="n008-2018-05-21-11-06-59-0400__CAM_FRONT__1526915321162465.jpg">
+  <data key="d0">image</data>
+</node>
+<node id="Forward">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="One-Way">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="Not Visible">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="Few">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="Clear">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="NoSpecialLanes">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="Directional Sign">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="Parked">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="Visible">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="NoPed">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="Good">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="Dry">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="Moving">
+  <data key="d0">subsubcategory</data>
+</node>
+<edge source="n008-2018-05-21-11-06-59-0400__CAM_FRONT__1526915321162465.jpg" target="Industrial"/>
+<edge source="n008-2018-05-21-11-06-59-0400__CAM_FRONT__1526915321162465.jpg" target="Daytime"/>
+<edge source="n008-2018-05-21-11-06-59-0400__CAM_FRONT__1526915321162465.jpg" target="Sunny"/>
+<edge source="n008-2018-05-21-11-06-59-0400__CAM_FRONT__1526915321162465.jpg" target="Dry"/>
+<edge source="n008-2018-05-21-11-06-59-0400__CAM_FRONT__1526915321162465.jpg" target="None"/>
+<edge source="n008-2018-05-21-11-06-59-0400__CAM_FRONT__1526915321162465.jpg" target="Not Visible"/>
+<edge source="n008-2018-05-21-11-06-59-0400__CAM_FRONT__1526915321162465.jpg" target="NoSpecialLanes"/>
+<edge source="n008-2018-05-21-11-06-59-0400__CAM_FRONT__1526915321162465.jpg" target="Directional Sign"/>
+<edge source="n008-2018-05-21-11-06-59-0400__CAM_FRONT__1526915321162465.jpg" target="Visible"/>
+<edge source="n008-2018-05-21-11-06-59-0400__CAM_FRONT__1526915321162465.jpg" target="Few"/>
+<edge source="n008-2018-05-21-11-06-59-0400__CAM_FRONT__1526915321162465.jpg" target="False"/>
+<edge source="n008-2018-05-21-11-06-59-0400__CAM_FRONT__1526915321162465.jpg" target="Parked"/>
+<edge source="n008-2018-05-21-11-06-59-0400__CAM_FRONT__1526915321162465.jpg" target="Pickup Truck"/>
+<edge source="n008-2018-05-21-11-06-59-0400__CAM_FRONT__1526915321162465.jpg" target="NoPed"/>
+<edge source="n008-2018-05-21-11-06-59-0400__CAM_FRONT__1526915321162465.jpg" target="One-Way"/>
+<edge source="n008-2018-05-21-11-06-59-0400__CAM_FRONT__1526915321162465.jpg" target="Forward"/>
+<edge source="n008-2018-05-21-11-06-59-0400__CAM_FRONT__1526915321162465.jpg" target="Moving"/>
+<edge source="n008-2018-05-21-11-06-59-0400__CAM_FRONT__1526915321162465.jpg" target="Good"/>
+<edge source="n008-2018-05-21-11-06-59-0400__CAM_FRONT__1526915321162465.jpg" target="NoImpairments"/>
+<edge source="n008-2018-05-21-11-06-59-0400__CAM_FRONT__1526915321162465.jpg" target="Clear"/>
+<edge source="n008-2018-05-21-11-06-59-0400__CAM_FRONT__1526915321162465.jpg" target="2"/>
+</graph></graphml>

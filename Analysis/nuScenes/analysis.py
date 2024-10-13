@@ -49,62 +49,65 @@ class DatasetAnalysis:
         high = 0
         # Parse the data and populate the graph with nodes and edges
         for image_id, entries in data.items():
-            G.add_node(image_id, type='image')
-            for category, value in entries.items():
-                # Connect the entry to each category
-                G.add_node(category, type='category')
-                # G.add_edge(image_id, category)
-                if category == "Severity":
-                    if 1 <= value and value <= 3: 
-                        low += 1
-                    elif 3 <= value and value <= 6: 
-                        medium += 1
-                    elif 7 <= value and value <= 10: 
-                        high += 1
-                if isinstance(value, dict):
-                    # Handle subcategories
-                    for subcategory, subvalue in value.items():
-                        # Connect the category to its subcategory
-                        G.add_node(subcategory, type='subcategory')
-                        G.add_edge(category, subcategory)
-                        if isinstance(subvalue, list):
-                            # print(subvalue)
-                            for item in subvalue:
-                                G.add_node(item, type='subsubcategory')
-                                G.add_edge(subcategory, item)
-                                G.add_edge(image_id, item)
-                                if item not in subsubcategories:
-                                    subsubcategories.append(item)
-                        else:
-                            G.add_node(subvalue, type='subsubcategory')
-                            G.add_edge(subcategory, subvalue)
-                            G.add_edge(image_id, subvalue)
-                            if subvalue not in subsubcategories:
-                                    subsubcategories.append(subvalue)
-                        
-                        if isinstance(subvalue, list):
-                            # For lists, add each item and connect to the subcategory
-                            for item in subvalue:
-                                G.add_node(item, type='subsubcategory')
-                                G.add_edge(subcategory, item)
-                                G.add_edge(image_id, item)
-                                if item not in subsubcategories:
-                                    subsubcategories.append(item)
-                elif isinstance(value, list):
-                    # Directly connect category to items in the list
-                    for item in value:
-                        G.add_node(item, type='subsubcategory')
-                        G.add_edge(category, item)
-                        G.add_edge(image_id, item)
-                        if item not in subsubcategories:
-                            subsubcategories.append(item)
-                else:
-                
-                    G.add_node(value, type='subsubcategory')
-                    G.add_edge(category, value)
-                    G.add_edge(image_id, value)
-                    if value not in subsubcategories:
-                        subsubcategories.append(value)
+            try:
+                G.add_node(image_id, type='image')
+                for category, value in entries.items():
+                    # Connect the entry to each category
+                    G.add_node(category, type='category')
+                    # G.add_edge(image_id, category)
+                    if category == "Severity":
+                        if 1 <= value and value <= 3: 
+                            low += 1
+                        elif 3 <= value and value <= 6: 
+                            medium += 1
+                        elif 7 <= value and value <= 10: 
+                            high += 1
+                    if isinstance(value, dict):
+                        # Handle subcategories
+                        for subcategory, subvalue in value.items():
+                            # Connect the category to its subcategory
+                            G.add_node(subcategory, type='subcategory')
+                            G.add_edge(category, subcategory)
+                            if isinstance(subvalue, list):
+                                # print(subvalue)
+                                for item in subvalue:
+                                    G.add_node(item, type='subsubcategory')
+                                    G.add_edge(subcategory, item)
+                                    G.add_edge(image_id, item)
+                                    if item not in subsubcategories:
+                                        subsubcategories.append(item)
+                            else:
+                                G.add_node(subvalue, type='subsubcategory')
+                                G.add_edge(subcategory, subvalue)
+                                G.add_edge(image_id, subvalue)
+                                if subvalue not in subsubcategories:
+                                        subsubcategories.append(subvalue)
+                            
+                            if isinstance(subvalue, list):
+                                # For lists, add each item and connect to the subcategory
+                                for item in subvalue:
+                                    G.add_node(item, type='subsubcategory')
+                                    G.add_edge(subcategory, item)
+                                    G.add_edge(image_id, item)
+                                    if item not in subsubcategories:
+                                        subsubcategories.append(item)
+                    elif isinstance(value, list):
+                        # Directly connect category to items in the list
+                        for item in value:
+                            G.add_node(item, type='subsubcategory')
+                            G.add_edge(category, item)
+                            G.add_edge(image_id, item)
+                            if item not in subsubcategories:
+                                subsubcategories.append(item)
+                    else:
+                    
+                        G.add_node(value, type='subsubcategory')
+                        G.add_edge(category, value)
+                        G.add_edge(image_id, value)
+                        if value not in subsubcategories:
+                            subsubcategories.append(value)
+            except:
+                print(image_id)
                         
         # Visualize the graph
         # plt.figure(figsize=(12, 12))
@@ -402,57 +405,52 @@ class DatasetAnalysis:
                 # # Now create and save the subgraph for the image and its direct descendants
                 subgraph = self.G.subgraph(direct_descendants)
                 image_subgraph_list.append(subgraph)   
-                nx.write_graphml_lxml(subgraph, f"/home/carla/Github/UDrive/Analysis/ArgoVerse1/image_subgraphs/subgraph_directed{node}.graphml")
-        # self.calculateImageNodeDistribution(image_subgraph_list)
-        # n = len(image_subgraph_list)
-        # similarity_matrix = np.zeros((n + 1, n + 1), dtype=object)
+                nx.write_graphml_lxml(subgraph, f"/media/william/blueicedrive/Github/UDrive/Analysis/nuScenes/image_subgraph/subgraph_directed{node}.graphml")
+        self.calculateImageNodeDistribution(image_subgraph_list)
+        n = len(image_subgraph_list)
+        similarity_matrix = np.zeros((n + 1, n + 1), dtype=object)
         
-        # # Set the first row and first column to image names
-        # similarity_matrix[0] = [''] + image_names  # First row, starting with an empty string for the top-left cell
-        # for i in range(1, n + 1):
-        #     similarity_matrix[i][0] = image_names[i - 1] 
+        # Set the first row and first column to image names
+        similarity_matrix[0] = [''] + image_names  # First row, starting with an empty string for the top-left cell
+        for i in range(1, n + 1):
+            similarity_matrix[i][0] = image_names[i - 1] 
 
-        # # Calculate similarities
-        # for i in range(n):
-        #     for j in range(i+1, n):
-        #         sim = self.calculateJaccardsimilarity(image_subgraph_list[i], image_subgraph_list[j])
-        #         similarity_matrix[i+1][j+1] = sim
-        #         similarity_matrix[j+1][i+1] = sim
-        #     similarity_matrix[i + 1][i + 1] = 1
-        # self.matrixAnalysis(similarity_matrix[1:, 1:] )
+        # Calculate similarities
+        for i in range(n):
+            for j in range(i+1, n):
+                sim = self.calculateJaccardsimilarity(image_subgraph_list[i], image_subgraph_list[j])
+                similarity_matrix[i+1][j+1] = sim
+                similarity_matrix[j+1][i+1] = sim
+            similarity_matrix[i + 1][i + 1] = 1
+        self.matrixAnalysis(similarity_matrix[1:, 1:] )
         
-        # # print(f"average: {average}, min: {min_value}, max: {max_value}")
-        # # with open('/home/carla/Github/UDrive/Analysis/ArgoVerse1/results/imageJaccardSimilaritymatrix.csv', 'w', newline='') as f:
-        # #     writer = csv.writer(f)
-        # #     writer.writerows(similarity_matrix)
+        # print(f"average: {average}, min: {min_value}, max: {max_value}")
+        with open('/media/william/blueicedrive/Github/UDrive/Analysis/nuScenes/results/imageJaccardSimilaritymatrix.csv', 'w', newline='') as f:
+            writer = csv.writer(f)
+            writer.writerows(similarity_matrix)
 
-        # # Filter images based on similarity threshold
-        # to_remove = set()
-        # similar_count = 0
-        # same_scenario = 0
-        # different_scenario = 0
-        # for i in range(1, n+1):
-        #     for j in range(1, n+1):
-        #         if i != j and similarity_matrix[i][j] > similarity_threshold:
-        #             to_remove.add(i)
-        #             similar_count+=1
-        #             if similarity_matrix[i][0] != similarity_matrix[j][0]:
-        #                 same = self.checkScenario(similarity_matrix[i][0], similarity_matrix[j][0])
-        #                 if same:
-        #                     same_scenario += 1
-        #                 else:
-        #                     different_scenario += 1
-        # print(f"Found {similar_count//2} number of similar scenes with threshold at {similarity_threshold}. {same_scenario//2} pairs come from the same scenario, {different_scenario//2} pairs come from different scenarios.")
+        # Filter images based on similarity threshold
+        to_remove = set()
+        similar_count = 0
+        for i in range(1, n+1):
+            for j in range(1, n+1):
+                if i != j and similarity_matrix[i][j] > similarity_threshold:
+                    to_remove.add(i)
+                    similar_count+=1
+        print(f"Found {similar_count//2} number of similar scenes with threshold at {similarity_threshold}.")
 
-        # # Writing to CSV while skipping filtered out graphs
-        # filtered_similarity_matrix = [row for index, row in enumerate(similarity_matrix) if index not in to_remove]
-        # filtered_image_names = [name for index, name in enumerate(image_names) if index not in to_remove]
+        # Writing to CSV while skipping filtered out graphs
+        filtered_similarity_matrix = [row for index, row in enumerate(similarity_matrix) if index not in to_remove]
+        filtered_image_names = [name for index, name in enumerate(image_names) if index not in to_remove]
 
-        # with open('/home/carla/Github/UDrive/Analysis/ArgoVerse1/results/filtered_imageJaccardSimilaritymatrix.csv', 'w', newline='') as f:
-        #     writer = csv.writer(f)
-        #     writer.writerow([''] + filtered_image_names)
-        #     for name, row in zip(filtered_image_names, filtered_similarity_matrix):
-        #         writer.writerow([name] + row)
+        with open('/media/william/blueicedrive/Github/UDrive/Analysis/nuScenes/results/filtered_imageJaccardSimilaritymatrix.csv', 'w', newline='') as f:
+            writer = csv.writer(f)
+            writer.writerow([''] + filtered_image_names)
+            for name, row in zip(filtered_image_names, filtered_similarity_matrix):
+                try:
+                    writer.writerow([name] + row)
+                except:
+                    pass
     
 
     def createRandomDataset(self):
@@ -480,7 +478,7 @@ G.createBasicGraph()
 # print("Compare Scenarios")
 # G.compareScenarios()
 # print("ArgoVerse Results")
-# G.compareImages(0.8)
+# G.compareImages(0.9)
 # G.calculateDegreeCentrality(10)
 # print("Random Graph Results")
 # G.randomAnalysis()
