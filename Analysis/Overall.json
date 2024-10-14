@@ -208,31 +208,38 @@
     },
     "Animals": {
         "Type": ["Bird", "Dog"],
-        "State": ["Crossing Road", "On Sidewalk"]
+        "State": ["Crossing Road", "On Sidewalk", "None"]
     },
     "Directionality": [
         "One-Way",
         "Two-Way",
         "Multi-directional with median",
-        "Divided"
+        "Divided",
+        "Roundabout",
+        "Unknown"
     ],
     "Ego-Vehicle": {
         "Direction": [
+            "Stopped",
             "Forward",
             "Making a Left Turn",
             "Making a Right Turn",
             "Stopped at Intersection",
+            "Stopped at Stop Sign",
             "Approaching Intersection",
             "Merging Right",
             "Merging Left",
             "Exiting Roundabout",
-            "Entering Roundabout"
+            "Entering Roundabout",
+            "Approaching Roundabout"
         ],
         "Maneuver": [
             "Waiting",
             "Stopped",
-            "Turning right",
-            "Merging left",
+            "Turning Right",
+            "Turning Left",
+            "Merging Left",
+            "Merging Right",
             "Slowing Down",
             "Turning",
             "Yielding",
@@ -240,7 +247,7 @@
             "Following",
             "In Queue",
             "Merging",
-            "Proceeding through intersection",
+            "Proceeding through Intersection",
             "Overtaking on Opposing Lane",
             "Overtaking"
         ]
