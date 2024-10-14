@@ -241,7 +241,8 @@
             "In Queue",
             "Merging",
             "Proceeding through intersection",
-            "Overtaking on Opposing Lane"
+            "Overtaking on Opposing Lane",
+            "Overtaking"
         ]
     },
     "Visibility": {
@@ -256,13 +257,17 @@
             "Obstructed",
             "Shadows",
             "Reduced",
-            "NoImpairments"
+            "NoImpairments",
+            "Obstructed by Rain",
+            "Reflections"
         ]
     },
     "CameraCondition": [
         "Clear",
         "Dirty",
-        "Blurry due to Dust/Snow",
+        "SnowOnLens",
+        "DirtOnLens",
+        "RainOnLens",
         "Glare"
     ],
     "Severity": [
