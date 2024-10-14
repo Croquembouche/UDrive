@@ -180,7 +180,7 @@ if __name__ == "__main__":
         # model.save("/media/william/mist2/william/UDrive/Part2/stablebaselines3/savedModels/dqn_pedestrian_checkpoint0.zip")
 
         # start_num = 0
-        model = DQN.load(f"/media/william/mist2/william/UDrive/Part2/stablebaselines3/savedModels/dqn_pedestrian_checkpoint_best", env=env)
+        model = DQN.load(f"/media/william/mist2/william/Github/UDrive/Part2/stablebaselines3/savedModels/DQN/dqn_pedestrian_checkpoint_best.zip", env=env)
 
         # for checkpoint_num in range(1, start_num+4):
         #     # Train the model
