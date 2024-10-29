@@ -7,7 +7,7 @@ import torch
 
 def train():
     model = YOLO("yolo11n.pt")
-    results = model.train(data="ArgoverseUDrive.yaml", epochs=100, imgsz=640)
+    results = model.train(data="/media/william/mist2/william/Github/UDrive/Training/Argoverse1/ArgoverseUDrive.yaml", epochs=100, imgsz=640)
 
 train()
 
