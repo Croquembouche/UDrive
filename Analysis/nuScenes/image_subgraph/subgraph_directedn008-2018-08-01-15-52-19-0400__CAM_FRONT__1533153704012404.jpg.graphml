@@ -1,6 +1,9 @@
 <?xml version='1.0' encoding='utf-8'?>
 <graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d0" for="node" attr.name="type" attr.type="string"/>
-<graph edgedefault="directed"><node id="False">
+<graph edgedefault="directed"><node id="EgoTurning Left">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="Two">
   <data key="d0">subsubcategory</data>
 </node>
 <node id="3">
@@ -9,43 +12,16 @@
 <node id="NoTrafficSigns">
   <data key="d0">subsubcategory</data>
 </node>
-<node id="Daytime">
-  <data key="d0">subsubcategory</data>
-</node>
-<node id="NoImpairments">
-  <data key="d0">subsubcategory</data>
-</node>
-<node id="LaneVisible">
-  <data key="d0">subsubcategory</data>
-</node>
-<node id="SignNotVisible">
-  <data key="d0">subsubcategory</data>
-</node>
-<node id="Two">
-  <data key="d0">subsubcategory</data>
-</node>
 <node id="Commercial">
   <data key="d0">subsubcategory</data>
 </node>
-<node id="Making a Left Turn">
-  <data key="d0">subsubcategory</data>
-</node>
-<node id="MultiplePed">
-  <data key="d0">subsubcategory</data>
-</node>
-<node id="Sedan">
+<node id="Two-Way">
   <data key="d0">subsubcategory</data>
 </node>
 <node id="SUV">
   <data key="d0">subsubcategory</data>
 </node>
-<node id="Turning">
-  <data key="d0">subsubcategory</data>
-</node>
-<node id="n008-2018-08-01-15-52-19-0400__CAM_FRONT__1533153704012404.jpg">
-  <data key="d0">image</data>
-</node>
-<node id="Few">
+<node id="NoImpairments">
   <data key="d0">subsubcategory</data>
 </node>
 <node id="Clear">
@@ -54,16 +30,40 @@
 <node id="NoSpecialLanes">
   <data key="d0">subsubcategory</data>
 </node>
+<node id="n008-2018-08-01-15-52-19-0400__CAM_FRONT__1533153704012404.jpg">
+  <data key="d0">image</data>
+</node>
+<node id="False">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="MultiplePed">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="Daytime">
+  <data key="d0">subsubcategory</data>
+</node>
 <node id="Parked">
   <data key="d0">subsubcategory</data>
 </node>
-<node id="Two-Way">
+<node id="LaneVisible">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="Dry">
   <data key="d0">subsubcategory</data>
 </node>
 <node id="Good">
   <data key="d0">subsubcategory</data>
 </node>
-<node id="Dry">
+<node id="Sedan">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="EgoMaking a Left Turn">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="Few">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="SignNotVisible">
   <data key="d0">subsubcategory</data>
 </node>
 <edge source="n008-2018-08-01-15-52-19-0400__CAM_FRONT__1533153704012404.jpg" target="Commercial"/>
@@ -82,8 +82,8 @@
 <edge source="n008-2018-08-01-15-52-19-0400__CAM_FRONT__1533153704012404.jpg" target="Parked"/>
 <edge source="n008-2018-08-01-15-52-19-0400__CAM_FRONT__1533153704012404.jpg" target="MultiplePed"/>
 <edge source="n008-2018-08-01-15-52-19-0400__CAM_FRONT__1533153704012404.jpg" target="Two-Way"/>
-<edge source="n008-2018-08-01-15-52-19-0400__CAM_FRONT__1533153704012404.jpg" target="Making a Left Turn"/>
-<edge source="n008-2018-08-01-15-52-19-0400__CAM_FRONT__1533153704012404.jpg" target="Turning"/>
+<edge source="n008-2018-08-01-15-52-19-0400__CAM_FRONT__1533153704012404.jpg" target="EgoMaking a Left Turn"/>
+<edge source="n008-2018-08-01-15-52-19-0400__CAM_FRONT__1533153704012404.jpg" target="EgoTurning Left"/>
 <edge source="n008-2018-08-01-15-52-19-0400__CAM_FRONT__1533153704012404.jpg" target="Good"/>
 <edge source="n008-2018-08-01-15-52-19-0400__CAM_FRONT__1533153704012404.jpg" target="NoImpairments"/>
 <edge source="n008-2018-08-01-15-52-19-0400__CAM_FRONT__1533153704012404.jpg" target="3"/>

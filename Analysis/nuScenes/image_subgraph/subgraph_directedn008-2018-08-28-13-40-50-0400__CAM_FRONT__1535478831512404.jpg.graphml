@@ -3,37 +3,28 @@
 <graph edgedefault="directed"><node id="1">
   <data key="d0">subsubcategory</data>
 </node>
-<node id="False">
+<node id="EgoForward">
   <data key="d0">subsubcategory</data>
 </node>
-<node id="Stopped">
+<node id="Not Visible">
   <data key="d0">subsubcategory</data>
 </node>
-<node id="Daytime">
+<node id="EgoFullStopped">
   <data key="d0">subsubcategory</data>
+</node>
+<node id="n008-2018-08-28-13-40-50-0400__CAM_FRONT__1535478831512404.jpg">
+  <data key="d0">image</data>
 </node>
 <node id="NoTrafficSigns">
   <data key="d0">subsubcategory</data>
 </node>
+<node id="Unknown">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="NoLane">
+  <data key="d0">subsubcategory</data>
+</node>
 <node id="NoImpairments">
-  <data key="d0">subsubcategory</data>
-</node>
-<node id="SignNotVisible">
-  <data key="d0">subsubcategory</data>
-</node>
-<node id="None">
-  <data key="d0">subsubcategory</data>
-</node>
-<node id="Sedan">
-  <data key="d0">subsubcategory</data>
-</node>
-<node id="Forward">
-  <data key="d0">subsubcategory</data>
-</node>
-<node id="Parking Area">
-  <data key="d0">subsubcategory</data>
-</node>
-<node id="Few">
   <data key="d0">subsubcategory</data>
 </node>
 <node id="Clear">
@@ -42,26 +33,42 @@
 <node id="NoSpecialLanes">
   <data key="d0">subsubcategory</data>
 </node>
+<node id="False">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="Parking Area">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="Daytime">
+  <data key="d0">subsubcategory</data>
+</node>
 <node id="Parked">
   <data key="d0">subsubcategory</data>
 </node>
-<node id="n008-2018-08-28-13-40-50-0400__CAM_FRONT__1535478831512404.jpg">
-  <data key="d0">image</data>
-</node>
-<node id="NoPed">
+<node id="Dry">
   <data key="d0">subsubcategory</data>
 </node>
 <node id="Good">
   <data key="d0">subsubcategory</data>
 </node>
-<node id="Dry">
+<node id="Sedan">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="NoPed">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="Few">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="SignNotVisible">
   <data key="d0">subsubcategory</data>
 </node>
 <edge source="n008-2018-08-28-13-40-50-0400__CAM_FRONT__1535478831512404.jpg" target="Parking Area"/>
 <edge source="n008-2018-08-28-13-40-50-0400__CAM_FRONT__1535478831512404.jpg" target="Daytime"/>
 <edge source="n008-2018-08-28-13-40-50-0400__CAM_FRONT__1535478831512404.jpg" target="Clear"/>
 <edge source="n008-2018-08-28-13-40-50-0400__CAM_FRONT__1535478831512404.jpg" target="Dry"/>
-<edge source="n008-2018-08-28-13-40-50-0400__CAM_FRONT__1535478831512404.jpg" target="None"/>
+<edge source="n008-2018-08-28-13-40-50-0400__CAM_FRONT__1535478831512404.jpg" target="NoLane"/>
+<edge source="n008-2018-08-28-13-40-50-0400__CAM_FRONT__1535478831512404.jpg" target="Not Visible"/>
 <edge source="n008-2018-08-28-13-40-50-0400__CAM_FRONT__1535478831512404.jpg" target="NoSpecialLanes"/>
 <edge source="n008-2018-08-28-13-40-50-0400__CAM_FRONT__1535478831512404.jpg" target="NoTrafficSigns"/>
 <edge source="n008-2018-08-28-13-40-50-0400__CAM_FRONT__1535478831512404.jpg" target="SignNotVisible"/>
@@ -70,8 +77,9 @@
 <edge source="n008-2018-08-28-13-40-50-0400__CAM_FRONT__1535478831512404.jpg" target="False"/>
 <edge source="n008-2018-08-28-13-40-50-0400__CAM_FRONT__1535478831512404.jpg" target="Parked"/>
 <edge source="n008-2018-08-28-13-40-50-0400__CAM_FRONT__1535478831512404.jpg" target="NoPed"/>
-<edge source="n008-2018-08-28-13-40-50-0400__CAM_FRONT__1535478831512404.jpg" target="Forward"/>
-<edge source="n008-2018-08-28-13-40-50-0400__CAM_FRONT__1535478831512404.jpg" target="Stopped"/>
+<edge source="n008-2018-08-28-13-40-50-0400__CAM_FRONT__1535478831512404.jpg" target="Unknown"/>
+<edge source="n008-2018-08-28-13-40-50-0400__CAM_FRONT__1535478831512404.jpg" target="EgoForward"/>
+<edge source="n008-2018-08-28-13-40-50-0400__CAM_FRONT__1535478831512404.jpg" target="EgoFullStopped"/>
 <edge source="n008-2018-08-28-13-40-50-0400__CAM_FRONT__1535478831512404.jpg" target="Good"/>
 <edge source="n008-2018-08-28-13-40-50-0400__CAM_FRONT__1535478831512404.jpg" target="NoImpairments"/>
 <edge source="n008-2018-08-28-13-40-50-0400__CAM_FRONT__1535478831512404.jpg" target="1"/>

@@ -1,9 +1,39 @@
 <?xml version='1.0' encoding='utf-8'?>
 <graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d0" for="node" attr.name="type" attr.type="string"/>
-<graph edgedefault="directed"><node id="Daytime">
+<graph edgedefault="directed"><node id="Two">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="EgoForward">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="Construction Warning">
   <data key="d0">subsubcategory</data>
 </node>
 <node id="4">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="Urban">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="In Motion">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="True">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="Visible">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="Two-Way">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="Road Work">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="n008-2018-08-06-15-06-32-0400__CAM_FRONT__1533583208612404.jpg">
+  <data key="d0">image</data>
+</node>
+<node id="Lane Not Clearly Visible">
   <data key="d0">subsubcategory</data>
 </node>
 <node id="Van">
@@ -12,58 +42,28 @@
 <node id="NoImpairments">
   <data key="d0">subsubcategory</data>
 </node>
-<node id="Two">
-  <data key="d0">subsubcategory</data>
-</node>
-<node id="True">
-  <data key="d0">subsubcategory</data>
-</node>
-<node id="n008-2018-08-06-15-06-32-0400__CAM_FRONT__1533583208612404.jpg">
-  <data key="d0">image</data>
-</node>
-<node id="Sedan">
-  <data key="d0">subsubcategory</data>
-</node>
-<node id="Forward">
-  <data key="d0">subsubcategory</data>
-</node>
-<node id="Moving">
-  <data key="d0">subsubcategory</data>
-</node>
-<node id="Few">
-  <data key="d0">subsubcategory</data>
-</node>
-<node id="Road Work">
-  <data key="d0">subsubcategory</data>
-</node>
 <node id="Clear">
   <data key="d0">subsubcategory</data>
 </node>
-<node id="Construction Warning">
+<node id="EgoMoving">
   <data key="d0">subsubcategory</data>
 </node>
-<node id="Lane Not Clearly Visible">
-  <data key="d0">subsubcategory</data>
-</node>
-<node id="Two-Way">
-  <data key="d0">subsubcategory</data>
-</node>
-<node id="Urban">
-  <data key="d0">subsubcategory</data>
-</node>
-<node id="Visible">
-  <data key="d0">subsubcategory</data>
-</node>
-<node id="NoPed">
-  <data key="d0">subsubcategory</data>
-</node>
-<node id="Good">
+<node id="Daytime">
   <data key="d0">subsubcategory</data>
 </node>
 <node id="Dry">
   <data key="d0">subsubcategory</data>
 </node>
-<node id="In Motion">
+<node id="Good">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="Sedan">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="NoPed">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="Few">
   <data key="d0">subsubcategory</data>
 </node>
 <edge source="n008-2018-08-06-15-06-32-0400__CAM_FRONT__1533583208612404.jpg" target="Urban"/>
@@ -82,8 +82,8 @@
 <edge source="n008-2018-08-06-15-06-32-0400__CAM_FRONT__1533583208612404.jpg" target="In Motion"/>
 <edge source="n008-2018-08-06-15-06-32-0400__CAM_FRONT__1533583208612404.jpg" target="NoPed"/>
 <edge source="n008-2018-08-06-15-06-32-0400__CAM_FRONT__1533583208612404.jpg" target="Two-Way"/>
-<edge source="n008-2018-08-06-15-06-32-0400__CAM_FRONT__1533583208612404.jpg" target="Forward"/>
-<edge source="n008-2018-08-06-15-06-32-0400__CAM_FRONT__1533583208612404.jpg" target="Moving"/>
+<edge source="n008-2018-08-06-15-06-32-0400__CAM_FRONT__1533583208612404.jpg" target="EgoForward"/>
+<edge source="n008-2018-08-06-15-06-32-0400__CAM_FRONT__1533583208612404.jpg" target="EgoMoving"/>
 <edge source="n008-2018-08-06-15-06-32-0400__CAM_FRONT__1533583208612404.jpg" target="Good"/>
 <edge source="n008-2018-08-06-15-06-32-0400__CAM_FRONT__1533583208612404.jpg" target="NoImpairments"/>
 <edge source="n008-2018-08-06-15-06-32-0400__CAM_FRONT__1533583208612404.jpg" target="4"/>

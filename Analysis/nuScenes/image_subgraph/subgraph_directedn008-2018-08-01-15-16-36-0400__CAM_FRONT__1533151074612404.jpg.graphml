@@ -1,72 +1,69 @@
 <?xml version='1.0' encoding='utf-8'?>
 <graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d0" for="node" attr.name="type" attr.type="string"/>
-<graph edgedefault="directed"><node id="Industrial">
+<graph edgedefault="directed"><node id="Two">
   <data key="d0">subsubcategory</data>
 </node>
-<node id="False">
-  <data key="d0">subsubcategory</data>
-</node>
-<node id="Daytime">
+<node id="EgoForward">
   <data key="d0">subsubcategory</data>
 </node>
 <node id="5">
   <data key="d0">subsubcategory</data>
 </node>
-<node id="NoImpairments">
-  <data key="d0">subsubcategory</data>
-</node>
-<node id="Two">
-  <data key="d0">subsubcategory</data>
-</node>
-<node id="MultiplePed">
-  <data key="d0">subsubcategory</data>
-</node>
 <node id="n008-2018-08-01-15-16-36-0400__CAM_FRONT__1533151074612404.jpg">
   <data key="d0">image</data>
 </node>
-<node id="No Parking">
+<node id="Visible">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="Industrial">
   <data key="d0">subsubcategory</data>
 </node>
 <node id="Overcast">
   <data key="d0">subsubcategory</data>
 </node>
-<node id="Forward">
-  <data key="d0">subsubcategory</data>
-</node>
-<node id="Not Visible">
-  <data key="d0">subsubcategory</data>
-</node>
-<node id="Few">
-  <data key="d0">subsubcategory</data>
-</node>
-<node id="Clear">
-  <data key="d0">subsubcategory</data>
-</node>
-<node id="Truck">
-  <data key="d0">subsubcategory</data>
-</node>
-<node id="NoSpecialLanes">
-  <data key="d0">subsubcategory</data>
-</node>
-<node id="Parked">
+<node id="Two-Way">
   <data key="d0">subsubcategory</data>
 </node>
 <node id="Lane Not Clearly Visible">
   <data key="d0">subsubcategory</data>
 </node>
-<node id="Two-Way">
+<node id="No Parking">
   <data key="d0">subsubcategory</data>
 </node>
-<node id="Visible">
+<node id="NoImpairments">
   <data key="d0">subsubcategory</data>
 </node>
-<node id="Good">
+<node id="Clear">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="NoSpecialLanes">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="Truck">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="False">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="EgoMoving">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="MultiplePed">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="Daytime">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="Parked">
   <data key="d0">subsubcategory</data>
 </node>
 <node id="Dry">
   <data key="d0">subsubcategory</data>
 </node>
-<node id="Moving">
+<node id="Good">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="Few">
   <data key="d0">subsubcategory</data>
 </node>
 <edge source="n008-2018-08-01-15-16-36-0400__CAM_FRONT__1533151074612404.jpg" target="Industrial"/>
@@ -76,7 +73,6 @@
 <edge source="n008-2018-08-01-15-16-36-0400__CAM_FRONT__1533151074612404.jpg" target="Two"/>
 <edge source="n008-2018-08-01-15-16-36-0400__CAM_FRONT__1533151074612404.jpg" target="Lane Not Clearly Visible"/>
 <edge source="n008-2018-08-01-15-16-36-0400__CAM_FRONT__1533151074612404.jpg" target="NoSpecialLanes"/>
-<edge source="n008-2018-08-01-15-16-36-0400__CAM_FRONT__1533151074612404.jpg" target="Not Visible"/>
 <edge source="n008-2018-08-01-15-16-36-0400__CAM_FRONT__1533151074612404.jpg" target="No Parking"/>
 <edge source="n008-2018-08-01-15-16-36-0400__CAM_FRONT__1533151074612404.jpg" target="Visible"/>
 <edge source="n008-2018-08-01-15-16-36-0400__CAM_FRONT__1533151074612404.jpg" target="Truck"/>
@@ -85,8 +81,8 @@
 <edge source="n008-2018-08-01-15-16-36-0400__CAM_FRONT__1533151074612404.jpg" target="Parked"/>
 <edge source="n008-2018-08-01-15-16-36-0400__CAM_FRONT__1533151074612404.jpg" target="MultiplePed"/>
 <edge source="n008-2018-08-01-15-16-36-0400__CAM_FRONT__1533151074612404.jpg" target="Two-Way"/>
-<edge source="n008-2018-08-01-15-16-36-0400__CAM_FRONT__1533151074612404.jpg" target="Forward"/>
-<edge source="n008-2018-08-01-15-16-36-0400__CAM_FRONT__1533151074612404.jpg" target="Moving"/>
+<edge source="n008-2018-08-01-15-16-36-0400__CAM_FRONT__1533151074612404.jpg" target="EgoForward"/>
+<edge source="n008-2018-08-01-15-16-36-0400__CAM_FRONT__1533151074612404.jpg" target="EgoMoving"/>
 <edge source="n008-2018-08-01-15-16-36-0400__CAM_FRONT__1533151074612404.jpg" target="Good"/>
 <edge source="n008-2018-08-01-15-16-36-0400__CAM_FRONT__1533151074612404.jpg" target="NoImpairments"/>
 <edge source="n008-2018-08-01-15-16-36-0400__CAM_FRONT__1533151074612404.jpg" target="Clear"/>

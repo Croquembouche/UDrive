@@ -1,42 +1,45 @@
 <?xml version='1.0' encoding='utf-8'?>
 <graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d0" for="node" attr.name="type" attr.type="string"/>
-<graph edgedefault="directed"><node id="False">
+<graph edgedefault="directed"><node id="3">
   <data key="d0">subsubcategory</data>
 </node>
-<node id="3">
+<node id="EgoForward">
   <data key="d0">subsubcategory</data>
 </node>
-<node id="NoTrafficSigns">
-  <data key="d0">subsubcategory</data>
-</node>
-<node id="Daytime">
-  <data key="d0">subsubcategory</data>
-</node>
-<node id="Van">
-  <data key="d0">subsubcategory</data>
-</node>
-<node id="Sunny">
-  <data key="d0">subsubcategory</data>
-</node>
-<node id="SignNotVisible">
-  <data key="d0">subsubcategory</data>
-</node>
-<node id="None">
-  <data key="d0">subsubcategory</data>
-</node>
-<node id="Commercial">
+<node id="Not Visible">
   <data key="d0">subsubcategory</data>
 </node>
 <node id="MultipleVehicles">
   <data key="d0">subsubcategory</data>
 </node>
+<node id="n008-2018-05-21-11-06-59-0400__CAM_FRONT__1526915267162465.jpg">
+  <data key="d0">image</data>
+</node>
+<node id="Visible on Sidewalk">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="Sunny">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="NoTrafficSigns">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="Commercial">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="Two-Way">
+  <data key="d0">subsubcategory</data>
+</node>
 <node id="SUV">
   <data key="d0">subsubcategory</data>
 </node>
-<node id="Forward">
+<node id="Van">
   <data key="d0">subsubcategory</data>
 </node>
-<node id="Not Visible">
+<node id="NoLane">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="Shadows">
   <data key="d0">subsubcategory</data>
 </node>
 <node id="Clear">
@@ -45,35 +48,32 @@
 <node id="NoSpecialLanes">
   <data key="d0">subsubcategory</data>
 </node>
-<node id="Visible on Sidewalk">
+<node id="False">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="EgoMoving">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="Daytime">
   <data key="d0">subsubcategory</data>
 </node>
 <node id="Parked">
   <data key="d0">subsubcategory</data>
 </node>
-<node id="Two-Way">
+<node id="Dry">
   <data key="d0">subsubcategory</data>
 </node>
 <node id="Good">
   <data key="d0">subsubcategory</data>
 </node>
-<node id="n008-2018-05-21-11-06-59-0400__CAM_FRONT__1526915267162465.jpg">
-  <data key="d0">image</data>
-</node>
-<node id="Shadows">
-  <data key="d0">subsubcategory</data>
-</node>
-<node id="Dry">
-  <data key="d0">subsubcategory</data>
-</node>
-<node id="Moving">
+<node id="SignNotVisible">
   <data key="d0">subsubcategory</data>
 </node>
 <edge source="n008-2018-05-21-11-06-59-0400__CAM_FRONT__1526915267162465.jpg" target="Commercial"/>
 <edge source="n008-2018-05-21-11-06-59-0400__CAM_FRONT__1526915267162465.jpg" target="Daytime"/>
 <edge source="n008-2018-05-21-11-06-59-0400__CAM_FRONT__1526915267162465.jpg" target="Sunny"/>
 <edge source="n008-2018-05-21-11-06-59-0400__CAM_FRONT__1526915267162465.jpg" target="Dry"/>
-<edge source="n008-2018-05-21-11-06-59-0400__CAM_FRONT__1526915267162465.jpg" target="None"/>
+<edge source="n008-2018-05-21-11-06-59-0400__CAM_FRONT__1526915267162465.jpg" target="NoLane"/>
 <edge source="n008-2018-05-21-11-06-59-0400__CAM_FRONT__1526915267162465.jpg" target="Not Visible"/>
 <edge source="n008-2018-05-21-11-06-59-0400__CAM_FRONT__1526915267162465.jpg" target="NoSpecialLanes"/>
 <edge source="n008-2018-05-21-11-06-59-0400__CAM_FRONT__1526915267162465.jpg" target="NoTrafficSigns"/>
@@ -85,8 +85,8 @@
 <edge source="n008-2018-05-21-11-06-59-0400__CAM_FRONT__1526915267162465.jpg" target="SUV"/>
 <edge source="n008-2018-05-21-11-06-59-0400__CAM_FRONT__1526915267162465.jpg" target="Visible on Sidewalk"/>
 <edge source="n008-2018-05-21-11-06-59-0400__CAM_FRONT__1526915267162465.jpg" target="Two-Way"/>
-<edge source="n008-2018-05-21-11-06-59-0400__CAM_FRONT__1526915267162465.jpg" target="Forward"/>
-<edge source="n008-2018-05-21-11-06-59-0400__CAM_FRONT__1526915267162465.jpg" target="Moving"/>
+<edge source="n008-2018-05-21-11-06-59-0400__CAM_FRONT__1526915267162465.jpg" target="EgoForward"/>
+<edge source="n008-2018-05-21-11-06-59-0400__CAM_FRONT__1526915267162465.jpg" target="EgoMoving"/>
 <edge source="n008-2018-05-21-11-06-59-0400__CAM_FRONT__1526915267162465.jpg" target="Good"/>
 <edge source="n008-2018-05-21-11-06-59-0400__CAM_FRONT__1526915267162465.jpg" target="Shadows"/>
 <edge source="n008-2018-05-21-11-06-59-0400__CAM_FRONT__1526915267162465.jpg" target="Clear"/>

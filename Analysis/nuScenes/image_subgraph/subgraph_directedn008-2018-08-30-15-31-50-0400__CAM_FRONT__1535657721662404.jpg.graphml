@@ -3,52 +3,31 @@
 <graph edgedefault="directed"><node id="1">
   <data key="d0">subsubcategory</data>
 </node>
-<node id="False">
-  <data key="d0">subsubcategory</data>
-</node>
-<node id="Stopped">
-  <data key="d0">subsubcategory</data>
-</node>
-<node id="Daytime">
-  <data key="d0">subsubcategory</data>
-</node>
-<node id="NoTrafficSigns">
-  <data key="d0">subsubcategory</data>
-</node>
-<node id="Unknown">
-  <data key="d0">subsubcategory</data>
-</node>
-<node id="NoImpairments">
-  <data key="d0">subsubcategory</data>
-</node>
-<node id="SignNotVisible">
-  <data key="d0">subsubcategory</data>
-</node>
-<node id="None">
-  <data key="d0">subsubcategory</data>
-</node>
-<node id="n008-2018-08-30-15-31-50-0400__CAM_FRONT__1535657721662404.jpg">
-  <data key="d0">image</data>
-</node>
-<node id="Commercial">
-  <data key="d0">subsubcategory</data>
-</node>
-<node id="Waiting">
+<node id="Not Visible">
   <data key="d0">subsubcategory</data>
 </node>
 <node id="Partly Cloudy">
   <data key="d0">subsubcategory</data>
 </node>
+<node id="NoTrafficSigns">
+  <data key="d0">subsubcategory</data>
+</node>
 <node id="NoVehicleState">
   <data key="d0">subsubcategory</data>
 </node>
-<node id="NoVehicle">
+<node id="Commercial">
   <data key="d0">subsubcategory</data>
 </node>
-<node id="NoVehicleType">
+<node id="Unknown">
   <data key="d0">subsubcategory</data>
 </node>
-<node id="Not Visible">
+<node id="n008-2018-08-30-15-31-50-0400__CAM_FRONT__1535657721662404.jpg">
+  <data key="d0">image</data>
+</node>
+<node id="NoLane">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="NoImpairments">
   <data key="d0">subsubcategory</data>
 </node>
 <node id="Clear">
@@ -57,20 +36,41 @@
 <node id="NoSpecialLanes">
   <data key="d0">subsubcategory</data>
 </node>
-<node id="NoPed">
+<node id="EgoWaiting">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="False">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="Daytime">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="Dry">
   <data key="d0">subsubcategory</data>
 </node>
 <node id="Good">
   <data key="d0">subsubcategory</data>
 </node>
-<node id="Dry">
+<node id="NoVehicle">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="NoPed">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="EgoStopped">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="NoVehicleType">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="SignNotVisible">
   <data key="d0">subsubcategory</data>
 </node>
 <edge source="n008-2018-08-30-15-31-50-0400__CAM_FRONT__1535657721662404.jpg" target="Commercial"/>
 <edge source="n008-2018-08-30-15-31-50-0400__CAM_FRONT__1535657721662404.jpg" target="Daytime"/>
 <edge source="n008-2018-08-30-15-31-50-0400__CAM_FRONT__1535657721662404.jpg" target="Partly Cloudy"/>
 <edge source="n008-2018-08-30-15-31-50-0400__CAM_FRONT__1535657721662404.jpg" target="Dry"/>
-<edge source="n008-2018-08-30-15-31-50-0400__CAM_FRONT__1535657721662404.jpg" target="None"/>
+<edge source="n008-2018-08-30-15-31-50-0400__CAM_FRONT__1535657721662404.jpg" target="NoLane"/>
 <edge source="n008-2018-08-30-15-31-50-0400__CAM_FRONT__1535657721662404.jpg" target="Not Visible"/>
 <edge source="n008-2018-08-30-15-31-50-0400__CAM_FRONT__1535657721662404.jpg" target="NoSpecialLanes"/>
 <edge source="n008-2018-08-30-15-31-50-0400__CAM_FRONT__1535657721662404.jpg" target="NoTrafficSigns"/>
@@ -83,8 +83,8 @@
 <edge source="n008-2018-08-30-15-31-50-0400__CAM_FRONT__1535657721662404.jpg" target="Unknown"/>
 <edge source="n008-2018-08-30-15-31-50-0400__CAM_FRONT__1535657721662404.jpg" target="Good"/>
 <edge source="n008-2018-08-30-15-31-50-0400__CAM_FRONT__1535657721662404.jpg" target="NoImpairments"/>
-<edge source="n008-2018-08-30-15-31-50-0400__CAM_FRONT__1535657721662404.jpg" target="Stopped"/>
-<edge source="n008-2018-08-30-15-31-50-0400__CAM_FRONT__1535657721662404.jpg" target="Waiting"/>
+<edge source="n008-2018-08-30-15-31-50-0400__CAM_FRONT__1535657721662404.jpg" target="EgoStopped"/>
+<edge source="n008-2018-08-30-15-31-50-0400__CAM_FRONT__1535657721662404.jpg" target="EgoWaiting"/>
 <edge source="n008-2018-08-30-15-31-50-0400__CAM_FRONT__1535657721662404.jpg" target="Clear"/>
 <edge source="n008-2018-08-30-15-31-50-0400__CAM_FRONT__1535657721662404.jpg" target="1"/>
 </graph></graphml>

@@ -1,69 +1,69 @@
 <?xml version='1.0' encoding='utf-8'?>
 <graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d0" for="node" attr.name="type" attr.type="string"/>
-<graph edgedefault="directed"><node id="False">
-  <data key="d0">subsubcategory</data>
-</node>
-<node id="Daytime">
+<graph edgedefault="directed"><node id="EgoForward">
   <data key="d0">subsubcategory</data>
 </node>
 <node id="5">
   <data key="d0">subsubcategory</data>
 </node>
-<node id="NoImpairments">
+<node id="Visible">
   <data key="d0">subsubcategory</data>
 </node>
-<node id="MultipleLanes">
+<node id="EgoSlowing Down">
   <data key="d0">subsubcategory</data>
 </node>
 <node id="Overcast">
   <data key="d0">subsubcategory</data>
 </node>
-<node id="NoVehicleState">
-  <data key="d0">subsubcategory</data>
-</node>
-<node id="NoVehicle">
-  <data key="d0">subsubcategory</data>
-</node>
-<node id="NoVehicleType">
-  <data key="d0">subsubcategory</data>
-</node>
-<node id="Forward">
-  <data key="d0">subsubcategory</data>
-</node>
-<node id="n008-2018-07-26-12-13-50-0400__CAM_FRONT__1532622011162404.jpg">
-  <data key="d0">image</data>
-</node>
 <node id="Construction">
-  <data key="d0">subsubcategory</data>
-</node>
-<node id="Road Work">
-  <data key="d0">subsubcategory</data>
-</node>
-<node id="Clear">
-  <data key="d0">subsubcategory</data>
-</node>
-<node id="NoSpecialLanes">
   <data key="d0">subsubcategory</data>
 </node>
 <node id="Multi-directional with median">
   <data key="d0">subsubcategory</data>
 </node>
-<node id="Slowing Down">
+<node id="NoVehicleState">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="n008-2018-07-26-12-13-50-0400__CAM_FRONT__1532622011162404.jpg">
+  <data key="d0">image</data>
+</node>
+<node id="Road Work">
   <data key="d0">subsubcategory</data>
 </node>
 <node id="Lane Not Clearly Visible">
   <data key="d0">subsubcategory</data>
 </node>
-<node id="Visible">
+<node id="NoImpairments">
   <data key="d0">subsubcategory</data>
 </node>
-<node id="NoPed">
+<node id="Clear">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="MultipleLanes">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="NoSpecialLanes">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="False">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="Daytime">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="Dry">
   <data key="d0">subsubcategory</data>
 </node>
 <node id="Good">
   <data key="d0">subsubcategory</data>
 </node>
-<node id="Dry">
+<node id="NoVehicle">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="NoPed">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="NoVehicleType">
   <data key="d0">subsubcategory</data>
 </node>
 <edge source="n008-2018-07-26-12-13-50-0400__CAM_FRONT__1532622011162404.jpg" target="Construction"/>
@@ -81,8 +81,8 @@
 <edge source="n008-2018-07-26-12-13-50-0400__CAM_FRONT__1532622011162404.jpg" target="NoVehicleState"/>
 <edge source="n008-2018-07-26-12-13-50-0400__CAM_FRONT__1532622011162404.jpg" target="NoPed"/>
 <edge source="n008-2018-07-26-12-13-50-0400__CAM_FRONT__1532622011162404.jpg" target="Multi-directional with median"/>
-<edge source="n008-2018-07-26-12-13-50-0400__CAM_FRONT__1532622011162404.jpg" target="Forward"/>
-<edge source="n008-2018-07-26-12-13-50-0400__CAM_FRONT__1532622011162404.jpg" target="Slowing Down"/>
+<edge source="n008-2018-07-26-12-13-50-0400__CAM_FRONT__1532622011162404.jpg" target="EgoForward"/>
+<edge source="n008-2018-07-26-12-13-50-0400__CAM_FRONT__1532622011162404.jpg" target="EgoSlowing Down"/>
 <edge source="n008-2018-07-26-12-13-50-0400__CAM_FRONT__1532622011162404.jpg" target="Good"/>
 <edge source="n008-2018-07-26-12-13-50-0400__CAM_FRONT__1532622011162404.jpg" target="NoImpairments"/>
 <edge source="n008-2018-07-26-12-13-50-0400__CAM_FRONT__1532622011162404.jpg" target="Clear"/>

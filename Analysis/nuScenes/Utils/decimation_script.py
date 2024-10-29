@@ -33,18 +33,20 @@ def process_and_move_scenarios(folder, target):
     os.makedirs(folder, exist_ok=True)
     for image_name in os.listdir(folder):
         # Ensure the target directory exists
-        if count % 30 == 0:
+        if image_name.startswith("n008"):
+            # if count % 30 == 0:
             image_path = os.path.join(folder, image_name)
             target_path = os.path.join(target, image_name)
             shutil.copy2(image_path, target_path)
             print(image_path)
-        count += 1
+            # count += 1
+    print("Done")
 
 
 
 
 
 # Specify the path to the 'train_1' folder and the target base folder
-folder = '/media/william/blueicedrive/datasets/NuScenes/v1.0-trainval09_blobs_camera/sweeps/CAM_FRONT'
-target = '/media/william/blueicedrive/Github/UDrive/Analysis/nuScenes/images'
+folder = '/media/william/blueicedrive/datasets/NuScenes/v1.0-trainval09_blobs_camera/samples/CAM_FRONT'
+target = '/media/william/blueicedrive/datasets/NuScenes/annotated_images'
 process_and_move_scenarios(folder, target)

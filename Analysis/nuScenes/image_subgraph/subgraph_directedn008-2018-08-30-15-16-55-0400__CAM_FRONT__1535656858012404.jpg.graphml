@@ -1,75 +1,75 @@
 <?xml version='1.0' encoding='utf-8'?>
 <graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d0" for="node" attr.name="type" attr.type="string"/>
-<graph edgedefault="directed"><node id="Daytime">
-  <data key="d0">subsubcategory</data>
-</node>
-<node id="6">
-  <data key="d0">subsubcategory</data>
-</node>
-<node id="NoImpairments">
-  <data key="d0">subsubcategory</data>
-</node>
-<node id="LaneVisible">
-  <data key="d0">subsubcategory</data>
-</node>
-<node id="True">
-  <data key="d0">subsubcategory</data>
-</node>
-<node id="No Left Turn">
-  <data key="d0">subsubcategory</data>
-</node>
-<node id="Waiting">
-  <data key="d0">subsubcategory</data>
-</node>
-<node id="MultipleLanes">
-  <data key="d0">subsubcategory</data>
-</node>
-<node id="Overcast">
-  <data key="d0">subsubcategory</data>
-</node>
-<node id="Sedan">
-  <data key="d0">subsubcategory</data>
-</node>
-<node id="n008-2018-08-30-15-16-55-0400__CAM_FRONT__1535656858012404.jpg">
-  <data key="d0">image</data>
-</node>
-<node id="Forward">
-  <data key="d0">subsubcategory</data>
-</node>
-<node id="Traffic Light">
-  <data key="d0">subsubcategory</data>
-</node>
-<node id="Green">
-  <data key="d0">subsubcategory</data>
-</node>
-<node id="Turning Left">
-  <data key="d0">subsubcategory</data>
-</node>
-<node id="Few">
-  <data key="d0">subsubcategory</data>
-</node>
-<node id="Clear">
-  <data key="d0">subsubcategory</data>
-</node>
-<node id="Visible on Sidewalk">
-  <data key="d0">subsubcategory</data>
-</node>
-<node id="NoSpecialLanes">
-  <data key="d0">subsubcategory</data>
-</node>
-<node id="Two-Way">
+<graph edgedefault="directed"><node id="EgoForward">
   <data key="d0">subsubcategory</data>
 </node>
 <node id="Urban">
   <data key="d0">subsubcategory</data>
 </node>
+<node id="6">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="True">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="Visible on Sidewalk">
+  <data key="d0">subsubcategory</data>
+</node>
 <node id="Visible">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="Overcast">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="Traffic Light">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="Two-Way">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="Green">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="NoImpairments">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="Clear">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="MultipleLanes">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="NoSpecialLanes">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="No Left Turn">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="EgoWaiting">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="Daytime">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="LaneVisible">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="Dry">
   <data key="d0">subsubcategory</data>
 </node>
 <node id="Good">
   <data key="d0">subsubcategory</data>
 </node>
-<node id="Dry">
+<node id="Turning Left">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="n008-2018-08-30-15-16-55-0400__CAM_FRONT__1535656858012404.jpg">
+  <data key="d0">image</data>
+</node>
+<node id="Sedan">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="Few">
   <data key="d0">subsubcategory</data>
 </node>
 <edge source="n008-2018-08-30-15-16-55-0400__CAM_FRONT__1535656858012404.jpg" target="Urban"/>
@@ -91,8 +91,8 @@
 <edge source="n008-2018-08-30-15-16-55-0400__CAM_FRONT__1535656858012404.jpg" target="Two-Way"/>
 <edge source="n008-2018-08-30-15-16-55-0400__CAM_FRONT__1535656858012404.jpg" target="Good"/>
 <edge source="n008-2018-08-30-15-16-55-0400__CAM_FRONT__1535656858012404.jpg" target="NoImpairments"/>
-<edge source="n008-2018-08-30-15-16-55-0400__CAM_FRONT__1535656858012404.jpg" target="Forward"/>
-<edge source="n008-2018-08-30-15-16-55-0400__CAM_FRONT__1535656858012404.jpg" target="Waiting"/>
+<edge source="n008-2018-08-30-15-16-55-0400__CAM_FRONT__1535656858012404.jpg" target="EgoForward"/>
+<edge source="n008-2018-08-30-15-16-55-0400__CAM_FRONT__1535656858012404.jpg" target="EgoWaiting"/>
 <edge source="n008-2018-08-30-15-16-55-0400__CAM_FRONT__1535656858012404.jpg" target="Clear"/>
 <edge source="n008-2018-08-30-15-16-55-0400__CAM_FRONT__1535656858012404.jpg" target="6"/>
 </graph></graphml>

@@ -1,36 +1,18 @@
 <?xml version='1.0' encoding='utf-8'?>
 <graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d0" for="node" attr.name="type" attr.type="string"/>
-<graph edgedefault="directed"><node id="False">
+<graph edgedefault="directed"><node id="3">
   <data key="d0">subsubcategory</data>
-</node>
-<node id="3">
-  <data key="d0">subsubcategory</data>
-</node>
-<node id="Daytime">
-  <data key="d0">subsubcategory</data>
-</node>
-<node id="Van">
-  <data key="d0">subsubcategory</data>
-</node>
-<node id="NoImpairments">
-  <data key="d0">subsubcategory</data>
-</node>
-<node id="Yield Sign">
-  <data key="d0">subsubcategory</data>
-</node>
-<node id="Waiting">
-  <data key="d0">subsubcategory</data>
-</node>
-<node id="Overcast">
-  <data key="d0">subsubcategory</data>
-</node>
-<node id="n008-2018-08-01-15-16-36-0400__CAM_FRONT__1533151859762404.jpg">
-  <data key="d0">image</data>
 </node>
 <node id="MultipleVehicles">
   <data key="d0">subsubcategory</data>
 </node>
 <node id="One-Way">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="Visible">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="Overcast">
   <data key="d0">subsubcategory</data>
 </node>
 <node id="Construction">
@@ -39,41 +21,59 @@
 <node id="Road Work">
   <data key="d0">subsubcategory</data>
 </node>
-<node id="Clear">
-  <data key="d0">subsubcategory</data>
-</node>
-<node id="Truck">
-  <data key="d0">subsubcategory</data>
-</node>
-<node id="NoSpecialLanes">
-  <data key="d0">subsubcategory</data>
-</node>
-<node id="One">
-  <data key="d0">subsubcategory</data>
-</node>
-<node id="Parked">
-  <data key="d0">subsubcategory</data>
-</node>
 <node id="Lane Not Clearly Visible">
   <data key="d0">subsubcategory</data>
 </node>
-<node id="Visible">
+<node id="Van">
   <data key="d0">subsubcategory</data>
 </node>
-<node id="NoPed">
-  <data key="d0">subsubcategory</data>
-</node>
-<node id="Good">
+<node id="NoImpairments">
   <data key="d0">subsubcategory</data>
 </node>
 <node id="Construction Vehicles">
   <data key="d0">subsubcategory</data>
 </node>
-<node id="Stopped at Intersection">
+<node id="One">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="NoSpecialLanes">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="Clear">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="EgoWaiting">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="Truck">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="False">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="EgoStopped at Intersection">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="Daytime">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="Parked">
   <data key="d0">subsubcategory</data>
 </node>
 <node id="Dry">
   <data key="d0">subsubcategory</data>
+</node>
+<node id="Good">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="NoPed">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="Yield Sign">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="n008-2018-08-01-15-16-36-0400__CAM_FRONT__1533151859762404.jpg">
+  <data key="d0">image</data>
 </node>
 <edge source="n008-2018-08-01-15-16-36-0400__CAM_FRONT__1533151859762404.jpg" target="Construction"/>
 <edge source="n008-2018-08-01-15-16-36-0400__CAM_FRONT__1533151859762404.jpg" target="Daytime"/>
@@ -93,8 +93,8 @@
 <edge source="n008-2018-08-01-15-16-36-0400__CAM_FRONT__1533151859762404.jpg" target="Parked"/>
 <edge source="n008-2018-08-01-15-16-36-0400__CAM_FRONT__1533151859762404.jpg" target="NoPed"/>
 <edge source="n008-2018-08-01-15-16-36-0400__CAM_FRONT__1533151859762404.jpg" target="One-Way"/>
-<edge source="n008-2018-08-01-15-16-36-0400__CAM_FRONT__1533151859762404.jpg" target="Stopped at Intersection"/>
-<edge source="n008-2018-08-01-15-16-36-0400__CAM_FRONT__1533151859762404.jpg" target="Waiting"/>
+<edge source="n008-2018-08-01-15-16-36-0400__CAM_FRONT__1533151859762404.jpg" target="EgoStopped at Intersection"/>
+<edge source="n008-2018-08-01-15-16-36-0400__CAM_FRONT__1533151859762404.jpg" target="EgoWaiting"/>
 <edge source="n008-2018-08-01-15-16-36-0400__CAM_FRONT__1533151859762404.jpg" target="Good"/>
 <edge source="n008-2018-08-01-15-16-36-0400__CAM_FRONT__1533151859762404.jpg" target="NoImpairments"/>
 <edge source="n008-2018-08-01-15-16-36-0400__CAM_FRONT__1533151859762404.jpg" target="Clear"/>

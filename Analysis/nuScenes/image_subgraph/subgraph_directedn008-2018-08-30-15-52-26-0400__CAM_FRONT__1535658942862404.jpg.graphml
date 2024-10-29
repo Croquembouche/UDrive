@@ -3,40 +3,37 @@
 <graph edgedefault="directed"><node id="1">
   <data key="d0">subsubcategory</data>
 </node>
-<node id="Industrial">
+<node id="Two">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="EgoForward">
   <data key="d0">subsubcategory</data>
 </node>
 <node id="2">
   <data key="d0">subsubcategory</data>
 </node>
-<node id="Daytime">
+<node id="Do Not Enter">
   <data key="d0">subsubcategory</data>
 </node>
-<node id="NoImpairments">
+<node id="In Motion">
   <data key="d0">subsubcategory</data>
 </node>
-<node id="LaneVisible">
+<node id="Visible">
   <data key="d0">subsubcategory</data>
 </node>
-<node id="Proceeding forward">
-  <data key="d0">subsubcategory</data>
-</node>
-<node id="Two">
+<node id="Industrial">
   <data key="d0">subsubcategory</data>
 </node>
 <node id="Overcast">
   <data key="d0">subsubcategory</data>
 </node>
-<node id="Sedan">
-  <data key="d0">subsubcategory</data>
-</node>
 <node id="n008-2018-08-30-15-52-26-0400__CAM_FRONT__1535658942862404.jpg">
   <data key="d0">image</data>
 </node>
-<node id="Do Not Enter">
+<node id="Two-Way">
   <data key="d0">subsubcategory</data>
 </node>
-<node id="Forward">
+<node id="NoImpairments">
   <data key="d0">subsubcategory</data>
 </node>
 <node id="Clear">
@@ -45,25 +42,28 @@
 <node id="NoSpecialLanes">
   <data key="d0">subsubcategory</data>
 </node>
+<node id="EgoMoving">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="Daytime">
+  <data key="d0">subsubcategory</data>
+</node>
 <node id="Parked">
   <data key="d0">subsubcategory</data>
 </node>
-<node id="Two-Way">
-  <data key="d0">subsubcategory</data>
-</node>
-<node id="Visible">
-  <data key="d0">subsubcategory</data>
-</node>
-<node id="NoPed">
-  <data key="d0">subsubcategory</data>
-</node>
-<node id="Good">
+<node id="LaneVisible">
   <data key="d0">subsubcategory</data>
 </node>
 <node id="Dry">
   <data key="d0">subsubcategory</data>
 </node>
-<node id="In Motion">
+<node id="Good">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="Sedan">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="NoPed">
   <data key="d0">subsubcategory</data>
 </node>
 <edge source="n008-2018-08-30-15-52-26-0400__CAM_FRONT__1535658942862404.jpg" target="Industrial"/>
@@ -84,7 +84,7 @@
 <edge source="n008-2018-08-30-15-52-26-0400__CAM_FRONT__1535658942862404.jpg" target="Two-Way"/>
 <edge source="n008-2018-08-30-15-52-26-0400__CAM_FRONT__1535658942862404.jpg" target="Good"/>
 <edge source="n008-2018-08-30-15-52-26-0400__CAM_FRONT__1535658942862404.jpg" target="NoImpairments"/>
-<edge source="n008-2018-08-30-15-52-26-0400__CAM_FRONT__1535658942862404.jpg" target="Forward"/>
-<edge source="n008-2018-08-30-15-52-26-0400__CAM_FRONT__1535658942862404.jpg" target="Proceeding forward"/>
+<edge source="n008-2018-08-30-15-52-26-0400__CAM_FRONT__1535658942862404.jpg" target="EgoForward"/>
+<edge source="n008-2018-08-30-15-52-26-0400__CAM_FRONT__1535658942862404.jpg" target="EgoMoving"/>
 <edge source="n008-2018-08-30-15-52-26-0400__CAM_FRONT__1535658942862404.jpg" target="Clear"/>
 </graph></graphml>

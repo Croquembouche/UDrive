@@ -15,7 +15,7 @@ import random
 
 
 # Load your data
-file_path = '/home/carla/Github/UDrive/unifiedAnalysis.json'  # Update this with the actual file path
+file_path = '/media/william/blueicedrive/Github/UDrive/Analysis/ArgoVerse1/unifiedAnalysis.json'  # Update this with the actual file path
 with open(file_path, 'r') as file:
     data = json.load(file)
 
@@ -101,7 +101,7 @@ class DatasetAnalysis:
         # num_edges = G.number_of_edges()
         # num_nodes = G.number_of_nodes()
         self.G = G
-        # print(subsubcategories)
+        print(subsubcategories)
         print(f"{len(subsubcategories)} number of subsubcategories")
         print(f"The dataset contains {low} low-risk scenes, {medium} medium-risk scenes, and {high} high-risk scenes.")
         # print(f"Number of Edges: {num_edges}")
@@ -113,6 +113,9 @@ class DatasetAnalysis:
     def calculateDegreeCentrality(self, x):
         degree_centrality = nx.degree_centrality(self.G)
         top_x = sorted(degree_centrality, key=degree_centrality.get, reverse=True)[:x]
+        values = list(degree_centrality.values())
+        values_array = np.array(values)
+        print(f"Degree Centrality: mean:{np.mean(values_array)}, max:{np.max(values_array)}, min:{np.min(values_array)}, std:{np.std(values_array)}")
         for key in top_x:
             print(f"The most {x} common occurances are Key: {key}, Value: {degree_centrality[key]}")  
 
@@ -199,7 +202,7 @@ class DatasetAnalysis:
         min_value = np.min(filtered_matrix)
         # Calculate maximum ignoring 1s
         max_value = np.max(filtered_matrix)
-        print(f"Mean: {mean_value}, Min: {min_value}, Max: {max_value}")
+        print(f"Mean: {mean_value}, Min: {min_value}, Max: {max_value}, STD: {np.std(filtered_matrix)}")
 
     def createRandomImageGraph(self, root_node):
         NUM_NODES = 161  # Includes the root node
@@ -268,7 +271,7 @@ class DatasetAnalysis:
         for i in range(836):
             temp = self.createRandomImageGraph(root_node=i+10000)
             random_image_graph.append(temp)
-            nx.write_graphml_lxml(temp, f"/home/carla/Github/UDrive/Analysis/ArgoVerse1/random_graphs/random_subgraph_directed-{i}.graphml")
+            # nx.write_graphml_lxml(temp, f"/home/carla/Github/UDrive/Analysis/ArgoVerse1/random_graphs/random_subgraph_directed-{i}.graphml")
         self.random_image_graph = random_image_graph
         n = len(random_image_graph)
         similarity_matrix = similarity_matrix = np.zeros((n, n), dtype=object)
@@ -278,6 +281,7 @@ class DatasetAnalysis:
                 similarity_matrix[i][j] = sim
                 similarity_matrix[j][i] = sim
             similarity_matrix[i][i] = 1
+        print("Stats for Random Dataset")
         self.matrixAnalysis(similarity_matrix)
         to_remove = set()
         similar_count = 0
@@ -289,23 +293,23 @@ class DatasetAnalysis:
         print(f"Found {similar_count//2} pairs of similar scenes with threshold at {similarity_threshold}")
         
         # do it again for threshold = 0.5
-        similarity_threshold = 0.4
-        similarity_matrix = similarity_matrix = np.zeros((n, n), dtype=object)
-        for i in range(0,n):
-            for j in range(i, n):
-                sim = self.calculateJaccardsimilarity(random_image_graph[i], random_image_graph[j])
-                similarity_matrix[i][j] = sim
-                similarity_matrix[j][i] = sim
-            similarity_matrix[i][i] = 1
-        self.matrixAnalysis(similarity_matrix)
-        to_remove = set()
-        similar_count = 0
-        for i in range(0, n):
-            for j in range(0, n):
-                if i != j and similarity_matrix[i][j] > similarity_threshold:
-                    to_remove.add(i)
-                    similar_count+=1
-        print(f"Found {similar_count//2} pairs of similar scenes with threshold at {similarity_threshold}")
+        # similarity_threshold = 0.4
+        # similarity_matrix = similarity_matrix = np.zeros((n, n), dtype=object)
+        # for i in range(0,n):
+        #     for j in range(i, n):
+        #         sim = self.calculateJaccardsimilarity(random_image_graph[i], random_image_graph[j])
+        #         similarity_matrix[i][j] = sim
+        #         similarity_matrix[j][i] = sim
+        #     similarity_matrix[i][i] = 1
+        # self.matrixAnalysis(similarity_matrix)
+        # to_remove = set()
+        # similar_count = 0
+        # for i in range(0, n):
+        #     for j in range(0, n):
+        #         if i != j and similarity_matrix[i][j] > similarity_threshold:
+        #             to_remove.add(i)
+        #             similar_count+=1
+        # print(f"Found {similar_count//2} pairs of similar scenes with threshold at {similarity_threshold}")
 
     def checkScenario(self, image1, image2):
         im1_parent = ""
@@ -335,15 +339,35 @@ class DatasetAnalysis:
 
     def compareScenarios(self): 
         scenario_subgraph_list = []
+        scenario_names = []
         for node, attrs in self.G.nodes(data=True):
             # print(node[0])
             if attrs.get('type') == "scenario":
+                scenario_names.append(node)
                 reachable_from_node = nx.descendants(self.G, node)
                 reachable_from_node.add(node)
                 subgraph = self.G.subgraph(reachable_from_node)
                 scenario_subgraph_list.append(subgraph)    
                 # nx.write_graphml_lxml(subgraph, f"/home/carla/Github/UDrive/Analysis/ArgoVerse1/scenario_subgraphs/subgraph_directed{node}.graphml")
         # self.calculateBetweennessCentrality()
+        n = len(scenario_subgraph_list)
+        similarity_matrix = np.zeros((n + 1, n + 1), dtype=object)
+        similarity_matrix[0] = [''] + scenario_names  # First row, starting with an empty string for the top-left cell
+        for i in range(1, n + 1):
+            similarity_matrix[i][0] = scenario_names[i - 1] 
+
+        # Calculate similarities
+        for i in range(n):
+            for j in range(i+1, n):
+                sim = self.calculateJaccardsimilarity(scenario_subgraph_list[i], scenario_subgraph_list[j])
+                similarity_matrix[i+1][j+1] = sim
+                similarity_matrix[j+1][i+1] = sim
+            similarity_matrix[i + 1][i + 1] = 1
+        self.matrixAnalysis(similarity_matrix[1:, 1:] )
+        
+        # with open('/media/william/blueicedrive/Github/UDrive/Analysis/ArgoVerse1/results/scenarioJaccardSimilaritymatrix.csv', 'w', newline='') as f:
+        #     writer = csv.writer(f)
+        #     writer.writerows(similarity_matrix)
         scenario_data = []
         for scenario in scenario_subgraph_list:
             scenario_info = self.calculate_subgraph_density(scenario)
@@ -448,25 +472,59 @@ class DatasetAnalysis:
             for edge in subgraph.edges():
                 u,v = edge
                 random_dataset.add_edge(u, v)
+        degree_centrality = nx.degree_centrality(random_dataset)
+        # top_x = sorted(degree_centrality, key=degree_centrality.get, reverse=True)[:x]
+        values = list(degree_centrality.values())
+        values_array = np.array(values)
+        print(f"Random Graph Degree Centrality: mean:{np.mean(values_array)}, max:{np.max(values_array)}, min:{np.min(values_array)}, std:{np.std(values_array)}")
 
-        nx.write_graphml_lxml(random_dataset, f"/home/carla/Github/UDrive/Analysis/ArgoVerse1/randomdataset.graphml")
+        # nx.write_graphml_lxml(random_dataset, f"/media/william/blueicedrive/Github/UDrive/Analysis/ArgoVerse1/randomdataset.graphml")
 
-        
+    def calculateCompositeScore(self):
+        w1 = 0.3
+        w2 = 0.3
+        w3 = 0.3
+        w4 = 0.1
+        high_risk = 4
+        medium_risk = 109
+        low_risk = 723
+        c_max = 0.7444852941176471
+        c_sigma = 0.07901658131840618
+        c_max_random = 0.4432160804020101
+        c_random_sigma = 0.05227209036744613
+        density = 0.017
+        density_random = 0.019
+        modularity = 0.095
+        modulartiy_random = 0.054
+        num_community = 43
+        num_community_random = 66
+        J_image = 0.3709006893992441
+        J_random = 0.1282313010415539
+        J_penalty = (J_image - J_random)/J_random
+        M_penalty = ((modularity - modulartiy_random)/modulartiy_random) * ((num_community-num_community_random)/num_community_random)
+        C_penalty = (c_max - c_max_random)/c_max_random + (c_sigma-c_random_sigma)/c_random_sigma
+        D_penalty = (density - density_random)/density_random
 
-
-
-
+        mean = (high_risk + medium_risk + low_risk) / 3
+        D_H = abs(high_risk - mean)
+        D_M = abs(medium_risk - mean)
+        D_L = abs(low_risk - mean)      
+        RD_penalty = (D_H + D_M + D_L)/mean/10
+        S = 1-(w1*J_penalty - w2*M_penalty + w3*C_penalty + w4*D_penalty)-RD_penalty
+        print(f"The Composite Score of Argoverse1 is {S}. J_penalty: {w1*J_penalty}, M_penalty: {w2*M_penalty}, C_penalty: {w3*C_penalty}, D_penalty: {w4*D_penalty}, RD_penalty: {RD_penalty}")
+# The Composite Score of Argoverse1 is -0.3128930880610582. J_penalty: 0.567730467647019, M_penalty: -0.0793771043771044, C_penalty: 0.357412310295308, D_penalty: -0.010526315789473675, RD_penalty: 0.31889952153110046
 
 G = DatasetAnalysis()
 G.createBasicGraph()
-print("Compare Scenarios")
-G.compareScenarios()
+# print("Compare Scenarios")
+# G.compareScenarios()
 # print("ArgoVerse Results")
 # G.compareImages(0.8)
 # G.calculateDegreeCentrality(10)
-print("Random Graph Results")
-G.randomAnalysis()
-G.createRandomDataset()
+# print("Random Graph Results")
+# G.randomAnalysis()
+# G.createRandomDataset()
+G.calculateCompositeScore()
 
 
 

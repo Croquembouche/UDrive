@@ -1,0 +1,98 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d0" for="node" attr.name="type" attr.type="string"/>
+<graph edgedefault="directed"><node id="5">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="Urban">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="Reduced">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="Obstructed by Rain">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="Visible">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="Overcast">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="RainOnLens">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="Traffic Light">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="Two-Way">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="Red">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="MultipleLanes">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="NoSpecialLanes">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="EgoWaiting">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="False">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="EgoStopped at Intersection">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="Crossover">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="Daytime">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="n008-2018-09-18-13-41-50-0400__CAM_FRONT__1537292801612404.jpg">
+  <data key="d0">image</data>
+</node>
+<node id="LaneVisible">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="Sedan">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="NoPed">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="Waiting to Turn Left">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="Few">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="Wet">
+  <data key="d0">subsubcategory</data>
+</node>
+<edge source="n008-2018-09-18-13-41-50-0400__CAM_FRONT__1537292801612404.jpg" target="Urban"/>
+<edge source="n008-2018-09-18-13-41-50-0400__CAM_FRONT__1537292801612404.jpg" target="Daytime"/>
+<edge source="n008-2018-09-18-13-41-50-0400__CAM_FRONT__1537292801612404.jpg" target="Overcast"/>
+<edge source="n008-2018-09-18-13-41-50-0400__CAM_FRONT__1537292801612404.jpg" target="Wet"/>
+<edge source="n008-2018-09-18-13-41-50-0400__CAM_FRONT__1537292801612404.jpg" target="MultipleLanes"/>
+<edge source="n008-2018-09-18-13-41-50-0400__CAM_FRONT__1537292801612404.jpg" target="LaneVisible"/>
+<edge source="n008-2018-09-18-13-41-50-0400__CAM_FRONT__1537292801612404.jpg" target="NoSpecialLanes"/>
+<edge source="n008-2018-09-18-13-41-50-0400__CAM_FRONT__1537292801612404.jpg" target="Red"/>
+<edge source="n008-2018-09-18-13-41-50-0400__CAM_FRONT__1537292801612404.jpg" target="Traffic Light"/>
+<edge source="n008-2018-09-18-13-41-50-0400__CAM_FRONT__1537292801612404.jpg" target="Visible"/>
+<edge source="n008-2018-09-18-13-41-50-0400__CAM_FRONT__1537292801612404.jpg" target="Crossover"/>
+<edge source="n008-2018-09-18-13-41-50-0400__CAM_FRONT__1537292801612404.jpg" target="Sedan"/>
+<edge source="n008-2018-09-18-13-41-50-0400__CAM_FRONT__1537292801612404.jpg" target="Few"/>
+<edge source="n008-2018-09-18-13-41-50-0400__CAM_FRONT__1537292801612404.jpg" target="False"/>
+<edge source="n008-2018-09-18-13-41-50-0400__CAM_FRONT__1537292801612404.jpg" target="Waiting to Turn Left"/>
+<edge source="n008-2018-09-18-13-41-50-0400__CAM_FRONT__1537292801612404.jpg" target="NoPed"/>
+<edge source="n008-2018-09-18-13-41-50-0400__CAM_FRONT__1537292801612404.jpg" target="Two-Way"/>
+<edge source="n008-2018-09-18-13-41-50-0400__CAM_FRONT__1537292801612404.jpg" target="Reduced"/>
+<edge source="n008-2018-09-18-13-41-50-0400__CAM_FRONT__1537292801612404.jpg" target="Obstructed by Rain"/>
+<edge source="n008-2018-09-18-13-41-50-0400__CAM_FRONT__1537292801612404.jpg" target="EgoStopped at Intersection"/>
+<edge source="n008-2018-09-18-13-41-50-0400__CAM_FRONT__1537292801612404.jpg" target="EgoWaiting"/>
+<edge source="n008-2018-09-18-13-41-50-0400__CAM_FRONT__1537292801612404.jpg" target="RainOnLens"/>
+<edge source="n008-2018-09-18-13-41-50-0400__CAM_FRONT__1537292801612404.jpg" target="5"/>
+</graph></graphml>

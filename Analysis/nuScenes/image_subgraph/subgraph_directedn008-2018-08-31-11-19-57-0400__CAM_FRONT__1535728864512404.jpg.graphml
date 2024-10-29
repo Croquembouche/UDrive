@@ -1,12 +1,39 @@
 <?xml version='1.0' encoding='utf-8'?>
 <graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d0" for="node" attr.name="type" attr.type="string"/>
-<graph edgedefault="directed"><node id="NoTrafficSigns">
-  <data key="d0">subsubcategory</data>
-</node>
-<node id="Daytime">
+<graph edgedefault="directed"><node id="EgoForward">
   <data key="d0">subsubcategory</data>
 </node>
 <node id="6">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="In Motion">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="True">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="Visible on Sidewalk">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="Construction">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="EgoFollowing">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="NoTrafficSigns">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="Two-Way">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="SUV">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="Road Work">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="Lane Not Clearly Visible">
   <data key="d0">subsubcategory</data>
 </node>
 <node id="Pickup Truck">
@@ -15,61 +42,34 @@
 <node id="NoImpairments">
   <data key="d0">subsubcategory</data>
 </node>
-<node id="SignNotVisible">
-  <data key="d0">subsubcategory</data>
-</node>
-<node id="True">
-  <data key="d0">subsubcategory</data>
-</node>
-<node id="SUV">
-  <data key="d0">subsubcategory</data>
-</node>
-<node id="n008-2018-08-31-11-19-57-0400__CAM_FRONT__1535728864512404.jpg">
-  <data key="d0">image</data>
-</node>
-<node id="Forward">
-  <data key="d0">subsubcategory</data>
-</node>
-<node id="Traffic Cones Blocking Parts of the Road">
-  <data key="d0">subsubcategory</data>
-</node>
-<node id="Moving">
-  <data key="d0">subsubcategory</data>
-</node>
-<node id="Construction">
-  <data key="d0">subsubcategory</data>
-</node>
-<node id="Few">
-  <data key="d0">subsubcategory</data>
-</node>
-<node id="Road Work">
+<node id="Construction Vehicles">
   <data key="d0">subsubcategory</data>
 </node>
 <node id="Clear">
   <data key="d0">subsubcategory</data>
 </node>
-<node id="Visible on Sidewalk">
-  <data key="d0">subsubcategory</data>
-</node>
 <node id="One">
   <data key="d0">subsubcategory</data>
 </node>
-<node id="Lane Not Clearly Visible">
-  <data key="d0">subsubcategory</data>
-</node>
-<node id="Two-Way">
-  <data key="d0">subsubcategory</data>
-</node>
-<node id="Good">
-  <data key="d0">subsubcategory</data>
-</node>
-<node id="Construction Vehicles">
+<node id="Daytime">
   <data key="d0">subsubcategory</data>
 </node>
 <node id="Dry">
   <data key="d0">subsubcategory</data>
 </node>
-<node id="Following">
+<node id="Good">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="Traffic Cones Blocking Parts of the Road">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="n008-2018-08-31-11-19-57-0400__CAM_FRONT__1535728864512404.jpg">
+  <data key="d0">image</data>
+</node>
+<node id="Few">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="SignNotVisible">
   <data key="d0">subsubcategory</data>
 </node>
 <edge source="n008-2018-08-31-11-19-57-0400__CAM_FRONT__1535728864512404.jpg" target="Construction"/>
@@ -87,12 +87,12 @@
 <edge source="n008-2018-08-31-11-19-57-0400__CAM_FRONT__1535728864512404.jpg" target="Pickup Truck"/>
 <edge source="n008-2018-08-31-11-19-57-0400__CAM_FRONT__1535728864512404.jpg" target="Few"/>
 <edge source="n008-2018-08-31-11-19-57-0400__CAM_FRONT__1535728864512404.jpg" target="True"/>
-<edge source="n008-2018-08-31-11-19-57-0400__CAM_FRONT__1535728864512404.jpg" target="Moving"/>
+<edge source="n008-2018-08-31-11-19-57-0400__CAM_FRONT__1535728864512404.jpg" target="In Motion"/>
 <edge source="n008-2018-08-31-11-19-57-0400__CAM_FRONT__1535728864512404.jpg" target="Visible on Sidewalk"/>
 <edge source="n008-2018-08-31-11-19-57-0400__CAM_FRONT__1535728864512404.jpg" target="Two-Way"/>
 <edge source="n008-2018-08-31-11-19-57-0400__CAM_FRONT__1535728864512404.jpg" target="Good"/>
 <edge source="n008-2018-08-31-11-19-57-0400__CAM_FRONT__1535728864512404.jpg" target="NoImpairments"/>
-<edge source="n008-2018-08-31-11-19-57-0400__CAM_FRONT__1535728864512404.jpg" target="Forward"/>
-<edge source="n008-2018-08-31-11-19-57-0400__CAM_FRONT__1535728864512404.jpg" target="Following"/>
+<edge source="n008-2018-08-31-11-19-57-0400__CAM_FRONT__1535728864512404.jpg" target="EgoForward"/>
+<edge source="n008-2018-08-31-11-19-57-0400__CAM_FRONT__1535728864512404.jpg" target="EgoFollowing"/>
 <edge source="n008-2018-08-31-11-19-57-0400__CAM_FRONT__1535728864512404.jpg" target="6"/>
 </graph></graphml>

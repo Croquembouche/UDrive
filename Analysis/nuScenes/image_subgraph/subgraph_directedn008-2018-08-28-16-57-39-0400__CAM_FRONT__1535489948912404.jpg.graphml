@@ -1,15 +1,36 @@
 <?xml version='1.0' encoding='utf-8'?>
 <graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d0" for="node" attr.name="type" attr.type="string"/>
-<graph edgedefault="directed"><node id="False">
+<graph edgedefault="directed"><node id="3">
   <data key="d0">subsubcategory</data>
 </node>
-<node id="3">
+<node id="EgoForward">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="One-Way">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="Urban">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="n008-2018-08-28-16-57-39-0400__CAM_FRONT__1535489948912404.jpg">
+  <data key="d0">image</data>
+</node>
+<node id="Street Parking">
   <data key="d0">subsubcategory</data>
 </node>
 <node id="NoTrafficSigns">
   <data key="d0">subsubcategory</data>
 </node>
-<node id="Daytime">
+<node id="SUV">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="Road Work">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="EgoIn Queue">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="Lane Not Clearly Visible">
   <data key="d0">subsubcategory</data>
 </node>
 <node id="Pickup Truck">
@@ -18,58 +39,40 @@
 <node id="NoImpairments">
   <data key="d0">subsubcategory</data>
 </node>
-<node id="SignNotVisible">
-  <data key="d0">subsubcategory</data>
-</node>
-<node id="In Queue">
-  <data key="d0">subsubcategory</data>
-</node>
-<node id="SUV">
-  <data key="d0">subsubcategory</data>
-</node>
-<node id="Cars">
-  <data key="d0">subsubcategory</data>
-</node>
-<node id="Forward">
-  <data key="d0">subsubcategory</data>
-</node>
-<node id="One-Way">
-  <data key="d0">subsubcategory</data>
-</node>
-<node id="Few">
-  <data key="d0">subsubcategory</data>
-</node>
-<node id="Road Work">
-  <data key="d0">subsubcategory</data>
-</node>
 <node id="Clear">
-  <data key="d0">subsubcategory</data>
-</node>
-<node id="Street Parking">
   <data key="d0">subsubcategory</data>
 </node>
 <node id="One">
   <data key="d0">subsubcategory</data>
 </node>
+<node id="False">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="Daytime">
+  <data key="d0">subsubcategory</data>
+</node>
 <node id="Parked">
   <data key="d0">subsubcategory</data>
 </node>
-<node id="Lane Not Clearly Visible">
+<node id="Dry">
   <data key="d0">subsubcategory</data>
 </node>
-<node id="Urban">
+<node id="Good">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="Cars">
+  <data key="d0">subsubcategory</data>
+</node>
+<node id="In Queue">
   <data key="d0">subsubcategory</data>
 </node>
 <node id="NoPed">
   <data key="d0">subsubcategory</data>
 </node>
-<node id="n008-2018-08-28-16-57-39-0400__CAM_FRONT__1535489948912404.jpg">
-  <data key="d0">image</data>
-</node>
-<node id="Good">
+<node id="Few">
   <data key="d0">subsubcategory</data>
 </node>
-<node id="Dry">
+<node id="SignNotVisible">
   <data key="d0">subsubcategory</data>
 </node>
 <edge source="n008-2018-08-28-16-57-39-0400__CAM_FRONT__1535489948912404.jpg" target="Urban"/>
@@ -91,7 +94,8 @@
 <edge source="n008-2018-08-28-16-57-39-0400__CAM_FRONT__1535489948912404.jpg" target="Parked"/>
 <edge source="n008-2018-08-28-16-57-39-0400__CAM_FRONT__1535489948912404.jpg" target="NoPed"/>
 <edge source="n008-2018-08-28-16-57-39-0400__CAM_FRONT__1535489948912404.jpg" target="One-Way"/>
-<edge source="n008-2018-08-28-16-57-39-0400__CAM_FRONT__1535489948912404.jpg" target="Forward"/>
+<edge source="n008-2018-08-28-16-57-39-0400__CAM_FRONT__1535489948912404.jpg" target="EgoForward"/>
+<edge source="n008-2018-08-28-16-57-39-0400__CAM_FRONT__1535489948912404.jpg" target="EgoIn Queue"/>
 <edge source="n008-2018-08-28-16-57-39-0400__CAM_FRONT__1535489948912404.jpg" target="Good"/>
 <edge source="n008-2018-08-28-16-57-39-0400__CAM_FRONT__1535489948912404.jpg" target="NoImpairments"/>
 <edge source="n008-2018-08-28-16-57-39-0400__CAM_FRONT__1535489948912404.jpg" target="3"/>

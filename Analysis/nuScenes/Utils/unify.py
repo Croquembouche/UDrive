@@ -1,6 +1,12 @@
 import json
 
 file = "/media/william/blueicedrive/Github/UDrive/Analysis/nuScenes/Analysis.json"
+traffic_signs_list = []
+speciallanes_list = []
+vehicletype_list = []
+vehiclestate_list = []
+egodirection_list = []
+egomaneuver_list = []
 
 with open(file, 'r') as file:
     data = json.load(file)
@@ -55,8 +61,17 @@ for image_name, image_analysis in data.items():
     if len(SpecialLanes) == 1 and SpecialLanes[0] == "None":
         SpecialLanes[0] = "NoSpecialLanes"
         image_analysis["LaneInformation"]["SpecialLanes"] = SpecialLanes
+    for x in SpecialLanes:
+        if x == "Pedestrian Crossing":
+            print(image_name)
+        if x not in speciallanes_list:
+            speciallanes_list.append(x)
 
-    TrafficSignsTypes = image_analysis["TrafficSigns"]["Types"]        # this is always a list   
+
+    try:
+        TrafficSignsTypes = image_analysis["TrafficSigns"]["Types"]        # this is always a list   
+    except KeyError:
+        print(image_name, "trafficsign")
     if isinstance(TrafficSignsTypes, str):
         TrafficSignsTypes = TrafficSignsTypes.split(",")
         image_analysis["TrafficSigns"]["Types"] = TrafficSignsTypes
@@ -78,6 +93,9 @@ for image_name, image_analysis in data.items():
     if TrafficSignsTypes == "" or TrafficSignsTypes == []:
         TrafficSignsTypes = ["NoTrafficSigns"]
         image_analysis["TrafficSigns"]["Types"] = TrafficSignsTypes
+    for x in TrafficSignsTypes:
+        if x not in traffic_signs_list:
+            traffic_signs_list.append(x)
     if "Traffic Light" in TrafficSignsTypes and "TrafficLightState" not in  image_analysis["TrafficSigns"]:
         print("missing traffic light state", image_name)
         if "TrafficLightState" in image_analysis:
@@ -97,7 +115,10 @@ for image_name, image_analysis in data.items():
     except KeyError:
         print(image_name, "trafficsign")
     if len(image_analysis["TrafficSigns"]) == 3:
-        TrafficSignsTrafficLightState = image_analysis["TrafficSigns"]["TrafficLightState"] # this is always a string
+        try:
+            TrafficSignsTrafficLightState = image_analysis["TrafficSigns"]["TrafficLightState"] # this is always a string
+        except KeyError:
+            print(image_name, "trafficlighstate")
     temp = image_analysis["TrafficSigns"]["Visibility"]
     del image_analysis["TrafficSigns"]["Visibility"]
     image_analysis["TrafficSigns"]["TrafficSignsVisibility"] = temp
@@ -150,8 +171,16 @@ for image_name, image_analysis in data.items():
         # temp = image_analysis["Vehicles"]["VehicleTypes"]
         # del image_analysis["Vehicles"]["VehicleTypes"]
         # image_analysis["TrafficSigns"]["VehicleTypes"] = temp 
+    for x in VehiclesTypes:
+        if x == "Parked":
+            print(image_name)
+        if x not in vehicletype_list:
+            vehicletype_list.append(x)
     
-    VehiclesStates = image_analysis["Vehicles"]["States"]                  # list
+    try:
+        VehiclesStates = image_analysis["Vehicles"]["States"]                  # list
+    except KeyError:
+        print(image_name, "vehicle states")
     if isinstance(VehiclesStates, str):
         VehiclesStates = VehiclesStates.split(",")
         image_analysis["Vehicles"]["States"] = VehiclesStates
@@ -161,6 +190,11 @@ for image_name, image_analysis in data.items():
     if len(VehiclesStates) == 0:
         VehiclesStates = ["NoVehicleState"]
         image_analysis["Vehicles"]["States"] = VehiclesStates
+    for x in VehiclesStates:
+        if x == "Proceeding through Intersection":
+            print(image_name)
+        if x not in vehiclestate_list:
+            vehiclestate_list.append(x)
 
     try:    
         Pedestrians = image_analysis["Pedestrians"]                            # list
@@ -180,13 +214,21 @@ for image_name, image_analysis in data.items():
 
     Directionality = image_analysis["Directionality"]                      # string
 
+    image_analysis["Ego-Vehicle"]["Direction"] = "Ego"+str(image_analysis["Ego-Vehicle"]["Direction"])
     EgoVehicleDirection = image_analysis["Ego-Vehicle"]["Direction"]       # string
+    if EgoVehicleDirection not in egodirection_list:
+        egodirection_list.append(EgoVehicleDirection)
 
 
+    image_analysis["Ego-Vehicle"]["Maneuver"] = "Ego"+str(image_analysis["Ego-Vehicle"]["Maneuver"]) 
     EgoVehicleManeuver = image_analysis["Ego-Vehicle"]["Maneuver"]         # string
     if EgoVehicleManeuver == "None":
-        EgoVehicleManeuver = "NoManeuver"
-        image_analysis["Ego-Vehicle"]["Maneuver"] = EgoVehicleManeuver
+        EgoVehicleManeuver = "EgoNoManeuver"
+        image_analysis["Ego-Vehicle"]["Maneuver"] = "Ego"+EgoVehicleManeuver
+    if EgoVehicleManeuver not in egomaneuver_list:
+        if EgoVehicleManeuver == "Ego['Merging Left']":
+            print(image_name)
+        egomaneuver_list.append(EgoVehicleManeuver)
 
     try:
         VisibilityGeneral = image_analysis["Visibility"]["General"]            # string
@@ -253,7 +295,12 @@ for image_name, image_analysis in data.items():
     except:
         pass
 
-
+print(f"Traffic list: {traffic_signs_list}")
+print(f"Speciallanes list: {speciallanes_list}")
+print(f"VehicleType list: {vehicletype_list}")
+print(f"VehicleState list: {vehiclestate_list}")
+print(f"EgoDirection list: {egodirection_list}")
+print(f"EgoManeuver list: {egomaneuver_list}")
 
 with open("/media/william/blueicedrive/Github/UDrive/Analysis/nuScenes/unifiedAnalysis.json", "w") as outfile:
     json.dump(data, outfile)
