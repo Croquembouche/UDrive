@@ -1,5 +1,5 @@
 # UDrive Benchmark Part One #
-## Part of Submission to NeurIPS 2024 Dataset and Benchmark Track #
+## Supplementary of Submission to Sensys 2025 #
 ### Results and code are in the analysis folder ###
 Steps to reproduce the image analysis results:
 - Visit the Fine-tuned GPT Model at: https://chatgpt.com/g/g-Rpba6Wp9Q-drive-scene-analyzer
