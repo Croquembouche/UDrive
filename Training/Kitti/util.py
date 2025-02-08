@@ -68,43 +68,72 @@
 # print(f"Train: {len(train_images)}, Validation: {len(val_images)}, Test: {len(test_images)}")
 # print("Dataset split successfully!")
 
+# import os
+# import shutil
+
+# # Define paths for image directories
+# image_base_dir = "/mnt/nas/Kitti/yolo/images"
+# train_image_dir = os.path.join(image_base_dir, "train")
+# val_image_dir = os.path.join(image_base_dir, "val")
+# test_image_dir = os.path.join(image_base_dir, "test")
+
+# # Define the source folder where labels are stored
+# base_label_dir = "/media/william/mist2/william/Github/yolov7-on-cityscapes-with-bbox-cropping/scripts/labels_with_dont_care/"
+
+# # Define output directories for labels
+# labels_base_output_dir = "labels"
+# train_label_dir = os.path.join(labels_base_output_dir, "train")
+# val_label_dir = os.path.join(labels_base_output_dir, "val")
+# test_label_dir = os.path.join(labels_base_output_dir, "test")
+
+# # Create necessary directories for labels
+# for folder in [train_label_dir, val_label_dir, test_label_dir]:
+#     os.makedirs(folder, exist_ok=True)
+
+# # Function to move labels based on image filenames
+# def move_labels(image_dir, label_output_dir):
+#     image_filenames = [f for f in os.listdir(image_dir) if os.path.isfile(os.path.join(image_dir, f))]
+    
+#     for img in image_filenames:
+#         label_file = os.path.splitext(img)[0] + ".txt"  # Assuming label has same name as image with .txt extension
+#         label_path = os.path.join(base_label_dir, label_file)
+        
+#         if os.path.exists(label_path):
+#             shutil.move(label_path, os.path.join(label_output_dir, label_file))
+#             #print(os.path.join(label_output_dir, label_file))
+
+# # Move labels based on images present in each folder
+# move_labels(train_image_dir, train_label_dir)
+# move_labels(val_image_dir, val_label_dir)
+# move_labels(test_image_dir, test_label_dir)
+
+# print("Labels have been successfully organized!")
+
 import os
 import shutil
+import random
 
-# Define paths for image directories
-image_base_dir = "/mnt/nas/Kitti/yolo/images"
-train_image_dir = os.path.join(image_base_dir, "train")
-val_image_dir = os.path.join(image_base_dir, "val")
-test_image_dir = os.path.join(image_base_dir, "test")
+# Define source and destination folders
+source_folder = "/mnt/nas/Kitti/yolo/images/train"
+destination_folder = "/mnt/nas/Kitti/yolo/images/train_80"
 
-# Define the source folder where labels are stored
-base_label_dir = "/media/william/mist2/william/Github/yolov7-on-cityscapes-with-bbox-cropping/scripts/labels_with_dont_care/"
+# Ensure the destination folder exists
+os.makedirs(destination_folder, exist_ok=True)
 
-# Define output directories for labels
-labels_base_output_dir = "labels"
-train_label_dir = os.path.join(labels_base_output_dir, "train")
-val_label_dir = os.path.join(labels_base_output_dir, "val")
-test_label_dir = os.path.join(labels_base_output_dir, "test")
+# Get a list of all image files in the source folder
+image_extensions = (".jpg", ".jpeg", ".png", ".bmp", ".gif", ".tiff", ".webp")
+images = [f for f in os.listdir(source_folder) if f.lower().endswith(image_extensions)]
 
-# Create necessary directories for labels
-for folder in [train_label_dir, val_label_dir, test_label_dir]:
-    os.makedirs(folder, exist_ok=True)
+# Select 80% of images randomly
+num_images = len(images)
+num_selected = int(0.8 * num_images)
+selected_images = random.sample(images, num_selected)
 
-# Function to move labels based on image filenames
-def move_labels(image_dir, label_output_dir):
-    image_filenames = [f for f in os.listdir(image_dir) if os.path.isfile(os.path.join(image_dir, f))]
-    
-    for img in image_filenames:
-        label_file = os.path.splitext(img)[0] + ".txt"  # Assuming label has same name as image with .txt extension
-        label_path = os.path.join(base_label_dir, label_file)
-        
-        if os.path.exists(label_path):
-            shutil.move(label_path, os.path.join(label_output_dir, label_file))
-            #print(os.path.join(label_output_dir, label_file))
+# Copy selected images to the destination folder
+for image in selected_images:
+    src_path = os.path.join(source_folder, image)
+    dst_path = os.path.join(destination_folder, image)
+    shutil.copy2(src_path, dst_path)
 
-# Move labels based on images present in each folder
-move_labels(train_image_dir, train_label_dir)
-move_labels(val_image_dir, val_label_dir)
-move_labels(test_image_dir, test_label_dir)
+print(f"Copied {num_selected} images to {destination_folder}.")
 
-print("Labels have been successfully organized!")
