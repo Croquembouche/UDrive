@@ -72,13 +72,13 @@ import os
 import shutil
 
 # Define paths for image directories
-image_base_dir = "yolo/images"
+image_base_dir = "/mnt/nas/Kitti/yolo/images"
 train_image_dir = os.path.join(image_base_dir, "train")
 val_image_dir = os.path.join(image_base_dir, "val")
 test_image_dir = os.path.join(image_base_dir, "test")
 
 # Define the source folder where labels are stored
-base_label_dir = "/mnt/nas/Kitti/yolo/labels_with_dont_care"
+base_label_dir = "/media/william/mist2/william/Github/yolov7-on-cityscapes-with-bbox-cropping/scripts/labels_with_dont_care/"
 
 # Define output directories for labels
 labels_base_output_dir = "labels"
@@ -100,6 +100,7 @@ def move_labels(image_dir, label_output_dir):
         
         if os.path.exists(label_path):
             shutil.move(label_path, os.path.join(label_output_dir, label_file))
+            #print(os.path.join(label_output_dir, label_file))
 
 # Move labels based on images present in each folder
 move_labels(train_image_dir, train_label_dir)
