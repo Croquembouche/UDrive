@@ -114,26 +114,33 @@ import shutil
 import random
 
 # Define source and destination folders
-source_folder = "/mnt/nas/Kitti/yolo/images/train"
-destination_folder = "/mnt/nas/Kitti/yolo/images/train_50"
+source_folder = "/mnt/nas/Cityscapes/yolo/images/train"
+destination_folder = "/mnt/nas/Cityscapes/yolo/images/train_20"
 
 # Ensure the destination folder exists
 os.makedirs(destination_folder, exist_ok=True)
 
-# Get a list of all image files in the source folder
-image_extensions = (".jpg", ".jpeg", ".png", ".bmp", ".gif", ".tiff", ".webp")
-images = [f for f in os.listdir(source_folder) if f.lower().endswith(image_extensions)]
 
-# Select 80% of images randomly
-num_images = len(images)
-num_selected = int(0.5 * num_images)
-selected_images = random.sample(images, num_selected)
+for city in os.listdir(source_folder):
+    city_path = os.path.join(source_folder, city)
+    if os.path.isdir(city_path):
 
-# Copy selected images to the destination folder
-for image in selected_images:
-    src_path = os.path.join(source_folder, image)
-    dst_path = os.path.join(destination_folder, image)
-    shutil.copy2(src_path, dst_path)
+        # Get a list of all image files in the source folder
+        image_extensions = (".jpg", ".jpeg", ".png", ".bmp", ".gif", ".tiff", ".webp")
+        images = [f for f in os.listdir(city_path) if f.lower().endswith(image_extensions)]
 
-print(f"Copied {num_selected} images to {destination_folder}.")
+        # Select 80% of images randomly
+        num_images = len(images)
+        num_selected = int(0.2 * num_images)
+        selected_images = random.sample(images, num_selected)
+        dest_path = os.path.join(destination_folder, city, "images")
+        os.makedirs(dest_path, exist_ok=True)
+        # Copy selected images to the destination folder
+        for image in selected_images:
+            src_path = os.path.join(city_path, image)
+            dst_path = os.path.join(dest_path, image)
+            shutil.copy2(src_path, dst_path)
+
+        print(f"Copied {num_selected} images to {destination_folder}.")
+
 
