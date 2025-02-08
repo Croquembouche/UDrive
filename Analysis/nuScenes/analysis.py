@@ -226,7 +226,7 @@ class DatasetAnalysis:
         print(f"Mean: {mean_value}, Min: {min_value}, Max: {max_value}, STD: {np.std(filtered_matrix)}")
 
     def createRandomImageGraph(self, root_node):
-        NUM_NODES = 286  # Includes the root node
+        NUM_NODES = 3012  # Includes the root node
         MEAN_CONNECTIONS = 23.039150630391507
         STD_DEV_CONNECTIONS = 1.755017475399074
         MIN_CONNECTIONS = 19
@@ -310,14 +310,17 @@ class DatasetAnalysis:
                 similarity_matrix[j][i] = sim
             similarity_matrix[i][i] = 1
         self.matrixAnalysis(similarity_matrix)
-        to_remove = set()
-        similar_count = 0
-        for i in range(0, n):
-            for j in range(0, n):
-                if i != j and similarity_matrix[i][j] > similarity_threshold:
-                    to_remove.add(i)
-                    similar_count+=1
-        print(f"Found {similar_count//2} pairs of similar scenes with threshold at {similarity_threshold}")
+
+        for vary in range(10, -1, -1):
+            value = vary/10
+            to_remove = set()
+            similar_count = 0
+            for i in range(0, n):
+                for j in range(0, n):
+                    if i != j and similarity_matrix[i][j] > value:
+                        to_remove.add(i)
+                        similar_count+=1
+            print(f"Random dataset: Found {similar_count//2} pairs of similar scenes with threshold at {value}")
         
         # do it again for threshold = 0.5
         # similarity_threshold = 0.4
@@ -393,7 +396,7 @@ class DatasetAnalysis:
     #             writer.writerow(data)
         
 
-    def compareImages(self, similarity_threshold=0.9): 
+    def compareImages(self, similarity_threshold=1.0): 
         image_subgraph_list = []
         image_names = []
         image_count = 0
@@ -439,8 +442,19 @@ class DatasetAnalysis:
         #     writer.writerows(similarity_matrix)
 
         # Filter images based on similarity threshold
-        to_remove = set()
+        
+        # for vary in range(10, -1, -1):
+        #     value = vary/10
+        #     similar_count = 0
+        #     to_remove = set()
+        #     for i in range(1, n+1):
+        #         for j in range(1, n+1):
+        #             if i != j and similarity_matrix[i][j] > value:
+        #                 to_remove.add(i)
+        #                 similar_count+=1
+        #     print(f"Found {similar_count//2} number of similar scenes with threshold at {value}.")
         similar_count = 0
+        to_remove = set()
         for i in range(1, n+1):
             for j in range(1, n+1):
                 if i != j and similarity_matrix[i][j] > similarity_threshold:
@@ -449,8 +463,8 @@ class DatasetAnalysis:
         print(f"Found {similar_count//2} number of similar scenes with threshold at {similarity_threshold}.")
 
         # Writing to CSV while skipping filtered out graphs
-        filtered_similarity_matrix = [row for index, row in enumerate(similarity_matrix) if index not in to_remove]
-        filtered_image_names = [name for index, name in enumerate(image_names) if index not in to_remove]
+        # filtered_similarity_matrix = [row for index, row in enumerate(similarity_matrix) if index not in to_remove]
+        # filtered_image_names = [name for index, name in enumerate(image_names) if index not in to_remove]
 
         # with open('/media/william/blueicedrive/Github/UDrive/Analysis/nuScenes/results/filtered_imageJaccardSimilaritymatrix.csv', 'w', newline='') as f:
         #     writer = csv.writer(f)
@@ -493,9 +507,9 @@ class DatasetAnalysis:
         c_max_random = 0.9626317470456723
         c_random_sigma = 0.04288216660795642
         density = 0.006
-        density_random = 0.019
+        density_random = 0.007
         modularity = 0.091
-        modulartiy_random = 0.038
+        modulartiy_random = 0.037
         num_community = 58
         num_community_random = 100
         J_image = 0.3173656512421666
@@ -512,7 +526,7 @@ class DatasetAnalysis:
         RD_penalty = (D_H + D_M + D_L)/mean/10
         S = 1-(w1*J_penalty - w2*M_penalty + w3*C_penalty + w4*D_penalty)-RD_penalty
         print(f"The Composite Score of nuScenes is {S}. J_penalty: {w1*J_penalty}, M_penalty: {w2*M_penalty}, C_penalty: {w3*C_penalty}, D_penalty: {w4*D_penalty}, RiskDistribution_penalty: {RD_penalty}")
-# The Composite Score of nuScenes is 0.4147769157654765. J_penalty: 0.2525156083924665, M_penalty: -0.1757368421052631, C_penalty: 0.045497857569434426, D_penalty: -0.06842105263157895, RiskDistribution_penalty: 0.1798938287989383
+# The Composite Score of nuScenes is 0.35248652763298316.. J_penalty: 0.2525156083924665, M_penalty: -0.18389189189189187 C_penalty: 0.045497857569434426, D_penalty: -0.06842105263157895, RiskDistribution_penalty: 0.1798938287989383
 
         
 
@@ -525,13 +539,13 @@ G.createBasicGraph()
 # print("Compare Scenarios")
 # G.compareScenarios()
 # print("nuScenes Results")
-# G.compareImages(0.8)
+G.compareImages(0.8)
 # G.compareImages(0.9)
 # G.calculateDegreeCentrality(10)
 # print("Random Graph Results")
 # G.randomAnalysis()
 # G.createRandomDataset()
-G.calculateCompositeScore()
+# G.calculateCompositeScore()
 
 
 

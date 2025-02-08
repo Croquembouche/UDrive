@@ -517,14 +517,14 @@ class DatasetAnalysis:
 G = DatasetAnalysis()
 G.createBasicGraph()
 # print("Compare Scenarios")
-# G.compareScenarios()
+G.compareScenarios()
 # print("ArgoVerse Results")
-# G.compareImages(0.8)
+G.compareImages(0.8)
 # G.calculateDegreeCentrality(10)
 # print("Random Graph Results")
 # G.randomAnalysis()
 # G.createRandomDataset()
-G.calculateCompositeScore()
+# G.calculateCompositeScore()
 
 
 
