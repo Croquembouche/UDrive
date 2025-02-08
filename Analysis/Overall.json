@@ -11,7 +11,8 @@
         "School Zone",
         "Industrial",
         "Unknown",
-        "Rural"
+        "Rural",
+        "Under Bridge"
     ],
     "TimeOfDay": [
         "Daytime",
