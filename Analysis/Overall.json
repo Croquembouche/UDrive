@@ -288,6 +288,7 @@
             "EgoExiting Roundabout",
             "EgoEntering Roundabout",
             "EgoApproaching Roundabout",
+            "EgoExiting Highway",
             "EgoParked"
         ],
         "Maneuver": [
