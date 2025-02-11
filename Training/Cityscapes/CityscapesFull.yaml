@@ -15,12 +15,11 @@ test: images/test # test images (optional) https://eval.ai/web/challenges/challe
 
 # Classes
 names:
-  0: Car
-  1: Pedestrian
-  2: Van
-  3: Cyclist
-  4: Truck
-  5: Misc
-  6: Tram
-  7: Person_sitting
-  8: DontCare
+  0: person
+  1: rider
+  2: car
+  3: truck
+  4: bus
+  5: train
+  6: motocycle
+  7: bicycle

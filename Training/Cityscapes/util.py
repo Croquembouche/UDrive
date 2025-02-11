@@ -133,13 +133,14 @@ for city in os.listdir(source_folder):
         num_images = len(images)
         num_selected = int(0.2 * num_images)
         selected_images = random.sample(images, num_selected)
-        dest_path = os.path.join(destination_folder, city, "images")
+        dest_path = os.path.join(destination_folder, city)
         os.makedirs(dest_path, exist_ok=True)
         # Copy selected images to the destination folder
         for image in selected_images:
             src_path = os.path.join(city_path, image)
             dst_path = os.path.join(dest_path, image)
-            shutil.copy2(src_path, dst_path)
+            print(dst_path)
+            #shutil.copy2(src_path, dst_path)
 
         print(f"Copied {num_selected} images to {destination_folder}.")
 

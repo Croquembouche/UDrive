@@ -115,7 +115,7 @@ import random
 
 # Define source and destination folders
 source_folder = "/mnt/nas/Kitti/yolo/images/train"
-destination_folder = "/mnt/nas/Kitti/yolo/images/train_50"
+destination_folder = "/mnt/nas/Kitti/yolo/images/train_20"
 
 # Ensure the destination folder exists
 os.makedirs(destination_folder, exist_ok=True)
@@ -126,13 +126,16 @@ images = [f for f in os.listdir(source_folder) if f.lower().endswith(image_exten
 
 # Select 80% of images randomly
 num_images = len(images)
-num_selected = int(0.5 * num_images)
+num_selected = int(0.2 * num_images)
 selected_images = random.sample(images, num_selected)
 
 # Copy selected images to the destination folder
+i=1
 for image in selected_images:
     src_path = os.path.join(source_folder, image)
     dst_path = os.path.join(destination_folder, image)
+    print(i)
+    i+=1
     shutil.copy2(src_path, dst_path)
 
 print(f"Copied {num_selected} images to {destination_folder}.")
