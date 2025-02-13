@@ -241,6 +241,7 @@
         "Visible on Sidewalk",
         "Crossing Street",
         "Boarding Bus",
+        "Waiting at Bus Stop",
         "Interacting with Vehicle",
         "Wheelchair on the Street",
         "Wheelchair on the Sidewalk"

@@ -9,14 +9,9 @@ def build_json_structure(root_folder):
     """
     structure = {}
     for sceneid in sorted(os.listdir(root_folder)):
-        scene_path = os.path.join(root_folder, sceneid)
-        if os.path.isdir(scene_path):
-            images = []
-            for filename in sorted(os.listdir(scene_path)):
-                file_path = os.path.join(scene_path, filename)
-                if os.path.isfile(file_path):  # Check if it's a file to include as an imageid
-                    images.append({"id": filename, "value": {}})
-            structure[sceneid] = images
+        filename = os.path.join(root_folder, sceneid)
+        if os.path.isfile(filename):  # Check if it's a file to include as an imageid
+            structure[sceneid] = ""
     return structure
 
 def save_json(structure, file_path):
@@ -30,9 +25,9 @@ def save_json(structure, file_path):
 
 
 
-root_folder = "/mnt/nas/Cityscapes/yolo/decimated_images/train"  # Adjust this path as necessary
+root_folder = "/mnt/nas/Cityscapes/yolo/decimated_images"  # Adjust this path as necessary
 structure = build_json_structure(root_folder)
-json_file_path = "/media/william/mist2/william/Github/UDrive/Analysis/Cityscapes/Analysis.json"  # Name of the JSON file to save
+json_file_path = "/media/william/blueicedrive/Github/UDrive/Analysis/Cityscapes/Analysis.json"  # Name of the JSON file to save
 save_json(structure, json_file_path)
 
 print(f"JSON file created at {json_file_path} with the folder structure.")
