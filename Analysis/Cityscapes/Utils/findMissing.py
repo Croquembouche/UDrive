@@ -57,7 +57,7 @@ json_file_path = '/media/william/blueicedrive/Github/UDrive/Analysis/Overall.jso
 list_from_json = load_trafficsigns_list_from_json(json_file_path)
 
 # Define the other list for comparison
-other_list = ['NoTrafficSigns', 'Pedestrian Crossing', 'Route Sign', 'No Parking', 'Construction Warning', 'Road Work Ahead', 'One Way Sign', 'Stop Sign', 'Speed Limit', 'Parking Sign', 'No Right Turn', 'Two-Way Traffic', 'Railroad Crossing', 'Road Work', 'Detour', 'Traffic Light', 'No Left Turn', 'No Turn On Red', 'Left Lane Must Turn Left', 'Yield Sign', 'Bus Stop Sign', 'Crosswalk', 'Exit Sign', 'Bike Lane Sign', 'Road Closed', 'Electronic Sign', 'No U-Turn', 'Left Turn Only', 'Right Turn Only', 'Crosswalk Closed', 'Directional Arrow', 'Work Zone', 'Speeding Fine Doubled', 'Merge Sign', 'End Road Work', 'Double Fines End', 'Keep Right Sign', 'Do Not Enter', 'No Stopping', 'Street Sign', 'No Trucks Allowed', 'Stop for Pedestrians', 'Weight Limit', 'Share the Road', 'Right Lane Must Turn Right', 'Pedestrian Signal', 'No Pedestrian Crossing', 'Traffic Light Warning Sign', 'Pedestrian Warning', 'Do Not Block', 'Do Not Block Intersection', 'Tow Area Sign', 'Yield to Pedestrians', 'School Zone', 'Fallen Sign', 'Bus Lane', 'Curve', 'Loading Zone Sign', 'Do Not Stop on Tracks', 'Bike Lane Ends', 'NoSign', 'Information Sign', 'Not a Thru Street']
+other_list = ['NoTrafficSigns', 'Pedestrian Crossing', 'Route Sign', 'No Parking', 'Construction Warning', 'Road Work Ahead', 'One Way Sign', 'Stop Sign', 'Speed Limit', 'Parking Sign', 'No Right Turn', 'Two-Way Traffic', 'Railroad Crossing', 'Road Work', 'Detour', 'Traffic Light', 'No Left Turn', 'No Turn On Red', 'Left Lane Must Turn Left', 'Yield Sign', 'Bus Stop Sign', 'Crosswalk', 'Exit Sign', 'Bike Lane Sign', 'Road Closed', 'Electronic Sign', 'No U-Turn', 'Left Turn Only', 'Right Turn Only', 'Crosswalk Closed', 'Directional Arrow', 'Work Zone', 'Speeding Fine Doubled', 'Merge Sign', 'End Road Work', 'Double Fines End', 'Keep Right Sign', 'Do Not Enter', 'No Stopping', 'Street Sign', 'No Truck Allowed', 'Stop for Pedestrians', 'Weight Limit', 'Share the Road', 'Right Lane Must Turn Right', 'Pedestrian Signal', 'No Pedestrian Crossing', 'Traffic Light Warning Sign', 'Pedestrian Warning', 'Do Not Block', 'Do Not Block Intersection', 'Tow Area Sign', 'Yield to Pedestrians', 'School Zone', 'Fallen Sign', 'Bus Lane', 'Curve', 'Loading Zone Sign', 'Do Not Stop on Tracks', 'Bike Lane Ends', 'NoSign', 'Information Sign', 'Not a Thru Street']
 
 comparison_result = compare_lists(list_from_json, other_list)
 
@@ -88,7 +88,6 @@ print("Unique in vehcile state items:", comparison_result["unique_to_list2"], "L
 # ego direction
 list_from_json = load_egodirection_list_from_json(json_file_path)
 other_list = ['EgoForward', 'EgoMaking a Right Turn', 'EgoStopped at Intersection', 'EgoMaking a Left Turn', 'EgoApproaching Intersection', 'EgoMerging Right', 'EgoMerging Left', 'EgoApproaching Roundabout', 'EgoExiting Roundabout', 'EgoStopped', 'EgoStopped at Stop Sign', 'EgoParked', 'EgoEntering Roundabout']
-comparison_result = compare_lists(list_from_json, other_list)
 print("Unique in ego direction items:", comparison_result["unique_to_list2"], "Length: ", len(comparison_result["unique_to_list2"]))
 
 # ego maneuver

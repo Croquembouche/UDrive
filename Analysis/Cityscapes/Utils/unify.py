@@ -302,5 +302,5 @@ print(f"VehicleState list: {vehiclestate_list}")
 print(f"EgoDirection list: {egodirection_list}")
 print(f"EgoManeuver list: {egomaneuver_list}")
 
-with open("/media/william/blueicedrive/Github/UDrive/Analysis/nuScenes/unifiedAnalysis.json", "w") as outfile:
+with open("/media/william/blueicedrive/Github/UDrive/Analysis/Cityscapes/unifiedAnalysis.json", "w") as outfile:
     json.dump(data, outfile)
