@@ -727,7 +727,7 @@
             "LaneMarkings": "Visible",
             "SpecialLanes": [
                 "Bike Lane",
-                "Bus Lane",
+                "Taxi and Bus Lane",
                 "Crosswalk"
             ]
         },
@@ -940,7 +940,7 @@
         },
         "TrafficSigns": {
             "Types": [
-                "Pedestrian Zone"
+                "Pedestrian Only Zone"
             ],
             "Visibility": "Visible"
         },
@@ -1802,7 +1802,7 @@
             "Types": [
                 "Traffic Light",
                 "Yield Sign",
-                "Pedestrian Zone"
+                "Pedestrian Only Zone"
             ],
             "Visibility": "Visible",
             "TrafficLightState": "Green"
@@ -1919,8 +1919,7 @@
         "TrafficSigns": {
             "Types": [
                 "Traffic Light",
-                "Yield Sign",
-                "Warning Sign"
+                "Yield Sign"
             ],
             "Visibility": "Visible",
             "TrafficLightState": "Red"
@@ -2729,7 +2728,7 @@
         "TrafficSigns": {
             "Types": [
                 "Parking Sign",
-                "Pedestrian Crossing Sign"
+                "Pedestrian Crossing"
             ],
             "Visibility": "Visible"
         },
@@ -2840,7 +2839,7 @@
             "Types": [
                 "Traffic Light",
                 "Directional Sign",
-                "No Entry"
+                "No Entry Sign"
             ],
             "Visibility": "Visible",
             "TrafficLightState": "Green"
@@ -3064,15 +3063,16 @@
             "NumberOfLanes": "Multiple",
             "LaneMarkings": "Clearly Visible",
             "SpecialLanes": [
-                "Bicycle Lane"
+                "Bike Lane"
             ]
         },
         "TrafficSigns": {
             "Types": [
-                "Yield",
+                "Yield Sign",
                 "Traffic Light"
             ],
-            "Visibility": "Visible"
+            "Visibility": "Visible",
+            "TrafficLightState": "Red"
         },
         "Vehicles": {
             "TotalNumber": "Multiple",
@@ -3092,7 +3092,7 @@
         },
         "Bicyclist": {
             "Presence": "True",
-            "Location": "Bicycle Lane"
+            "Location": "In Bike Lane"
         },
         "Animals": {
             "Type": "None",
@@ -3182,7 +3182,7 @@
                 "Van"
             ],
             "States": [
-                "Moving"
+                "In Motion"
             ]
         },
         "Pedestrians": "Present",
@@ -3273,7 +3273,7 @@
         },
         "TrafficSigns": {
             "Types": [
-                "Speed Limit 30"
+                "Speed Limit"
             ],
             "Visibility": "Clear"
         },
@@ -3285,7 +3285,7 @@
                 "Hatchback"
             ],
             "States": [
-                "Moving",
+                "In Motion",
                 "Parked"
             ]
         },
@@ -5223,7 +5223,7 @@
             "NumberOfLanes": "Multiple",
             "LaneMarkings": "Visible",
             "SpecialLanes": [
-                "Bicycle Lane"
+                "Bike Lane"
             ]
         },
         "TrafficSigns": {
@@ -5253,7 +5253,7 @@
         },
         "Bicyclist": {
             "Presence": "True",
-            "Location": "In Bicycle Lane"
+            "Location": "In Bike Lane"
         },
         "Animals": {
             "Type": "None",
@@ -5817,7 +5817,7 @@
             "Types": [
                 "Traffic Light",
                 "Parking Sign",
-                "One-Way Sign"
+                "One Way Sign"
             ],
             "Visibility": "Visible",
             "TrafficLightState": "Green"
@@ -6473,7 +6473,7 @@
             "SpecialLanes": ["Tram Tracks"]
         },
         "TrafficSigns": {
-            "Types": ["No Entry", "Directional Arrow"],
+            "Types": ["No Entry Sign", "Directional Arrow"],
             "Visibility": "Visible"
         },
         "Vehicles": {
@@ -6942,7 +6942,7 @@
         "Vehicles": {
             "TotalNumber": "Few",
             "InMotion": "True",
-            "VehicleTypes": ["Sedan", "Bicycle"],
+            "VehicleTypes": ["Sedan"],
             "States": ["In Motion"]
         },
         "Pedestrians": "Visible on Sidewalk",
@@ -7778,7 +7778,7 @@
         "Vehicles": {
             "TotalNumber": "Multiple",
             "InMotion": "False",
-            "VehicleTypes": ["Sedan", "Hatchback", "SUV", "Bicycle"],
+            "VehicleTypes": ["Sedan", "Hatchback", "SUV"],
             "States": ["Stopped", "Waiting"]
         },
         "Pedestrians": "Crossing Street",
@@ -8419,7 +8419,7 @@
         "LaneInformation": {
             "NumberOfLanes": "Multiple",
             "LaneMarkings": "Visible",
-            "SpecialLanes": ["Tram Tracks", "Directional Arrow"]
+            "SpecialLanes": ["Tram Tracks"]
         },
         "TrafficSigns": {
             "Types": ["Traffic Light", "Yield Sign", "Directional Arrow"],
@@ -8597,7 +8597,7 @@
     }
     ,
     "darmstadt_000070_000019_leftImg8bit.png": {
-        "Scene": "Pedestrian Zone",
+        "Scene": "Commercial",
         "TimeOfDay": "Daytime",
         "Weather": "Partly Cloudy",
         "RoadConditions": "Dry",
@@ -8607,8 +8607,8 @@
             "SpecialLanes": ["Pedestrian Walkway"]
         },
         "TrafficSigns": {
-            "Types": ["Pedestrian Zone"],
-            "Visibility": "Visible"
+            "Types": ["None"],
+            "Visibility": "Not Visible"
         },
         "Vehicles": {
             "TotalNumber": "Few",
@@ -8660,7 +8660,7 @@
         "Vehicles": {
             "TotalNumber": "Multiple",
             "InMotion": "True",
-            "VehicleTypes": ["Sedan", "Compact Car", "Electric Vehicle"],
+            "VehicleTypes": ["Sedan", "Compact Car", "Cars"],
             "States": ["In Motion"]
         },
         "Pedestrians": "Waiting at Crosswalk",
@@ -8697,7 +8697,7 @@
         "LaneInformation": {
             "NumberOfLanes": "Multiple",
             "LaneMarkings": "Visible",
-            "SpecialLanes": ["Bike Lane", "Directional Arrow"]
+            "SpecialLanes": ["Bike Lane"]
         },
         "TrafficSigns": {
             "Types": ["Traffic Light", "Yield Sign", "Directional Arrow"],
@@ -8744,10 +8744,10 @@
         "LaneInformation": {
             "NumberOfLanes": "Multiple",
             "LaneMarkings": "Visible",
-            "SpecialLanes": ["Construction Zone"]
+            "SpecialLanes": ["Construction Cones"]
         },
         "TrafficSigns": {
-            "Types": ["Traffic Light", "One-Way Sign", "No Entry", "Lane Direction Sign"],
+            "Types": ["Traffic Light", "One Way Sign", "No Entry Sign"],
             "Visibility": "Visible",
             "TrafficLightState": "Red"
         },
@@ -8838,10 +8838,10 @@
         "LaneInformation": {
             "NumberOfLanes": "Multiple",
             "LaneMarkings": "Visible",
-            "SpecialLanes": ["Tram Tracks", "Bicycle Lane"]
+            "SpecialLanes": ["Tram Tracks", "Bike Lane"]
         },
         "TrafficSigns": {
-            "Types": ["Traffic Light", "Bus Stop Sign", "Bicycle Lane Sign"],
+            "Types": ["Traffic Light", "Bus Stop Sign", "Bike Lane Sign"],
             "Visibility": "Visible",
             "TrafficLightState": "Red"
         },
@@ -8858,7 +8858,7 @@
         },
         "Bicyclist": {
             "Presence": "True",
-            "Location": "Near Bicycle Lane"
+            "Location": "In Bike Lane"
         },
         "Animals": {
             "Type": "None",
@@ -8931,7 +8931,7 @@
         "LaneInformation": {
             "NumberOfLanes": "Multiple",
             "LaneMarkings": "Visible",
-            "SpecialLanes": ["Parking Lane"]
+            "SpecialLanes": ["None"]
         },
         "TrafficSigns": {
             "Types": ["Traffic Light", "Yield Sign", "No Entry Sign", "Parking Sign"],
@@ -10732,7 +10732,7 @@
             "Types": [
                 "Traffic Light",
                 "Street Sign",
-                "No Entry",
+                "No Entry Sign",
                 "Electronic Sign"
             ],
             "Visibility": "Visible",
@@ -11501,7 +11501,7 @@
         "LaneInformation": {
           "NumberOfLanes": "Multiple",
           "LaneMarkings": "Visible",
-          "SpecialLanes": ["Bike Lane", "Bus Stop Sign"]
+          "SpecialLanes": ["Bike Lane", "Bus Stop"]
         },
         "TrafficSigns": {
           "Types": ["Traffic Light", "Bus Stop Sign", "Parking Sign"],
@@ -11919,7 +11919,7 @@
             "SpecialLanes": ["Tram Tracks"]
         },
         "TrafficSigns": {
-            "Types": ["Pedestrian Zone"],
+            "Types": ["Pedestrian Only Zone"],
             "Visibility": "Visible"
         },
         "Vehicles": {
@@ -12285,7 +12285,7 @@
         "LaneInformation": {
             "NumberOfLanes": "3",
             "LaneMarkings": "Visible",
-            "SpecialLanes": ["Bus Stop Sign"]
+            "SpecialLanes": ["Bus Stop"]
         },
         "TrafficSigns": {
             "Types": ["Traffic Light", "Bus Stop Sign", "No Parking"],
@@ -12658,7 +12658,7 @@
         "LaneInformation": {
             "NumberOfLanes": "2",
             "LaneMarkings": "Visible",
-            "SpecialLanes": ["Bike Lane", "Bus Lane", "Street Parking"]
+            "SpecialLanes": ["Bike Lane", "Taxi and Bus Lane", "Street Parking"]
         },
         "TrafficSigns": {
             "Types": ["Parking Sign"],
@@ -12754,7 +12754,7 @@
             "SpecialLanes": "None"
         },
         "TrafficSigns": {
-            "Types": ["No Parking", "One Way Sign", "Pedestrian Zone"],
+            "Types": ["No Parking", "One Way Sign", "Pedestrian Only Zone"],
             "Visibility": "Visible"
         },
         "Vehicles": {
@@ -12844,7 +12844,7 @@
         "LaneInformation": {
             "NumberOfLanes": "3",
             "LaneMarkings": "Visible",
-            "SpecialLanes": ["Bus Lane", "Construction Barriers"]
+            "SpecialLanes": ["Taxi and Bus Lane", "Construction Barriers"]
         },
         "TrafficSigns": {
             "Types": ["Traffic Light", "Bus Stop Sign", "Directional Arrow"],
@@ -13497,7 +13497,7 @@
             "SpecialLanes": "None"
         },
         "TrafficSigns": {
-            "Types": ["Traffic Light", "Pedestrian Zone", "Speed Limit"],
+            "Types": ["Traffic Light", "Pedestrian Only Zone", "Speed Limit"],
             "Visibility": "Visible",
             "TrafficLightState": "Green"
         },
@@ -13690,8 +13690,8 @@
         "Vehicles": {
             "TotalNumber": "Multiple",
             "InMotion": "True",
-            "VehicleTypes": ["Tour Bus", "Van", "Sedan"],
-            "States": ["In Motion", "Stopped at Bus Stop"]
+            "VehicleTypes": ["Bus", "Van", "Sedan"],
+            "States": ["In Motion", "Passenger Exiting"]
         },
         "Pedestrians": "Multiple on Sidewalk",
         "Policeman": {
@@ -13777,7 +13777,7 @@
             "SpecialLanes": ["Bus Stop"]
         },
         "TrafficSigns": {
-            "Types": ["Directional Arrow", "Public Transport Sign"],
+            "Types": ["Directional Arrow"],
             "Visibility": "Visible"
         },
         "Vehicles": {
@@ -13870,7 +13870,8 @@
         },
         "TrafficSigns": {
             "Types": ["Yield Sign", "Traffic Light"],
-            "Visibility": "Visible"
+            "Visibility": "Visible",
+            "TrafficLightState": "Green"
         },
         "Vehicles": {
             "TotalNumber": "Multiple",
@@ -13916,7 +13917,8 @@
         },
         "TrafficSigns": {
           "Types": ["Traffic Light", "Parking Sign"],
-          "Visibility": "Visible"
+          "Visibility": "Visible",
+          "TrafficLightState": "Green"
         },
         "Vehicles": {
           "TotalNumber": "Multiple",
@@ -13958,16 +13960,17 @@
         "LaneInformation": {
             "NumberOfLanes": "Multiple",
             "LaneMarkings": "Visible",
-            "SpecialLanes": ["Bicycle Lane"]
+            "SpecialLanes": ["Bike Lane"]
         },
         "TrafficSigns": {
             "Types": ["No Parking", "Traffic Light"],
-            "Visibility": "Visible"
+            "Visibility": "Visible",
+            "TrafficLightState": "Green"
         },
         "Vehicles": {
             "TotalNumber": "Multiple",
             "InMotion": "True",
-            "VehicleTypes": ["Sedan", "Van", "Bicycle"],
+            "VehicleTypes": ["Sedan", "Van"],
             "States": ["In Motion", "Parked"]
         },
         "Pedestrians": "Walking on Sidewalk",
@@ -13977,7 +13980,7 @@
         },
         "Bicyclist": {
             "Presence": "True",
-            "Location": "Bicycle Lane"
+            "Location": "In Bike Lane"
         },
         "Animals": {
             "Type": "None",
@@ -14775,7 +14778,7 @@
         "Vehicles": {
             "TotalNumber": "Multiple",
             "InMotion": "True",
-            "VehicleTypes": ["SUV", "Sedan", "Station Wagon", "Camper Van"],
+            "VehicleTypes": ["SUV", "Sedan", "Station Wagon", "Van"],
             "States": ["Parked", "In Motion"]
         },
         "Pedestrians": ["None"],
@@ -17094,7 +17097,7 @@
         "LaneInformation": {
             "NumberOfLanes": "Multiple",
             "LaneMarkings": "Visible",
-            "SpecialLanes": ["Bus Stop Sign"]
+            "SpecialLanes": ["Bus Stop"]
         },
         "TrafficSigns": {
             "Types": ["Bus Stop Sign", "Directional Arrow"],
@@ -17387,7 +17390,7 @@
         "LaneInformation": {
             "NumberOfLanes": "Multiple",
             "LaneMarkings": "Visible",
-            "SpecialLanes": ["Bike Lane", "Parking Sign"]
+            "SpecialLanes": ["Bike Lane"]
         },
         "TrafficSigns": {
             "Types": ["Parking Sign", "Bike Lane Sign", "Directional Arrow"],
@@ -18022,7 +18025,7 @@
             "SpecialLanes": ["Street Parking"]
         },
         "TrafficSigns": {
-            "Types": ["No Parking", "Yield"],
+            "Types": ["No Parking", "Yield Sign"],
             "Visibility": "Visible"
         },
         "Vehicles": {
@@ -18129,7 +18132,7 @@
         "Vehicles": {
             "TotalNumber": "Multiple",
             "InMotion": "True",
-            "VehicleTypes": ["Sedan", "SUV", "Classic Car"],
+            "VehicleTypes": ["Sedan", "SUV", "Cars"],
             "States": ["In Motion"]
         },
         "Pedestrians": ["Visible on Sidewalk"],
@@ -18276,7 +18279,7 @@
             "Types": [
                 "Pedestrian Crossing",
                 "No Parking",
-                "One Way"
+                "One Way Sign"
             ],
             "Visibility": "Visible",
             "TrafficLightState": "Red"
@@ -18327,7 +18330,7 @@
             "SpecialLanes": ["Street Parking", "Crosswalk"]
         },
         "TrafficSigns": {
-            "Types": ["Yield"],
+            "Types": ["Yield Sign"],
             "Visibility": "Visible"
         },
         "Vehicles": {
@@ -18525,7 +18528,7 @@
             "SpecialLanes": []
         },
         "TrafficSigns": {
-            "Types": ["No Parking", "Yield"],
+            "Types": ["No Parking", "Yield Sign"],
             "Visibility": "Visible"
         },
         "Vehicles": {
@@ -18620,14 +18623,14 @@
             "SpecialLanes": []
         },
         "TrafficSigns": {
-            "Types": ["Yield", "No Parking"],
+            "Types": ["Yield Sign", "No Parking"],
             "Visibility": "Visible"
         },
         "Vehicles": {
             "TotalNumber": "Multiple",
             "InMotion": "True",
             "VehicleTypes": ["Sedan", "Van"],
-            "States": ["Parked", "Moving"]
+            "States": ["Parked", "In Motion"]
         },
         "Pedestrians": ["Not Present"],
         "Policeman": {
@@ -18670,7 +18673,8 @@
                 "Traffic Light",
                 "Directional Arrow"
             ],
-            "Visibility": "Visible"
+            "Visibility": "Visible",
+            "TrafficLightState": "In Transition(TwoState)"
         },
         "Vehicles": {
             "TotalNumber": "Multiple",
@@ -18714,17 +18718,17 @@
         "LaneInformation": {
             "NumberOfLanes": "Multiple",
             "LaneMarkings": "Present",
-            "SpecialLanes": ["BicycleLane"]
+            "SpecialLanes": ["Bike Lane"]
         },
         "TrafficSigns": {
-            "Types": ["TrafficLight", "Bicycle Crossing"],
+            "Types": ["Traffic Light", "Bicycle Crossing"],
             "Visibility": "Visible"
         },
         "Vehicles": {
             "TotalNumber": "Multiple",
             "InMotion": "True",
             "VehicleTypes": ["Sedan", "SUV"],
-            "States": ["Moving"]
+            "States": ["In Motion"]
         },
         "Pedestrians": ["Standing"],
         "Policeman": {
@@ -18768,7 +18772,8 @@
                 "Directional Arrow",
                 "Bus Stop Sign"
             ],
-            "Visibility": "Visible"
+            "Visibility": "Visible",
+            "TrafficLightState": "Red"
         },
         "Vehicles": {
             "TotalNumber": "Multiple",
@@ -18823,7 +18828,7 @@
             "TotalNumber": "Multiple",
             "InMotion": "True",
             "VehicleTypes": ["Sedan"],
-            "States": ["Moving"]
+            "States": ["In Motion"]
         },
         "Pedestrians": ["Walking"],
         "Policeman": {
@@ -18859,13 +18864,13 @@
         "LaneInformation": {
             "NumberOfLanes": "Multiple",
             "LaneMarkings": "Visible",
-            "SpecialLanes": "Bicycle Lane"
+            "SpecialLanes": "Bike Lane"
         },
         "TrafficSigns": {
             "Types": [
-                "Speed Limit 40 km/h",
+                "Speed Limit",
                 "Directional Arrow",
-                "Weight Limit 3.3t"
+                "Weight Limit"
             ],
             "Visibility": "Visible"
         },
@@ -18884,7 +18889,7 @@
         },
         "Bicyclist": {
             "Presence": "True",
-            "Location": "On Bicycle Lane"
+            "Location": "In Bike Lane"
         },
         "Animals": {
             "Type": "None",
@@ -18921,7 +18926,7 @@
             "TotalNumber": "Multiple",
             "InMotion": "True",
             "VehicleTypes": ["Sedan", "SUV"],
-            "States": ["Parked", "Moving"]
+            "States": ["Parked", "In Motion"]
         },
         "Pedestrians": ["Walking"],
         "Policeman": {
@@ -18963,9 +18968,9 @@
             "Types": [
                 "Traffic Light"
             ],
-            "Visibility": "Visible"
+            "Visibility": "Visible",
+            "TrafficLightState": "In Transition(TwoState)"
         },
-        "TrafficLightState": "Red",
         "Vehicles": {
             "TotalNumber": "Few",
             "InMotion": "False",
@@ -19012,14 +19017,14 @@
             "SpecialLanes": []
         },
         "TrafficSigns": {
-            "Types": ["Pedestrian Crossing", "One-Way Street", "Parking"],
+            "Types": ["Pedestrian Crossing", "One Way Sign", "Parking Sign"],
             "Visibility": "Visible"
         },
         "Vehicles": {
             "TotalNumber": "Multiple",
             "InMotion": "True",
             "VehicleTypes": ["Sedan", "SUV"],
-            "States": ["Parked", "Moving"]
+            "States": ["Parked", "In Motion"]
         },
         "Pedestrians": ["Walking", "Standing"],
         "Policeman": {
@@ -19059,12 +19064,10 @@
         },
         "TrafficSigns": {
             "Types": [
-                "Directional Arrow",
-                "Traffic Light"
+                "Directional Arrow"
             ],
             "Visibility": "Visible"
         },
-        "TrafficLightState": "Red",
         "Vehicles": {
             "TotalNumber": "Several",
             "InMotion": "True",
@@ -19072,7 +19075,7 @@
                 "Sedan",
                 "Hatchback"
             ],
-            "States": "Moving"
+            "States": "In Motion"
         },
         "Pedestrians": "Present in Distance",
         "Policeman": {
@@ -20037,7 +20040,7 @@
             "SpecialLanes": ["Crosswalk"]
         },
         "TrafficSigns": {
-            "Types": ["Traffic Light", "No Entry", "Street Sign"],
+            "Types": ["Traffic Light", "No Entry Sign", "Street Sign"],
             "Visibility": "Visible",
             "TrafficLightState": "Red"
         },
@@ -20130,7 +20133,7 @@
             "SpecialLanes": ["Crosswalk", "Tram Tracks"]
         },
         "TrafficSigns": {
-            "Types": ["No U-Turn", "Bicycle Lane Sign", "No Entry"],
+            "Types": ["No U-Turn", "Bike Lane Sign", "No Entry Sign"],
             "Visibility": "Visible",
             "TrafficLightState": "Green"
         },
@@ -20779,7 +20782,7 @@
             "SpecialLanes": ["Bike Lane", "Crosswalk"]
         },
         "TrafficSigns": {
-            "Types": ["No Entry", "Street Sign", "Taxi Sign"],
+            "Types": ["No Entry Sign", "Street Sign"],
             "Visibility": "Visible"
         },
         "Vehicles": {
@@ -20871,7 +20874,7 @@
             "SpecialLanes": ["Bike Lane", "Crosswalk"]
         },
         "TrafficSigns": {
-            "Types": ["Traffic Light", "Yield Sign", "No Entry", "Street Sign", "Bike Lane Sign"],
+            "Types": ["Traffic Light", "Yield Sign", "No Entry Sign", "Street Sign", "Bike Lane Sign"],
             "Visibility": "Visible",
             "TrafficLightState": "Red"
         },
@@ -21425,7 +21428,7 @@
             "SpecialLanes": ["Street Parking"]
         },
         "TrafficSigns": {
-            "Types": ["No Entry", "Street Sign"],
+            "Types": ["No Entry Sign", "Street Sign"],
             "Visibility": "Visible"
         },
         "Vehicles": {
@@ -21560,7 +21563,7 @@
         "LaneInformation": {
             "NumberOfLanes": "Multiple",
             "LaneMarkings": "Visible",
-            "SpecialLanes": ["Bus Lane"]
+            "SpecialLanes": ["Taxi and Bus Lane"]
         },
         "TrafficSigns": {
             "Types": ["Traffic Light", "Yield Sign", "Do Not Enter"],
@@ -21980,7 +21983,7 @@
             "SpecialLanes": ["Tram Tracks", "Crosswalk"]
         },
         "TrafficSigns": {
-            "Types": ["Traffic Light", "One Way", "Weight Limit", "Street Sign"],
+            "Types": ["Traffic Light", "One Way Sign", "Weight Limit", "Street Sign"],
             "Visibility": "Visible",
             "TrafficLightState": "Red"
         },
@@ -22073,7 +22076,7 @@
             "SpecialLanes": ["Tram Tracks"]
         },
         "TrafficSigns": {
-            "Types": ["No Entry", "No Parking", "Street Sign"],
+            "Types": ["No Entry Sign", "No Parking", "Street Sign"],
             "Visibility": "Visible"
         },
         "Vehicles": {
@@ -22300,10 +22303,10 @@
         "LaneInformation": {
             "NumberOfLanes": "Multiple",
             "LaneMarkings": "Visible",
-            "SpecialLanes": ["Crosswalk", "Tram Tracks", "Bus Lane"]
+            "SpecialLanes": ["Crosswalk", "Tram Tracks", "Taxi and Bus Lane"]
         },
         "TrafficSigns": {
-            "Types": ["Do Not Enter", "Yield", "No U-Turn"],
+            "Types": ["Do Not Enter", "Yield Sign", "No U-Turn"],
             "Visibility": "Visible"
         },
         "Vehicles": {
@@ -22448,7 +22451,7 @@
             "TotalNumber": "Several",
             "InMotion": "True",
             "VehicleTypes": ["Sedan", "Van", "Tram"],
-            "States": ["Moving"]
+            "States": ["In Motion"]
         },
         "Pedestrians": ["None"],
         "Policeman": {
@@ -23338,8 +23341,7 @@
             "InMotion": "False",
             "VehicleTypes": [
                 "Sedan",
-                "Motorcycle",
-                "Bicycles"
+                "Motorcycle"
             ],
             "States": [
                 "Parked"
@@ -23382,7 +23384,7 @@
             "SpecialLanes": "Crosswalk"
         },
         "TrafficSigns": {
-            "Types": ["Traffic Light", "Bicycle Sign"],
+            "Types": ["Traffic Light", "Bike Lane Sign"],
             "Visibility": "Visible",
             "TrafficLightState": "Red"
         },
@@ -23490,7 +23492,7 @@
             "TotalNumber": "Multiple",
             "InMotion": "True",
             "VehicleTypes": ["SUV", "Sedan", "Hatchback", "Convertible"],
-            "States": ["In Motion", "Following", "Proceeding through Intersection"]
+            "States": ["In Motion", "In Queue"]
         },
         "Pedestrians": "None",
         "Policeman": {
@@ -23689,7 +23691,7 @@
             "TotalNumber": "Multiple",
             "InMotion": "True",
             "VehicleTypes": ["Sedan", "Hatchback", "Van"],
-            "States": ["In Motion", "Following"]
+            "States": ["In Motion", "In Queue"]
         },
         "Pedestrians": "None",
         "Policeman": {
@@ -23726,7 +23728,7 @@
             "NumberOfLanes": "Multiple",
             "LaneMarkings": "Visible",
             "SpecialLanes": [
-                "Bus Lane",
+                "Taxi and Bus Lane",
                 "Tram Tracks"
             ]
         },
@@ -24212,7 +24214,7 @@
             "TotalNumber": "Multiple",
             "InMotion": "True",
             "VehicleTypes": ["Sedan", "Hatchback", "Taxi"],
-            "States": ["Parked", "In Motion", "Following"]
+            "States": ["Parked", "In Motion", "In Queue"]
         },
         "Pedestrians": "Visible on Sidewalk",
         "Policeman": {
@@ -24356,7 +24358,7 @@
         "LaneInformation": {
             "NumberOfLanes": "Multiple",
             "LaneMarkings": "Visible",
-            "SpecialLanes": "Bus Lane"
+            "SpecialLanes": "Taxi and Bus Lane"
         },
         "TrafficSigns": {
             "Types": [
@@ -24423,7 +24425,7 @@
             "TotalNumber": "Multiple",
             "InMotion": "True",
             "VehicleTypes": ["Sedan", "Hatchback", "Delivery Truck"],
-            "States": ["Parked", "In Motion", "Following"]
+            "States": ["Parked", "In Motion", "In Queue"]
         },
         "Pedestrians": "Visible on Sidewalk",
         "Policeman": {
@@ -24514,7 +24516,7 @@
         "LaneInformation": {
             "NumberOfLanes": "Multiple",
             "LaneMarkings": "Visible",
-            "SpecialLanes": ["Bus Lane", "Street Parking"]
+            "SpecialLanes": ["Taxi and Bus Lane", "Street Parking"]
         },
         "TrafficSigns": {
             "Types": ["Bus Stop Sign", "Pedestrian Warning", "Construction Warning", "Parking Sign"],
@@ -24757,10 +24759,10 @@
         "LaneInformation": {
             "NumberOfLanes": "Multiple",
             "LaneMarkings": "Visible",
-            "SpecialLanes": "Crosswalk",
+            "SpecialLanes": "Crosswalk"
         },
         "TrafficSigns": {
-            "Types": ["Roundabout", "No Entry"],
+            "Types": ["Roundabout Sign", "No Entry Sign"],
             "Visibility": "Visible"
         },
         "Vehicles": {
@@ -25037,7 +25039,7 @@
             "SpecialLanes": "None"
         },
         "TrafficSigns": {
-            "Types": ["No Entry", "Street Sign"],
+            "Types": ["No Entry Sign", "Street Sign"],
             "Visibility": "Visible"
         },
         "Vehicles": {
@@ -25899,7 +25901,7 @@
         "TrafficSigns": {
             "Types": [
                 "Traffic Light",
-                "No Entry",
+                "No Entry Sign",
                 "Information Sign"
             ],
             "Visibility": "Visible",
@@ -26202,7 +26204,6 @@
         "TrafficSigns": {
             "Types": [
                 "No Parking",
-                "Taxi and Bus Lane",
                 "Traffic Light"
             ],
             "Visibility": "Visible",
@@ -26564,7 +26565,7 @@
             "SpecialLanes": "Bike Lane"
         },
         "TrafficSigns": {
-            "Types": ["Traffic Light", "Speed Limit", "Priority Road"],
+            "Types": ["Traffic Light", "Speed Limit"],
             "Visibility": "Visible",
             "TrafficLightState": "Green"
         },
@@ -26920,7 +26921,7 @@
             "SpecialLanes": "None"
         },
         "TrafficSigns": {
-            "Types": ["Yield Sign", "Roundabout", "No Parking"],
+            "Types": ["Yield Sign", "Roundabout Sign", "No Parking"],
             "Visibility": "Visible"
         },
         "Vehicles": {
@@ -27383,7 +27384,6 @@
         },
         "TrafficSigns": {
             "Types": [
-                "Priority Road",
                 "Bike Lane Sign",
                 "No Parking"
             ],
@@ -28453,7 +28453,7 @@
         "LaneInformation": {
             "NumberOfLanes": "Multiple",
             "LaneMarkings": "Visible",
-            "SpecialLanes": ["Bus Lane", "Street Parking"]
+            "SpecialLanes": ["Taxi and Bus Lane", "Street Parking"]
         },
         "TrafficSigns": {
             "Types": ["Bus Stop Sign", "Speed Limit", "Directional Arrow"],
@@ -28602,7 +28602,7 @@
             "TotalNumber": "Multiple",
             "InMotion": "True",
             "VehicleTypes": ["SUV", "Bus", "Sedan"],
-            "States": ["In Motion", "Stopped at Stop Sign"]
+            "States": ["In Motion", "Stopped"]
         },
         "Pedestrians": "Visible on Sidewalk",
         "Policeman": {
@@ -29619,7 +29619,7 @@
             "SpecialLanes": ["Crosswalk", "Tram Tracks"]
         },
         "TrafficSigns": {
-            "Types": ["No Entry", "Street Sign"],
+            "Types": ["No Entry Sign", "Street Sign"],
             "Visibility": "Visible"
         },
         "Vehicles": {

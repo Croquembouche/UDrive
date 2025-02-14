@@ -1,6 +1,6 @@
 import json
 
-file = "/media/william/blueicedrive/Github/UDrive/Analysis/nuScenes/Analysis.json"
+file = "/media/william/blueicedrive/Github/UDrive/Analysis/Cityscapes/Analysis.json"
 traffic_signs_list = []
 speciallanes_list = []
 vehicletype_list = []
@@ -63,7 +63,7 @@ for image_name, image_analysis in data.items():
         image_analysis["LaneInformation"]["SpecialLanes"] = SpecialLanes
     for x in SpecialLanes:
         if x == "Pedestrian Crossing":
-            print(image_name)
+            print(image_name, "1")
         if x not in speciallanes_list:
             speciallanes_list.append(x)
 
@@ -173,7 +173,7 @@ for image_name, image_analysis in data.items():
         # image_analysis["TrafficSigns"]["VehicleTypes"] = temp 
     for x in VehiclesTypes:
         if x == "Parked":
-            print(image_name)
+            print(image_name, "2")
         if x not in vehicletype_list:
             vehicletype_list.append(x)
     
@@ -192,14 +192,14 @@ for image_name, image_analysis in data.items():
         image_analysis["Vehicles"]["States"] = VehiclesStates
     for x in VehiclesStates:
         if x == "Proceeding through Intersection":
-            print(image_name)
+            print(image_name, "3")
         if x not in vehiclestate_list:
             vehiclestate_list.append(x)
 
     try:    
         Pedestrians = image_analysis["Pedestrians"]                            # list
     except KeyError:
-        print(image_name)
+        print(image_name, "4")
     if isinstance(Pedestrians, str):
         Pedestrians = Pedestrians.split(",")
         image_analysis["Pedestrians"] = Pedestrians
@@ -227,7 +227,7 @@ for image_name, image_analysis in data.items():
         image_analysis["Ego-Vehicle"]["Maneuver"] = "Ego"+EgoVehicleManeuver
     if EgoVehicleManeuver not in egomaneuver_list:
         if EgoVehicleManeuver == "Ego['Merging Left']":
-            print(image_name)
+            print(image_name, "5")
         egomaneuver_list.append(EgoVehicleManeuver)
 
     try:

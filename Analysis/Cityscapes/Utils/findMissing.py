@@ -57,7 +57,7 @@ json_file_path = '/media/william/blueicedrive/Github/UDrive/Analysis/Overall.jso
 list_from_json = load_trafficsigns_list_from_json(json_file_path)
 
 # Define the other list for comparison
-other_list = ['NoTrafficSigns', 'Pedestrian Crossing', 'Route Sign', 'No Parking', 'Construction Warning', 'Road Work Ahead', 'One Way Sign', 'Stop Sign', 'Speed Limit', 'Parking Sign', 'No Right Turn', 'Two-Way Traffic', 'Railroad Crossing', 'Road Work', 'Detour', 'Traffic Light', 'No Left Turn', 'No Turn On Red', 'Left Lane Must Turn Left', 'Yield Sign', 'Bus Stop Sign', 'Crosswalk', 'Exit Sign', 'Bike Lane Sign', 'Road Closed', 'Electronic Sign', 'No U-Turn', 'Left Turn Only', 'Right Turn Only', 'Crosswalk Closed', 'Directional Arrow', 'Work Zone', 'Speeding Fine Doubled', 'Merge Sign', 'End Road Work', 'Double Fines End', 'Keep Right Sign', 'Do Not Enter', 'No Stopping', 'Street Sign', 'No Truck Allowed', 'Stop for Pedestrians', 'Weight Limit', 'Share the Road', 'Right Lane Must Turn Right', 'Pedestrian Signal', 'No Pedestrian Crossing', 'Traffic Light Warning Sign', 'Pedestrian Warning', 'Do Not Block', 'Do Not Block Intersection', 'Tow Area Sign', 'Yield to Pedestrians', 'School Zone', 'Fallen Sign', 'Bus Lane', 'Curve', 'Loading Zone Sign', 'Do Not Stop on Tracks', 'Bike Lane Ends', 'NoSign', 'Information Sign', 'Not a Thru Street']
+other_list = ['Yield Sign', 'Curve', 'Pedestrian Crossing', 'Directional Arrow', 'Traffic Light', 'Pedestrian Signal', 'No Parking', 'Parking Sign', 'NoTrafficSigns', 'Do Not Enter', 'Construction Warning', 'Bus Stop Sign', 'Pedestrian Zone', 'One Way Sign', 'NoSign', 'Warning Sign', 'Stop Sign', 'Information Sign', 'Speed Limit', 'Pedestrian Crossing Sign', 'Directional Sign', 'No Entry', 'Bike Lane Sign', 'Yield', 'Speed Limit 30', 'Street Sign', 'No Trucks Allowed', 'Keep Right Sign', 'No Left Turn', 'Pedestrian Warning', 'One-Way Sign', 'Gas Station Sign', 'Lane Direction Sign', 'Bicycle Lane Sign', 'No Entry Sign', 'No U-Turn', 'Detour', 'Weight Limit', 'Road Work', 'Electronic Sign', 'Height Limit', 'Bus Lane', 'Taxi and Bus Lane', 'Public Transport Sign', 'One Way', 'Emergency Route', 'TrafficLight', 'Bicycle Crossing', 'Speed Limit 40 km/h', 'Weight Limit 3.3t', 'One-Way Street', 'Parking', 'Tow Area Sign', 'Taxi Sign', 'Intersection Warning', 'One-Way', 'Hospital Sign', 'Bicycle Sign', 'Roundabout', 'Tunnel Sign', 'Merge Sign', 'Priority Road', 'Dead End', 'Two-Way Traffic', 'Left Turn Only']
 
 comparison_result = compare_lists(list_from_json, other_list)
 
@@ -67,32 +67,32 @@ print("Unique in Traffic Signs items:", comparison_result["unique_to_list2"], "L
 
 # special lanes
 list_from_json = load_speciallane_list_from_json(json_file_path)
-other_list = ['Street Parking', 'NoSpecialLanes', 'Crosswalk', 'Bike Lane', 'Right Turn Only Lane', 'Road Work', 'Taxi and Bus Lane', 'Center Lane', 'Left Turn Only Lane', 'Forward Only Lane', 'Traffic Cones Blocking Parts of the Road', 'None', 'Construction Cones', 'Bridge', 'Roundabout', 'Construction Barriers']
+other_list = ['NoSpecialLanes', 'Bike Lane', 'Street Parking', 'Crosswalk', 'Bus Lane', 'Right Turn Only Lane', 'Left Turn Only Lane', 'Tram Tracks', 'Construction Barriers', 'Turn Lane', 'Bicycle Lane', 'Bus Stop', 'Forward Only Lane', 'Bridge', 'Roundabout', 'Traffic Cones Blocking Parts of the Road', 'Directional Arrow', 'Pedestrian Walkway', 'Construction Zone', 'Parking Lane', 'Bus Stop Sign', 'Taxi and Bus Lane', 'Turning Lane', 'Parking Sign', 'Tram Lane', 'BicycleLane']
 comparison_result = compare_lists(list_from_json, other_list)
 print("Unique in Special Lanes items:", comparison_result["unique_to_list2"], "Length: ", len(comparison_result["unique_to_list2"]))
 
 # vehicle type
 list_from_json = load_vehicletype_list_from_json(json_file_path)
-other_list = ['Pickup Truck', 'Van', 'Sedan', 'SUV', 'Truck', 'Construction Vehicles', 'Service Vehicle', 'Utility Truck', 'Compact Car', 'Cars', 'Commercial Delivery Truck', 'NoVehicleType', 'Bus', 'Commercial Vehicle', 'Minivan', 'Delivery Truck', 'Semi-Trailer Truck', 'Box Truck', 'Motorcycle', 'Taxi', 'Hatchback', 'Ambulance', 'Cement Mixer Truck', 'Trolley', 'Police Car', 'Jeep', 'Coupe', 'Crossover', 'Sports Car', 'Convertible', 'Forklift', 'RV', 'Commerical Truck', 'Armored Truck', 'Containers', 'Shuttle Bus']
+other_list = ['SUV', 'Sedan', 'Taxi', 'Hatchback', 'Van', 'Motorcycle', 'Ambulance', 'Bus', 'Compact Car', 'NoVehicleType', 'Station Wagon', 'Delivery Truck', 'Trolley', 'Tram', 'Truck', 'Construction Vehicles', 'Convertible', 'Bicycle', 'Scooter', 'Minivan', 'Sports Car', 'Electric Vehicle', 'Cars', 'Police Car', 'Pickup Truck', 'RV', 'Tour Bus', 'Camper Van', 'Classic Car', 'Bicycles']
 comparison_result = compare_lists(list_from_json, other_list)
 print("Unique in vehicle type items:", comparison_result["unique_to_list2"], "Length: ", len(comparison_result["unique_to_list2"]))
 
 
 # vehicle state
 list_from_json = load_vehiclestate_list_from_json(json_file_path)
-other_list = ['Parked', 'In Motion', 'NoVehicleState', 'Blocking Parts of the Road', 'Stopped', 'In Queue', 'Stopped at Intersection', 'Turning', 'Violate Traffic Rules', 'Turning Left', 'Merging', 'Passenger Exiting', 'Waiting', 'Waiting to Turn Right', 'Slowing Down', 'Door Open', 'Utility Work', 'Picking up a Passenger', 'Turning Right', 'Crossing Intersection', 'Waiting to Turn Left', 'Waiting to Turn', 'Exiting Intersection', 'Loading', 'Performing Roadwork', 'Interacting with Driver', 'Stopped at Traffic Light']
+other_list = ['In Motion', 'Turning', 'Parked', 'Stopped', 'Stopped at Traffic Light', 'In Queue', 'Merging', 'Turning Right', 'Waiting to Turn', 'NoVehicleState', 'Door Open', 'Moving', 'Blocking Parts of the Road', 'Waiting', 'Stopped at Bus Stop', 'Loading', 'Stopped at Intersection', 'Waiting to Turn Left', 'Overtaking', 'Stopped at Crosswalk', 'Turning Left', 'Following', 'Slowing Down', 'Stopped at Stop Sign']
 comparison_result = compare_lists(list_from_json, other_list)
 print("Unique in vehcile state items:", comparison_result["unique_to_list2"], "Length: ", len(comparison_result["unique_to_list2"]))
 
 
 # ego direction
 list_from_json = load_egodirection_list_from_json(json_file_path)
-other_list = ['EgoForward', 'EgoMaking a Right Turn', 'EgoStopped at Intersection', 'EgoMaking a Left Turn', 'EgoApproaching Intersection', 'EgoMerging Right', 'EgoMerging Left', 'EgoApproaching Roundabout', 'EgoExiting Roundabout', 'EgoStopped', 'EgoStopped at Stop Sign', 'EgoParked', 'EgoEntering Roundabout']
+other_list = ['EgoEgoApproaching Roundabout', "Ego['EgoForward']", 'EgoEgoStopped at Traffic Light', "Ego['EgoStopped']", 'EgoEgoStopped', 'EgoEgoForward', "Ego['EgoStopped at Intersection']", 'EgoEgoApproaching Intersection', 'EgoEgoRight', 'EgoEgoMaking a Left Turn', 'EgoEgoMaking a Right Turn', 'EgoEgoMerging', 'EgoEgoMerging ', 'EgoEgoStopped at Intersection', 'EgoEgoStopped at Crosswalk', 'EgoEgoIn Queue', 'EgoEgoExiting Roundabout', 'EgoEgoTurning', 'EgoEgoMoving', 'EgoEgoEntering Roundabout']
 print("Unique in ego direction items:", comparison_result["unique_to_list2"], "Length: ", len(comparison_result["unique_to_list2"]))
 
 # ego maneuver
 list_from_json = load_egomaneuver_list_from_json(json_file_path)
-other_list = ['EgoMoving', 'EgoTurning Right', 'EgoTurning Left', 'EgoSlowing Down', 'EgoWaiting', 'EgoFollowing', 'EgoFullStopped', 'EgoIn Queue', 'EgoMerging Left', 'EgoMerging', 'EgoProceeding through Intersection', 'EgoYielding', 'EgoOvertaking on Opposing Lane', 'EgoOvertaking', 'EgoStopped in Parking Space']
+other_list = ['EgoEgoMoving', "Ego['EgoMoving']", 'EgoEgoFullStopped', "Ego['EgoFullStopped']", "Ego['EgoWaiting']", 'EgoEgoSlowing Down', 'EgoEgoWaiting', 'EgoEgoProceeding through Intersection', 'EgoEgoTurningRight', 'EgoEgoStopped', 'EgoEgoTurning Left', 'EgoEgoTurning Right', 'EgoEgoMerging Left', 'EgoEgoFollowing', 'EgoEgoIn Queue', 'EgoEgoYielding', 'EgoEgoProceeding', 'EgoEgoSlowing', 'EgoEgoMerging Right', 'EgoEgoMovingForward']
 comparison_result = compare_lists(list_from_json, other_list)
 print("Unique in ego maneuver items:", comparison_result["unique_to_list2"], "Length: ", len(comparison_result["unique_to_list2"]))
 

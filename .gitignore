@@ -5,3 +5,6 @@ Analysis/nuScenes/results/imageJaccardSimilaritymatrix.csv
 
 Analysis/Kitti/random_graphs/
 Analysis/Kitti/image_subgraph/
+
+Analysis/Cityscapes/random_graphs/
+Analysis/Cityscapes/image_subgraph/

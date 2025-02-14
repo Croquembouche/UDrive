@@ -64,7 +64,8 @@
             "Bridge",
             "Roundabout",
             "Construction Cones",
-            "Construction Barriers"
+            "Construction Barriers",
+            "Bus Stop"
         ]
     },
     "TrafficSigns": {
@@ -137,7 +138,16 @@
             "End Road Work",
             "Bike Lane Ends",
             "Keep Right Sign",
-            "Loading Zone Sign"
+            "Loading Zone Sign",
+            "Emergnecy Route",
+            "Gas Station Sign",
+            "Height Limit",
+            "Hospital Sign",
+            "Intersection Warning",
+            "No Entry Sign",
+            "Pedestrian Only Zone",
+            "Roundabout Sign",
+            "Tunnel Sign"
         ],
         "Visibility": [
             "Visible",
@@ -201,7 +211,9 @@
             "Ambulance",
             "Shuttle Bus",
             "Jeep",
-            "RV"
+            "RV",
+            "Scooter",
+            "Tram"
         ],
         "States": [
             "Parked",
