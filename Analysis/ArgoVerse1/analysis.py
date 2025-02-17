@@ -205,7 +205,7 @@ class DatasetAnalysis:
         print(f"Mean: {mean_value}, Min: {min_value}, Max: {max_value}, STD: {np.std(filtered_matrix)}")
 
     def createRandomImageGraph(self, root_node):
-        NUM_NODES = 161  # Includes the root node
+        NUM_NODES = 311  # Includes the root node
         MEAN_CONNECTIONS = 23.233253588516746
         STD_DEV_CONNECTIONS = 1.9575383520655978
         MIN_CONNECTIONS = 19
@@ -216,31 +216,38 @@ class DatasetAnalysis:
 
         # Define root and special categories nodes
         special_categories = {
-            'scene_node': random.randint(1, 5),
-            'timeofday_node': random.randint(6, 8),
-            'weather_node': random.randint(9, 15),
-            'roadcondition_node': random.randint(16, 17),
-            'numlane_node': random.randint(18, 23),
-            'lanemarking_node': random.randint(24, 26),
-            'trafvis_node': random.randint(67, 69),
-            'trafstate_node': random.randint(70, 73),
-            'vehiclenum_node': random.randint(74, 76),
-            'direction_node': random.randint(120, 124),
-            'egodirection_node': random.randint(125, 129),
-            'egomanu_node': random.randint(130, 137),
-            'vis_node': random.randint(138, 141),
-            'cam_node': random.randint(142, 145),
-            'sev_node': random.randint(151, 160),
+            'scene_node': random.randint(1, 12),
+            'timeofday_node': random.randint(13, 15),
+            'weather_node': random.randint(16, 22),
+            'roadcondition_node': random.randint(23, 24),
+            'numlane_node': random.randint(25, 31),
+            'lanemarking_node': random.randint(32, 34),
+            'trafvis_node': random.randint(130, 132),
+            'trafstate_node': random.randint(133, 138),
+            'vehiclenum_node': random.randint(139, 142),
+            'vehiclemotion_node': range(143, 144),
+            'police_node_present':random.randint(221, 222),
+            'police_node_state':random.randint(223, 224),
+            'bicycle_node_present':random.randint(225, 226),
+            'bicycle_node_state':random.randint(227, 231),
+            'animal_node_present':random.randint(232, 233),
+            'animal_node_state':random.randint(234, 236),
+            'direction_node': random.randint(237, 242),
+            'egodirection_node': random.randint(243, 255),
+            'egomanu_node': random.randint(256, 282),
+            'vis_node': random.randint(283, 286),
+            'cam_node': random.randint(294, 299),
+            'sev_node': random.randint(300, 309),
         }
 
         # Nodes to choose multiple from and their potential ranges
         multiple_connection_categories = {
-            'speciallane_node': range(27, 37),
-            'vehiclemotion_node': range(77, 79),
-            'vehicletype_node': range(79, 105),
-            'vehiclestate_node': range(105, 116),
-            'ped_node': range(116, 120),
-            'impair_node': range(146, 151),
+            'speciallane_node': range(34, 51),
+            'trafficsign_node': range(50, 129),
+            'vehicletype_node': range(145, 182),
+            'vehiclestate_node': range(183, 211),
+            'ped_node': range(212, 220),
+            'impair_node': range(287, 293),
         }
 
         # Add edges from root node to special categories nodes
@@ -481,25 +488,26 @@ class DatasetAnalysis:
         # nx.write_graphml_lxml(random_dataset, f"/media/william/blueicedrive/Github/UDrive/Analysis/ArgoVerse1/randomdataset.graphml")
 
     def calculateCompositeScore(self):
-        w1 = 0.3
-        w2 = 0.3
-        w3 = 0.3
+        w1 = 0.4
+        w2 = 0.2
+        w3 = 0.2
         w4 = 0.1
+        w5 = 0.2
         high_risk = 4
         medium_risk = 109
         low_risk = 723
         c_max = 0.7444852941176471
         c_sigma = 0.07901658131840618
-        c_max_random = 0.4432160804020101
-        c_random_sigma = 0.05227209036744613
+        c_max_random = 0.734622144112478
+        c_random_sigma = 0.05117264341563621
         density = 0.017
         density_random = 0.019
         modularity = 0.095
-        modulartiy_random = 0.054
+        modulartiy_random = 0.059
         num_community = 43
-        num_community_random = 66
+        num_community_random = 62
         J_image = 0.3709006893992441
-        J_random = 0.1282313010415539
+        J_random = 0.16491050909274446
         J_penalty = (J_image - J_random)/J_random
         M_penalty = ((modularity - modulartiy_random)/modulartiy_random) * ((num_community-num_community_random)/num_community_random)
         C_penalty = (c_max - c_max_random)/c_max_random + (c_sigma-c_random_sigma)/c_random_sigma
@@ -510,21 +518,21 @@ class DatasetAnalysis:
         D_M = abs(medium_risk - mean)
         D_L = abs(low_risk - mean)      
         RD_penalty = (D_H + D_M + D_L)/mean/10
-        S = 1-(w1*J_penalty - w2*M_penalty + w3*C_penalty + w4*D_penalty)-RD_penalty
+        S = 1-(w1*J_penalty - w2*M_penalty + w3*C_penalty + w4*D_penalty)-w5*RD_penalty
         print(f"The Composite Score of Argoverse1 is {S}. J_penalty: {w1*J_penalty}, M_penalty: {w2*M_penalty}, C_penalty: {w3*C_penalty}, D_penalty: {w4*D_penalty}, RD_penalty: {RD_penalty}")
 # The Composite Score of Argoverse1 is -0.3128930880610582. J_penalty: 0.567730467647019, M_penalty: -0.0793771043771044, C_penalty: 0.357412310295308, D_penalty: -0.010526315789473675, RD_penalty: 0.31889952153110046
 
 G = DatasetAnalysis()
-G.createBasicGraph()
+# G.createBasicGraph()
 # print("Compare Scenarios")
-G.compareScenarios()
+# G.compareScenarios()
 # print("ArgoVerse Results")
-G.compareImages(0.8)
+# G.compareImages(0.8)
 # G.calculateDegreeCentrality(10)
 # print("Random Graph Results")
 # G.randomAnalysis()
 # G.createRandomDataset()
-# G.calculateCompositeScore()
+G.calculateCompositeScore()
 
 
 

@@ -226,7 +226,7 @@ class DatasetAnalysis:
         print(f"Mean: {mean_value}, Min: {min_value}, Max: {max_value}, STD: {np.std(filtered_matrix)}")
 
     def createRandomImageGraph(self, root_node):
-        NUM_NODES = 3012  # Includes the root node
+        NUM_NODES = 311  # Includes the root node
         MEAN_CONNECTIONS = 23.039150630391507
         STD_DEV_CONNECTIONS = 1.755017475399074
         MIN_CONNECTIONS = 19
@@ -241,34 +241,34 @@ class DatasetAnalysis:
             'timeofday_node': random.randint(13, 15),
             'weather_node': random.randint(16, 22),
             'roadcondition_node': random.randint(23, 24),
-            'numlane_node': random.randint(25, 30),
-            'lanemarking_node': random.randint(31, 33),
-            'trafvis_node': random.randint(119, 121),
-            'trafstate_node': random.randint(122, 127),
-            'vehiclenum_node': random.randint(128, 131),
-            'vehiclemotion_node': range(132, 133),
-            'police_node_present':random.randint(208, 209),
-            'police_node_state':random.randint(210, 211),
-            'bicycle_node_present':random.randint(212, 213),
-            'bicycle_node_state':random.randint(214, 218),
-            'animal_node_present':random.randint(219, 220),
-            'animal_node_state':random.randint(221, 223),
-            'direction_node': random.randint(224, 229),
-            'egodirection_node': random.randint(230, 241),
-            'egomanu_node': random.randint(242, 258),
-            'vis_node': random.randint(259, 262),
-            'cam_node': random.randint(270, 275),
-            'sev_node': random.randint(276, 285),
+            'numlane_node': random.randint(25, 31),
+            'lanemarking_node': random.randint(32, 34),
+            'trafvis_node': random.randint(130, 132),
+            'trafstate_node': random.randint(133, 138),
+            'vehiclenum_node': random.randint(139, 142),
+            'vehiclemotion_node': range(143, 144),
+            'police_node_present':random.randint(221, 222),
+            'police_node_state':random.randint(223, 224),
+            'bicycle_node_present':random.randint(225, 226),
+            'bicycle_node_state':random.randint(227, 231),
+            'animal_node_present':random.randint(232, 233),
+            'animal_node_state':random.randint(234, 236),
+            'direction_node': random.randint(237, 242),
+            'egodirection_node': random.randint(243, 255),
+            'egomanu_node': random.randint(256, 282),
+            'vis_node': random.randint(283, 286),
+            'cam_node': random.randint(294, 299),
+            'sev_node': random.randint(300, 309),
         }
 
         # Nodes to choose multiple from and their potential ranges
         multiple_connection_categories = {
-            'speciallane_node': range(34, 49),
-            'trafficsign_node': range(50, 118),
-            'vehicletype_node': range(134, 170),
-            'vehiclestate_node': range(171, 199),
-            'ped_node': range(200, 207),
-            'impair_node': range(263, 269),
+            'speciallane_node': range(34, 51),
+            'trafficsign_node': range(50, 129),
+            'vehicletype_node': range(145, 182),
+            'vehiclestate_node': range(183, 211),
+            'ped_node': range(212, 220),
+            'impair_node': range(287, 293),
         }
 
         # Add edges from root node to special categories nodes
@@ -279,7 +279,7 @@ class DatasetAnalysis:
         # Adjust total number of connections from the root, including the special categories
         additional_connections_needed = max(MIN_CONNECTIONS, int(random.gauss(MEAN_CONNECTIONS, STD_DEV_CONNECTIONS))) - len(special_categories)
         additional_connections_needed = max(0, additional_connections_needed)  # Ensure no negative number
-        potential_child_nodes = [n for n in range(1, NUM_NODES) if n in multiple_connection_categories.values()]
+        potential_child_nodes = [n for n in range(1, NUM_NODES) if n not in special_categories.values()]
 
         # Randomly choose additional nodes to connect from the root, avoiding duplicates
         additional_child_nodes = random.sample(potential_child_nodes, min(additional_connections_needed, len(potential_child_nodes)))
@@ -495,25 +495,26 @@ class DatasetAnalysis:
         # nx.write_graphml_lxml(random_dataset, f"/media/william/blueicedrive/Github/UDrive/Analysis/nuScenes/randomdataset.graphml")
     
     def calculateCompositeScore(self):
-        w1 = 0.3
-        w2 = 0.3
-        w3 = 0.3
+        w1 = 0.4
+        w2 = 0.2
+        w3 = 0.2
         w4 = 0.1
+        w5 = 0.2
         high_risk = 101
         medium_risk = 1380
         low_risk = 1533
         c_max = 0.9021443672606463
         c_sigma = 0.05208017501599415
-        c_max_random = 0.9626317470456723
+        c_max_random = 0.9067388688327317
         c_random_sigma = 0.04288216660795642
         density = 0.006
         density_random = 0.007
-        modularity = 0.091
+        modularity = 0.081
         modulartiy_random = 0.037
-        num_community = 58
-        num_community_random = 100
+        num_community = 56
+        num_community_random = 103
         J_image = 0.3173656512421666
-        J_random = 0.17232037235954428
+        J_random = 0.1656856565573669
         J_penalty = (J_image - J_random)/J_random
         M_penalty = ((modularity - modulartiy_random)/modulartiy_random) * ((num_community-num_community_random)/num_community_random)
         C_penalty = (c_max - c_max_random)/c_max_random + (c_sigma-c_random_sigma)/c_random_sigma
@@ -524,29 +525,62 @@ class DatasetAnalysis:
         D_M = abs(medium_risk - mean)
         D_L = abs(low_risk - mean)      
         RD_penalty = (D_H + D_M + D_L)/mean/10
-        S = 1-(w1*J_penalty - w2*M_penalty + w3*C_penalty + w4*D_penalty)-RD_penalty
+        S = 1-(w1*J_penalty - w2*M_penalty + w3*C_penalty + w4*D_penalty)-w5*RD_penalty
         print(f"The Composite Score of nuScenes is {S}. J_penalty: {w1*J_penalty}, M_penalty: {w2*M_penalty}, C_penalty: {w3*C_penalty}, D_penalty: {w4*D_penalty}, RiskDistribution_penalty: {RD_penalty}")
 # The Composite Score of nuScenes is 0.35248652763298316.. J_penalty: 0.2525156083924665, M_penalty: -0.18389189189189187 C_penalty: 0.045497857569434426, D_penalty: -0.06842105263157895, RiskDistribution_penalty: 0.1798938287989383
 
         
 
 
-
-
-
 G = DatasetAnalysis()
-G.createBasicGraph()
+# G.createBasicGraph()
 # print("Compare Scenarios")
 # G.compareScenarios()
 # print("nuScenes Results")
-G.compareImages(0.8)
+# G.compareImages(0.8)
 # G.compareImages(0.9)
 # G.calculateDegreeCentrality(10)
 # print("Random Graph Results")
 # G.randomAnalysis()
 # G.createRandomDataset()
-# G.calculateCompositeScore()
+G.calculateCompositeScore()
 
+
+# def calculateCompositeScore():
+#     w1 = 0.3
+#     w2 = 0.3
+#     w3 = 0.3
+#     w4 = 0.1
+#     high_risk = 0
+#     medium_risk = 0
+#     low_risk = 100
+#     c_max = 1
+#     c_sigma = 0
+#     c_max_random = 0.9021443672606463
+#     c_random_sigma = 0.05208017501599415
+#     density = 1
+#     density_random = 0.007
+#     modularity = 1
+#     modulartiy_random = 0.037
+#     num_community = 1
+#     num_community_random = 103
+#     J_image = 1
+#     J_random = 0.0001
+#     J_penalty = (J_image - J_random)/J_random
+#     M_penalty = ((modularity - modulartiy_random)/modulartiy_random) * ((num_community-num_community_random)/num_community_random)
+#     C_penalty = (c_max - c_max_random)/c_max_random + (c_sigma-c_random_sigma)/c_random_sigma
+#     D_penalty = (density - density_random)/density_random
+    
+#     mean = (high_risk + medium_risk + low_risk) / 3
+#     D_H = abs(high_risk - mean)
+#     D_M = abs(medium_risk - mean)
+#     D_L = abs(low_risk - mean)      
+#     RD_penalty = (D_H + D_M + D_L)/mean/10
+#     # print("max score:", RD_penalty)
+#     S = 1-(w1*J_penalty - w2*M_penalty + w3*C_penalty + w4*D_penalty)-RD_penalty
+#     print(f"The Composite Score of nuScenes is {S}. J_penalty: {w1*J_penalty}, M_penalty: {w2*M_penalty}, C_penalty: {w3*C_penalty}, D_penalty: {w4*D_penalty}, RiskDistribution_penalty: {RD_penalty}")
+
+# calculateCompositeScore()
 
 
 

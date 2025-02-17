@@ -2,6 +2,7 @@ Analysis/nuScenes/backup.txt
 Analysis/nuScenes/random_graphs/
 Analysis/nuScenes/fullnuScenes/
 Analysis/nuScenes/results/imageJaccardSimilaritymatrix.csv
+Analysis/nuScenes/random_graphs
 
 Analysis/Kitti/random_graphs/
 Analysis/Kitti/image_subgraph/
