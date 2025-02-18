@@ -12,6 +12,7 @@ from itertools import combinations
 from scipy.stats import truncnorm
 import random
 import pandas as pd
+import os
 
 
 
@@ -394,7 +395,15 @@ class DatasetAnalysis:
     #             data['densities'] = ', '.join(f"{k}:{v}" for k, v in data['densities'].items())
     #             # print(data)
     #             writer.writerow(data)
-        
+
+    def moveImages(self, filteredImageNames, threshold):
+        src_dir =  "/media/william/mist2/william/Github/ultralytics/dataset/nuScenesFullNA/images/train"
+        dest_dir = f"/media/william/mist2/william/Github/ultralytics/dataset/nuScenesFullNA/images/selected_{threshold}"
+        os.makedirs(dest_dir, exist_ok=True)
+        for filename in filteredImageNames:
+            file_path = os.path.join(src_dir, filename)
+            if os.path.exist(file_path):
+                print(file_path)
 
     def compareImages(self, similarity_threshold=1.0): 
         image_subgraph_list = []
@@ -463,17 +472,19 @@ class DatasetAnalysis:
         print(f"Found {similar_count//2} number of similar scenes with threshold at {similarity_threshold}.")
 
         # Writing to CSV while skipping filtered out graphs
-        # filtered_similarity_matrix = [row for index, row in enumerate(similarity_matrix) if index not in to_remove]
-        # filtered_image_names = [name for index, name in enumerate(image_names) if index not in to_remove]
+        filtered_similarity_matrix = [row for index, row in enumerate(similarity_matrix) if index not in to_remove]
+        filtered_image_names = [name for index, name in enumerate(image_names) if index not in to_remove]
+        self.moveImages(filtered_image_names, similarity_threshold)
+        
 
-        # with open('/media/william/blueicedrive/Github/UDrive/Analysis/nuScenes/results/filtered_imageJaccardSimilaritymatrix.csv', 'w', newline='') as f:
-        #     writer = csv.writer(f)
-        #     writer.writerow([''] + filtered_image_names)
-        #     for name, row in zip(filtered_image_names, filtered_similarity_matrix):
-        #         try:
-        #             writer.writerow([name] + row)
-        #         except:
-        #             pass
+        with open(f'/media/william/blueicedrive/Github/UDrive/Analysis/nuScenes/results/filtered_imageJaccardSimilaritymatrix.csv_{similarity_threshold}', 'w', newline='') as f:
+            writer = csv.writer(f)
+            writer.writerow([''] + filtered_image_names)
+            for name, row in zip(filtered_image_names, filtered_similarity_matrix):
+                try:
+                    writer.writerow([name] + row)
+                except:
+                    pass
     
 
     def createRandomDataset(self):
@@ -533,17 +544,21 @@ class DatasetAnalysis:
 
 
 G = DatasetAnalysis()
-# G.createBasicGraph()
-# print("Compare Scenarios")
+G.createBasicGraph()
+print("Compare Scenarios")
 # G.compareScenarios()
-# print("nuScenes Results")
-# G.compareImages(0.8)
-# G.compareImages(0.9)
-# G.calculateDegreeCentrality(10)
+print("nuScenes Results")
+# for i in range (10, 0, -1):
+#     threshold = i/10
+#     # print(threshold)
+#     G.compareImages(threshold)
+G.compareImages(0.8)
+    # G.compareImages(0.9)
+# G.calculateDegreeCentrality(20)
 # print("Random Graph Results")
 # G.randomAnalysis()
 # G.createRandomDataset()
-G.calculateCompositeScore()
+# G.calculateCompositeScore()
 
 
 # def calculateCompositeScore():
