@@ -18,7 +18,7 @@ def reduce_images_to_percentage(directory, percentage):
     
     parent_directory = os.path.dirname(directory)
     # Create a subdirectory to move the selected files into
-    selected_dir = os.path.join(parent_directory, "train_20")
+    selected_dir = os.path.join(parent_directory, "train_10")
     os.makedirs(selected_dir, exist_ok=True)
 
     # Move the selected files to the new subdirectory
@@ -32,8 +32,8 @@ def reduce_images_to_percentage(directory, percentage):
     print(f"Moved {len(files_to_keep)} files to {selected_dir}.")
 
 # Set the directory and percentage
-image_directory = "/media/william/mist2/william/Github/ultralytics/dataset/nuScenesFullNA/images/train"  # Replace with the actual path to your image directory
-percentage_to_keep = 20
+image_directory = "/media/william/mist2/william/Github/ultralytics/dataset/Argoverse-1.1/images/train"  # Replace with the actual path to your image directory
+percentage_to_keep = 10
 
 # Run the script
 reduce_images_to_percentage(image_directory, percentage_to_keep)
