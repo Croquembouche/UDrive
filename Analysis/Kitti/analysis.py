@@ -394,7 +394,14 @@ class DatasetAnalysis:
     #             data['densities'] = ', '.join(f"{k}:{v}" for k, v in data['densities'].items())
     #             # print(data)
     #             writer.writerow(data)
-        
+    def moveImages(self, filteredImageNames, threshold):
+        src_dir =  "/media/william/mist2/william/Github/ultralytics/dataset/nuScenesFullNA/images/train"
+        dest_dir = f"/media/william/mist2/william/Github/ultralytics/dataset/nuScenesFullNA/images/selected_{threshold}"
+        os.makedirs(dest_dir, exist_ok=True)
+        for filename in filteredImageNames:
+            file_path = os.path.join(src_dir, filename)
+            if os.path.exist(file_path):
+                print(file_path)   
 
     def compareImages(self, similarity_threshold=1.0): 
         image_subgraph_list = []
@@ -495,10 +502,15 @@ class DatasetAnalysis:
         nx.write_graphml_lxml(random_dataset, f"/media/william/blueicedrive/Github/UDrive/Analysis/Kitti/randomdataset.graphml")
     
     def calculateCompositeScore(self):
-        w1 = 0.4
+        # w1 = 0.4
+        # w2 = 0.2
+        # w3 = 0.2
+        # w4 = 0.1
+        # w5 = 0.2
+        w1 = 0.2
         w2 = 0.2
         w3 = 0.2
-        w4 = 0.1
+        w4 = 0.2
         w5 = 0.2
         high_risk = 6
         medium_risk = 135
@@ -536,17 +548,17 @@ class DatasetAnalysis:
 
 
 G = DatasetAnalysis()
-G.createBasicGraph()
+# G.createBasicGraph()
 # print("Compare Scenarios")
 # G.compareScenarios()
 # print("Kitti Results")
 # G.compareImages(0.8)
 # G.compareImages(0.9)
-G.calculateDegreeCentrality(20)
+# G.calculateDegreeCentrality(20)
 # print("Random Graph Results")
 # G.randomAnalysis()
 # G.createRandomDataset()
-# G.calculateCompositeScore()
+G.calculateCompositeScore()
 
 
 

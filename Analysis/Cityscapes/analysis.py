@@ -495,10 +495,15 @@ class DatasetAnalysis:
         nx.write_graphml_lxml(random_dataset, f"/media/william/blueicedrive/Github/UDrive/Analysis/Cityscapes/randomdataset.graphml")
     
     def calculateCompositeScore(self):
-        w1 = 0.4
+        # w1 = 0.4
+        # w2 = 0.2
+        # w3 = 0.2
+        # w4 = 0.1
+        # w5 = 0.2
+        w1 = 0.2
         w2 = 0.2
         w3 = 0.2
-        w4 = 0.1
+        w4 = 0.2
         w5 = 0.2
         high_risk = 47
         medium_risk = 289
@@ -536,17 +541,17 @@ class DatasetAnalysis:
 
 
 G = DatasetAnalysis()
-G.createBasicGraph()
+# G.createBasicGraph()
 # print("Compare Scenarios")
 # G.compareScenarios()
 # print("Cityscapes Results")
 # G.compareImages(0.8)
 # G.compareImages(0.9)
-G.calculateDegreeCentrality(20)
+# G.calculateDegreeCentrality(20)
 # print("Random Graph Results")
 # G.randomAnalysis()
 # G.createRandomDataset()
-# G.calculateCompositeScore()
+G.calculateCompositeScore()
 
 
 

@@ -474,7 +474,7 @@ class DatasetAnalysis:
         # Writing to CSV while skipping filtered out graphs
         filtered_similarity_matrix = [row for index, row in enumerate(similarity_matrix) if index not in to_remove]
         filtered_image_names = [name for index, name in enumerate(image_names) if index not in to_remove]
-        self.moveImages(filtered_image_names, similarity_threshold)
+        # self.moveImages(filtered_image_names, similarity_threshold)
         
 
         with open(f'/media/william/blueicedrive/Github/UDrive/Analysis/nuScenes/results/filtered_imageJaccardSimilaritymatrix.csv_{similarity_threshold}', 'w', newline='') as f:
@@ -506,10 +506,15 @@ class DatasetAnalysis:
         # nx.write_graphml_lxml(random_dataset, f"/media/william/blueicedrive/Github/UDrive/Analysis/nuScenes/randomdataset.graphml")
     
     def calculateCompositeScore(self):
-        w1 = 0.4
+        # w1 = 0.4
+        # w2 = 0.2
+        # w3 = 0.2
+        # w4 = 0.1
+        # w5 = 0.2
+        w1 = 0.2
         w2 = 0.2
         w3 = 0.2
-        w4 = 0.1
+        w4 = 0.2
         w5 = 0.2
         high_risk = 101
         medium_risk = 1380
@@ -544,21 +549,21 @@ class DatasetAnalysis:
 
 
 G = DatasetAnalysis()
-G.createBasicGraph()
-print("Compare Scenarios")
+# G.createBasicGraph()
+# print("Compare Scenarios")
 # G.compareScenarios()
-print("nuScenes Results")
+# print("nuScenes Results")
 # for i in range (10, 0, -1):
 #     threshold = i/10
 #     # print(threshold)
 #     G.compareImages(threshold)
-G.compareImages(0.8)
+# G.compareImages(0.8)
     # G.compareImages(0.9)
 # G.calculateDegreeCentrality(20)
 # print("Random Graph Results")
 # G.randomAnalysis()
 # G.createRandomDataset()
-# G.calculateCompositeScore()
+G.calculateCompositeScore()
 
 
 # def calculateCompositeScore():

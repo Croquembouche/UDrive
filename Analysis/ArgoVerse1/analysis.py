@@ -488,10 +488,15 @@ class DatasetAnalysis:
         # nx.write_graphml_lxml(random_dataset, f"/media/william/blueicedrive/Github/UDrive/Analysis/ArgoVerse1/randomdataset.graphml")
 
     def calculateCompositeScore(self):
-        w1 = 0.4
+        # w1 = 0.4
+        # w2 = 0.2
+        # w3 = 0.2
+        # w4 = 0.1
+        # w5 = 0.2
+        w1 = 0.2
         w2 = 0.2
         w3 = 0.2
-        w4 = 0.1
+        w4 = 0.2
         w5 = 0.2
         high_risk = 4
         medium_risk = 109
@@ -523,16 +528,16 @@ class DatasetAnalysis:
 # The Composite Score of Argoverse1 is -0.3128930880610582. J_penalty: 0.567730467647019, M_penalty: -0.0793771043771044, C_penalty: 0.357412310295308, D_penalty: -0.010526315789473675, RD_penalty: 0.31889952153110046
 
 G = DatasetAnalysis()
-G.createBasicGraph()
+# G.createBasicGraph()
 # print("Compare Scenarios")
 # G.compareScenarios()
 # print("ArgoVerse Results")
 # G.compareImages(0.8)
-G.calculateDegreeCentrality(20)
+# G.calculateDegreeCentrality(20)
 # print("Random Graph Results")
 # G.randomAnalysis()
 # G.createRandomDataset()
-# G.calculateCompositeScore()
+G.calculateCompositeScore()
 
 
 
