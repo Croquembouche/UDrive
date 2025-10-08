@@ -1,0 +1,9603 @@
+here is some new data:
+
+Iter 26 training loss = 1.627 , time = 0.83
+
+epoch 1 total training loss = 0.060
+
+Iter 0 3-px error in val = 10.495
+
+Iter 1 3-px error in val = 4.668
+
+Iter 2 3-px error in val = 6.348
+
+Iter 3 3-px error in val = 7.760
+
+Iter 4 3-px error in val = 7.494
+
+Iter 5 3-px error in val = 13.664
+
+Iter 6 3-px error in val = 9.531
+
+Iter 7 3-px error in val = 7.567
+
+Iter 8 3-px error in val = 3.721
+
+Iter 9 3-px error in val = 6.617
+
+epoch 1 total 3-px error in val = 7.786
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 0.01 HR
+
+0.001
+
+Iter 26 training loss = 1.352 , time = 0.79
+
+epoch 2 total training loss = 0.050
+
+Iter 0 3-px error in val = 7.123
+
+Iter 1 3-px error in val = 3.441
+
+Iter 2 3-px error in val = 4.490
+
+Iter 3 3-px error in val = 5.477
+
+Iter 4 3-px error in val = 5.923
+
+Iter 5 3-px error in val = 9.451
+
+Iter 6 3-px error in val = 7.269
+
+Iter 7 3-px error in val = 4.313
+
+Iter 8 3-px error in val = 2.880
+
+Iter 9 3-px error in val = 6.753
+
+epoch 2 total 3-px error in val = 5.712
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 0.02 HR
+
+0.001
+
+Iter 26 training loss = 1.090 , time = 0.82
+
+epoch 3 total training loss = 0.040
+
+Iter 0 3-px error in val = 5.810
+
+Iter 1 3-px error in val = 2.667
+
+Iter 2 3-px error in val = 3.192
+
+Iter 3 3-px error in val = 4.053
+
+Iter 4 3-px error in val = 4.922
+
+Iter 5 3-px error in val = 7.004
+
+Iter 6 3-px error in val = 5.934
+
+Iter 7 3-px error in val = 4.167
+
+Iter 8 3-px error in val = 2.356
+
+Iter 9 3-px error in val = 5.242
+
+epoch 3 total 3-px error in val = 4.535
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 0.03 HR
+
+0.001
+
+Iter 26 training loss = 1.110 , time = 0.83
+
+epoch 4 total training loss = 0.041
+
+Iter 0 3-px error in val = 5.230
+
+Iter 1 3-px error in val = 2.149
+
+Iter 2 3-px error in val = 2.579
+
+Iter 3 3-px error in val = 3.955
+
+Iter 4 3-px error in val = 4.978
+
+Iter 5 3-px error in val = 5.763
+
+Iter 6 3-px error in val = 5.272
+
+Iter 7 3-px error in val = 2.878
+
+Iter 8 3-px error in val = 2.085
+
+Iter 9 3-px error in val = 5.476
+
+epoch 4 total 3-px error in val = 4.037
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 0.03 HR
+
+0.001
+
+Iter 26 training loss = 1.093 , time = 0.83
+
+epoch 5 total training loss = 0.040
+
+Iter 0 3-px error in val = 4.494
+
+Iter 1 3-px error in val = 2.139
+
+Iter 2 3-px error in val = 2.627
+
+Iter 3 3-px error in val = 3.487
+
+Iter 4 3-px error in val = 4.814
+
+Iter 5 3-px error in val = 4.562
+
+Iter 6 3-px error in val = 5.521
+
+Iter 7 3-px error in val = 3.280
+
+Iter 8 3-px error in val = 2.181
+
+Iter 9 3-px error in val = 5.434
+
+epoch 5 total 3-px error in val = 3.854
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 0.04 HR
+
+0.001
+
+Iter 26 training loss = 0.644 , time = 0.81
+
+epoch 6 total training loss = 0.024
+
+Iter 0 3-px error in val = 3.874
+
+Iter 1 3-px error in val = 1.939
+
+Iter 2 3-px error in val = 2.102
+
+Iter 3 3-px error in val = 3.339
+
+Iter 4 3-px error in val = 4.444
+
+Iter 5 3-px error in val = 4.541
+
+Iter 6 3-px error in val = 4.620
+
+Iter 7 3-px error in val = 2.847
+
+Iter 8 3-px error in val = 1.949
+
+Iter 9 3-px error in val = 5.219
+
+epoch 6 total 3-px error in val = 3.487
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 0.05 HR
+
+0.001
+
+Iter 26 training loss = 0.879 , time = 0.82
+
+epoch 7 total training loss = 0.033
+
+Iter 0 3-px error in val = 3.685
+
+Iter 1 3-px error in val = 1.990
+
+Iter 2 3-px error in val = 1.898
+
+Iter 3 3-px error in val = 3.635
+
+Iter 4 3-px error in val = 4.295
+
+Iter 5 3-px error in val = 2.922
+
+Iter 6 3-px error in val = 4.098
+
+Iter 7 3-px error in val = 3.198
+
+Iter 8 3-px error in val = 1.874
+
+Iter 9 3-px error in val = 5.431
+
+epoch 7 total 3-px error in val = 3.303
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 0.06 HR
+
+0.001
+
+Iter 26 training loss = 0.559 , time = 0.82
+
+epoch 8 total training loss = 0.021
+
+Iter 0 3-px error in val = 3.833
+
+Iter 1 3-px error in val = 1.817
+
+Iter 2 3-px error in val = 1.989
+
+Iter 3 3-px error in val = 3.235
+
+Iter 4 3-px error in val = 4.234
+
+Iter 5 3-px error in val = 3.206
+
+Iter 6 3-px error in val = 3.961
+
+Iter 7 3-px error in val = 2.462
+
+Iter 8 3-px error in val = 1.842
+
+Iter 9 3-px error in val = 4.917
+
+epoch 8 total 3-px error in val = 3.150
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 0.07 HR
+
+0.001
+
+Iter 26 training loss = 1.360 , time = 0.83
+
+epoch 9 total training loss = 0.050
+
+Iter 0 3-px error in val = 3.383
+
+Iter 1 3-px error in val = 1.765
+
+Iter 2 3-px error in val = 1.980
+
+Iter 3 3-px error in val = 3.344
+
+Iter 4 3-px error in val = 4.203
+
+Iter 5 3-px error in val = 3.211
+
+Iter 6 3-px error in val = 3.952
+
+Iter 7 3-px error in val = 2.343
+
+Iter 8 3-px error in val = 1.871
+
+Iter 9 3-px error in val = 5.253
+
+epoch 9 total 3-px error in val = 3.131
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 0.08 HR
+
+0.001
+
+Iter 26 training loss = 0.956 , time = 0.81
+
+epoch 10 total training loss = 0.035
+
+Iter 0 3-px error in val = 3.099
+
+Iter 1 3-px error in val = 1.915
+
+Iter 2 3-px error in val = 1.872
+
+Iter 3 3-px error in val = 3.364
+
+Iter 4 3-px error in val = 3.950
+
+Iter 5 3-px error in val = 2.927
+
+Iter 6 3-px error in val = 3.767
+
+Iter 7 3-px error in val = 2.366
+
+Iter 8 3-px error in val = 1.710
+
+Iter 9 3-px error in val = 6.001
+
+epoch 10 total 3-px error in val = 3.097
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 0.09 HR
+
+0.001
+
+Iter 26 training loss = 0.581 , time = 0.81
+
+epoch 11 total training loss = 0.022
+
+Iter 0 3-px error in val = 3.650
+
+Iter 1 3-px error in val = 1.877
+
+Iter 2 3-px error in val = 1.814
+
+Iter 3 3-px error in val = 3.523
+
+Iter 4 3-px error in val = 4.241
+
+Iter 5 3-px error in val = 4.141
+
+Iter 6 3-px error in val = 3.712
+
+Iter 7 3-px error in val = 2.412
+
+Iter 8 3-px error in val = 1.634
+
+Iter 9 3-px error in val = 4.906
+
+epoch 11 total 3-px error in val = 3.191
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 0.10 HR
+
+0.001
+
+Iter 26 training loss = 0.672 , time = 0.81
+
+epoch 12 total training loss = 0.025
+
+Iter 0 3-px error in val = 3.779
+
+Iter 1 3-px error in val = 1.757
+
+Iter 2 3-px error in val = 1.695
+
+Iter 3 3-px error in val = 2.970
+
+Iter 4 3-px error in val = 3.994
+
+Iter 5 3-px error in val = 3.683
+
+Iter 6 3-px error in val = 3.539
+
+Iter 7 3-px error in val = 2.362
+
+Iter 8 3-px error in val = 1.750
+
+Iter 9 3-px error in val = 4.725
+
+epoch 12 total 3-px error in val = 3.026
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 0.10 HR
+
+0.001
+
+Iter 26 training loss = 1.254 , time = 0.85
+
+epoch 13 total training loss = 0.046
+
+Iter 0 3-px error in val = 2.827
+
+Iter 1 3-px error in val = 1.771
+
+Iter 2 3-px error in val = 1.824
+
+Iter 3 3-px error in val = 3.283
+
+Iter 4 3-px error in val = 3.820
+
+Iter 5 3-px error in val = 2.788
+
+Iter 6 3-px error in val = 3.337
+
+Iter 7 3-px error in val = 2.553
+
+Iter 8 3-px error in val = 1.683
+
+Iter 9 3-px error in val = 6.315
+
+epoch 13 total 3-px error in val = 3.020
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 0.11 HR
+
+0.001
+
+Iter 26 training loss = 2.867 , time = 0.82
+
+epoch 14 total training loss = 0.106
+
+Iter 0 3-px error in val = 3.271
+
+Iter 1 3-px error in val = 1.793
+
+Iter 2 3-px error in val = 1.953
+
+Iter 3 3-px error in val = 3.023
+
+Iter 4 3-px error in val = 4.235
+
+Iter 5 3-px error in val = 3.093
+
+Iter 6 3-px error in val = 3.785
+
+Iter 7 3-px error in val = 2.188
+
+Iter 8 3-px error in val = 1.818
+
+Iter 9 3-px error in val = 4.791
+
+epoch 14 total 3-px error in val = 2.995
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 0.12 HR
+
+0.001
+
+Iter 26 training loss = 0.669 , time = 0.82
+
+epoch 15 total training loss = 0.025
+
+Iter 0 3-px error in val = 4.239
+
+Iter 1 3-px error in val = 1.585
+
+Iter 2 3-px error in val = 1.658
+
+Iter 3 3-px error in val = 3.137
+
+Iter 4 3-px error in val = 4.639
+
+Iter 5 3-px error in val = 3.521
+
+Iter 6 3-px error in val = 4.431
+
+Iter 7 3-px error in val = 2.280
+
+Iter 8 3-px error in val = 1.737
+
+Iter 9 3-px error in val = 4.062
+
+epoch 15 total 3-px error in val = 3.129
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 0.13 HR
+
+0.001
+
+Iter 26 training loss = 0.872 , time = 0.82
+
+epoch 16 total training loss = 0.032
+
+Iter 0 3-px error in val = 2.972
+
+Iter 1 3-px error in val = 1.710
+
+Iter 2 3-px error in val = 1.899
+
+Iter 3 3-px error in val = 3.485
+
+Iter 4 3-px error in val = 3.506
+
+Iter 5 3-px error in val = 2.765
+
+Iter 6 3-px error in val = 3.369
+
+Iter 7 3-px error in val = 2.357
+
+Iter 8 3-px error in val = 1.815
+
+Iter 9 3-px error in val = 7.798
+
+epoch 16 total 3-px error in val = 3.168
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 0.14 HR
+
+0.001
+
+Iter 26 training loss = 0.524 , time = 0.83
+
+epoch 17 total training loss = 0.019
+
+Iter 0 3-px error in val = 3.045
+
+Iter 1 3-px error in val = 1.619
+
+Iter 2 3-px error in val = 1.778
+
+Iter 3 3-px error in val = 2.923
+
+Iter 4 3-px error in val = 3.839
+
+Iter 5 3-px error in val = 2.877
+
+Iter 6 3-px error in val = 3.675
+
+Iter 7 3-px error in val = 2.226
+
+Iter 8 3-px error in val = 1.824
+
+Iter 9 3-px error in val = 6.466
+
+epoch 17 total 3-px error in val = 3.027
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 0.15 HR
+
+0.001
+
+Iter 26 training loss = 0.674 , time = 0.81
+
+epoch 18 total training loss = 0.025
+
+Iter 0 3-px error in val = 2.987
+
+Iter 1 3-px error in val = 1.586
+
+Iter 2 3-px error in val = 1.808
+
+Iter 3 3-px error in val = 2.776
+
+Iter 4 3-px error in val = 3.975
+
+Iter 5 3-px error in val = 2.937
+
+Iter 6 3-px error in val = 3.574
+
+Iter 7 3-px error in val = 2.102
+
+Iter 8 3-px error in val = 1.723
+
+Iter 9 3-px error in val = 5.012
+
+epoch 18 total 3-px error in val = 2.848
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 0.16 HR
+
+0.001
+
+Iter 26 training loss = 1.096 , time = 0.79
+
+epoch 19 total training loss = 0.041
+
+Iter 0 3-px error in val = 2.895
+
+Iter 1 3-px error in val = 1.596
+
+Iter 2 3-px error in val = 1.668
+
+Iter 3 3-px error in val = 2.741
+
+Iter 4 3-px error in val = 3.629
+
+Iter 5 3-px error in val = 2.802
+
+Iter 6 3-px error in val = 3.533
+
+Iter 7 3-px error in val = 2.157
+
+Iter 8 3-px error in val = 1.682
+
+Iter 9 3-px error in val = 5.116
+
+epoch 19 total 3-px error in val = 2.782
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 0.17 HR
+
+0.001
+
+Iter 26 training loss = 1.020 , time = 0.81
+
+epoch 20 total training loss = 0.038
+
+Iter 0 3-px error in val = 3.693
+
+Iter 1 3-px error in val = 1.646
+
+Iter 2 3-px error in val = 1.554
+
+Iter 3 3-px error in val = 2.894
+
+Iter 4 3-px error in val = 3.633
+
+Iter 5 3-px error in val = 2.749
+
+Iter 6 3-px error in val = 3.536
+
+Iter 7 3-px error in val = 2.279
+
+Iter 8 3-px error in val = 1.799
+
+Iter 9 3-px error in val = 4.365
+
+epoch 20 total 3-px error in val = 2.815
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 0.17 HR
+
+0.001
+
+Iter 26 training loss = 1.193 , time = 0.83
+
+epoch 21 total training loss = 0.044
+
+Iter 0 3-px error in val = 3.123
+
+Iter 1 3-px error in val = 1.688
+
+Iter 2 3-px error in val = 1.798
+
+Iter 3 3-px error in val = 2.725
+
+Iter 4 3-px error in val = 3.479
+
+Iter 5 3-px error in val = 2.671
+
+Iter 6 3-px error in val = 3.792
+
+Iter 7 3-px error in val = 2.094
+
+Iter 8 3-px error in val = 1.610
+
+Iter 9 3-px error in val = 4.705
+
+epoch 21 total 3-px error in val = 2.768
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 0.18 HR
+
+0.001
+
+Iter 26 training loss = 1.032 , time = 0.81
+
+epoch 22 total training loss = 0.038
+
+Iter 0 3-px error in val = 2.792
+
+Iter 1 3-px error in val = 1.670
+
+Iter 2 3-px error in val = 1.500
+
+Iter 3 3-px error in val = 2.673
+
+Iter 4 3-px error in val = 3.526
+
+Iter 5 3-px error in val = 2.736
+
+Iter 6 3-px error in val = 3.273
+
+Iter 7 3-px error in val = 2.132
+
+Iter 8 3-px error in val = 1.460
+
+Iter 9 3-px error in val = 3.973
+
+epoch 22 total 3-px error in val = 2.574
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 0.19 HR
+
+0.001
+
+Iter 26 training loss = 0.804 , time = 0.81
+
+epoch 23 total training loss = 0.030
+
+Iter 0 3-px error in val = 2.865
+
+Iter 1 3-px error in val = 1.597
+
+Iter 2 3-px error in val = 1.513
+
+Iter 3 3-px error in val = 2.870
+
+Iter 4 3-px error in val = 3.572
+
+Iter 5 3-px error in val = 2.674
+
+Iter 6 3-px error in val = 3.681
+
+Iter 7 3-px error in val = 1.881
+
+Iter 8 3-px error in val = 1.709
+
+Iter 9 3-px error in val = 4.296
+
+epoch 23 total 3-px error in val = 2.666
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 0.20 HR
+
+0.001
+
+Iter 26 training loss = 0.437 , time = 0.84
+
+epoch 24 total training loss = 0.016
+
+Iter 0 3-px error in val = 2.519
+
+Iter 1 3-px error in val = 1.690
+
+Iter 2 3-px error in val = 1.547
+
+Iter 3 3-px error in val = 3.001
+
+Iter 4 3-px error in val = 3.497
+
+Iter 5 3-px error in val = 2.560
+
+Iter 6 3-px error in val = 3.454
+
+Iter 7 3-px error in val = 2.147
+
+Iter 8 3-px error in val = 1.722
+
+Iter 9 3-px error in val = 5.193
+
+epoch 24 total 3-px error in val = 2.733
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 0.21 HR
+
+0.001
+
+Iter 26 training loss = 0.515 , time = 0.84
+
+epoch 25 total training loss = 0.019
+
+Iter 0 3-px error in val = 2.505
+
+Iter 1 3-px error in val = 1.506
+
+Iter 2 3-px error in val = 1.369
+
+Iter 3 3-px error in val = 2.713
+
+Iter 4 3-px error in val = 3.593
+
+Iter 5 3-px error in val = 3.015
+
+Iter 6 3-px error in val = 3.245
+
+Iter 7 3-px error in val = 2.099
+
+Iter 8 3-px error in val = 1.633
+
+Iter 9 3-px error in val = 3.745
+
+epoch 25 total 3-px error in val = 2.542
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 0.22 HR
+
+0.001
+
+Iter 26 training loss = 0.731 , time = 0.82
+
+epoch 26 total training loss = 0.027
+
+Iter 0 3-px error in val = 2.713
+
+Iter 1 3-px error in val = 1.689
+
+Iter 2 3-px error in val = 1.413
+
+Iter 3 3-px error in val = 2.436
+
+Iter 4 3-px error in val = 3.882
+
+Iter 5 3-px error in val = 2.616
+
+Iter 6 3-px error in val = 3.502
+
+Iter 7 3-px error in val = 2.117
+
+Iter 8 3-px error in val = 1.645
+
+Iter 9 3-px error in val = 3.469
+
+epoch 26 total 3-px error in val = 2.548
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 0.23 HR
+
+0.001
+
+Iter 26 training loss = 0.633 , time = 0.79
+
+epoch 27 total training loss = 0.023
+
+Iter 0 3-px error in val = 2.566
+
+Iter 1 3-px error in val = 1.792
+
+Iter 2 3-px error in val = 1.407
+
+Iter 3 3-px error in val = 2.990
+
+Iter 4 3-px error in val = 3.577
+
+Iter 5 3-px error in val = 2.478
+
+Iter 6 3-px error in val = 3.458
+
+Iter 7 3-px error in val = 2.200
+
+Iter 8 3-px error in val = 1.641
+
+Iter 9 3-px error in val = 5.528
+
+epoch 27 total 3-px error in val = 2.764
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 0.24 HR
+
+0.001
+
+Iter 26 training loss = 0.570 , time = 0.83
+
+epoch 28 total training loss = 0.021
+
+Iter 0 3-px error in val = 2.439
+
+Iter 1 3-px error in val = 1.581
+
+Iter 2 3-px error in val = 1.372
+
+Iter 3 3-px error in val = 2.871
+
+Iter 4 3-px error in val = 3.301
+
+Iter 5 3-px error in val = 2.512
+
+Iter 6 3-px error in val = 3.308
+
+Iter 7 3-px error in val = 1.840
+
+Iter 8 3-px error in val = 1.572
+
+Iter 9 3-px error in val = 4.572
+
+epoch 28 total 3-px error in val = 2.537
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 0.24 HR
+
+0.001
+
+Iter 26 training loss = 0.544 , time = 0.83
+
+epoch 29 total training loss = 0.020
+
+Iter 0 3-px error in val = 2.450
+
+Iter 1 3-px error in val = 1.648
+
+Iter 2 3-px error in val = 1.424
+
+Iter 3 3-px error in val = 2.798
+
+Iter 4 3-px error in val = 3.753
+
+Iter 5 3-px error in val = 2.720
+
+Iter 6 3-px error in val = 3.289
+
+Iter 7 3-px error in val = 1.921
+
+Iter 8 3-px error in val = 1.584
+
+Iter 9 3-px error in val = 4.557
+
+epoch 29 total 3-px error in val = 2.614
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 0.25 HR
+
+0.001
+
+Iter 26 training loss = 1.290 , time = 0.87
+
+epoch 30 total training loss = 0.048
+
+Iter 0 3-px error in val = 2.821
+
+Iter 1 3-px error in val = 1.607
+
+Iter 2 3-px error in val = 1.330
+
+Iter 3 3-px error in val = 2.664
+
+Iter 4 3-px error in val = 3.456
+
+Iter 5 3-px error in val = 2.462
+
+Iter 6 3-px error in val = 3.214
+
+Iter 7 3-px error in val = 1.981
+
+Iter 8 3-px error in val = 1.531
+
+Iter 9 3-px error in val = 3.607
+
+epoch 30 total 3-px error in val = 2.467
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 0.26 HR
+
+0.001
+
+Iter 26 training loss = 0.498 , time = 0.81
+
+epoch 31 total training loss = 0.018
+
+Iter 0 3-px error in val = 2.509
+
+Iter 1 3-px error in val = 1.654
+
+Iter 2 3-px error in val = 1.309
+
+Iter 3 3-px error in val = 2.751
+
+Iter 4 3-px error in val = 3.435
+
+Iter 5 3-px error in val = 2.579
+
+Iter 6 3-px error in val = 3.179
+
+Iter 7 3-px error in val = 1.940
+
+Iter 8 3-px error in val = 1.492
+
+Iter 9 3-px error in val = 3.958
+
+epoch 31 total 3-px error in val = 2.481
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 0.27 HR
+
+0.001
+
+Iter 26 training loss = 1.030 , time = 0.83
+
+epoch 32 total training loss = 0.038
+
+Iter 0 3-px error in val = 2.309
+
+Iter 1 3-px error in val = 1.512
+
+Iter 2 3-px error in val = 1.194
+
+Iter 3 3-px error in val = 2.888
+
+Iter 4 3-px error in val = 3.568
+
+Iter 5 3-px error in val = 2.370
+
+Iter 6 3-px error in val = 3.107
+
+Iter 7 3-px error in val = 2.258
+
+Iter 8 3-px error in val = 1.493
+
+Iter 9 3-px error in val = 4.153
+
+epoch 32 total 3-px error in val = 2.485
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 0.28 HR
+
+0.001
+
+Iter 26 training loss = 1.088 , time = 0.81
+
+epoch 33 total training loss = 0.040
+
+Iter 0 3-px error in val = 2.558
+
+Iter 1 3-px error in val = 1.681
+
+Iter 2 3-px error in val = 1.249
+
+Iter 3 3-px error in val = 2.983
+
+Iter 4 3-px error in val = 3.584
+
+Iter 5 3-px error in val = 2.412
+
+Iter 6 3-px error in val = 3.175
+
+Iter 7 3-px error in val = 1.989
+
+Iter 8 3-px error in val = 1.503
+
+Iter 9 3-px error in val = 3.501
+
+epoch 33 total 3-px error in val = 2.463
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 0.29 HR
+
+0.001
+
+Iter 26 training loss = 0.859 , time = 0.82
+
+epoch 34 total training loss = 0.032
+
+Iter 0 3-px error in val = 3.513
+
+Iter 1 3-px error in val = 1.585
+
+Iter 2 3-px error in val = 1.394
+
+Iter 3 3-px error in val = 2.589
+
+Iter 4 3-px error in val = 4.062
+
+Iter 5 3-px error in val = 2.595
+
+Iter 6 3-px error in val = 3.619
+
+Iter 7 3-px error in val = 2.321
+
+Iter 8 3-px error in val = 1.518
+
+Iter 9 3-px error in val = 3.093
+
+epoch 34 total 3-px error in val = 2.629
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 0.30 HR
+
+0.001
+
+Iter 26 training loss = 0.540 , time = 0.80
+
+epoch 35 total training loss = 0.020
+
+Iter 0 3-px error in val = 2.458
+
+Iter 1 3-px error in val = 1.760
+
+Iter 2 3-px error in val = 1.272
+
+Iter 3 3-px error in val = 2.759
+
+Iter 4 3-px error in val = 3.505
+
+Iter 5 3-px error in val = 2.250
+
+Iter 6 3-px error in val = 3.357
+
+Iter 7 3-px error in val = 1.864
+
+Iter 8 3-px error in val = 1.476
+
+Iter 9 3-px error in val = 4.257
+
+epoch 35 total 3-px error in val = 2.496
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 0.31 HR
+
+0.001
+
+Iter 26 training loss = 0.774 , time = 0.82
+
+epoch 36 total training loss = 0.029
+
+Iter 0 3-px error in val = 2.420
+
+Iter 1 3-px error in val = 1.665
+
+Iter 2 3-px error in val = 1.241
+
+Iter 3 3-px error in val = 3.098
+
+Iter 4 3-px error in val = 3.606
+
+Iter 5 3-px error in val = 2.211
+
+Iter 6 3-px error in val = 3.152
+
+Iter 7 3-px error in val = 1.740
+
+Iter 8 3-px error in val = 1.504
+
+Iter 9 3-px error in val = 4.491
+
+epoch 36 total 3-px error in val = 2.513
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 0.31 HR
+
+0.001
+
+Iter 26 training loss = 1.003 , time = 0.81
+
+epoch 37 total training loss = 0.037
+
+Iter 0 3-px error in val = 3.020
+
+Iter 1 3-px error in val = 1.657
+
+Iter 2 3-px error in val = 1.455
+
+Iter 3 3-px error in val = 3.101
+
+Iter 4 3-px error in val = 3.846
+
+Iter 5 3-px error in val = 2.540
+
+Iter 6 3-px error in val = 4.390
+
+Iter 7 3-px error in val = 2.109
+
+Iter 8 3-px error in val = 1.517
+
+Iter 9 3-px error in val = 2.961
+
+epoch 37 total 3-px error in val = 2.660
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 0.32 HR
+
+0.001
+
+Iter 26 training loss = 0.434 , time = 0.82
+
+epoch 38 total training loss = 0.016
+
+Iter 0 3-px error in val = 3.543
+
+Iter 1 3-px error in val = 1.571
+
+Iter 2 3-px error in val = 1.389
+
+Iter 3 3-px error in val = 2.916
+
+Iter 4 3-px error in val = 3.732
+
+Iter 5 3-px error in val = 2.856
+
+Iter 6 3-px error in val = 4.335
+
+Iter 7 3-px error in val = 2.064
+
+Iter 8 3-px error in val = 1.439
+
+Iter 9 3-px error in val = 2.966
+
+epoch 38 total 3-px error in val = 2.681
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 0.33 HR
+
+0.001
+
+Iter 26 training loss = 1.812 , time = 0.82
+
+epoch 39 total training loss = 0.067
+
+Iter 0 3-px error in val = 2.202
+
+Iter 1 3-px error in val = 1.454
+
+Iter 2 3-px error in val = 1.114
+
+Iter 3 3-px error in val = 2.596
+
+Iter 4 3-px error in val = 3.764
+
+Iter 5 3-px error in val = 2.361
+
+Iter 6 3-px error in val = 3.345
+
+Iter 7 3-px error in val = 1.842
+
+Iter 8 3-px error in val = 1.486
+
+Iter 9 3-px error in val = 5.007
+
+epoch 39 total 3-px error in val = 2.517
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 0.34 HR
+
+0.001
+
+Iter 26 training loss = 0.773 , time = 0.82
+
+epoch 40 total training loss = 0.029
+
+Iter 0 3-px error in val = 2.437
+
+Iter 1 3-px error in val = 1.672
+
+Iter 2 3-px error in val = 1.227
+
+Iter 3 3-px error in val = 2.708
+
+Iter 4 3-px error in val = 3.147
+
+Iter 5 3-px error in val = 2.989
+
+Iter 6 3-px error in val = 3.168
+
+Iter 7 3-px error in val = 1.980
+
+Iter 8 3-px error in val = 1.309
+
+Iter 9 3-px error in val = 3.522
+
+epoch 40 total 3-px error in val = 2.416
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 0.35 HR
+
+0.001
+
+Iter 26 training loss = 0.669 , time = 0.79
+
+epoch 41 total training loss = 0.025
+
+Iter 0 3-px error in val = 3.375
+
+Iter 1 3-px error in val = 1.414
+
+Iter 2 3-px error in val = 1.184
+
+Iter 3 3-px error in val = 2.673
+
+Iter 4 3-px error in val = 3.376
+
+Iter 5 3-px error in val = 4.207
+
+Iter 6 3-px error in val = 3.990
+
+Iter 7 3-px error in val = 1.968
+
+Iter 8 3-px error in val = 1.331
+
+Iter 9 3-px error in val = 2.823
+
+epoch 41 total 3-px error in val = 2.634
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 0.36 HR
+
+0.001
+
+Iter 26 training loss = 0.555 , time = 0.81
+
+epoch 42 total training loss = 0.021
+
+Iter 0 3-px error in val = 2.350
+
+Iter 1 3-px error in val = 1.567
+
+Iter 2 3-px error in val = 1.149
+
+Iter 3 3-px error in val = 2.584
+
+Iter 4 3-px error in val = 3.418
+
+Iter 5 3-px error in val = 2.240
+
+Iter 6 3-px error in val = 3.195
+
+Iter 7 3-px error in val = 1.986
+
+Iter 8 3-px error in val = 1.339
+
+Iter 9 3-px error in val = 4.512
+
+epoch 42 total 3-px error in val = 2.434
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 0.37 HR
+
+0.001
+
+Iter 26 training loss = 1.444 , time = 0.82
+
+epoch 43 total training loss = 0.053
+
+Iter 0 3-px error in val = 2.904
+
+Iter 1 3-px error in val = 1.576
+
+Iter 2 3-px error in val = 1.064
+
+Iter 3 3-px error in val = 2.644
+
+Iter 4 3-px error in val = 3.448
+
+Iter 5 3-px error in val = 2.968
+
+Iter 6 3-px error in val = 3.153
+
+Iter 7 3-px error in val = 1.854
+
+Iter 8 3-px error in val = 1.510
+
+Iter 9 3-px error in val = 3.687
+
+epoch 43 total 3-px error in val = 2.481
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 0.37 HR
+
+0.001
+
+Iter 26 training loss = 0.649 , time = 0.83
+
+epoch 44 total training loss = 0.024
+
+Iter 0 3-px error in val = 2.518
+
+Iter 1 3-px error in val = 1.538
+
+Iter 2 3-px error in val = 1.106
+
+Iter 3 3-px error in val = 2.841
+
+Iter 4 3-px error in val = 3.359
+
+Iter 5 3-px error in val = 2.203
+
+Iter 6 3-px error in val = 3.481
+
+Iter 7 3-px error in val = 1.961
+
+Iter 8 3-px error in val = 1.281
+
+Iter 9 3-px error in val = 3.337
+
+epoch 44 total 3-px error in val = 2.362
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 0.38 HR
+
+0.001
+
+Iter 26 training loss = 0.815 , time = 0.81
+
+epoch 45 total training loss = 0.030
+
+Iter 0 3-px error in val = 2.280
+
+Iter 1 3-px error in val = 1.460
+
+Iter 2 3-px error in val = 1.276
+
+Iter 3 3-px error in val = 2.686
+
+Iter 4 3-px error in val = 3.574
+
+Iter 5 3-px error in val = 2.675
+
+Iter 6 3-px error in val = 3.278
+
+Iter 7 3-px error in val = 2.069
+
+Iter 8 3-px error in val = 1.308
+
+Iter 9 3-px error in val = 3.326
+
+epoch 45 total 3-px error in val = 2.393
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 0.39 HR
+
+0.001
+
+Iter 26 training loss = 1.364 , time = 0.82
+
+epoch 46 total training loss = 0.051
+
+Iter 0 3-px error in val = 3.229
+
+Iter 1 3-px error in val = 1.476
+
+Iter 2 3-px error in val = 1.236
+
+Iter 3 3-px error in val = 2.870
+
+Iter 4 3-px error in val = 3.325
+
+Iter 5 3-px error in val = 3.032
+
+Iter 6 3-px error in val = 3.205
+
+Iter 7 3-px error in val = 1.800
+
+Iter 8 3-px error in val = 1.361
+
+Iter 9 3-px error in val = 3.079
+
+epoch 46 total 3-px error in val = 2.461
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 0.40 HR
+
+0.001
+
+Iter 26 training loss = 0.998 , time = 0.79
+
+epoch 47 total training loss = 0.037
+
+Iter 0 3-px error in val = 2.611
+
+Iter 1 3-px error in val = 1.666
+
+Iter 2 3-px error in val = 1.237
+
+Iter 3 3-px error in val = 2.759
+
+Iter 4 3-px error in val = 3.199
+
+Iter 5 3-px error in val = 2.319
+
+Iter 6 3-px error in val = 3.103
+
+Iter 7 3-px error in val = 1.803
+
+Iter 8 3-px error in val = 1.224
+
+Iter 9 3-px error in val = 3.386
+
+epoch 47 total 3-px error in val = 2.331
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 0.41 HR
+
+0.001
+
+Iter 26 training loss = 0.654 , time = 0.82
+
+epoch 48 total training loss = 0.024
+
+Iter 0 3-px error in val = 2.527
+
+Iter 1 3-px error in val = 1.533
+
+Iter 2 3-px error in val = 1.213
+
+Iter 3 3-px error in val = 2.596
+
+Iter 4 3-px error in val = 3.135
+
+Iter 5 3-px error in val = 2.490
+
+Iter 6 3-px error in val = 3.082
+
+Iter 7 3-px error in val = 1.915
+
+Iter 8 3-px error in val = 1.203
+
+Iter 9 3-px error in val = 3.866
+
+epoch 48 total 3-px error in val = 2.356
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 0.42 HR
+
+0.001
+
+Iter 26 training loss = 1.105 , time = 0.81
+
+epoch 49 total training loss = 0.041
+
+Iter 0 3-px error in val = 3.213
+
+Iter 1 3-px error in val = 1.457
+
+Iter 2 3-px error in val = 1.254
+
+Iter 3 3-px error in val = 2.711
+
+Iter 4 3-px error in val = 3.072
+
+Iter 5 3-px error in val = 2.316
+
+Iter 6 3-px error in val = 3.014
+
+Iter 7 3-px error in val = 1.912
+
+Iter 8 3-px error in val = 1.247
+
+Iter 9 3-px error in val = 3.805
+
+epoch 49 total 3-px error in val = 2.400
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 0.43 HR
+
+0.001
+
+Iter 26 training loss = 0.567 , time = 0.82
+
+epoch 50 total training loss = 0.021
+
+Iter 0 3-px error in val = 2.273
+
+Iter 1 3-px error in val = 1.628
+
+Iter 2 3-px error in val = 1.309
+
+Iter 3 3-px error in val = 2.757
+
+Iter 4 3-px error in val = 3.412
+
+Iter 5 3-px error in val = 2.533
+
+Iter 6 3-px error in val = 4.160
+
+Iter 7 3-px error in val = 1.689
+
+Iter 8 3-px error in val = 1.338
+
+Iter 9 3-px error in val = 3.531
+
+epoch 50 total 3-px error in val = 2.463
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 0.44 HR
+
+0.001
+
+Iter 26 training loss = 1.165 , time = 0.80
+
+epoch 51 total training loss = 0.043
+
+Iter 0 3-px error in val = 2.113
+
+Iter 1 3-px error in val = 1.641
+
+Iter 2 3-px error in val = 1.357
+
+Iter 3 3-px error in val = 2.895
+
+Iter 4 3-px error in val = 3.255
+
+Iter 5 3-px error in val = 2.541
+
+Iter 6 3-px error in val = 3.209
+
+Iter 7 3-px error in val = 2.136
+
+Iter 8 3-px error in val = 1.260
+
+Iter 9 3-px error in val = 4.351
+
+epoch 51 total 3-px error in val = 2.476
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 0.44 HR
+
+0.001
+
+Iter 26 training loss = 0.860 , time = 0.84
+
+epoch 52 total training loss = 0.032
+
+Iter 0 3-px error in val = 2.147
+
+Iter 1 3-px error in val = 1.452
+
+Iter 2 3-px error in val = 1.219
+
+Iter 3 3-px error in val = 2.872
+
+Iter 4 3-px error in val = 3.498
+
+Iter 5 3-px error in val = 2.549
+
+Iter 6 3-px error in val = 3.739
+
+Iter 7 3-px error in val = 1.722
+
+Iter 8 3-px error in val = 1.264
+
+Iter 9 3-px error in val = 3.491
+
+epoch 52 total 3-px error in val = 2.395
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 0.45 HR
+
+0.001
+
+Iter 26 training loss = 0.823 , time = 0.80
+
+epoch 53 total training loss = 0.030
+
+Iter 0 3-px error in val = 2.552
+
+Iter 1 3-px error in val = 1.485
+
+Iter 2 3-px error in val = 1.112
+
+Iter 3 3-px error in val = 2.934
+
+Iter 4 3-px error in val = 3.375
+
+Iter 5 3-px error in val = 2.670
+
+Iter 6 3-px error in val = 4.017
+
+Iter 7 3-px error in val = 1.762
+
+Iter 8 3-px error in val = 1.190
+
+Iter 9 3-px error in val = 2.780
+
+epoch 53 total 3-px error in val = 2.388
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 0.46 HR
+
+0.001
+
+Iter 26 training loss = 0.476 , time = 0.82
+
+epoch 54 total training loss = 0.018
+
+Iter 0 3-px error in val = 2.088
+
+Iter 1 3-px error in val = 1.496
+
+Iter 2 3-px error in val = 1.166
+
+Iter 3 3-px error in val = 3.050
+
+Iter 4 3-px error in val = 3.063
+
+Iter 5 3-px error in val = 2.274
+
+Iter 6 3-px error in val = 3.859
+
+Iter 7 3-px error in val = 1.842
+
+Iter 8 3-px error in val = 1.289
+
+Iter 9 3-px error in val = 3.426
+
+epoch 54 total 3-px error in val = 2.355
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 0.47 HR
+
+0.001
+
+Iter 26 training loss = 0.543 , time = 0.87
+
+epoch 55 total training loss = 0.020
+
+Iter 0 3-px error in val = 2.496
+
+Iter 1 3-px error in val = 1.421
+
+Iter 2 3-px error in val = 1.092
+
+Iter 3 3-px error in val = 2.868
+
+Iter 4 3-px error in val = 3.594
+
+Iter 5 3-px error in val = 2.797
+
+Iter 6 3-px error in val = 3.674
+
+Iter 7 3-px error in val = 1.968
+
+Iter 8 3-px error in val = 1.213
+
+Iter 9 3-px error in val = 2.948
+
+epoch 55 total 3-px error in val = 2.407
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 0.48 HR
+
+0.001
+
+Iter 26 training loss = 0.401 , time = 0.82
+
+epoch 56 total training loss = 0.015
+
+Iter 0 3-px error in val = 2.397
+
+Iter 1 3-px error in val = 1.435
+
+Iter 2 3-px error in val = 1.167
+
+Iter 3 3-px error in val = 2.868
+
+Iter 4 3-px error in val = 3.449
+
+Iter 5 3-px error in val = 2.296
+
+Iter 6 3-px error in val = 3.346
+
+Iter 7 3-px error in val = 1.893
+
+Iter 8 3-px error in val = 1.265
+
+Iter 9 3-px error in val = 3.144
+
+epoch 56 total 3-px error in val = 2.326
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 0.49 HR
+
+0.001
+
+Iter 26 training loss = 0.613 , time = 0.81
+
+epoch 57 total training loss = 0.023
+
+Iter 0 3-px error in val = 2.947
+
+Iter 1 3-px error in val = 1.693
+
+Iter 2 3-px error in val = 1.173
+
+Iter 3 3-px error in val = 3.250
+
+Iter 4 3-px error in val = 3.367
+
+Iter 5 3-px error in val = 2.880
+
+Iter 6 3-px error in val = 3.050
+
+Iter 7 3-px error in val = 1.788
+
+Iter 8 3-px error in val = 1.287
+
+Iter 9 3-px error in val = 4.746
+
+epoch 57 total 3-px error in val = 2.618
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 0.50 HR
+
+0.001
+
+Iter 26 training loss = 0.850 , time = 0.81
+
+epoch 58 total training loss = 0.031
+
+Iter 0 3-px error in val = 2.182
+
+Iter 1 3-px error in val = 1.461
+
+Iter 2 3-px error in val = 1.170
+
+Iter 3 3-px error in val = 2.670
+
+Iter 4 3-px error in val = 3.522
+
+Iter 5 3-px error in val = 2.238
+
+Iter 6 3-px error in val = 3.770
+
+Iter 7 3-px error in val = 1.924
+
+Iter 8 3-px error in val = 1.208
+
+Iter 9 3-px error in val = 3.090
+
+epoch 58 total 3-px error in val = 2.323
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 0.51 HR
+
+0.001
+
+Iter 26 training loss = 0.954 , time = 0.82
+
+epoch 59 total training loss = 0.035
+
+Iter 0 3-px error in val = 2.394
+
+Iter 1 3-px error in val = 1.517
+
+Iter 2 3-px error in val = 1.114
+
+Iter 3 3-px error in val = 2.858
+
+Iter 4 3-px error in val = 3.507
+
+Iter 5 3-px error in val = 2.552
+
+Iter 6 3-px error in val = 3.219
+
+Iter 7 3-px error in val = 2.048
+
+Iter 8 3-px error in val = 1.229
+
+Iter 9 3-px error in val = 3.280
+
+epoch 59 total 3-px error in val = 2.372
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 0.51 HR
+
+0.001
+
+Iter 26 training loss = 0.746 , time = 0.84
+
+epoch 60 total training loss = 0.028
+
+Iter 0 3-px error in val = 2.315
+
+Iter 1 3-px error in val = 1.621
+
+Iter 2 3-px error in val = 1.144
+
+Iter 3 3-px error in val = 2.609
+
+Iter 4 3-px error in val = 3.395
+
+Iter 5 3-px error in val = 2.376
+
+Iter 6 3-px error in val = 3.138
+
+Iter 7 3-px error in val = 1.979
+
+Iter 8 3-px error in val = 1.295
+
+Iter 9 3-px error in val = 3.598
+
+epoch 60 total 3-px error in val = 2.347
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 0.52 HR
+
+0.001
+
+Iter 26 training loss = 0.410 , time = 0.84
+
+epoch 61 total training loss = 0.015
+
+Iter 0 3-px error in val = 3.257
+
+Iter 1 3-px error in val = 1.565
+
+Iter 2 3-px error in val = 1.116
+
+Iter 3 3-px error in val = 2.736
+
+Iter 4 3-px error in val = 3.137
+
+Iter 5 3-px error in val = 2.169
+
+Iter 6 3-px error in val = 3.424
+
+Iter 7 3-px error in val = 1.677
+
+Iter 8 3-px error in val = 1.260
+
+Iter 9 3-px error in val = 3.636
+
+epoch 61 total 3-px error in val = 2.398
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 0.53 HR
+
+0.001
+
+Iter 26 training loss = 1.081 , time = 0.81
+
+epoch 62 total training loss = 0.040
+
+Iter 0 3-px error in val = 2.730
+
+Iter 1 3-px error in val = 1.509
+
+Iter 2 3-px error in val = 1.181
+
+Iter 3 3-px error in val = 2.510
+
+Iter 4 3-px error in val = 3.126
+
+Iter 5 3-px error in val = 2.576
+
+Iter 6 3-px error in val = 3.179
+
+Iter 7 3-px error in val = 1.658
+
+Iter 8 3-px error in val = 1.222
+
+Iter 9 3-px error in val = 2.905
+
+epoch 62 total 3-px error in val = 2.260
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 0.54 HR
+
+0.001
+
+Iter 26 training loss = 0.891 , time = 0.82
+
+epoch 63 total training loss = 0.033
+
+Iter 0 3-px error in val = 2.206
+
+Iter 1 3-px error in val = 1.342
+
+Iter 2 3-px error in val = 1.111
+
+Iter 3 3-px error in val = 2.388
+
+Iter 4 3-px error in val = 2.997
+
+Iter 5 3-px error in val = 2.281
+
+Iter 6 3-px error in val = 3.122
+
+Iter 7 3-px error in val = 1.912
+
+Iter 8 3-px error in val = 1.179
+
+Iter 9 3-px error in val = 3.773
+
+epoch 63 total 3-px error in val = 2.231
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 0.55 HR
+
+0.001
+
+Iter 26 training loss = 0.746 , time = 0.81
+
+epoch 64 total training loss = 0.028
+
+Iter 0 3-px error in val = 4.178
+
+Iter 1 3-px error in val = 1.432
+
+Iter 2 3-px error in val = 1.161
+
+Iter 3 3-px error in val = 2.548
+
+Iter 4 3-px error in val = 3.259
+
+Iter 5 3-px error in val = 2.425
+
+Iter 6 3-px error in val = 3.590
+
+Iter 7 3-px error in val = 1.864
+
+Iter 8 3-px error in val = 1.174
+
+Iter 9 3-px error in val = 2.910
+
+epoch 64 total 3-px error in val = 2.454
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 0.56 HR
+
+0.001
+
+Iter 26 training loss = 0.817 , time = 0.83
+
+epoch 65 total training loss = 0.030
+
+Iter 0 3-px error in val = 3.004
+
+Iter 1 3-px error in val = 1.478
+
+Iter 2 3-px error in val = 1.392
+
+Iter 3 3-px error in val = 2.516
+
+Iter 4 3-px error in val = 3.297
+
+Iter 5 3-px error in val = 2.453
+
+Iter 6 3-px error in val = 3.625
+
+Iter 7 3-px error in val = 1.813
+
+Iter 8 3-px error in val = 1.233
+
+Iter 9 3-px error in val = 2.806
+
+epoch 65 total 3-px error in val = 2.362
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 0.57 HR
+
+0.001
+
+Iter 26 training loss = 0.543 , time = 0.82
+
+epoch 66 total training loss = 0.020
+
+Iter 0 3-px error in val = 2.184
+
+Iter 1 3-px error in val = 1.520
+
+Iter 2 3-px error in val = 1.130
+
+Iter 3 3-px error in val = 2.909
+
+Iter 4 3-px error in val = 3.189
+
+Iter 5 3-px error in val = 2.142
+
+Iter 6 3-px error in val = 2.892
+
+Iter 7 3-px error in val = 1.773
+
+Iter 8 3-px error in val = 1.195
+
+Iter 9 3-px error in val = 3.994
+
+epoch 66 total 3-px error in val = 2.293
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 0.58 HR
+
+0.001
+
+Iter 26 training loss = 0.626 , time = 0.83
+
+epoch 67 total training loss = 0.023
+
+Iter 0 3-px error in val = 2.892
+
+Iter 1 3-px error in val = 1.505
+
+Iter 2 3-px error in val = 1.206
+
+Iter 3 3-px error in val = 2.536
+
+Iter 4 3-px error in val = 3.536
+
+Iter 5 3-px error in val = 2.495
+
+Iter 6 3-px error in val = 3.071
+
+Iter 7 3-px error in val = 1.786
+
+Iter 8 3-px error in val = 1.248
+
+Iter 9 3-px error in val = 3.929
+
+epoch 67 total 3-px error in val = 2.420
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 0.58 HR
+
+0.001
+
+Iter 26 training loss = 0.636 , time = 0.83
+
+epoch 68 total training loss = 0.024
+
+Iter 0 3-px error in val = 2.169
+
+Iter 1 3-px error in val = 1.407
+
+Iter 2 3-px error in val = 1.185
+
+Iter 3 3-px error in val = 3.054
+
+Iter 4 3-px error in val = 3.178
+
+Iter 5 3-px error in val = 2.177
+
+Iter 6 3-px error in val = 3.144
+
+Iter 7 3-px error in val = 1.897
+
+Iter 8 3-px error in val = 1.158
+
+Iter 9 3-px error in val = 4.516
+
+epoch 68 total 3-px error in val = 2.389
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 0.59 HR
+
+0.001
+
+Iter 26 training loss = 0.507 , time = 0.81
+
+epoch 69 total training loss = 0.019
+
+Iter 0 3-px error in val = 3.119
+
+Iter 1 3-px error in val = 1.488
+
+Iter 2 3-px error in val = 1.101
+
+Iter 3 3-px error in val = 2.780
+
+Iter 4 3-px error in val = 3.340
+
+Iter 5 3-px error in val = 2.156
+
+Iter 6 3-px error in val = 3.578
+
+Iter 7 3-px error in val = 1.757
+
+Iter 8 3-px error in val = 1.222
+
+Iter 9 3-px error in val = 2.648
+
+epoch 69 total 3-px error in val = 2.319
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 0.60 HR
+
+0.001
+
+Iter 26 training loss = 0.635 , time = 0.92
+
+epoch 70 total training loss = 0.024
+
+Iter 0 3-px error in val = 2.132
+
+Iter 1 3-px error in val = 1.397
+
+Iter 2 3-px error in val = 1.162
+
+Iter 3 3-px error in val = 2.634
+
+Iter 4 3-px error in val = 3.374
+
+Iter 5 3-px error in val = 2.146
+
+Iter 6 3-px error in val = 3.041
+
+Iter 7 3-px error in val = 1.810
+
+Iter 8 3-px error in val = 1.225
+
+Iter 9 3-px error in val = 2.846
+
+epoch 70 total 3-px error in val = 2.177
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 0.61 HR
+
+0.001
+
+Iter 26 training loss = 0.878 , time = 0.82
+
+epoch 71 total training loss = 0.033
+
+Iter 0 3-px error in val = 2.138
+
+Iter 1 3-px error in val = 1.542
+
+Iter 2 3-px error in val = 1.168
+
+Iter 3 3-px error in val = 3.032
+
+Iter 4 3-px error in val = 3.229
+
+Iter 5 3-px error in val = 2.203
+
+Iter 6 3-px error in val = 3.009
+
+Iter 7 3-px error in val = 1.876
+
+Iter 8 3-px error in val = 1.174
+
+Iter 9 3-px error in val = 3.237
+
+epoch 71 total 3-px error in val = 2.261
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 0.62 HR
+
+0.001
+
+Iter 26 training loss = 0.551 , time = 0.79
+
+epoch 72 total training loss = 0.020
+
+Iter 0 3-px error in val = 2.099
+
+Iter 1 3-px error in val = 1.483
+
+Iter 2 3-px error in val = 1.237
+
+Iter 3 3-px error in val = 2.701
+
+Iter 4 3-px error in val = 3.066
+
+Iter 5 3-px error in val = 2.536
+
+Iter 6 3-px error in val = 2.767
+
+Iter 7 3-px error in val = 1.898
+
+Iter 8 3-px error in val = 1.159
+
+Iter 9 3-px error in val = 3.606
+
+epoch 72 total 3-px error in val = 2.255
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 0.63 HR
+
+0.001
+
+Iter 26 training loss = 0.971 , time = 0.82
+
+epoch 73 total training loss = 0.036
+
+Iter 0 3-px error in val = 2.075
+
+Iter 1 3-px error in val = 1.438
+
+Iter 2 3-px error in val = 1.164
+
+Iter 3 3-px error in val = 2.619
+
+Iter 4 3-px error in val = 3.281
+
+Iter 5 3-px error in val = 2.296
+
+Iter 6 3-px error in val = 2.813
+
+Iter 7 3-px error in val = 1.826
+
+Iter 8 3-px error in val = 1.208
+
+Iter 9 3-px error in val = 3.739
+
+epoch 73 total 3-px error in val = 2.246
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 0.64 HR
+
+0.001
+
+Iter 26 training loss = 0.513 , time = 0.81
+
+epoch 74 total training loss = 0.019
+
+Iter 0 3-px error in val = 2.913
+
+Iter 1 3-px error in val = 1.316
+
+Iter 2 3-px error in val = 1.085
+
+Iter 3 3-px error in val = 2.493
+
+Iter 4 3-px error in val = 3.361
+
+Iter 5 3-px error in val = 2.134
+
+Iter 6 3-px error in val = 3.579
+
+Iter 7 3-px error in val = 1.862
+
+Iter 8 3-px error in val = 1.215
+
+Iter 9 3-px error in val = 2.451
+
+epoch 74 total 3-px error in val = 2.241
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 0.64 HR
+
+0.001
+
+Iter 26 training loss = 0.495 , time = 0.78
+
+epoch 75 total training loss = 0.018
+
+Iter 0 3-px error in val = 2.576
+
+Iter 1 3-px error in val = 1.603
+
+Iter 2 3-px error in val = 1.042
+
+Iter 3 3-px error in val = 3.150
+
+Iter 4 3-px error in val = 3.677
+
+Iter 5 3-px error in val = 2.295
+
+Iter 6 3-px error in val = 3.295
+
+Iter 7 3-px error in val = 2.007
+
+Iter 8 3-px error in val = 1.448
+
+Iter 9 3-px error in val = 4.660
+
+epoch 75 total 3-px error in val = 2.575
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 0.65 HR
+
+0.001
+
+Iter 26 training loss = 0.516 , time = 0.81
+
+epoch 76 total training loss = 0.019
+
+Iter 0 3-px error in val = 3.382
+
+Iter 1 3-px error in val = 1.413
+
+Iter 2 3-px error in val = 1.031
+
+Iter 3 3-px error in val = 2.649
+
+Iter 4 3-px error in val = 3.319
+
+Iter 5 3-px error in val = 2.440
+
+Iter 6 3-px error in val = 3.682
+
+Iter 7 3-px error in val = 1.820
+
+Iter 8 3-px error in val = 1.152
+
+Iter 9 3-px error in val = 2.862
+
+epoch 76 total 3-px error in val = 2.375
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 0.66 HR
+
+0.001
+
+Iter 26 training loss = 0.675 , time = 0.80
+
+epoch 77 total training loss = 0.025
+
+Iter 0 3-px error in val = 2.088
+
+Iter 1 3-px error in val = 1.678
+
+Iter 2 3-px error in val = 1.089
+
+Iter 3 3-px error in val = 3.100
+
+Iter 4 3-px error in val = 3.068
+
+Iter 5 3-px error in val = 2.991
+
+Iter 6 3-px error in val = 3.257
+
+Iter 7 3-px error in val = 2.227
+
+Iter 8 3-px error in val = 1.265
+
+Iter 9 3-px error in val = 2.854
+
+epoch 77 total 3-px error in val = 2.362
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 0.67 HR
+
+0.001
+
+Iter 26 training loss = 0.501 , time = 0.81
+
+epoch 78 total training loss = 0.019
+
+Iter 0 3-px error in val = 2.630
+
+Iter 1 3-px error in val = 1.365
+
+Iter 2 3-px error in val = 1.120
+
+Iter 3 3-px error in val = 2.438
+
+Iter 4 3-px error in val = 3.921
+
+Iter 5 3-px error in val = 2.295
+
+Iter 6 3-px error in val = 4.178
+
+Iter 7 3-px error in val = 2.143
+
+Iter 8 3-px error in val = 1.288
+
+Iter 9 3-px error in val = 3.016
+
+epoch 78 total 3-px error in val = 2.439
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 0.68 HR
+
+0.001
+
+Iter 26 training loss = 0.339 , time = 0.80
+
+epoch 79 total training loss = 0.013
+
+Iter 0 3-px error in val = 2.225
+
+Iter 1 3-px error in val = 1.472
+
+Iter 2 3-px error in val = 1.040
+
+Iter 3 3-px error in val = 2.405
+
+Iter 4 3-px error in val = 3.117
+
+Iter 5 3-px error in val = 2.367
+
+Iter 6 3-px error in val = 2.988
+
+Iter 7 3-px error in val = 1.871
+
+Iter 8 3-px error in val = 1.225
+
+Iter 9 3-px error in val = 3.662
+
+epoch 79 total 3-px error in val = 2.237
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 0.69 HR
+
+0.001
+
+Iter 26 training loss = 0.529 , time = 0.80
+
+epoch 80 total training loss = 0.020
+
+Iter 0 3-px error in val = 2.477
+
+Iter 1 3-px error in val = 1.588
+
+Iter 2 3-px error in val = 0.988
+
+Iter 3 3-px error in val = 2.596
+
+Iter 4 3-px error in val = 3.245
+
+Iter 5 3-px error in val = 2.251
+
+Iter 6 3-px error in val = 3.451
+
+Iter 7 3-px error in val = 1.856
+
+Iter 8 3-px error in val = 1.182
+
+Iter 9 3-px error in val = 2.415
+
+epoch 80 total 3-px error in val = 2.205
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 0.70 HR
+
+0.001
+
+Iter 26 training loss = 0.374 , time = 0.80
+
+epoch 81 total training loss = 0.014
+
+Iter 0 3-px error in val = 1.955
+
+Iter 1 3-px error in val = 1.427
+
+Iter 2 3-px error in val = 1.036
+
+Iter 3 3-px error in val = 2.659
+
+Iter 4 3-px error in val = 3.256
+
+Iter 5 3-px error in val = 2.384
+
+Iter 6 3-px error in val = 3.178
+
+Iter 7 3-px error in val = 1.877
+
+Iter 8 3-px error in val = 1.193
+
+Iter 9 3-px error in val = 3.541
+
+epoch 81 total 3-px error in val = 2.251
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 0.71 HR
+
+0.001
+
+Iter 26 training loss = 0.458 , time = 0.83
+
+epoch 82 total training loss = 0.017
+
+Iter 0 3-px error in val = 2.912
+
+Iter 1 3-px error in val = 1.373
+
+Iter 2 3-px error in val = 1.344
+
+Iter 3 3-px error in val = 2.766
+
+Iter 4 3-px error in val = 3.581
+
+Iter 5 3-px error in val = 2.389
+
+Iter 6 3-px error in val = 3.304
+
+Iter 7 3-px error in val = 2.173
+
+Iter 8 3-px error in val = 1.296
+
+Iter 9 3-px error in val = 3.171
+
+epoch 82 total 3-px error in val = 2.431
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 0.71 HR
+
+0.001
+
+Iter 26 training loss = 0.470 , time = 0.85
+
+epoch 83 total training loss = 0.017
+
+Iter 0 3-px error in val = 2.153
+
+Iter 1 3-px error in val = 1.430
+
+Iter 2 3-px error in val = 1.148
+
+Iter 3 3-px error in val = 2.977
+
+Iter 4 3-px error in val = 3.203
+
+Iter 5 3-px error in val = 2.238
+
+Iter 6 3-px error in val = 3.033
+
+Iter 7 3-px error in val = 1.796
+
+Iter 8 3-px error in val = 1.326
+
+Iter 9 3-px error in val = 2.484
+
+epoch 83 total 3-px error in val = 2.179
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 0.72 HR
+
+0.001
+
+Iter 26 training loss = 0.834 , time = 0.83
+
+epoch 84 total training loss = 0.031
+
+Iter 0 3-px error in val = 2.076
+
+Iter 1 3-px error in val = 1.438
+
+Iter 2 3-px error in val = 1.127
+
+Iter 3 3-px error in val = 3.672
+
+Iter 4 3-px error in val = 3.094
+
+Iter 5 3-px error in val = 3.657
+
+Iter 6 3-px error in val = 3.060
+
+Iter 7 3-px error in val = 2.027
+
+Iter 8 3-px error in val = 1.154
+
+Iter 9 3-px error in val = 6.597
+
+epoch 84 total 3-px error in val = 2.790
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 0.73 HR
+
+0.001
+
+Iter 26 training loss = 0.398 , time = 0.85
+
+epoch 85 total training loss = 0.015
+
+Iter 0 3-px error in val = 2.396
+
+Iter 1 3-px error in val = 1.329
+
+Iter 2 3-px error in val = 1.095
+
+Iter 3 3-px error in val = 3.268
+
+Iter 4 3-px error in val = 3.265
+
+Iter 5 3-px error in val = 2.157
+
+Iter 6 3-px error in val = 3.419
+
+Iter 7 3-px error in val = 1.750
+
+Iter 8 3-px error in val = 1.122
+
+Iter 9 3-px error in val = 3.886
+
+epoch 85 total 3-px error in val = 2.369
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 0.74 HR
+
+0.001
+
+Iter 26 training loss = 1.414 , time = 0.81
+
+epoch 86 total training loss = 0.052
+
+Iter 0 3-px error in val = 2.287
+
+Iter 1 3-px error in val = 1.272
+
+Iter 2 3-px error in val = 1.117
+
+Iter 3 3-px error in val = 2.907
+
+Iter 4 3-px error in val = 3.085
+
+Iter 5 3-px error in val = 2.141
+
+Iter 6 3-px error in val = 3.772
+
+Iter 7 3-px error in val = 1.762
+
+Iter 8 3-px error in val = 1.161
+
+Iter 9 3-px error in val = 2.873
+
+epoch 86 total 3-px error in val = 2.238
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 0.75 HR
+
+0.001
+
+Iter 26 training loss = 0.608 , time = 0.82
+
+epoch 87 total training loss = 0.023
+
+Iter 0 3-px error in val = 2.397
+
+Iter 1 3-px error in val = 1.660
+
+Iter 2 3-px error in val = 1.601
+
+Iter 3 3-px error in val = 3.356
+
+Iter 4 3-px error in val = 3.144
+
+Iter 5 3-px error in val = 3.721
+
+Iter 6 3-px error in val = 3.201
+
+Iter 7 3-px error in val = 2.408
+
+Iter 8 3-px error in val = 1.187
+
+Iter 9 3-px error in val = 4.317
+
+epoch 87 total 3-px error in val = 2.699
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 0.76 HR
+
+0.001
+
+Iter 26 training loss = 0.538 , time = 0.84
+
+epoch 88 total training loss = 0.020
+
+Iter 0 3-px error in val = 2.124
+
+Iter 1 3-px error in val = 1.341
+
+Iter 2 3-px error in val = 1.015
+
+Iter 3 3-px error in val = 2.818
+
+Iter 4 3-px error in val = 3.263
+
+Iter 5 3-px error in val = 2.801
+
+Iter 6 3-px error in val = 3.100
+
+Iter 7 3-px error in val = 2.068
+
+Iter 8 3-px error in val = 1.204
+
+Iter 9 3-px error in val = 3.043
+
+epoch 88 total 3-px error in val = 2.278
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 0.77 HR
+
+0.001
+
+Iter 26 training loss = 0.327 , time = 0.82
+
+epoch 89 total training loss = 0.012
+
+Iter 0 3-px error in val = 2.356
+
+Iter 1 3-px error in val = 1.303
+
+Iter 2 3-px error in val = 1.126
+
+Iter 3 3-px error in val = 2.734
+
+Iter 4 3-px error in val = 3.083
+
+Iter 5 3-px error in val = 2.227
+
+Iter 6 3-px error in val = 2.803
+
+Iter 7 3-px error in val = 1.948
+
+Iter 8 3-px error in val = 1.052
+
+Iter 9 3-px error in val = 3.044
+
+epoch 89 total 3-px error in val = 2.168
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 0.78 HR
+
+0.001
+
+Iter 26 training loss = 0.347 , time = 0.80
+
+epoch 90 total training loss = 0.013
+
+Iter 0 3-px error in val = 2.209
+
+Iter 1 3-px error in val = 1.460
+
+Iter 2 3-px error in val = 1.087
+
+Iter 3 3-px error in val = 2.391
+
+Iter 4 3-px error in val = 3.380
+
+Iter 5 3-px error in val = 2.438
+
+Iter 6 3-px error in val = 3.241
+
+Iter 7 3-px error in val = 1.829
+
+Iter 8 3-px error in val = 1.148
+
+Iter 9 3-px error in val = 2.957
+
+epoch 90 total 3-px error in val = 2.214
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 0.78 HR
+
+0.001
+
+Iter 26 training loss = 0.479 , time = 0.82
+
+epoch 91 total training loss = 0.018
+
+Iter 0 3-px error in val = 2.384
+
+Iter 1 3-px error in val = 1.401
+
+Iter 2 3-px error in val = 0.964
+
+Iter 3 3-px error in val = 2.696
+
+Iter 4 3-px error in val = 3.112
+
+Iter 5 3-px error in val = 2.563
+
+Iter 6 3-px error in val = 3.079
+
+Iter 7 3-px error in val = 1.610
+
+Iter 8 3-px error in val = 1.062
+
+Iter 9 3-px error in val = 2.224
+
+epoch 91 total 3-px error in val = 2.109
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 0.79 HR
+
+0.001
+
+Iter 26 training loss = 0.487 , time = 0.82
+
+epoch 92 total training loss = 0.018
+
+Iter 0 3-px error in val = 2.100
+
+Iter 1 3-px error in val = 1.386
+
+Iter 2 3-px error in val = 1.019
+
+Iter 3 3-px error in val = 2.940
+
+Iter 4 3-px error in val = 3.207
+
+Iter 5 3-px error in val = 3.003
+
+Iter 6 3-px error in val = 2.894
+
+Iter 7 3-px error in val = 1.697
+
+Iter 8 3-px error in val = 1.098
+
+Iter 9 3-px error in val = 3.051
+
+epoch 92 total 3-px error in val = 2.240
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 0.80 HR
+
+0.001
+
+Iter 26 training loss = 0.744 , time = 0.82
+
+epoch 93 total training loss = 0.028
+
+Iter 0 3-px error in val = 2.014
+
+Iter 1 3-px error in val = 1.375
+
+Iter 2 3-px error in val = 0.971
+
+Iter 3 3-px error in val = 2.705
+
+Iter 4 3-px error in val = 3.186
+
+Iter 5 3-px error in val = 2.731
+
+Iter 6 3-px error in val = 2.905
+
+Iter 7 3-px error in val = 1.723
+
+Iter 8 3-px error in val = 1.032
+
+Iter 9 3-px error in val = 3.395
+
+epoch 93 total 3-px error in val = 2.204
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 0.81 HR
+
+0.001
+
+Iter 26 training loss = 0.458 , time = 0.80
+
+epoch 94 total training loss = 0.017
+
+Iter 0 3-px error in val = 2.506
+
+Iter 1 3-px error in val = 1.334
+
+Iter 2 3-px error in val = 1.035
+
+Iter 3 3-px error in val = 2.699
+
+Iter 4 3-px error in val = 3.178
+
+Iter 5 3-px error in val = 2.878
+
+Iter 6 3-px error in val = 3.222
+
+Iter 7 3-px error in val = 1.803
+
+Iter 8 3-px error in val = 1.031
+
+Iter 9 3-px error in val = 2.408
+
+epoch 94 total 3-px error in val = 2.209
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 0.82 HR
+
+0.001
+
+Iter 26 training loss = 0.333 , time = 0.82
+
+epoch 95 total training loss = 0.012
+
+Iter 0 3-px error in val = 2.100
+
+Iter 1 3-px error in val = 1.267
+
+Iter 2 3-px error in val = 1.087
+
+Iter 3 3-px error in val = 2.626
+
+Iter 4 3-px error in val = 3.105
+
+Iter 5 3-px error in val = 2.156
+
+Iter 6 3-px error in val = 2.843
+
+Iter 7 3-px error in val = 1.753
+
+Iter 8 3-px error in val = 1.090
+
+Iter 9 3-px error in val = 3.188
+
+epoch 95 total 3-px error in val = 2.121
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 0.83 HR
+
+0.001
+
+Iter 26 training loss = 0.328 , time = 0.83
+
+epoch 96 total training loss = 0.012
+
+Iter 0 3-px error in val = 2.363
+
+Iter 1 3-px error in val = 1.355
+
+Iter 2 3-px error in val = 1.101
+
+Iter 3 3-px error in val = 2.870
+
+Iter 4 3-px error in val = 3.577
+
+Iter 5 3-px error in val = 2.525
+
+Iter 6 3-px error in val = 3.186
+
+Iter 7 3-px error in val = 1.927
+
+Iter 8 3-px error in val = 1.063
+
+Iter 9 3-px error in val = 2.475
+
+epoch 96 total 3-px error in val = 2.244
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 0.84 HR
+
+0.001
+
+Iter 26 training loss = 0.782 , time = 0.83
+
+epoch 97 total training loss = 0.029
+
+Iter 0 3-px error in val = 2.044
+
+Iter 1 3-px error in val = 1.245
+
+Iter 2 3-px error in val = 0.977
+
+Iter 3 3-px error in val = 2.742
+
+Iter 4 3-px error in val = 3.223
+
+Iter 5 3-px error in val = 2.269
+
+Iter 6 3-px error in val = 2.942
+
+Iter 7 3-px error in val = 1.864
+
+Iter 8 3-px error in val = 1.003
+
+Iter 9 3-px error in val = 3.079
+
+epoch 97 total 3-px error in val = 2.139
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 0.84 HR
+
+0.001
+
+Iter 26 training loss = 0.707 , time = 0.81
+
+epoch 98 total training loss = 0.026
+
+Iter 0 3-px error in val = 2.570
+
+Iter 1 3-px error in val = 1.266
+
+Iter 2 3-px error in val = 1.024
+
+Iter 3 3-px error in val = 2.975
+
+Iter 4 3-px error in val = 3.174
+
+Iter 5 3-px error in val = 2.158
+
+Iter 6 3-px error in val = 2.963
+
+Iter 7 3-px error in val = 1.851
+
+Iter 8 3-px error in val = 1.107
+
+Iter 9 3-px error in val = 2.961
+
+epoch 98 total 3-px error in val = 2.205
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 0.85 HR
+
+0.001
+
+Iter 26 training loss = 0.519 , time = 0.82
+
+epoch 99 total training loss = 0.019
+
+Iter 0 3-px error in val = 2.658
+
+Iter 1 3-px error in val = 1.337
+
+Iter 2 3-px error in val = 0.973
+
+Iter 3 3-px error in val = 2.955
+
+Iter 4 3-px error in val = 3.150
+
+Iter 5 3-px error in val = 2.509
+
+Iter 6 3-px error in val = 3.040
+
+Iter 7 3-px error in val = 1.739
+
+Iter 8 3-px error in val = 1.122
+
+Iter 9 3-px error in val = 2.749
+
+epoch 99 total 3-px error in val = 2.223
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 0.86 HR
+
+0.001
+
+Iter 26 training loss = 0.522 , time = 0.82
+
+epoch 100 total training loss = 0.019
+
+Iter 0 3-px error in val = 2.038
+
+Iter 1 3-px error in val = 1.326
+
+Iter 2 3-px error in val = 1.014
+
+Iter 3 3-px error in val = 2.690
+
+Iter 4 3-px error in val = 3.050
+
+Iter 5 3-px error in val = 2.110
+
+Iter 6 3-px error in val = 3.305
+
+Iter 7 3-px error in val = 1.875
+
+Iter 8 3-px error in val = 1.033
+
+Iter 9 3-px error in val = 2.662
+
+epoch 100 total 3-px error in val = 2.110
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 0.87 HR
+
+0.001
+
+Iter 26 training loss = 0.551 , time = 0.83
+
+epoch 101 total training loss = 0.020
+
+Iter 0 3-px error in val = 1.999
+
+Iter 1 3-px error in val = 1.371
+
+Iter 2 3-px error in val = 0.977
+
+Iter 3 3-px error in val = 2.773
+
+Iter 4 3-px error in val = 2.988
+
+Iter 5 3-px error in val = 2.010
+
+Iter 6 3-px error in val = 2.750
+
+Iter 7 3-px error in val = 1.654
+
+Iter 8 3-px error in val = 1.113
+
+Iter 9 3-px error in val = 3.188
+
+epoch 101 total 3-px error in val = 2.082
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 0.88 HR
+
+0.001
+
+Iter 26 training loss = 0.317 , time = 0.84
+
+epoch 102 total training loss = 0.012
+
+Iter 0 3-px error in val = 2.043
+
+Iter 1 3-px error in val = 1.215
+
+Iter 2 3-px error in val = 1.029
+
+Iter 3 3-px error in val = 2.762
+
+Iter 4 3-px error in val = 2.938
+
+Iter 5 3-px error in val = 2.195
+
+Iter 6 3-px error in val = 2.887
+
+Iter 7 3-px error in val = 1.691
+
+Iter 8 3-px error in val = 1.111
+
+Iter 9 3-px error in val = 3.344
+
+epoch 102 total 3-px error in val = 2.122
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 0.89 HR
+
+0.001
+
+Iter 26 training loss = 0.712 , time = 0.83
+
+epoch 103 total training loss = 0.026
+
+Iter 0 3-px error in val = 2.654
+
+Iter 1 3-px error in val = 1.438
+
+Iter 2 3-px error in val = 1.019
+
+Iter 3 3-px error in val = 2.757
+
+Iter 4 3-px error in val = 3.068
+
+Iter 5 3-px error in val = 3.042
+
+Iter 6 3-px error in val = 3.424
+
+Iter 7 3-px error in val = 1.857
+
+Iter 8 3-px error in val = 1.195
+
+Iter 9 3-px error in val = 2.570
+
+epoch 103 total 3-px error in val = 2.302
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 0.90 HR
+
+0.001
+
+Iter 26 training loss = 0.638 , time = 0.82
+
+epoch 104 total training loss = 0.024
+
+Iter 0 3-px error in val = 2.297
+
+Iter 1 3-px error in val = 1.318
+
+Iter 2 3-px error in val = 0.968
+
+Iter 3 3-px error in val = 2.669
+
+Iter 4 3-px error in val = 2.891
+
+Iter 5 3-px error in val = 2.384
+
+Iter 6 3-px error in val = 2.839
+
+Iter 7 3-px error in val = 1.786
+
+Iter 8 3-px error in val = 1.139
+
+Iter 9 3-px error in val = 3.009
+
+epoch 104 total 3-px error in val = 2.130
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 0.91 HR
+
+0.001
+
+Iter 26 training loss = 0.550 , time = 0.91
+
+epoch 105 total training loss = 0.020
+
+Iter 0 3-px error in val = 2.369
+
+Iter 1 3-px error in val = 1.317
+
+Iter 2 3-px error in val = 1.053
+
+Iter 3 3-px error in val = 2.931
+
+^AIter 4 3-px error in val = 3.128
+
+Iter 5 3-px error in val = 2.125
+
+Iter 6 3-px error in val = 3.427
+
+Iter 7 3-px error in val = 1.740
+
+Iter 8 3-px error in val = 1.091
+
+Iter 9 3-px error in val = 2.483
+
+epoch 105 total 3-px error in val = 2.166
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 0.91 HR
+
+0.001
+
+Iter 26 training loss = 0.547 , time = 0.80
+
+epoch 106 total training loss = 0.020
+
+Iter 0 3-px error in val = 2.142
+
+Iter 1 3-px error in val = 1.284
+
+Iter 2 3-px error in val = 1.010
+
+Iter 3 3-px error in val = 3.020
+
+Iter 4 3-px error in val = 3.014
+
+Iter 5 3-px error in val = 2.055
+
+Iter 6 3-px error in val = 2.945
+
+Iter 7 3-px error in val = 1.836
+
+Iter 8 3-px error in val = 1.091
+
+Iter 9 3-px error in val = 2.593
+
+epoch 106 total 3-px error in val = 2.099
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 0.92 HR
+
+0.001
+
+Iter 26 training loss = 0.318 , time = 0.80
+
+epoch 107 total training loss = 0.012
+
+Iter 0 3-px error in val = 2.030
+
+Iter 1 3-px error in val = 1.420
+
+Iter 2 3-px error in val = 1.061
+
+Iter 3 3-px error in val = 3.078
+
+Iter 4 3-px error in val = 3.120
+
+Iter 5 3-px error in val = 3.948
+
+Iter 6 3-px error in val = 2.932
+
+Iter 7 3-px error in val = 1.820
+
+Iter 8 3-px error in val = 1.153
+
+Iter 9 3-px error in val = 2.728
+
+epoch 107 total 3-px error in val = 2.329
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 0.93 HR
+
+0.001
+
+Iter 26 training loss = 0.262 , time = 0.82
+
+epoch 108 total training loss = 0.010
+
+Iter 0 3-px error in val = 2.270
+
+Iter 1 3-px error in val = 1.485
+
+Iter 2 3-px error in val = 1.066
+
+Iter 3 3-px error in val = 3.120
+
+Iter 4 3-px error in val = 3.448
+
+Iter 5 3-px error in val = 2.391
+
+Iter 6 3-px error in val = 3.330
+
+Iter 7 3-px error in val = 1.919
+
+Iter 8 3-px error in val = 1.291
+
+Iter 9 3-px error in val = 2.498
+
+epoch 108 total 3-px error in val = 2.282
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 0.94 HR
+
+0.001
+
+Iter 26 training loss = 0.490 , time = 0.86
+
+epoch 109 total training loss = 0.018
+
+Iter 0 3-px error in val = 2.027
+
+Iter 1 3-px error in val = 1.413
+
+Iter 2 3-px error in val = 1.086
+
+Iter 3 3-px error in val = 3.965
+
+Iter 4 3-px error in val = 3.102
+
+Iter 5 3-px error in val = 2.737
+
+Iter 6 3-px error in val = 3.000
+
+Iter 7 3-px error in val = 2.476
+
+Iter 8 3-px error in val = 1.166
+
+Iter 9 3-px error in val = 5.432
+
+epoch 109 total 3-px error in val = 2.641
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 0.95 HR
+
+0.001
+
+Iter 26 training loss = 0.764 , time = 0.85
+
+epoch 110 total training loss = 0.028
+
+Iter 0 3-px error in val = 3.038
+
+Iter 1 3-px error in val = 1.214
+
+Iter 2 3-px error in val = 0.985
+
+Iter 3 3-px error in val = 2.804
+
+Iter 4 3-px error in val = 3.075
+
+Iter 5 3-px error in val = 2.609
+
+Iter 6 3-px error in val = 3.797
+
+Iter 7 3-px error in val = 1.792
+
+Iter 8 3-px error in val = 1.172
+
+Iter 9 3-px error in val = 2.686
+
+epoch 110 total 3-px error in val = 2.317
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 0.96 HR
+
+0.001
+
+Iter 26 training loss = 0.576 , time = 0.83
+
+epoch 111 total training loss = 0.021
+
+Iter 0 3-px error in val = 2.677
+
+Iter 1 3-px error in val = 1.413
+
+Iter 2 3-px error in val = 0.937
+
+Iter 3 3-px error in val = 2.824
+
+Iter 4 3-px error in val = 3.105
+
+Iter 5 3-px error in val = 2.255
+
+Iter 6 3-px error in val = 3.558
+
+Iter 7 3-px error in val = 1.727
+
+Iter 8 3-px error in val = 1.117
+
+Iter 9 3-px error in val = 3.302
+
+epoch 111 total 3-px error in val = 2.292
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 0.97 HR
+
+0.001
+
+Iter 26 training loss = 0.659 , time = 0.83
+
+epoch 112 total training loss = 0.024
+
+Iter 0 3-px error in val = 2.425
+
+Iter 1 3-px error in val = 1.303
+
+Iter 2 3-px error in val = 1.000
+
+Iter 3 3-px error in val = 2.505
+
+Iter 4 3-px error in val = 2.966
+
+Iter 5 3-px error in val = 2.224
+
+Iter 6 3-px error in val = 3.270
+
+Iter 7 3-px error in val = 1.658
+
+Iter 8 3-px error in val = 1.160
+
+Iter 9 3-px error in val = 2.773
+
+epoch 112 total 3-px error in val = 2.128
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 0.98 HR
+
+0.001
+
+Iter 26 training loss = 0.480 , time = 0.80
+
+epoch 113 total training loss = 0.018
+
+Iter 0 3-px error in val = 2.050
+
+Iter 1 3-px error in val = 1.244
+
+Iter 2 3-px error in val = 1.050
+
+Iter 3 3-px error in val = 2.680
+
+Iter 4 3-px error in val = 3.129
+
+Iter 5 3-px error in val = 2.646
+
+Iter 6 3-px error in val = 2.985
+
+Iter 7 3-px error in val = 1.809
+
+Iter 8 3-px error in val = 1.013
+
+Iter 9 3-px error in val = 2.647
+
+epoch 113 total 3-px error in val = 2.125
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 0.98 HR
+
+0.001
+
+Iter 26 training loss = 0.624 , time = 0.85
+
+epoch 114 total training loss = 0.023
+
+Iter 0 3-px error in val = 1.985
+
+Iter 1 3-px error in val = 1.322
+
+Iter 2 3-px error in val = 1.039
+
+Iter 3 3-px error in val = 2.696
+
+Iter 4 3-px error in val = 3.091
+
+Iter 5 3-px error in val = 1.989
+
+Iter 6 3-px error in val = 2.955
+
+Iter 7 3-px error in val = 1.745
+
+Iter 8 3-px error in val = 1.022
+
+Iter 9 3-px error in val = 2.520
+
+epoch 114 total 3-px error in val = 2.036
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 0.99 HR
+
+0.001
+
+Iter 26 training loss = 0.455 , time = 0.80
+
+epoch 115 total training loss = 0.017
+
+Iter 0 3-px error in val = 2.027
+
+Iter 1 3-px error in val = 1.392
+
+Iter 2 3-px error in val = 1.119
+
+Iter 3 3-px error in val = 2.715
+
+Iter 4 3-px error in val = 3.132
+
+Iter 5 3-px error in val = 2.906
+
+Iter 6 3-px error in val = 2.912
+
+Iter 7 3-px error in val = 2.284
+
+Iter 8 3-px error in val = 1.129
+
+Iter 9 3-px error in val = 2.735
+
+epoch 115 total 3-px error in val = 2.235
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 1.00 HR
+
+0.001
+
+Iter 26 training loss = 0.592 , time = 0.83
+
+epoch 116 total training loss = 0.022
+
+Iter 0 3-px error in val = 2.192
+
+Iter 1 3-px error in val = 1.380
+
+Iter 2 3-px error in val = 1.144
+
+Iter 3 3-px error in val = 2.688
+
+Iter 4 3-px error in val = 3.269
+
+Iter 5 3-px error in val = 2.577
+
+Iter 6 3-px error in val = 3.059
+
+Iter 7 3-px error in val = 1.852
+
+Iter 8 3-px error in val = 1.202
+
+Iter 9 3-px error in val = 2.432
+
+epoch 116 total 3-px error in val = 2.179
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 1.01 HR
+
+0.001
+
+Iter 26 training loss = 0.615 , time = 0.82
+
+epoch 117 total training loss = 0.023
+
+Iter 0 3-px error in val = 2.400
+
+Iter 1 3-px error in val = 1.320
+
+Iter 2 3-px error in val = 0.998
+
+Iter 3 3-px error in val = 2.451
+
+Iter 4 3-px error in val = 3.207
+
+Iter 5 3-px error in val = 2.353
+
+Iter 6 3-px error in val = 2.956
+
+Iter 7 3-px error in val = 1.760
+
+Iter 8 3-px error in val = 1.051
+
+Iter 9 3-px error in val = 2.878
+
+epoch 117 total 3-px error in val = 2.137
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 1.02 HR
+
+0.001
+
+Iter 26 training loss = 0.660 , time = 0.83
+
+epoch 118 total training loss = 0.024
+
+Iter 0 3-px error in val = 2.473
+
+Iter 1 3-px error in val = 1.260
+
+Iter 2 3-px error in val = 0.934
+
+Iter 3 3-px error in val = 2.446
+
+Iter 4 3-px error in val = 2.971
+
+Iter 5 3-px error in val = 2.381
+
+Iter 6 3-px error in val = 2.757
+
+Iter 7 3-px error in val = 1.796
+
+Iter 8 3-px error in val = 1.052
+
+Iter 9 3-px error in val = 2.542
+
+epoch 118 total 3-px error in val = 2.061
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 1.03 HR
+
+0.001
+
+Iter 26 training loss = 0.637 , time = 0.81
+
+epoch 119 total training loss = 0.024
+
+Iter 0 3-px error in val = 2.126
+
+Iter 1 3-px error in val = 1.232
+
+Iter 2 3-px error in val = 1.025
+
+Iter 3 3-px error in val = 2.748
+
+Iter 4 3-px error in val = 3.032
+
+Iter 5 3-px error in val = 2.139
+
+Iter 6 3-px error in val = 2.736
+
+Iter 7 3-px error in val = 1.734
+
+Iter 8 3-px error in val = 1.039
+
+Iter 9 3-px error in val = 2.464
+
+epoch 119 total 3-px error in val = 2.027
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 1.04 HR
+
+0.001
+
+Iter 26 training loss = 0.888 , time = 0.85
+
+epoch 120 total training loss = 0.033
+
+Iter 0 3-px error in val = 2.241
+
+Iter 1 3-px error in val = 1.348
+
+Iter 2 3-px error in val = 0.902
+
+Iter 3 3-px error in val = 2.575
+
+Iter 4 3-px error in val = 3.090
+
+Iter 5 3-px error in val = 2.559
+
+Iter 6 3-px error in val = 2.911
+
+Iter 7 3-px error in val = 1.827
+
+Iter 8 3-px error in val = 1.093
+
+Iter 9 3-px error in val = 2.291
+
+epoch 120 total 3-px error in val = 2.084
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 1.05 HR
+
+0.001
+
+Iter 26 training loss = 0.452 , time = 0.80
+
+epoch 121 total training loss = 0.017
+
+Iter 0 3-px error in val = 2.302
+
+Iter 1 3-px error in val = 1.264
+
+Iter 2 3-px error in val = 0.922
+
+Iter 3 3-px error in val = 2.388
+
+Iter 4 3-px error in val = 2.944
+
+Iter 5 3-px error in val = 2.285
+
+Iter 6 3-px error in val = 2.748
+
+Iter 7 3-px error in val = 1.857
+
+Iter 8 3-px error in val = 1.041
+
+Iter 9 3-px error in val = 2.899
+
+epoch 121 total 3-px error in val = 2.065
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 1.06 HR
+
+0.001
+
+Iter 26 training loss = 0.412 , time = 0.81
+
+epoch 122 total training loss = 0.015
+
+Iter 0 3-px error in val = 2.194
+
+Iter 1 3-px error in val = 1.248
+
+Iter 2 3-px error in val = 0.976
+
+Iter 3 3-px error in val = 2.249
+
+Iter 4 3-px error in val = 2.883
+
+Iter 5 3-px error in val = 2.411
+
+Iter 6 3-px error in val = 2.677
+
+Iter 7 3-px error in val = 1.626
+
+Iter 8 3-px error in val = 1.083
+
+Iter 9 3-px error in val = 2.524
+
+epoch 122 total 3-px error in val = 1.987
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 1.07 HR
+
+0.001
+
+Iter 26 training loss = 0.639 , time = 0.78
+
+epoch 123 total training loss = 0.024
+
+Iter 0 3-px error in val = 2.466
+
+Iter 1 3-px error in val = 1.334
+
+Iter 2 3-px error in val = 0.983
+
+Iter 3 3-px error in val = 2.399
+
+Iter 4 3-px error in val = 2.988
+
+Iter 5 3-px error in val = 2.342
+
+Iter 6 3-px error in val = 3.031
+
+Iter 7 3-px error in val = 1.670
+
+Iter 8 3-px error in val = 1.132
+
+Iter 9 3-px error in val = 2.422
+
+epoch 123 total 3-px error in val = 2.077
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 1.07 HR
+
+0.001
+
+Iter 26 training loss = 0.487 , time = 0.81
+
+epoch 124 total training loss = 0.018
+
+Iter 0 3-px error in val = 2.488
+
+Iter 1 3-px error in val = 1.222
+
+Iter 2 3-px error in val = 0.954
+
+Iter 3 3-px error in val = 2.465
+
+Iter 4 3-px error in val = 2.926
+
+Iter 5 3-px error in val = 2.492
+
+Iter 6 3-px error in val = 3.041
+
+Iter 7 3-px error in val = 1.536
+
+Iter 8 3-px error in val = 1.104
+
+Iter 9 3-px error in val = 2.273
+
+epoch 124 total 3-px error in val = 2.050
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 1.08 HR
+
+0.001
+
+Iter 26 training loss = 0.453 , time = 0.83
+
+epoch 125 total training loss = 0.017
+
+Iter 0 3-px error in val = 1.952
+
+Iter 1 3-px error in val = 1.261
+
+Iter 2 3-px error in val = 0.985
+
+Iter 3 3-px error in val = 2.645
+
+Iter 4 3-px error in val = 2.970
+
+Iter 5 3-px error in val = 2.161
+
+Iter 6 3-px error in val = 2.803
+
+Iter 7 3-px error in val = 1.662
+
+Iter 8 3-px error in val = 1.121
+
+Iter 9 3-px error in val = 3.073
+
+epoch 125 total 3-px error in val = 2.063
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 1.09 HR
+
+0.001
+
+Iter 26 training loss = 0.289 , time = 0.83
+
+epoch 126 total training loss = 0.011
+
+Iter 0 3-px error in val = 2.331
+
+Iter 1 3-px error in val = 1.273
+
+Iter 2 3-px error in val = 0.994
+
+Iter 3 3-px error in val = 2.756
+
+Iter 4 3-px error in val = 3.152
+
+Iter 5 3-px error in val = 2.397
+
+Iter 6 3-px error in val = 3.348
+
+Iter 7 3-px error in val = 1.645
+
+Iter 8 3-px error in val = 1.214
+
+Iter 9 3-px error in val = 2.175
+
+epoch 126 total 3-px error in val = 2.129
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 1.10 HR
+
+0.001
+
+Iter 26 training loss = 0.460 , time = 0.80
+
+epoch 127 total training loss = 0.017
+
+Iter 0 3-px error in val = 3.165
+
+Iter 1 3-px error in val = 1.293
+
+Iter 2 3-px error in val = 0.891
+
+Iter 3 3-px error in val = 2.540
+
+Iter 4 3-px error in val = 3.316
+
+Iter 5 3-px error in val = 3.612
+
+Iter 6 3-px error in val = 3.934
+
+Iter 7 3-px error in val = 1.887
+
+Iter 8 3-px error in val = 1.202
+
+Iter 9 3-px error in val = 2.649
+
+epoch 127 total 3-px error in val = 2.449
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 1.11 HR
+
+0.001
+
+Iter 26 training loss = 0.566 , time = 0.82
+
+epoch 128 total training loss = 0.021
+
+Iter 0 3-px error in val = 2.004
+
+Iter 1 3-px error in val = 1.392
+
+Iter 2 3-px error in val = 0.916
+
+Iter 3 3-px error in val = 2.574
+
+Iter 4 3-px error in val = 3.046
+
+Iter 5 3-px error in val = 2.195
+
+Iter 6 3-px error in val = 2.874
+
+Iter 7 3-px error in val = 1.643
+
+Iter 8 3-px error in val = 1.045
+
+Iter 9 3-px error in val = 2.788
+
+epoch 128 total 3-px error in val = 2.048
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 1.12 HR
+
+0.001
+
+Iter 26 training loss = 0.346 , time = 0.83
+
+epoch 129 total training loss = 0.013
+
+Iter 0 3-px error in val = 2.062
+
+Iter 1 3-px error in val = 1.286
+
+Iter 2 3-px error in val = 0.939
+
+Iter 3 3-px error in val = 2.666
+
+Iter 4 3-px error in val = 3.201
+
+Iter 5 3-px error in val = 2.912
+
+Iter 6 3-px error in val = 3.781
+
+Iter 7 3-px error in val = 1.683
+
+Iter 8 3-px error in val = 1.059
+
+Iter 9 3-px error in val = 2.468
+
+epoch 129 total 3-px error in val = 2.206
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 1.13 HR
+
+0.001
+
+Iter 26 training loss = 0.765 , time = 0.78
+
+epoch 130 total training loss = 0.028
+
+Iter 0 3-px error in val = 1.937
+
+Iter 1 3-px error in val = 1.270
+
+Iter 2 3-px error in val = 0.956
+
+Iter 3 3-px error in val = 2.875
+
+Iter 4 3-px error in val = 2.919
+
+Iter 5 3-px error in val = 2.697
+
+Iter 6 3-px error in val = 2.837
+
+Iter 7 3-px error in val = 1.803
+
+Iter 8 3-px error in val = 1.078
+
+Iter 9 3-px error in val = 3.043
+
+epoch 130 total 3-px error in val = 2.141
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 1.14 HR
+
+0.001
+
+Iter 26 training loss = 0.697 , time = 0.80
+
+epoch 131 total training loss = 0.026
+
+Iter 0 3-px error in val = 2.183
+
+Iter 1 3-px error in val = 1.259
+
+Iter 2 3-px error in val = 1.001
+
+Iter 3 3-px error in val = 2.500
+
+Iter 4 3-px error in val = 3.224
+
+Iter 5 3-px error in val = 3.001
+
+Iter 6 3-px error in val = 3.592
+
+Iter 7 3-px error in val = 1.601
+
+Iter 8 3-px error in val = 1.134
+
+Iter 9 3-px error in val = 2.870
+
+epoch 131 total 3-px error in val = 2.236
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 1.14 HR
+
+0.001
+
+Iter 26 training loss = 0.953 , time = 0.80
+
+epoch 132 total training loss = 0.035
+
+Iter 0 3-px error in val = 1.933
+
+Iter 1 3-px error in val = 1.291
+
+Iter 2 3-px error in val = 0.971
+
+Iter 3 3-px error in val = 2.863
+
+Iter 4 3-px error in val = 3.080
+
+Iter 5 3-px error in val = 2.081
+
+Iter 6 3-px error in val = 2.849
+
+Iter 7 3-px error in val = 1.716
+
+Iter 8 3-px error in val = 1.102
+
+Iter 9 3-px error in val = 3.340
+
+epoch 132 total 3-px error in val = 2.123
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 1.15 HR
+
+0.001
+
+Iter 26 training loss = 0.620 , time = 0.80
+
+epoch 133 total training loss = 0.023
+
+Iter 0 3-px error in val = 2.621
+
+Iter 1 3-px error in val = 1.263
+
+Iter 2 3-px error in val = 1.063
+
+Iter 3 3-px error in val = 2.787
+
+Iter 4 3-px error in val = 3.216
+
+Iter 5 3-px error in val = 2.351
+
+Iter 6 3-px error in val = 3.909
+
+Iter 7 3-px error in val = 1.622
+
+Iter 8 3-px error in val = 1.091
+
+Iter 9 3-px error in val = 2.494
+
+epoch 133 total 3-px error in val = 2.242
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 1.16 HR
+
+0.001
+
+Iter 26 training loss = 0.522 , time = 0.82
+
+epoch 134 total training loss = 0.019
+
+Iter 0 3-px error in val = 1.890
+
+Iter 1 3-px error in val = 1.263
+
+Iter 2 3-px error in val = 1.034
+
+Iter 3 3-px error in val = 2.715
+
+Iter 4 3-px error in val = 3.148
+
+Iter 5 3-px error in val = 2.732
+
+Iter 6 3-px error in val = 2.928
+
+Iter 7 3-px error in val = 1.958
+
+Iter 8 3-px error in val = 1.167
+
+Iter 9 3-px error in val = 4.118
+
+epoch 134 total 3-px error in val = 2.295
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 1.17 HR
+
+0.001
+
+Iter 26 training loss = 0.328 , time = 0.82
+
+epoch 135 total training loss = 0.012
+
+Iter 0 3-px error in val = 2.269
+
+Iter 1 3-px error in val = 1.180
+
+Iter 2 3-px error in val = 0.987
+
+Iter 3 3-px error in val = 2.365
+
+Iter 4 3-px error in val = 3.038
+
+Iter 5 3-px error in val = 2.211
+
+Iter 6 3-px error in val = 3.458
+
+Iter 7 3-px error in val = 1.776
+
+Iter 8 3-px error in val = 1.158
+
+Iter 9 3-px error in val = 2.647
+
+epoch 135 total 3-px error in val = 2.109
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 1.18 HR
+
+0.001
+
+Iter 26 training loss = 0.644 , time = 0.82
+
+epoch 136 total training loss = 0.024
+
+Iter 0 3-px error in val = 2.001
+
+Iter 1 3-px error in val = 1.204
+
+Iter 2 3-px error in val = 0.950
+
+Iter 3 3-px error in val = 2.702
+
+Iter 4 3-px error in val = 3.110
+
+Iter 5 3-px error in val = 2.349
+
+Iter 6 3-px error in val = 2.754
+
+Iter 7 3-px error in val = 1.624
+
+Iter 8 3-px error in val = 1.128
+
+Iter 9 3-px error in val = 3.459
+
+epoch 136 total 3-px error in val = 2.128
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 1.19 HR
+
+0.001
+
+Iter 26 training loss = 0.495 , time = 0.83
+
+epoch 137 total training loss = 0.018
+
+Iter 0 3-px error in val = 2.694
+
+Iter 1 3-px error in val = 1.264
+
+Iter 2 3-px error in val = 0.939
+
+Iter 3 3-px error in val = 2.550
+
+Iter 4 3-px error in val = 3.086
+
+Iter 5 3-px error in val = 2.294
+
+Iter 6 3-px error in val = 3.031
+
+Iter 7 3-px error in val = 1.587
+
+Iter 8 3-px error in val = 1.094
+
+Iter 9 3-px error in val = 2.554
+
+epoch 137 total 3-px error in val = 2.109
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 1.20 HR
+
+0.001
+
+Iter 26 training loss = 0.417 , time = 0.84
+
+epoch 138 total training loss = 0.015
+
+Iter 0 3-px error in val = 2.926
+
+Iter 1 3-px error in val = 1.214
+
+Iter 2 3-px error in val = 1.074
+
+Iter 3 3-px error in val = 2.898
+
+Iter 4 3-px error in val = 2.960
+
+Iter 5 3-px error in val = 2.869
+
+Iter 6 3-px error in val = 2.857
+
+Iter 7 3-px error in val = 1.668
+
+Iter 8 3-px error in val = 0.990
+
+Iter 9 3-px error in val = 2.640
+
+epoch 138 total 3-px error in val = 2.210
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 1.21 HR
+
+0.001
+
+Iter 26 training loss = 0.610 , time = 0.78
+
+epoch 139 total training loss = 0.023
+
+Iter 0 3-px error in val = 3.439
+
+Iter 1 3-px error in val = 1.278
+
+Iter 2 3-px error in val = 1.279
+
+Iter 3 3-px error in val = 2.807
+
+Iter 4 3-px error in val = 3.534
+
+Iter 5 3-px error in val = 3.869
+
+Iter 6 3-px error in val = 3.816
+
+Iter 7 3-px error in val = 2.201
+
+Iter 8 3-px error in val = 1.114
+
+Iter 9 3-px error in val = 2.608
+
+epoch 139 total 3-px error in val = 2.595
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 1.22 HR
+
+0.001
+
+Iter 26 training loss = 0.496 , time = 0.83
+
+epoch 140 total training loss = 0.018
+
+Iter 0 3-px error in val = 2.108
+
+Iter 1 3-px error in val = 1.291
+
+Iter 2 3-px error in val = 1.126
+
+Iter 3 3-px error in val = 2.571
+
+Iter 4 3-px error in val = 3.029
+
+Iter 5 3-px error in val = 2.387
+
+Iter 6 3-px error in val = 2.799
+
+Iter 7 3-px error in val = 1.763
+
+Iter 8 3-px error in val = 1.112
+
+Iter 9 3-px error in val = 3.716
+
+epoch 140 total 3-px error in val = 2.190
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 1.22 HR
+
+0.001
+
+Iter 26 training loss = 0.408 , time = 0.83
+
+epoch 141 total training loss = 0.015
+
+Iter 0 3-px error in val = 2.130
+
+Iter 1 3-px error in val = 1.383
+
+Iter 2 3-px error in val = 1.066
+
+Iter 3 3-px error in val = 3.195
+
+Iter 4 3-px error in val = 3.308
+
+Iter 5 3-px error in val = 3.145
+
+Iter 6 3-px error in val = 2.701
+
+Iter 7 3-px error in val = 1.868
+
+Iter 8 3-px error in val = 1.077
+
+Iter 9 3-px error in val = 4.068
+
+epoch 141 total 3-px error in val = 2.394
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 1.23 HR
+
+0.001
+
+Iter 26 training loss = 0.508 , time = 0.83
+
+epoch 142 total training loss = 0.019
+
+Iter 0 3-px error in val = 2.045
+
+Iter 1 3-px error in val = 1.391
+
+Iter 2 3-px error in val = 1.112
+
+Iter 3 3-px error in val = 3.255
+
+Iter 4 3-px error in val = 3.106
+
+Iter 5 3-px error in val = 3.308
+
+Iter 6 3-px error in val = 2.873
+
+Iter 7 3-px error in val = 1.877
+
+Iter 8 3-px error in val = 1.141
+
+Iter 9 3-px error in val = 3.227
+
+epoch 142 total 3-px error in val = 2.334
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 1.24 HR
+
+0.001
+
+Iter 26 training loss = 0.484 , time = 0.81
+
+epoch 143 total training loss = 0.018
+
+Iter 0 3-px error in val = 2.244
+
+Iter 1 3-px error in val = 1.148
+
+Iter 2 3-px error in val = 0.987
+
+Iter 3 3-px error in val = 2.418
+
+Iter 4 3-px error in val = 3.037
+
+Iter 5 3-px error in val = 3.130
+
+Iter 6 3-px error in val = 3.234
+
+Iter 7 3-px error in val = 1.696
+
+Iter 8 3-px error in val = 1.119
+
+Iter 9 3-px error in val = 4.475
+
+epoch 143 total 3-px error in val = 2.349
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 1.25 HR
+
+0.001
+
+Iter 26 training loss = 0.427 , time = 0.82
+
+epoch 144 total training loss = 0.016
+
+Iter 0 3-px error in val = 2.701
+
+Iter 1 3-px error in val = 1.245
+
+Iter 2 3-px error in val = 0.937
+
+Iter 3 3-px error in val = 2.393
+
+Iter 4 3-px error in val = 3.081
+
+Iter 5 3-px error in val = 2.236
+
+Iter 6 3-px error in val = 3.351
+
+Iter 7 3-px error in val = 1.801
+
+Iter 8 3-px error in val = 1.091
+
+Iter 9 3-px error in val = 2.768
+
+epoch 144 total 3-px error in val = 2.160
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 1.26 HR
+
+0.001
+
+Iter 26 training loss = 0.311 , time = 0.80
+
+epoch 145 total training loss = 0.012
+
+Iter 0 3-px error in val = 2.368
+
+Iter 1 3-px error in val = 1.239
+
+Iter 2 3-px error in val = 0.909
+
+Iter 3 3-px error in val = 2.581
+
+Iter 4 3-px error in val = 3.122
+
+Iter 5 3-px error in val = 2.109
+
+Iter 6 3-px error in val = 3.208
+
+Iter 7 3-px error in val = 1.775
+
+Iter 8 3-px error in val = 1.029
+
+Iter 9 3-px error in val = 3.501
+
+epoch 145 total 3-px error in val = 2.184
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 1.27 HR
+
+0.001
+
+Iter 26 training loss = 0.491 , time = 0.81
+
+epoch 146 total training loss = 0.018
+
+Iter 0 3-px error in val = 2.591
+
+Iter 1 3-px error in val = 1.322
+
+Iter 2 3-px error in val = 0.971
+
+Iter 3 3-px error in val = 2.605
+
+Iter 4 3-px error in val = 3.258
+
+Iter 5 3-px error in val = 2.419
+
+Iter 6 3-px error in val = 3.215
+
+Iter 7 3-px error in val = 1.809
+
+Iter 8 3-px error in val = 1.077
+
+Iter 9 3-px error in val = 2.920
+
+epoch 146 total 3-px error in val = 2.219
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 1.28 HR
+
+0.001
+
+Iter 26 training loss = 0.779 , time = 0.83
+
+epoch 147 total training loss = 0.029
+
+Iter 0 3-px error in val = 2.137
+
+Iter 1 3-px error in val = 1.263
+
+Iter 2 3-px error in val = 1.098
+
+Iter 3 3-px error in val = 2.399
+
+Iter 4 3-px error in val = 2.942
+
+Iter 5 3-px error in val = 2.431
+
+Iter 6 3-px error in val = 2.760
+
+Iter 7 3-px error in val = 1.744
+
+Iter 8 3-px error in val = 1.057
+
+Iter 9 3-px error in val = 3.970
+
+epoch 147 total 3-px error in val = 2.180
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 1.28 HR
+
+0.001
+
+Iter 26 training loss = 0.353 , time = 0.81
+
+epoch 148 total training loss = 0.013
+
+Iter 0 3-px error in val = 2.111
+
+Iter 1 3-px error in val = 1.267
+
+Iter 2 3-px error in val = 0.995
+
+Iter 3 3-px error in val = 2.527
+
+Iter 4 3-px error in val = 2.987
+
+Iter 5 3-px error in val = 2.137
+
+Iter 6 3-px error in val = 3.046
+
+Iter 7 3-px error in val = 1.728
+
+Iter 8 3-px error in val = 0.985
+
+Iter 9 3-px error in val = 3.146
+
+epoch 148 total 3-px error in val = 2.093
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 1.29 HR
+
+0.001
+
+Iter 26 training loss = 0.630 , time = 0.81
+
+epoch 149 total training loss = 0.023
+
+Iter 0 3-px error in val = 2.556
+
+Iter 1 3-px error in val = 1.205
+
+Iter 2 3-px error in val = 0.945
+
+Iter 3 3-px error in val = 2.857
+
+Iter 4 3-px error in val = 3.390
+
+Iter 5 3-px error in val = 2.300
+
+Iter 6 3-px error in val = 2.965
+
+Iter 7 3-px error in val = 1.804
+
+Iter 8 3-px error in val = 1.140
+
+Iter 9 3-px error in val = 3.506
+
+epoch 149 total 3-px error in val = 2.267
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 1.30 HR
+
+0.001
+
+Iter 26 training loss = 0.416 , time = 0.85
+
+epoch 150 total training loss = 0.015
+
+Iter 0 3-px error in val = 2.263
+
+Iter 1 3-px error in val = 1.168
+
+Iter 2 3-px error in val = 0.828
+
+Iter 3 3-px error in val = 2.293
+
+Iter 4 3-px error in val = 3.055
+
+Iter 5 3-px error in val = 2.430
+
+Iter 6 3-px error in val = 2.797
+
+Iter 7 3-px error in val = 1.658
+
+Iter 8 3-px error in val = 1.047
+
+Iter 9 3-px error in val = 3.036
+
+epoch 150 total 3-px error in val = 2.058
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 1.31 HR
+
+0.001
+
+Iter 26 training loss = 0.352 , time = 0.83
+
+epoch 151 total training loss = 0.013
+
+Iter 0 3-px error in val = 2.661
+
+Iter 1 3-px error in val = 1.118
+
+Iter 2 3-px error in val = 1.009
+
+Iter 3 3-px error in val = 2.354
+
+Iter 4 3-px error in val = 3.018
+
+Iter 5 3-px error in val = 2.278
+
+Iter 6 3-px error in val = 2.842
+
+Iter 7 3-px error in val = 1.759
+
+Iter 8 3-px error in val = 1.092
+
+Iter 9 3-px error in val = 2.454
+
+epoch 151 total 3-px error in val = 2.059
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 1.32 HR
+
+0.001
+
+Iter 26 training loss = 0.468 , time = 0.80
+
+epoch 152 total training loss = 0.017
+
+Iter 0 3-px error in val = 1.915
+
+Iter 1 3-px error in val = 1.250
+
+Iter 2 3-px error in val = 0.976
+
+Iter 3 3-px error in val = 2.557
+
+Iter 4 3-px error in val = 2.920
+
+Iter 5 3-px error in val = 2.274
+
+Iter 6 3-px error in val = 2.693
+
+Iter 7 3-px error in val = 1.709
+
+Iter 8 3-px error in val = 1.098
+
+Iter 9 3-px error in val = 3.703
+
+epoch 152 total 3-px error in val = 2.109
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 1.33 HR
+
+0.001
+
+Iter 26 training loss = 0.460 , time = 0.81
+
+epoch 153 total training loss = 0.017
+
+Iter 0 3-px error in val = 2.419
+
+Iter 1 3-px error in val = 1.264
+
+Iter 2 3-px error in val = 0.977
+
+Iter 3 3-px error in val = 2.690
+
+Iter 4 3-px error in val = 2.943
+
+Iter 5 3-px error in val = 2.230
+
+Iter 6 3-px error in val = 2.776
+
+Iter 7 3-px error in val = 1.794
+
+Iter 8 3-px error in val = 1.095
+
+Iter 9 3-px error in val = 2.688
+
+epoch 153 total 3-px error in val = 2.088
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 1.34 HR
+
+0.001
+
+Iter 26 training loss = 0.342 , time = 0.83
+
+epoch 154 total training loss = 0.013
+
+Iter 0 3-px error in val = 2.288
+
+Iter 1 3-px error in val = 1.251
+
+Iter 2 3-px error in val = 1.013
+
+Iter 3 3-px error in val = 2.524
+
+Iter 4 3-px error in val = 2.990
+
+Iter 5 3-px error in val = 2.328
+
+Iter 6 3-px error in val = 2.597
+
+Iter 7 3-px error in val = 1.785
+
+Iter 8 3-px error in val = 1.142
+
+Iter 9 3-px error in val = 4.501
+
+epoch 154 total 3-px error in val = 2.242
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 1.35 HR
+
+0.001
+
+Iter 26 training loss = 0.516 , time = 0.81
+
+epoch 155 total training loss = 0.019
+
+Iter 0 3-px error in val = 2.336
+
+Iter 1 3-px error in val = 1.209
+
+Iter 2 3-px error in val = 0.961
+
+Iter 3 3-px error in val = 2.508
+
+Iter 4 3-px error in val = 2.931
+
+Iter 5 3-px error in val = 2.299
+
+Iter 6 3-px error in val = 2.808
+
+Iter 7 3-px error in val = 1.679
+
+Iter 8 3-px error in val = 1.111
+
+Iter 9 3-px error in val = 3.185
+
+epoch 155 total 3-px error in val = 2.103
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 1.35 HR
+
+0.001
+
+Iter 26 training loss = 0.516 , time = 0.84
+
+epoch 156 total training loss = 0.019
+
+Iter 0 3-px error in val = 2.247
+
+Iter 1 3-px error in val = 1.300
+
+Iter 2 3-px error in val = 1.088
+
+Iter 3 3-px error in val = 2.629
+
+Iter 4 3-px error in val = 2.979
+
+Iter 5 3-px error in val = 2.180
+
+Iter 6 3-px error in val = 2.765
+
+Iter 7 3-px error in val = 1.621
+
+Iter 8 3-px error in val = 1.062
+
+Iter 9 3-px error in val = 2.905
+
+epoch 156 total 3-px error in val = 2.077
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 1.36 HR
+
+0.001
+
+Iter 26 training loss = 0.467 , time = 0.81
+
+epoch 157 total training loss = 0.017
+
+Iter 0 3-px error in val = 2.277
+
+Iter 1 3-px error in val = 1.314
+
+Iter 2 3-px error in val = 1.101
+
+Iter 3 3-px error in val = 2.921
+
+Iter 4 3-px error in val = 2.931
+
+Iter 5 3-px error in val = 2.251
+
+Iter 6 3-px error in val = 2.631
+
+Iter 7 3-px error in val = 1.673
+
+Iter 8 3-px error in val = 1.073
+
+Iter 9 3-px error in val = 2.716
+
+epoch 157 total 3-px error in val = 2.089
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 1.37 HR
+
+0.001
+
+Iter 26 training loss = 0.424 , time = 0.79
+
+epoch 158 total training loss = 0.016
+
+Iter 0 3-px error in val = 2.368
+
+Iter 1 3-px error in val = 1.349
+
+Iter 2 3-px error in val = 0.974
+
+Iter 3 3-px error in val = 2.719
+
+Iter 4 3-px error in val = 3.011
+
+Iter 5 3-px error in val = 2.180
+
+Iter 6 3-px error in val = 2.808
+
+Iter 7 3-px error in val = 1.671
+
+Iter 8 3-px error in val = 1.058
+
+Iter 9 3-px error in val = 3.085
+
+epoch 158 total 3-px error in val = 2.122
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 1.38 HR
+
+0.001
+
+Iter 26 training loss = 0.631 , time = 0.80
+
+epoch 159 total training loss = 0.023
+
+Iter 0 3-px error in val = 2.292
+
+Iter 1 3-px error in val = 1.364
+
+Iter 2 3-px error in val = 1.036
+
+Iter 3 3-px error in val = 3.163
+
+Iter 4 3-px error in val = 3.483
+
+Iter 5 3-px error in val = 2.485
+
+Iter 6 3-px error in val = 2.980
+
+Iter 7 3-px error in val = 1.944
+
+Iter 8 3-px error in val = 1.222
+
+Iter 9 3-px error in val = 3.377
+
+epoch 159 total 3-px error in val = 2.335
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 1.39 HR
+
+0.001
+
+Iter 26 training loss = 0.376 , time = 0.95
+
+epoch 160 total training loss = 0.014
+
+Iter 0 3-px error in val = 2.206
+
+Iter 1 3-px error in val = 1.180
+
+Iter 2 3-px error in val = 0.924
+
+Iter 3 3-px error in val = 2.766
+
+Iter 4 3-px error in val = 2.869
+
+Iter 5 3-px error in val = 2.172
+
+Iter 6 3-px error in val = 2.719
+
+Iter 7 3-px error in val = 1.771
+
+Iter 8 3-px error in val = 1.132
+
+Iter 9 3-px error in val = 3.194
+
+epoch 160 total 3-px error in val = 2.093
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 1.40 HR
+
+0.001
+
+Iter 26 training loss = 1.153 , time = 0.80
+
+epoch 161 total training loss = 0.043
+
+Iter 0 3-px error in val = 2.921
+
+Iter 1 3-px error in val = 1.164
+
+Iter 2 3-px error in val = 0.862
+
+Iter 3 3-px error in val = 3.063
+
+Iter 4 3-px error in val = 2.888
+
+Iter 5 3-px error in val = 2.412
+
+Iter 6 3-px error in val = 2.651
+
+Iter 7 3-px error in val = 1.690
+
+Iter 8 3-px error in val = 1.066
+
+Iter 9 3-px error in val = 2.197
+
+epoch 161 total 3-px error in val = 2.091
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 1.41 HR
+
+0.001
+
+Iter 26 training loss = 0.581 , time = 0.80
+
+epoch 162 total training loss = 0.022
+
+Iter 0 3-px error in val = 2.132
+
+Iter 1 3-px error in val = 1.247
+
+Iter 2 3-px error in val = 1.034
+
+Iter 3 3-px error in val = 3.070
+
+Iter 4 3-px error in val = 3.116
+
+Iter 5 3-px error in val = 2.527
+
+Iter 6 3-px error in val = 2.821
+
+Iter 7 3-px error in val = 2.005
+
+Iter 8 3-px error in val = 1.053
+
+Iter 9 3-px error in val = 3.195
+
+epoch 162 total 3-px error in val = 2.220
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 1.42 HR
+
+0.001
+
+Iter 26 training loss = 0.480 , time = 0.82
+
+epoch 163 total training loss = 0.018
+
+Iter 0 3-px error in val = 2.614
+
+Iter 1 3-px error in val = 1.220
+
+Iter 2 3-px error in val = 1.005
+
+Iter 3 3-px error in val = 2.878
+
+Iter 4 3-px error in val = 3.149
+
+Iter 5 3-px error in val = 2.470
+
+Iter 6 3-px error in val = 2.999
+
+Iter 7 3-px error in val = 1.914
+
+Iter 8 3-px error in val = 1.262
+
+Iter 9 3-px error in val = 2.699
+
+epoch 163 total 3-px error in val = 2.221
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 1.42 HR
+
+0.001
+
+Iter 26 training loss = 0.324 , time = 0.84
+
+epoch 164 total training loss = 0.012
+
+Iter 0 3-px error in val = 2.696
+
+Iter 1 3-px error in val = 1.330
+
+Iter 2 3-px error in val = 0.981
+
+Iter 3 3-px error in val = 3.236
+
+Iter 4 3-px error in val = 3.182
+
+Iter 5 3-px error in val = 2.998
+
+Iter 6 3-px error in val = 2.931
+
+Iter 7 3-px error in val = 1.722
+
+Iter 8 3-px error in val = 1.086
+
+Iter 9 3-px error in val = 2.284
+
+epoch 164 total 3-px error in val = 2.245
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 1.43 HR
+
+0.001
+
+Iter 26 training loss = 0.368 , time = 0.81
+
+epoch 165 total training loss = 0.014
+
+Iter 0 3-px error in val = 2.261
+
+Iter 1 3-px error in val = 1.289
+
+Iter 2 3-px error in val = 1.001
+
+Iter 3 3-px error in val = 2.863
+
+Iter 4 3-px error in val = 3.110
+
+Iter 5 3-px error in val = 2.320
+
+Iter 6 3-px error in val = 2.787
+
+Iter 7 3-px error in val = 1.856
+
+Iter 8 3-px error in val = 1.102
+
+Iter 9 3-px error in val = 3.318
+
+epoch 165 total 3-px error in val = 2.191
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 1.44 HR
+
+0.001
+
+Iter 26 training loss = 0.320 , time = 0.83
+
+epoch 166 total training loss = 0.012
+
+Iter 0 3-px error in val = 2.108
+
+Iter 1 3-px error in val = 1.233
+
+Iter 2 3-px error in val = 1.013
+
+Iter 3 3-px error in val = 3.009
+
+Iter 4 3-px error in val = 3.013
+
+Iter 5 3-px error in val = 2.070
+
+Iter 6 3-px error in val = 2.633
+
+Iter 7 3-px error in val = 1.672
+
+Iter 8 3-px error in val = 1.014
+
+Iter 9 3-px error in val = 2.719
+
+epoch 166 total 3-px error in val = 2.048
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 1.45 HR
+
+0.001
+
+Iter 26 training loss = 0.489 , time = 0.82
+
+epoch 167 total training loss = 0.018
+
+Iter 0 3-px error in val = 2.011
+
+Iter 1 3-px error in val = 1.264
+
+Iter 2 3-px error in val = 1.090
+
+Iter 3 3-px error in val = 2.880
+
+Iter 4 3-px error in val = 2.966
+
+Iter 5 3-px error in val = 2.278
+
+Iter 6 3-px error in val = 2.768
+
+Iter 7 3-px error in val = 1.824
+
+Iter 8 3-px error in val = 1.074
+
+Iter 9 3-px error in val = 4.193
+
+epoch 167 total 3-px error in val = 2.235
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 1.46 HR
+
+0.001
+
+Iter 26 training loss = 0.397 , time = 0.83
+
+epoch 168 total training loss = 0.015
+
+Iter 0 3-px error in val = 2.164
+
+Iter 1 3-px error in val = 1.298
+
+Iter 2 3-px error in val = 1.037
+
+Iter 3 3-px error in val = 3.440
+
+Iter 4 3-px error in val = 2.987
+
+Iter 5 3-px error in val = 2.513
+
+Iter 6 3-px error in val = 2.705
+
+Iter 7 3-px error in val = 1.694
+
+Iter 8 3-px error in val = 1.102
+
+Iter 9 3-px error in val = 2.727
+
+epoch 168 total 3-px error in val = 2.167
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 1.47 HR
+
+0.001
+
+Iter 26 training loss = 0.265 , time = 0.81
+
+epoch 169 total training loss = 0.010
+
+Iter 0 3-px error in val = 2.269
+
+Iter 1 3-px error in val = 1.228
+
+Iter 2 3-px error in val = 1.004
+
+Iter 3 3-px error in val = 3.030
+
+Iter 4 3-px error in val = 3.009
+
+Iter 5 3-px error in val = 2.476
+
+Iter 6 3-px error in val = 2.928
+
+Iter 7 3-px error in val = 1.686
+
+Iter 8 3-px error in val = 1.017
+
+Iter 9 3-px error in val = 2.440
+
+epoch 169 total 3-px error in val = 2.109
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 1.48 HR
+
+0.001
+
+Iter 26 training loss = 0.361 , time = 0.92
+
+epoch 170 total training loss = 0.013
+
+Iter 0 3-px error in val = 2.214
+
+Iter 1 3-px error in val = 1.260
+
+Iter 2 3-px error in val = 1.028
+
+Iter 3 3-px error in val = 3.424
+
+Iter 4 3-px error in val = 3.048
+
+Iter 5 3-px error in val = 3.416
+
+Iter 6 3-px error in val = 2.929
+
+Iter 7 3-px error in val = 1.670
+
+Iter 8 3-px error in val = 1.045
+
+Iter 9 3-px error in val = 2.389
+
+epoch 170 total 3-px error in val = 2.242
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 1.49 HR
+
+0.001
+
+Iter 26 training loss = 0.489 , time = 0.82
+
+epoch 171 total training loss = 0.018
+
+Iter 0 3-px error in val = 2.174
+
+Iter 1 3-px error in val = 1.249
+
+Iter 2 3-px error in val = 1.018
+
+Iter 3 3-px error in val = 3.739
+
+Iter 4 3-px error in val = 3.001
+
+Iter 5 3-px error in val = 2.573
+
+Iter 6 3-px error in val = 2.858
+
+Iter 7 3-px error in val = 1.715
+
+Iter 8 3-px error in val = 1.042
+
+Iter 9 3-px error in val = 2.860
+
+epoch 171 total 3-px error in val = 2.223
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 1.49 HR
+
+0.001
+
+Iter 26 training loss = 0.312 , time = 0.81
+
+epoch 172 total training loss = 0.012
+
+Iter 0 3-px error in val = 2.092
+
+Iter 1 3-px error in val = 1.247
+
+Iter 2 3-px error in val = 1.013
+
+Iter 3 3-px error in val = 2.898
+
+Iter 4 3-px error in val = 3.067
+
+Iter 5 3-px error in val = 2.218
+
+Iter 6 3-px error in val = 2.815
+
+Iter 7 3-px error in val = 1.581
+
+Iter 8 3-px error in val = 1.025
+
+Iter 9 3-px error in val = 2.458
+
+epoch 172 total 3-px error in val = 2.041
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 1.50 HR
+
+0.001
+
+Iter 26 training loss = 0.501 , time = 0.82
+
+epoch 173 total training loss = 0.019
+
+Iter 0 3-px error in val = 2.233
+
+Iter 1 3-px error in val = 1.302
+
+Iter 2 3-px error in val = 1.163
+
+Iter 3 3-px error in val = 3.128
+
+Iter 4 3-px error in val = 2.961
+
+Iter 5 3-px error in val = 3.893
+
+Iter 6 3-px error in val = 2.729
+
+Iter 7 3-px error in val = 1.840
+
+Iter 8 3-px error in val = 1.011
+
+Iter 9 3-px error in val = 3.945
+
+epoch 173 total 3-px error in val = 2.421
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 1.51 HR
+
+0.001
+
+Iter 26 training loss = 0.421 , time = 0.81
+
+epoch 174 total training loss = 0.016
+
+Iter 0 3-px error in val = 1.955
+
+Iter 1 3-px error in val = 1.224
+
+Iter 2 3-px error in val = 0.916
+
+Iter 3 3-px error in val = 2.678
+
+Iter 4 3-px error in val = 2.876
+
+Iter 5 3-px error in val = 2.285
+
+Iter 6 3-px error in val = 3.282
+
+Iter 7 3-px error in val = 1.767
+
+Iter 8 3-px error in val = 0.975
+
+Iter 9 3-px error in val = 3.667
+
+epoch 174 total 3-px error in val = 2.163
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 1.52 HR
+
+0.001
+
+Iter 26 training loss = 0.362 , time = 0.81
+
+epoch 175 total training loss = 0.013
+
+Iter 0 3-px error in val = 1.977
+
+Iter 1 3-px error in val = 1.301
+
+Iter 2 3-px error in val = 0.916
+
+Iter 3 3-px error in val = 2.739
+
+Iter 4 3-px error in val = 2.852
+
+Iter 5 3-px error in val = 2.583
+
+Iter 6 3-px error in val = 2.852
+
+Iter 7 3-px error in val = 1.724
+
+Iter 8 3-px error in val = 1.020
+
+Iter 9 3-px error in val = 4.332
+
+epoch 175 total 3-px error in val = 2.230
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 1.53 HR
+
+0.001
+
+Iter 26 training loss = 0.778 , time = 0.83
+
+epoch 176 total training loss = 0.029
+
+Iter 0 3-px error in val = 2.869
+
+Iter 1 3-px error in val = 1.193
+
+Iter 2 3-px error in val = 0.914
+
+Iter 3 3-px error in val = 2.681
+
+Iter 4 3-px error in val = 3.065
+
+Iter 5 3-px error in val = 2.440
+
+Iter 6 3-px error in val = 2.901
+
+Iter 7 3-px error in val = 1.672
+
+Iter 8 3-px error in val = 1.134
+
+Iter 9 3-px error in val = 2.915
+
+epoch 176 total 3-px error in val = 2.179
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 1.54 HR
+
+0.001
+
+Iter 26 training loss = 0.295 , time = 0.82
+
+epoch 177 total training loss = 0.011
+
+Iter 0 3-px error in val = 1.884
+
+Iter 1 3-px error in val = 1.171
+
+Iter 2 3-px error in val = 0.989
+
+Iter 3 3-px error in val = 2.581
+
+Iter 4 3-px error in val = 2.788
+
+Iter 5 3-px error in val = 2.359
+
+Iter 6 3-px error in val = 2.627
+
+Iter 7 3-px error in val = 1.749
+
+Iter 8 3-px error in val = 1.060
+
+Iter 9 3-px error in val = 2.840
+
+epoch 177 total 3-px error in val = 2.005
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 1.55 HR
+
+0.001
+
+Iter 26 training loss = 0.404 , time = 0.81
+
+epoch 178 total training loss = 0.015
+
+Iter 0 3-px error in val = 1.975
+
+Iter 1 3-px error in val = 1.256
+
+Iter 2 3-px error in val = 0.905
+
+Iter 3 3-px error in val = 2.842
+
+Iter 4 3-px error in val = 2.768
+
+Iter 5 3-px error in val = 2.306
+
+Iter 6 3-px error in val = 2.539
+
+Iter 7 3-px error in val = 1.583
+
+Iter 8 3-px error in val = 0.990
+
+Iter 9 3-px error in val = 2.791
+
+epoch 178 total 3-px error in val = 1.995
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 1.56 HR
+
+0.001
+
+Iter 26 training loss = 0.346 , time = 0.81
+
+epoch 179 total training loss = 0.013
+
+Iter 0 3-px error in val = 2.068
+
+Iter 1 3-px error in val = 1.235
+
+Iter 2 3-px error in val = 1.002
+
+Iter 3 3-px error in val = 2.796
+
+Iter 4 3-px error in val = 2.918
+
+Iter 5 3-px error in val = 2.442
+
+Iter 6 3-px error in val = 2.778
+
+Iter 7 3-px error in val = 1.844
+
+Iter 8 3-px error in val = 1.034
+
+Iter 9 3-px error in val = 3.286
+
+epoch 179 total 3-px error in val = 2.140
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 1.56 HR
+
+0.001
+
+Iter 26 training loss = 0.381 , time = 0.84
+
+epoch 180 total training loss = 0.014
+
+Iter 0 3-px error in val = 2.048
+
+Iter 1 3-px error in val = 1.274
+
+Iter 2 3-px error in val = 1.089
+
+Iter 3 3-px error in val = 2.727
+
+Iter 4 3-px error in val = 2.939
+
+Iter 5 3-px error in val = 2.386
+
+Iter 6 3-px error in val = 2.830
+
+Iter 7 3-px error in val = 1.780
+
+Iter 8 3-px error in val = 1.070
+
+Iter 9 3-px error in val = 2.853
+
+epoch 180 total 3-px error in val = 2.100
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 1.57 HR
+
+0.001
+
+Iter 26 training loss = 0.317 , time = 0.83
+
+epoch 181 total training loss = 0.012
+
+Iter 0 3-px error in val = 2.172
+
+Iter 1 3-px error in val = 1.242
+
+Iter 2 3-px error in val = 0.918
+
+Iter 3 3-px error in val = 2.696
+
+Iter 4 3-px error in val = 2.860
+
+Iter 5 3-px error in val = 2.274
+
+Iter 6 3-px error in val = 2.857
+
+Iter 7 3-px error in val = 1.604
+
+Iter 8 3-px error in val = 1.134
+
+Iter 9 3-px error in val = 2.563
+
+epoch 181 total 3-px error in val = 2.032
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 1.58 HR
+
+0.001
+
+Iter 26 training loss = 0.408 , time = 0.83
+
+epoch 182 total training loss = 0.015
+
+Iter 0 3-px error in val = 2.729
+
+Iter 1 3-px error in val = 1.206
+
+Iter 2 3-px error in val = 0.904
+
+Iter 3 3-px error in val = 2.500
+
+Iter 4 3-px error in val = 2.921
+
+Iter 5 3-px error in val = 2.302
+
+Iter 6 3-px error in val = 2.678
+
+Iter 7 3-px error in val = 1.531
+
+Iter 8 3-px error in val = 1.089
+
+Iter 9 3-px error in val = 2.424
+
+epoch 182 total 3-px error in val = 2.028
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 1.59 HR
+
+0.001
+
+Iter 26 training loss = 0.276 , time = 0.83
+
+epoch 183 total training loss = 0.010
+
+Iter 0 3-px error in val = 2.245
+
+Iter 1 3-px error in val = 1.314
+
+Iter 2 3-px error in val = 0.926
+
+Iter 3 3-px error in val = 2.482
+
+Iter 4 3-px error in val = 2.930
+
+Iter 5 3-px error in val = 2.198
+
+Iter 6 3-px error in val = 2.528
+
+Iter 7 3-px error in val = 1.578
+
+Iter 8 3-px error in val = 1.122
+
+Iter 9 3-px error in val = 3.541
+
+epoch 183 total 3-px error in val = 2.086
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 1.60 HR
+
+0.001
+
+Iter 26 training loss = 0.325 , time = 0.81
+
+epoch 184 total training loss = 0.012
+
+Iter 0 3-px error in val = 1.887
+
+Iter 1 3-px error in val = 1.301
+
+Iter 2 3-px error in val = 0.927
+
+Iter 3 3-px error in val = 2.702
+
+Iter 4 3-px error in val = 2.846
+
+Iter 5 3-px error in val = 2.598
+
+Iter 6 3-px error in val = 2.743
+
+Iter 7 3-px error in val = 1.697
+
+Iter 8 3-px error in val = 1.036
+
+Iter 9 3-px error in val = 4.074
+
+epoch 184 total 3-px error in val = 2.181
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 1.61 HR
+
+0.001
+
+Iter 26 training loss = 0.388 , time = 0.79
+
+epoch 185 total training loss = 0.014
+
+Iter 0 3-px error in val = 2.294
+
+Iter 1 3-px error in val = 1.216
+
+Iter 2 3-px error in val = 0.906
+
+Iter 3 3-px error in val = 2.417
+
+Iter 4 3-px error in val = 2.879
+
+Iter 5 3-px error in val = 2.158
+
+Iter 6 3-px error in val = 2.629
+
+Iter 7 3-px error in val = 1.611
+
+Iter 8 3-px error in val = 0.998
+
+Iter 9 3-px error in val = 2.338
+
+epoch 185 total 3-px error in val = 1.945
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 1.62 HR
+
+0.001
+
+Iter 26 training loss = 0.306 , time = 0.80
+
+epoch 186 total training loss = 0.011
+
+Iter 0 3-px error in val = 2.634
+
+Iter 1 3-px error in val = 1.180
+
+Iter 2 3-px error in val = 0.855
+
+Iter 3 3-px error in val = 2.729
+
+Iter 4 3-px error in val = 2.761
+
+Iter 5 3-px error in val = 2.121
+
+Iter 6 3-px error in val = 2.762
+
+Iter 7 3-px error in val = 1.587
+
+Iter 8 3-px error in val = 1.009
+
+Iter 9 3-px error in val = 3.536
+
+epoch 186 total 3-px error in val = 2.117
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 1.62 HR
+
+0.001
+
+Iter 26 training loss = 0.469 , time = 0.82
+
+epoch 187 total training loss = 0.017
+
+Iter 0 3-px error in val = 2.387
+
+Iter 1 3-px error in val = 1.177
+
+Iter 2 3-px error in val = 0.840
+
+Iter 3 3-px error in val = 2.645
+
+Iter 4 3-px error in val = 2.847
+
+Iter 5 3-px error in val = 2.089
+
+Iter 6 3-px error in val = 2.720
+
+Iter 7 3-px error in val = 1.637
+
+Iter 8 3-px error in val = 1.084
+
+Iter 9 3-px error in val = 2.658
+
+epoch 187 total 3-px error in val = 2.008
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 1.63 HR
+
+0.001
+
+Iter 26 training loss = 0.351 , time = 0.82
+
+epoch 188 total training loss = 0.013
+
+Iter 0 3-px error in val = 2.402
+
+Iter 1 3-px error in val = 1.212
+
+Iter 2 3-px error in val = 0.867
+
+Iter 3 3-px error in val = 2.625
+
+Iter 4 3-px error in val = 3.078
+
+Iter 5 3-px error in val = 2.257
+
+Iter 6 3-px error in val = 2.605
+
+Iter 7 3-px error in val = 1.586
+
+Iter 8 3-px error in val = 1.087
+
+Iter 9 3-px error in val = 2.535
+
+epoch 188 total 3-px error in val = 2.025
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 1.64 HR
+
+0.001
+
+Iter 26 training loss = 0.433 , time = 0.83
+
+epoch 189 total training loss = 0.016
+
+Iter 0 3-px error in val = 2.263
+
+Iter 1 3-px error in val = 1.166
+
+Iter 2 3-px error in val = 0.910
+
+Iter 3 3-px error in val = 2.521
+
+Iter 4 3-px error in val = 3.058
+
+Iter 5 3-px error in val = 2.544
+
+Iter 6 3-px error in val = 2.778
+
+Iter 7 3-px error in val = 1.564
+
+Iter 8 3-px error in val = 1.088
+
+Iter 9 3-px error in val = 2.899
+
+epoch 189 total 3-px error in val = 2.079
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 1.65 HR
+
+0.001
+
+Iter 26 training loss = 0.534 , time = 0.84
+
+epoch 190 total training loss = 0.020
+
+Iter 0 3-px error in val = 2.614
+
+Iter 1 3-px error in val = 1.158
+
+Iter 2 3-px error in val = 0.867
+
+Iter 3 3-px error in val = 2.452
+
+Iter 4 3-px error in val = 2.839
+
+Iter 5 3-px error in val = 2.735
+
+Iter 6 3-px error in val = 2.667
+
+Iter 7 3-px error in val = 1.333
+
+Iter 8 3-px error in val = 1.043
+
+Iter 9 3-px error in val = 2.725
+
+epoch 190 total 3-px error in val = 2.043
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 1.66 HR
+
+0.001
+
+Iter 26 training loss = 0.613 , time = 0.81
+
+epoch 191 total training loss = 0.023
+
+Iter 0 3-px error in val = 2.252
+
+Iter 1 3-px error in val = 1.331
+
+Iter 2 3-px error in val = 0.916
+
+Iter 3 3-px error in val = 2.668
+
+Iter 4 3-px error in val = 2.945
+
+Iter 5 3-px error in val = 3.540
+
+Iter 6 3-px error in val = 2.870
+
+Iter 7 3-px error in val = 1.568
+
+Iter 8 3-px error in val = 1.057
+
+Iter 9 3-px error in val = 3.915
+
+epoch 191 total 3-px error in val = 2.306
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 1.67 HR
+
+0.001
+
+Iter 26 training loss = 0.428 , time = 0.82
+
+epoch 192 total training loss = 0.016
+
+Iter 0 3-px error in val = 2.626
+
+Iter 1 3-px error in val = 1.196
+
+Iter 2 3-px error in val = 0.908
+
+Iter 3 3-px error in val = 3.041
+
+Iter 4 3-px error in val = 3.101
+
+Iter 5 3-px error in val = 3.948
+
+Iter 6 3-px error in val = 2.813
+
+Iter 7 3-px error in val = 1.535
+
+Iter 8 3-px error in val = 1.094
+
+Iter 9 3-px error in val = 2.701
+
+epoch 192 total 3-px error in val = 2.296
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 1.68 HR
+
+0.001
+
+Iter 26 training loss = 1.274 , time = 0.81
+
+epoch 193 total training loss = 0.047
+
+Iter 0 3-px error in val = 2.474
+
+Iter 1 3-px error in val = 1.160
+
+Iter 2 3-px error in val = 0.877
+
+Iter 3 3-px error in val = 2.948
+
+Iter 4 3-px error in val = 3.026
+
+Iter 5 3-px error in val = 3.359
+
+Iter 6 3-px error in val = 3.082
+
+Iter 7 3-px error in val = 1.695
+
+Iter 8 3-px error in val = 1.126
+
+Iter 9 3-px error in val = 2.591
+
+epoch 193 total 3-px error in val = 2.234
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 1.69 HR
+
+0.001
+
+Iter 26 training loss = 0.882 , time = 0.84
+
+epoch 194 total training loss = 0.033
+
+Iter 0 3-px error in val = 2.217
+
+Iter 1 3-px error in val = 1.161
+
+Iter 2 3-px error in val = 0.930
+
+Iter 3 3-px error in val = 2.737
+
+Iter 4 3-px error in val = 3.126
+
+Iter 5 3-px error in val = 2.383
+
+Iter 6 3-px error in val = 2.750
+
+Iter 7 3-px error in val = 1.717
+
+Iter 8 3-px error in val = 1.072
+
+Iter 9 3-px error in val = 3.056
+
+epoch 194 total 3-px error in val = 2.115
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 1.69 HR
+
+0.001
+
+Iter 26 training loss = 0.650 , time = 0.83
+
+epoch 195 total training loss = 0.024
+
+Iter 0 3-px error in val = 2.394
+
+Iter 1 3-px error in val = 1.187
+
+Iter 2 3-px error in val = 0.889
+
+Iter 3 3-px error in val = 2.944
+
+Iter 4 3-px error in val = 3.007
+
+Iter 5 3-px error in val = 2.113
+
+Iter 6 3-px error in val = 2.728
+
+Iter 7 3-px error in val = 1.707
+
+Iter 8 3-px error in val = 1.019
+
+Iter 9 3-px error in val = 3.279
+
+epoch 195 total 3-px error in val = 2.127
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 1.70 HR
+
+0.001
+
+Iter 26 training loss = 0.619 , time = 0.81
+
+epoch 196 total training loss = 0.023
+
+Iter 0 3-px error in val = 3.465
+
+Iter 1 3-px error in val = 1.251
+
+Iter 2 3-px error in val = 0.931
+
+Iter 3 3-px error in val = 3.023
+
+Iter 4 3-px error in val = 2.824
+
+Iter 5 3-px error in val = 2.280
+
+Iter 6 3-px error in val = 2.994
+
+Iter 7 3-px error in val = 1.721
+
+Iter 8 3-px error in val = 1.120
+
+Iter 9 3-px error in val = 2.295
+
+epoch 196 total 3-px error in val = 2.190
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 1.71 HR
+
+0.001
+
+Iter 26 training loss = 0.418 , time = 0.83
+
+epoch 197 total training loss = 0.015
+
+Iter 0 3-px error in val = 2.144
+
+Iter 1 3-px error in val = 1.229
+
+Iter 2 3-px error in val = 0.978
+
+Iter 3 3-px error in val = 2.811
+
+Iter 4 3-px error in val = 2.999
+
+Iter 5 3-px error in val = 2.674
+
+Iter 6 3-px error in val = 2.772
+
+Iter 7 3-px error in val = 1.794
+
+Iter 8 3-px error in val = 1.118
+
+Iter 9 3-px error in val = 2.673
+
+epoch 197 total 3-px error in val = 2.119
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 1.72 HR
+
+0.001
+
+Iter 26 training loss = 0.361 , time = 0.81
+
+epoch 198 total training loss = 0.013
+
+Iter 0 3-px error in val = 2.621
+
+Iter 1 3-px error in val = 1.182
+
+Iter 2 3-px error in val = 0.859
+
+Iter 3 3-px error in val = 3.287
+
+Iter 4 3-px error in val = 3.070
+
+Iter 5 3-px error in val = 2.640
+
+Iter 6 3-px error in val = 2.697
+
+Iter 7 3-px error in val = 1.615
+
+Iter 8 3-px error in val = 1.044
+
+Iter 9 3-px error in val = 2.375
+
+epoch 198 total 3-px error in val = 2.139
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 1.73 HR
+
+0.001
+
+Iter 26 training loss = 0.285 , time = 0.80
+
+epoch 199 total training loss = 0.011
+
+Iter 0 3-px error in val = 2.006
+
+Iter 1 3-px error in val = 1.214
+
+Iter 2 3-px error in val = 1.087
+
+Iter 3 3-px error in val = 3.026
+
+Iter 4 3-px error in val = 2.870
+
+Iter 5 3-px error in val = 2.655
+
+Iter 6 3-px error in val = 2.586
+
+Iter 7 3-px error in val = 1.735
+
+Iter 8 3-px error in val = 1.049
+
+Iter 9 3-px error in val = 5.070
+
+epoch 199 total 3-px error in val = 2.330
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 1.74 HR
+
+0.001
+
+Iter 26 training loss = 0.345 , time = 0.82
+
+epoch 200 total training loss = 0.013
+
+Iter 0 3-px error in val = 2.370
+
+Iter 1 3-px error in val = 1.168
+
+Iter 2 3-px error in val = 0.843
+
+Iter 3 3-px error in val = 3.111
+
+Iter 4 3-px error in val = 2.919
+
+Iter 5 3-px error in val = 2.656
+
+Iter 6 3-px error in val = 2.867
+
+Iter 7 3-px error in val = 1.590
+
+Iter 8 3-px error in val = 1.072
+
+Iter 9 3-px error in val = 2.212
+
+epoch 200 total 3-px error in val = 2.081
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 1.75 HR
+
+0.0001
+
+Iter 26 training loss = 0.381 , time = 0.83
+
+epoch 201 total training loss = 0.014
+
+Iter 0 3-px error in val = 2.378
+
+Iter 1 3-px error in val = 1.118
+
+Iter 2 3-px error in val = 0.826
+
+Iter 3 3-px error in val = 2.980
+
+Iter 4 3-px error in val = 2.923
+
+Iter 5 3-px error in val = 2.575
+
+Iter 6 3-px error in val = 2.751
+
+Iter 7 3-px error in val = 1.537
+
+Iter 8 3-px error in val = 1.064
+
+Iter 9 3-px error in val = 2.101
+
+epoch 201 total 3-px error in val = 2.025
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 1.76 HR
+
+0.0001
+
+Iter 26 training loss = 0.446 , time = 0.80
+
+epoch 202 total training loss = 0.017
+
+Iter 0 3-px error in val = 2.176
+
+Iter 1 3-px error in val = 1.122
+
+Iter 2 3-px error in val = 0.832
+
+Iter 3 3-px error in val = 2.867
+
+Iter 4 3-px error in val = 2.882
+
+Iter 5 3-px error in val = 2.346
+
+Iter 6 3-px error in val = 2.737
+
+Iter 7 3-px error in val = 1.535
+
+Iter 8 3-px error in val = 1.032
+
+Iter 9 3-px error in val = 2.172
+
+epoch 202 total 3-px error in val = 1.970
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 1.76 HR
+
+0.0001
+
+Iter 26 training loss = 0.429 , time = 0.85
+
+epoch 203 total training loss = 0.016
+
+Iter 0 3-px error in val = 2.288
+
+Iter 1 3-px error in val = 1.132
+
+Iter 2 3-px error in val = 0.796
+
+Iter 3 3-px error in val = 2.771
+
+Iter 4 3-px error in val = 2.856
+
+Iter 5 3-px error in val = 2.427
+
+Iter 6 3-px error in val = 2.713
+
+Iter 7 3-px error in val = 1.567
+
+Iter 8 3-px error in val = 1.036
+
+Iter 9 3-px error in val = 2.141
+
+epoch 203 total 3-px error in val = 1.973
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 1.77 HR
+
+0.0001
+
+Iter 26 training loss = 0.543 , time = 0.83
+
+epoch 204 total training loss = 0.020
+
+Iter 0 3-px error in val = 2.228
+
+Iter 1 3-px error in val = 1.129
+
+Iter 2 3-px error in val = 0.794
+
+Iter 3 3-px error in val = 2.725
+
+Iter 4 3-px error in val = 2.881
+
+Iter 5 3-px error in val = 2.339
+
+Iter 6 3-px error in val = 2.657
+
+Iter 7 3-px error in val = 1.539
+
+Iter 8 3-px error in val = 1.051
+
+Iter 9 3-px error in val = 2.224
+
+epoch 204 total 3-px error in val = 1.957
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 1.78 HR
+
+0.0001
+
+Iter 26 training loss = 0.547 , time = 0.92
+
+epoch 205 total training loss = 0.020
+
+Iter 0 3-px error in val = 2.133
+
+Iter 1 3-px error in val = 1.113
+
+Iter 2 3-px error in val = 0.797
+
+Iter 3 3-px error in val = 2.678
+
+Iter 4 3-px error in val = 2.849
+
+Iter 5 3-px error in val = 2.380
+
+Iter 6 3-px error in val = 2.638
+
+Iter 7 3-px error in val = 1.569
+
+Iter 8 3-px error in val = 1.011
+
+Iter 9 3-px error in val = 2.387
+
+epoch 205 total 3-px error in val = 1.955
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 1.79 HR
+
+0.0001
+
+Iter 26 training loss = 0.455 , time = 0.82
+
+epoch 206 total training loss = 0.017
+
+Iter 0 3-px error in val = 2.111
+
+Iter 1 3-px error in val = 1.139
+
+Iter 2 3-px error in val = 0.806
+
+Iter 3 3-px error in val = 2.705
+
+Iter 4 3-px error in val = 2.867
+
+Iter 5 3-px error in val = 2.442
+
+Iter 6 3-px error in val = 2.648
+
+Iter 7 3-px error in val = 1.564
+
+Iter 8 3-px error in val = 1.010
+
+Iter 9 3-px error in val = 2.343
+
+epoch 206 total 3-px error in val = 1.963
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 1.80 HR
+
+0.0001
+
+Iter 26 training loss = 0.584 , time = 0.82
+
+epoch 207 total training loss = 0.022
+
+Iter 0 3-px error in val = 2.215
+
+Iter 1 3-px error in val = 1.109
+
+Iter 2 3-px error in val = 0.820
+
+Iter 3 3-px error in val = 2.702
+
+Iter 4 3-px error in val = 2.846
+
+Iter 5 3-px error in val = 2.384
+
+Iter 6 3-px error in val = 2.650
+
+Iter 7 3-px error in val = 1.552
+
+Iter 8 3-px error in val = 0.998
+
+Iter 9 3-px error in val = 2.219
+
+epoch 207 total 3-px error in val = 1.950
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 1.81 HR
+
+0.0001
+
+Iter 26 training loss = 0.409 , time = 0.82
+
+epoch 208 total training loss = 0.015
+
+Iter 0 3-px error in val = 2.130
+
+Iter 1 3-px error in val = 1.122
+
+Iter 2 3-px error in val = 0.812
+
+Iter 3 3-px error in val = 2.654
+
+Iter 4 3-px error in val = 2.849
+
+Iter 5 3-px error in val = 2.394
+
+Iter 6 3-px error in val = 2.638
+
+Iter 7 3-px error in val = 1.612
+
+Iter 8 3-px error in val = 1.006
+
+Iter 9 3-px error in val = 2.292
+
+epoch 208 total 3-px error in val = 1.951
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 1.82 HR
+
+0.0001
+
+Iter 26 training loss = 0.346 , time = 0.85
+
+epoch 209 total training loss = 0.013
+
+Iter 0 3-px error in val = 2.197
+
+Iter 1 3-px error in val = 1.167
+
+Iter 2 3-px error in val = 0.816
+
+Iter 3 3-px error in val = 2.696
+
+Iter 4 3-px error in val = 2.879
+
+Iter 5 3-px error in val = 2.418
+
+Iter 6 3-px error in val = 2.639
+
+Iter 7 3-px error in val = 1.604
+
+Iter 8 3-px error in val = 1.007
+
+Iter 9 3-px error in val = 2.366
+
+epoch 209 total 3-px error in val = 1.979
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 1.83 HR
+
+0.0001
+
+Iter 26 training loss = 0.399 , time = 0.83
+
+epoch 210 total training loss = 0.015
+
+Iter 0 3-px error in val = 2.129
+
+Iter 1 3-px error in val = 1.144
+
+Iter 2 3-px error in val = 0.827
+
+Iter 3 3-px error in val = 2.710
+
+Iter 4 3-px error in val = 2.869
+
+Iter 5 3-px error in val = 2.397
+
+Iter 6 3-px error in val = 2.644
+
+Iter 7 3-px error in val = 1.590
+
+Iter 8 3-px error in val = 1.004
+
+Iter 9 3-px error in val = 2.377
+
+epoch 210 total 3-px error in val = 1.969
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 1.83 HR
+
+0.0001
+
+Iter 26 training loss = 0.321 , time = 0.85
+
+epoch 211 total training loss = 0.012
+
+Iter 0 3-px error in val = 2.172
+
+Iter 1 3-px error in val = 1.155
+
+Iter 2 3-px error in val = 0.805
+
+Iter 3 3-px error in val = 2.635
+
+Iter 4 3-px error in val = 2.854
+
+Iter 5 3-px error in val = 2.423
+
+Iter 6 3-px error in val = 2.717
+
+Iter 7 3-px error in val = 1.581
+
+Iter 8 3-px error in val = 0.998
+
+Iter 9 3-px error in val = 2.365
+
+epoch 211 total 3-px error in val = 1.970
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 1.84 HR
+
+0.0001
+
+Iter 26 training loss = 0.473 , time = 0.84
+
+epoch 212 total training loss = 0.018
+
+Iter 0 3-px error in val = 2.178
+
+Iter 1 3-px error in val = 1.148
+
+Iter 2 3-px error in val = 0.826
+
+Iter 3 3-px error in val = 2.590
+
+Iter 4 3-px error in val = 2.866
+
+Iter 5 3-px error in val = 2.433
+
+Iter 6 3-px error in val = 2.629
+
+Iter 7 3-px error in val = 1.594
+
+Iter 8 3-px error in val = 1.009
+
+Iter 9 3-px error in val = 2.393
+
+epoch 212 total 3-px error in val = 1.967
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 1.85 HR
+
+0.0001
+
+Iter 26 training loss = 0.522 , time = 0.84
+
+epoch 213 total training loss = 0.019
+
+Iter 0 3-px error in val = 2.018
+
+Iter 1 3-px error in val = 1.148
+
+Iter 2 3-px error in val = 0.848
+
+Iter 3 3-px error in val = 2.609
+
+Iter 4 3-px error in val = 2.829
+
+Iter 5 3-px error in val = 2.404
+
+Iter 6 3-px error in val = 2.656
+
+Iter 7 3-px error in val = 1.553
+
+Iter 8 3-px error in val = 0.978
+
+Iter 9 3-px error in val = 2.465
+
+epoch 213 total 3-px error in val = 1.951
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 1.86 HR
+
+0.0001
+
+Iter 26 training loss = 0.290 , time = 0.84
+
+epoch 214 total training loss = 0.011
+
+Iter 0 3-px error in val = 2.174
+
+Iter 1 3-px error in val = 1.157
+
+Iter 2 3-px error in val = 0.830
+
+Iter 3 3-px error in val = 2.580
+
+Iter 4 3-px error in val = 2.860
+
+Iter 5 3-px error in val = 2.471
+
+Iter 6 3-px error in val = 2.661
+
+Iter 7 3-px error in val = 1.593
+
+Iter 8 3-px error in val = 0.993
+
+Iter 9 3-px error in val = 2.293
+
+epoch 214 total 3-px error in val = 1.961
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 1.87 HR
+
+0.0001
+
+Iter 26 training loss = 0.958 , time = 0.84
+
+epoch 215 total training loss = 0.035
+
+Iter 0 3-px error in val = 2.142
+
+Iter 1 3-px error in val = 1.149
+
+Iter 2 3-px error in val = 0.885
+
+Iter 3 3-px error in val = 2.580
+
+Iter 4 3-px error in val = 2.817
+
+Iter 5 3-px error in val = 2.445
+
+Iter 6 3-px error in val = 2.613
+
+Iter 7 3-px error in val = 1.705
+
+Iter 8 3-px error in val = 0.994
+
+Iter 9 3-px error in val = 2.325
+
+epoch 215 total 3-px error in val = 1.966
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 1.88 HR
+
+0.0001
+
+Iter 26 training loss = 0.410 , time = 0.80
+
+epoch 216 total training loss = 0.015
+
+Iter 0 3-px error in val = 2.061
+
+Iter 1 3-px error in val = 1.134
+
+Iter 2 3-px error in val = 0.824
+
+Iter 3 3-px error in val = 2.573
+
+Iter 4 3-px error in val = 2.805
+
+Iter 5 3-px error in val = 2.475
+
+Iter 6 3-px error in val = 2.610
+
+Iter 7 3-px error in val = 1.606
+
+Iter 8 3-px error in val = 1.000
+
+Iter 9 3-px error in val = 2.460
+
+epoch 216 total 3-px error in val = 1.955
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 1.89 HR
+
+0.0001
+
+Iter 26 training loss = 0.210 , time = 0.82
+
+epoch 217 total training loss = 0.008
+
+Iter 0 3-px error in val = 2.106
+
+Iter 1 3-px error in val = 1.151
+
+Iter 2 3-px error in val = 0.815
+
+Iter 3 3-px error in val = 2.615
+
+Iter 4 3-px error in val = 2.837
+
+Iter 5 3-px error in val = 2.457
+
+Iter 6 3-px error in val = 2.646
+
+Iter 7 3-px error in val = 1.595
+
+Iter 8 3-px error in val = 0.965
+
+Iter 9 3-px error in val = 2.390
+
+epoch 217 total 3-px error in val = 1.958
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 1.90 HR
+
+0.0001
+
+Iter 26 training loss = 0.388 , time = 0.80
+
+epoch 218 total training loss = 0.014
+
+Iter 0 3-px error in val = 2.171
+
+Iter 1 3-px error in val = 1.170
+
+Iter 2 3-px error in val = 0.810
+
+Iter 3 3-px error in val = 2.630
+
+Iter 4 3-px error in val = 2.829
+
+Iter 5 3-px error in val = 2.471
+
+Iter 6 3-px error in val = 2.642
+
+Iter 7 3-px error in val = 1.597
+
+Iter 8 3-px error in val = 0.979
+
+Iter 9 3-px error in val = 2.276
+
+epoch 218 total 3-px error in val = 1.958
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 1.90 HR
+
+0.0001
+
+Iter 26 training loss = 0.494 , time = 0.80
+
+epoch 219 total training loss = 0.018
+
+Iter 0 3-px error in val = 2.270
+
+Iter 1 3-px error in val = 1.149
+
+Iter 2 3-px error in val = 0.805
+
+Iter 3 3-px error in val = 2.607
+
+Iter 4 3-px error in val = 2.841
+
+Iter 5 3-px error in val = 2.417
+
+Iter 6 3-px error in val = 2.652
+
+Iter 7 3-px error in val = 1.597
+
+Iter 8 3-px error in val = 0.975
+
+Iter 9 3-px error in val = 2.279
+
+epoch 219 total 3-px error in val = 1.959
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 1.91 HR
+
+0.0001
+
+Iter 26 training loss = 0.224 , time = 0.80
+
+epoch 220 total training loss = 0.008
+
+Iter 0 3-px error in val = 2.152
+
+Iter 1 3-px error in val = 1.187
+
+Iter 2 3-px error in val = 0.833
+
+Iter 3 3-px error in val = 2.677
+
+Iter 4 3-px error in val = 2.851
+
+Iter 5 3-px error in val = 2.486
+
+Iter 6 3-px error in val = 2.630
+
+Iter 7 3-px error in val = 1.619
+
+Iter 8 3-px error in val = 0.971
+
+Iter 9 3-px error in val = 2.460
+
+epoch 220 total 3-px error in val = 1.987
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 1.92 HR
+
+0.0001
+
+Iter 26 training loss = 0.251 , time = 0.81
+
+epoch 221 total training loss = 0.009
+
+Iter 0 3-px error in val = 2.171
+
+Iter 1 3-px error in val = 1.181
+
+Iter 2 3-px error in val = 0.854
+
+Iter 3 3-px error in val = 2.598
+
+Iter 4 3-px error in val = 2.846
+
+Iter 5 3-px error in val = 2.558
+
+Iter 6 3-px error in val = 2.607
+
+Iter 7 3-px error in val = 1.617
+
+Iter 8 3-px error in val = 0.979
+
+Iter 9 3-px error in val = 2.471
+
+epoch 221 total 3-px error in val = 1.988
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 1.93 HR
+
+0.0001
+
+Iter 26 training loss = 0.294 , time = 0.82
+
+epoch 222 total training loss = 0.011
+
+Iter 0 3-px error in val = 2.253
+
+Iter 1 3-px error in val = 1.169
+
+Iter 2 3-px error in val = 0.872
+
+Iter 3 3-px error in val = 2.615
+
+Iter 4 3-px error in val = 2.828
+
+Iter 5 3-px error in val = 2.498
+
+Iter 6 3-px error in val = 2.604
+
+Iter 7 3-px error in val = 1.660
+
+Iter 8 3-px error in val = 0.972
+
+Iter 9 3-px error in val = 2.416
+
+epoch 222 total 3-px error in val = 1.989
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 1.94 HR
+
+0.0001
+
+Iter 26 training loss = 0.348 , time = 0.84
+
+epoch 223 total training loss = 0.013
+
+Iter 0 3-px error in val = 2.165
+
+Iter 1 3-px error in val = 1.158
+
+Iter 2 3-px error in val = 0.838
+
+Iter 3 3-px error in val = 2.643
+
+Iter 4 3-px error in val = 2.823
+
+Iter 5 3-px error in val = 2.498
+
+Iter 6 3-px error in val = 2.659
+
+Iter 7 3-px error in val = 1.636
+
+Iter 8 3-px error in val = 0.983
+
+Iter 9 3-px error in val = 2.375
+
+epoch 223 total 3-px error in val = 1.978
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 1.95 HR
+
+0.0001
+
+Iter 26 training loss = 0.222 , time = 0.81
+
+epoch 224 total training loss = 0.008
+
+Iter 0 3-px error in val = 2.128
+
+Iter 1 3-px error in val = 1.161
+
+Iter 2 3-px error in val = 0.839
+
+Iter 3 3-px error in val = 2.655
+
+Iter 4 3-px error in val = 2.822
+
+Iter 5 3-px error in val = 2.454
+
+Iter 6 3-px error in val = 2.641
+
+Iter 7 3-px error in val = 1.619
+
+Iter 8 3-px error in val = 0.976
+
+Iter 9 3-px error in val = 2.441
+
+epoch 224 total 3-px error in val = 1.974
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 1.96 HR
+
+0.0001
+
+Iter 26 training loss = 0.527 , time = 0.81
+
+epoch 225 total training loss = 0.020
+
+Iter 0 3-px error in val = 2.324
+
+Iter 1 3-px error in val = 1.140
+
+Iter 2 3-px error in val = 0.826
+
+Iter 3 3-px error in val = 2.694
+
+Iter 4 3-px error in val = 2.854
+
+Iter 5 3-px error in val = 2.383
+
+Iter 6 3-px error in val = 2.646
+
+Iter 7 3-px error in val = 1.595
+
+Iter 8 3-px error in val = 0.973
+
+Iter 9 3-px error in val = 2.368
+
+epoch 225 total 3-px error in val = 1.980
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 1.97 HR
+
+0.0001
+
+Iter 26 training loss = 0.379 , time = 0.81
+
+epoch 226 total training loss = 0.014
+
+Iter 0 3-px error in val = 2.283
+
+Iter 1 3-px error in val = 1.121
+
+Iter 2 3-px error in val = 0.849
+
+Iter 3 3-px error in val = 2.561
+
+Iter 4 3-px error in val = 2.801
+
+Iter 5 3-px error in val = 2.463
+
+Iter 6 3-px error in val = 2.618
+
+Iter 7 3-px error in val = 1.591
+
+Iter 8 3-px error in val = 0.954
+
+Iter 9 3-px error in val = 2.323
+
+epoch 226 total 3-px error in val = 1.957
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 1.97 HR
+
+0.0001
+
+Iter 26 training loss = 0.432 , time = 0.84
+
+epoch 227 total training loss = 0.016
+
+Iter 0 3-px error in val = 2.322
+
+Iter 1 3-px error in val = 1.147
+
+Iter 2 3-px error in val = 0.840
+
+Iter 3 3-px error in val = 2.627
+
+Iter 4 3-px error in val = 2.810
+
+Iter 5 3-px error in val = 2.472
+
+Iter 6 3-px error in val = 2.635
+
+Iter 7 3-px error in val = 1.641
+
+Iter 8 3-px error in val = 0.960
+
+Iter 9 3-px error in val = 2.426
+
+epoch 227 total 3-px error in val = 1.988
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 1.98 HR
+
+0.0001
+
+Iter 26 training loss = 0.337 , time = 0.83
+
+epoch 228 total training loss = 0.012
+
+Iter 0 3-px error in val = 2.230
+
+Iter 1 3-px error in val = 1.148
+
+Iter 2 3-px error in val = 0.840
+
+Iter 3 3-px error in val = 2.616
+
+Iter 4 3-px error in val = 2.838
+
+Iter 5 3-px error in val = 2.456
+
+Iter 6 3-px error in val = 2.626
+
+Iter 7 3-px error in val = 1.596
+
+Iter 8 3-px error in val = 0.950
+
+Iter 9 3-px error in val = 2.321
+
+epoch 228 total 3-px error in val = 1.962
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 1.99 HR
+
+0.0001
+
+Iter 26 training loss = 0.430 , time = 0.80
+
+epoch 229 total training loss = 0.016
+
+Iter 0 3-px error in val = 2.302
+
+Iter 1 3-px error in val = 1.153
+
+Iter 2 3-px error in val = 0.821
+
+Iter 3 3-px error in val = 2.631
+
+Iter 4 3-px error in val = 2.801
+
+Iter 5 3-px error in val = 2.362
+
+Iter 6 3-px error in val = 2.628
+
+Iter 7 3-px error in val = 1.603
+
+Iter 8 3-px error in val = 0.963
+
+Iter 9 3-px error in val = 2.303
+
+epoch 229 total 3-px error in val = 1.957
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 2.00 HR
+
+0.0001
+
+Iter 26 training loss = 0.530 , time = 0.80
+
+epoch 230 total training loss = 0.020
+
+Iter 0 3-px error in val = 2.177
+
+Iter 1 3-px error in val = 1.165
+
+Iter 2 3-px error in val = 0.817
+
+Iter 3 3-px error in val = 2.657
+
+Iter 4 3-px error in val = 2.860
+
+Iter 5 3-px error in val = 2.398
+
+Iter 6 3-px error in val = 2.584
+
+Iter 7 3-px error in val = 1.624
+
+Iter 8 3-px error in val = 0.975
+
+Iter 9 3-px error in val = 2.496
+
+epoch 230 total 3-px error in val = 1.975
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 2.01 HR
+
+0.0001
+
+Iter 26 training loss = 0.264 , time = 0.79
+
+epoch 231 total training loss = 0.010
+
+Iter 0 3-px error in val = 2.241
+
+Iter 1 3-px error in val = 1.193
+
+Iter 2 3-px error in val = 0.786
+
+Iter 3 3-px error in val = 2.642
+
+Iter 4 3-px error in val = 2.869
+
+Iter 5 3-px error in val = 2.417
+
+Iter 6 3-px error in val = 2.622
+
+Iter 7 3-px error in val = 1.562
+
+Iter 8 3-px error in val = 0.964
+
+Iter 9 3-px error in val = 2.288
+
+epoch 231 total 3-px error in val = 1.959
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 2.02 HR
+
+0.0001
+
+Iter 26 training loss = 0.587 , time = 0.83
+
+epoch 232 total training loss = 0.022
+
+Iter 0 3-px error in val = 2.226
+
+Iter 1 3-px error in val = 1.162
+
+Iter 2 3-px error in val = 0.797
+
+Iter 3 3-px error in val = 2.595
+
+Iter 4 3-px error in val = 2.826
+
+Iter 5 3-px error in val = 2.403
+
+Iter 6 3-px error in val = 2.622
+
+Iter 7 3-px error in val = 1.569
+
+Iter 8 3-px error in val = 0.952
+
+Iter 9 3-px error in val = 2.209
+
+epoch 232 total 3-px error in val = 1.936
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 2.03 HR
+
+0.0001
+
+Iter 26 training loss = 0.341 , time = 0.83
+
+epoch 233 total training loss = 0.013
+
+Iter 0 3-px error in val = 2.349
+
+Iter 1 3-px error in val = 1.148
+
+Iter 2 3-px error in val = 0.789
+
+Iter 3 3-px error in val = 2.598
+
+Iter 4 3-px error in val = 2.829
+
+Iter 5 3-px error in val = 2.392
+
+Iter 6 3-px error in val = 2.618
+
+Iter 7 3-px error in val = 1.606
+
+Iter 8 3-px error in val = 0.952
+
+Iter 9 3-px error in val = 2.137
+
+epoch 233 total 3-px error in val = 1.942
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 2.03 HR
+
+0.0001
+
+Iter 26 training loss = 0.265 , time = 0.81
+
+epoch 234 total training loss = 0.010
+
+Iter 0 3-px error in val = 2.198
+
+Iter 1 3-px error in val = 1.128
+
+Iter 2 3-px error in val = 0.787
+
+Iter 3 3-px error in val = 2.537
+
+Iter 4 3-px error in val = 2.837
+
+Iter 5 3-px error in val = 2.380
+
+Iter 6 3-px error in val = 2.594
+
+Iter 7 3-px error in val = 1.556
+
+Iter 8 3-px error in val = 0.962
+
+Iter 9 3-px error in val = 2.308
+
+epoch 234 total 3-px error in val = 1.929
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 2.04 HR
+
+0.0001
+
+Iter 26 training loss = 0.652 , time = 0.81
+
+epoch 235 total training loss = 0.024
+
+Iter 0 3-px error in val = 2.183
+
+Iter 1 3-px error in val = 1.111
+
+Iter 2 3-px error in val = 0.801
+
+Iter 3 3-px error in val = 2.545
+
+Iter 4 3-px error in val = 2.798
+
+Iter 5 3-px error in val = 2.343
+
+Iter 6 3-px error in val = 2.643
+
+Iter 7 3-px error in val = 1.595
+
+Iter 8 3-px error in val = 0.961
+
+Iter 9 3-px error in val = 2.381
+
+epoch 235 total 3-px error in val = 1.936
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 2.05 HR
+
+0.0001
+
+Iter 26 training loss = 0.352 , time = 0.81
+
+epoch 236 total training loss = 0.013
+
+Iter 0 3-px error in val = 2.247
+
+Iter 1 3-px error in val = 1.139
+
+Iter 2 3-px error in val = 0.816
+
+Iter 3 3-px error in val = 2.535
+
+Iter 4 3-px error in val = 2.816
+
+Iter 5 3-px error in val = 2.408
+
+Iter 6 3-px error in val = 2.634
+
+Iter 7 3-px error in val = 1.600
+
+Iter 8 3-px error in val = 0.957
+
+Iter 9 3-px error in val = 2.383
+
+epoch 236 total 3-px error in val = 1.954
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 2.06 HR
+
+0.0001
+
+Iter 26 training loss = 0.450 , time = 0.79
+
+epoch 237 total training loss = 0.017
+
+Iter 0 3-px error in val = 2.107
+
+Iter 1 3-px error in val = 1.156
+
+Iter 2 3-px error in val = 0.883
+
+Iter 3 3-px error in val = 2.518
+
+Iter 4 3-px error in val = 2.768
+
+Iter 5 3-px error in val = 2.419
+
+Iter 6 3-px error in val = 2.635
+
+Iter 7 3-px error in val = 1.687
+
+Iter 8 3-px error in val = 0.954
+
+Iter 9 3-px error in val = 2.596
+
+epoch 237 total 3-px error in val = 1.972
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 2.07 HR
+
+0.0001
+
+Iter 26 training loss = 0.280 , time = 0.84
+
+epoch 238 total training loss = 0.010
+
+Iter 0 3-px error in val = 2.312
+
+Iter 1 3-px error in val = 1.125
+
+Iter 2 3-px error in val = 0.826
+
+Iter 3 3-px error in val = 2.534
+
+Iter 4 3-px error in val = 2.805
+
+Iter 5 3-px error in val = 2.309
+
+Iter 6 3-px error in val = 2.613
+
+Iter 7 3-px error in val = 1.612
+
+Iter 8 3-px error in val = 0.965
+
+Iter 9 3-px error in val = 2.510
+
+epoch 238 total 3-px error in val = 1.961
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 2.08 HR
+
+0.0001
+
+Iter 26 training loss = 0.447 , time = 0.80
+
+epoch 239 total training loss = 0.017
+
+Iter 0 3-px error in val = 2.335
+
+Iter 1 3-px error in val = 1.141
+
+Iter 2 3-px error in val = 0.799
+
+Iter 3 3-px error in val = 2.525
+
+Iter 4 3-px error in val = 2.831
+
+Iter 5 3-px error in val = 2.307
+
+Iter 6 3-px error in val = 2.607
+
+Iter 7 3-px error in val = 1.587
+
+Iter 8 3-px error in val = 0.949
+
+Iter 9 3-px error in val = 2.410
+
+epoch 239 total 3-px error in val = 1.949
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 2.09 HR
+
+0.0001
+
+Iter 26 training loss = 0.486 , time = 0.83
+
+epoch 240 total training loss = 0.018
+
+Iter 0 3-px error in val = 2.324
+
+Iter 1 3-px error in val = 1.123
+
+Iter 2 3-px error in val = 0.795
+
+Iter 3 3-px error in val = 2.557
+
+Iter 4 3-px error in val = 2.836
+
+Iter 5 3-px error in val = 2.270
+
+Iter 6 3-px error in val = 2.650
+
+Iter 7 3-px error in val = 1.637
+
+Iter 8 3-px error in val = 0.958
+
+Iter 9 3-px error in val = 2.289
+
+epoch 240 total 3-px error in val = 1.944
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 2.10 HR
+
+0.0001
+
+Iter 26 training loss = 0.284 , time = 0.81
+
+epoch 241 total training loss = 0.011
+
+Iter 0 3-px error in val = 2.475
+
+Iter 1 3-px error in val = 1.176
+
+Iter 2 3-px error in val = 0.793
+
+Iter 3 3-px error in val = 2.576
+
+Iter 4 3-px error in val = 2.871
+
+Iter 5 3-px error in val = 2.283
+
+Iter 6 3-px error in val = 2.679
+
+Iter 7 3-px error in val = 1.575
+
+Iter 8 3-px error in val = 0.960
+
+Iter 9 3-px error in val = 2.219
+
+epoch 241 total 3-px error in val = 1.961
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 2.10 HR
+
+0.0001
+
+Iter 26 training loss = 0.328 , time = 0.82
+
+epoch 242 total training loss = 0.012
+
+Iter 0 3-px error in val = 2.155
+
+Iter 1 3-px error in val = 1.138
+
+Iter 2 3-px error in val = 0.830
+
+Iter 3 3-px error in val = 2.561
+
+Iter 4 3-px error in val = 2.830
+
+Iter 5 3-px error in val = 2.346
+
+Iter 6 3-px error in val = 2.655
+
+Iter 7 3-px error in val = 1.633
+
+Iter 8 3-px error in val = 0.958
+
+Iter 9 3-px error in val = 2.343
+
+epoch 242 total 3-px error in val = 1.945
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 2.11 HR
+
+0.0001
+
+Iter 26 training loss = 0.464 , time = 0.81
+
+epoch 243 total training loss = 0.017
+
+Iter 0 3-px error in val = 2.317
+
+Iter 1 3-px error in val = 1.131
+
+Iter 2 3-px error in val = 0.790
+
+Iter 3 3-px error in val = 2.541
+
+Iter 4 3-px error in val = 2.835
+
+Iter 5 3-px error in val = 2.334
+
+Iter 6 3-px error in val = 2.631
+
+Iter 7 3-px error in val = 1.597
+
+Iter 8 3-px error in val = 0.947
+
+Iter 9 3-px error in val = 2.343
+
+epoch 243 total 3-px error in val = 1.947
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 2.12 HR
+
+0.0001
+
+Iter 26 training loss = 0.311 , time = 0.80
+
+epoch 244 total training loss = 0.012
+
+Iter 0 3-px error in val = 2.349
+
+Iter 1 3-px error in val = 1.112
+
+Iter 2 3-px error in val = 0.791
+
+Iter 3 3-px error in val = 2.639
+
+Iter 4 3-px error in val = 2.806
+
+Iter 5 3-px error in val = 2.258
+
+Iter 6 3-px error in val = 2.612
+
+Iter 7 3-px error in val = 1.634
+
+Iter 8 3-px error in val = 0.954
+
+Iter 9 3-px error in val = 2.128
+
+epoch 244 total 3-px error in val = 1.928
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 2.13 HR
+
+0.0001
+
+Iter 26 training loss = 0.389 , time = 0.93
+
+epoch 245 total training loss = 0.014
+
+Iter 0 3-px error in val = 2.125
+
+Iter 1 3-px error in val = 1.135
+
+Iter 2 3-px error in val = 0.788
+
+Iter 3 3-px error in val = 2.656
+
+Iter 4 3-px error in val = 2.859
+
+Iter 5 3-px error in val = 2.341
+
+Iter 6 3-px error in val = 2.600
+
+Iter 7 3-px error in val = 1.588
+
+Iter 8 3-px error in val = 0.953
+
+Iter 9 3-px error in val = 2.366
+
+epoch 245 total 3-px error in val = 1.941
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 2.14 HR
+
+0.0001
+
+Iter 26 training loss = 0.245 , time = 0.80
+
+epoch 246 total training loss = 0.009
+
+Iter 0 3-px error in val = 2.170
+
+Iter 1 3-px error in val = 1.128
+
+Iter 2 3-px error in val = 0.809
+
+Iter 3 3-px error in val = 2.608
+
+Iter 4 3-px error in val = 2.809
+
+Iter 5 3-px error in val = 2.318
+
+Iter 6 3-px error in val = 2.599
+
+Iter 7 3-px error in val = 1.637
+
+Iter 8 3-px error in val = 0.970
+
+Iter 9 3-px error in val = 2.338
+
+epoch 246 total 3-px error in val = 1.939
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 2.15 HR
+
+0.0001
+
+Iter 26 training loss = 0.235 , time = 0.81
+
+epoch 247 total training loss = 0.009
+
+Iter 0 3-px error in val = 2.082
+
+Iter 1 3-px error in val = 1.158
+
+Iter 2 3-px error in val = 0.819
+
+Iter 3 3-px error in val = 2.732
+
+Iter 4 3-px error in val = 2.842
+
+Iter 5 3-px error in val = 2.355
+
+Iter 6 3-px error in val = 2.586
+
+Iter 7 3-px error in val = 1.604
+
+Iter 8 3-px error in val = 0.956
+
+Iter 9 3-px error in val = 2.577
+
+epoch 247 total 3-px error in val = 1.971
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 2.16 HR
+
+0.0001
+
+Iter 26 training loss = 0.825 , time = 0.83
+
+epoch 248 total training loss = 0.031
+
+Iter 0 3-px error in val = 2.272
+
+Iter 1 3-px error in val = 1.147
+
+Iter 2 3-px error in val = 0.802
+
+Iter 3 3-px error in val = 2.683
+
+Iter 4 3-px error in val = 2.838
+
+Iter 5 3-px error in val = 2.328
+
+Iter 6 3-px error in val = 2.608
+
+Iter 7 3-px error in val = 1.618
+
+Iter 8 3-px error in val = 0.971
+
+Iter 9 3-px error in val = 2.246
+
+epoch 248 total 3-px error in val = 1.951
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 2.17 HR
+
+0.0001
+
+Iter 26 training loss = 0.329 , time = 0.83
+
+epoch 249 total training loss = 0.012
+
+Iter 0 3-px error in val = 2.252
+
+Iter 1 3-px error in val = 1.143
+
+Iter 2 3-px error in val = 0.787
+
+Iter 3 3-px error in val = 2.676
+
+Iter 4 3-px error in val = 2.806
+
+Iter 5 3-px error in val = 2.306
+
+Iter 6 3-px error in val = 2.585
+
+Iter 7 3-px error in val = 1.599
+
+Iter 8 3-px error in val = 0.960
+
+Iter 9 3-px error in val = 2.250
+
+epoch 249 total 3-px error in val = 1.936
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 2.17 HR
+
+0.0001
+
+Iter 26 training loss = 0.362 , time = 0.82
+
+epoch 250 total training loss = 0.013
+
+Iter 0 3-px error in val = 2.211
+
+Iter 1 3-px error in val = 1.127
+
+Iter 2 3-px error in val = 0.810
+
+Iter 3 3-px error in val = 2.625
+
+Iter 4 3-px error in val = 2.811
+
+Iter 5 3-px error in val = 2.314
+
+Iter 6 3-px error in val = 2.578
+
+Iter 7 3-px error in val = 1.592
+
+Iter 8 3-px error in val = 0.950
+
+Iter 9 3-px error in val = 2.174
+
+epoch 250 total 3-px error in val = 1.919
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 2.18 HR
+
+0.0001
+
+Iter 26 training loss = 0.529 , time = 0.83
+
+epoch 251 total training loss = 0.020
+
+Iter 0 3-px error in val = 2.311
+
+Iter 1 3-px error in val = 1.154
+
+Iter 2 3-px error in val = 0.811
+
+Iter 3 3-px error in val = 2.668
+
+Iter 4 3-px error in val = 2.829
+
+Iter 5 3-px error in val = 2.295
+
+Iter 6 3-px error in val = 2.617
+
+Iter 7 3-px error in val = 1.577
+
+Iter 8 3-px error in val = 0.955
+
+Iter 9 3-px error in val = 2.239
+
+epoch 251 total 3-px error in val = 1.946
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 2.19 HR
+
+0.0001
+
+Iter 26 training loss = 0.373 , time = 0.79
+
+epoch 252 total training loss = 0.014
+
+Iter 0 3-px error in val = 2.133
+
+Iter 1 3-px error in val = 1.144
+
+Iter 2 3-px error in val = 0.800
+
+Iter 3 3-px error in val = 2.597
+
+Iter 4 3-px error in val = 2.815
+
+Iter 5 3-px error in val = 2.366
+
+Iter 6 3-px error in val = 2.562
+
+Iter 7 3-px error in val = 1.590
+
+Iter 8 3-px error in val = 0.957
+
+Iter 9 3-px error in val = 2.463
+
+epoch 252 total 3-px error in val = 1.943
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 2.20 HR
+
+0.0001
+
+Iter 26 training loss = 0.354 , time = 0.79
+
+epoch 253 total training loss = 0.013
+
+Iter 0 3-px error in val = 2.184
+
+Iter 1 3-px error in val = 1.137
+
+Iter 2 3-px error in val = 0.855
+
+Iter 3 3-px error in val = 2.598
+
+Iter 4 3-px error in val = 2.810
+
+Iter 5 3-px error in val = 2.325
+
+Iter 6 3-px error in val = 2.559
+
+Iter 7 3-px error in val = 1.615
+
+Iter 8 3-px error in val = 0.960
+
+Iter 9 3-px error in val = 2.509
+
+epoch 253 total 3-px error in val = 1.955
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 2.21 HR
+
+0.0001
+
+Iter 26 training loss = 0.287 , time = 0.82
+
+epoch 254 total training loss = 0.011
+
+Iter 0 3-px error in val = 2.254
+
+Iter 1 3-px error in val = 1.102
+
+Iter 2 3-px error in val = 0.809
+
+Iter 3 3-px error in val = 2.609
+
+Iter 4 3-px error in val = 2.808
+
+Iter 5 3-px error in val = 2.272
+
+Iter 6 3-px error in val = 2.586
+
+Iter 7 3-px error in val = 1.594
+
+Iter 8 3-px error in val = 0.960
+
+Iter 9 3-px error in val = 2.387
+
+epoch 254 total 3-px error in val = 1.938
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 2.22 HR
+
+0.0001
+
+Iter 26 training loss = 0.161 , time = 0.82
+
+epoch 255 total training loss = 0.006
+
+Iter 0 3-px error in val = 2.323
+
+Iter 1 3-px error in val = 1.156
+
+Iter 2 3-px error in val = 0.826
+
+Iter 3 3-px error in val = 2.598
+
+Iter 4 3-px error in val = 2.790
+
+Iter 5 3-px error in val = 2.326
+
+Iter 6 3-px error in val = 2.625
+
+Iter 7 3-px error in val = 1.636
+
+Iter 8 3-px error in val = 0.952
+
+Iter 9 3-px error in val = 2.245
+
+epoch 255 total 3-px error in val = 1.948
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 2.23 HR
+
+0.0001
+
+Iter 26 training loss = 0.312 , time = 0.85
+
+epoch 256 total training loss = 0.012
+
+Iter 0 3-px error in val = 2.263
+
+Iter 1 3-px error in val = 1.142
+
+Iter 2 3-px error in val = 0.848
+
+Iter 3 3-px error in val = 2.574
+
+Iter 4 3-px error in val = 2.801
+
+Iter 5 3-px error in val = 2.352
+
+Iter 6 3-px error in val = 2.635
+
+Iter 7 3-px error in val = 1.610
+
+Iter 8 3-px error in val = 0.939
+
+Iter 9 3-px error in val = 2.285
+
+epoch 256 total 3-px error in val = 1.945
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 2.23 HR
+
+0.0001
+
+Iter 26 training loss = 0.570 , time = 0.81
+
+epoch 257 total training loss = 0.021
+
+Iter 0 3-px error in val = 2.422
+
+Iter 1 3-px error in val = 1.136
+
+Iter 2 3-px error in val = 0.816
+
+Iter 3 3-px error in val = 2.652
+
+Iter 4 3-px error in val = 2.810
+
+Iter 5 3-px error in val = 2.368
+
+Iter 6 3-px error in val = 2.650
+
+Iter 7 3-px error in val = 1.609
+
+Iter 8 3-px error in val = 0.943
+
+Iter 9 3-px error in val = 2.202
+
+epoch 257 total 3-px error in val = 1.961
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 2.24 HR
+
+0.0001
+
+Iter 26 training loss = 0.301 , time = 0.80
+
+epoch 258 total training loss = 0.011
+
+Iter 0 3-px error in val = 2.549
+
+Iter 1 3-px error in val = 1.137
+
+Iter 2 3-px error in val = 0.806
+
+Iter 3 3-px error in val = 2.544
+
+Iter 4 3-px error in val = 2.799
+
+Iter 5 3-px error in val = 2.297
+
+Iter 6 3-px error in val = 2.641
+
+Iter 7 3-px error in val = 1.553
+
+Iter 8 3-px error in val = 0.958
+
+Iter 9 3-px error in val = 2.099
+
+epoch 258 total 3-px error in val = 1.938
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 2.25 HR
+
+0.0001
+
+Iter 26 training loss = 0.294 , time = 0.82
+
+epoch 259 total training loss = 0.011
+
+Iter 0 3-px error in val = 2.434
+
+Iter 1 3-px error in val = 1.104
+
+Iter 2 3-px error in val = 0.796
+
+Iter 3 3-px error in val = 2.588
+
+Iter 4 3-px error in val = 2.805
+
+Iter 5 3-px error in val = 2.236
+
+Iter 6 3-px error in val = 2.591
+
+Iter 7 3-px error in val = 1.570
+
+Iter 8 3-px error in val = 0.951
+
+Iter 9 3-px error in val = 2.098
+
+epoch 259 total 3-px error in val = 1.917
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 2.26 HR
+
+0.0001
+
+Iter 26 training loss = 0.294 , time = 0.84
+
+epoch 260 total training loss = 0.011
+
+Iter 0 3-px error in val = 2.346
+
+Iter 1 3-px error in val = 1.131
+
+Iter 2 3-px error in val = 0.818
+
+Iter 3 3-px error in val = 2.576
+
+Iter 4 3-px error in val = 2.831
+
+Iter 5 3-px error in val = 2.287
+
+Iter 6 3-px error in val = 2.627
+
+Iter 7 3-px error in val = 1.579
+
+Iter 8 3-px error in val = 0.950
+
+Iter 9 3-px error in val = 2.151
+
+epoch 260 total 3-px error in val = 1.930
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 2.27 HR
+
+0.0001
+
+Iter 26 training loss = 0.342 , time = 0.85
+
+epoch 261 total training loss = 0.013
+
+Iter 0 3-px error in val = 2.404
+
+Iter 1 3-px error in val = 1.113
+
+Iter 2 3-px error in val = 0.800
+
+Iter 3 3-px error in val = 2.614
+
+Iter 4 3-px error in val = 2.820
+
+Iter 5 3-px error in val = 2.246
+
+Iter 6 3-px error in val = 2.613
+
+Iter 7 3-px error in val = 1.607
+
+Iter 8 3-px error in val = 0.948
+
+Iter 9 3-px error in val = 2.124
+
+epoch 261 total 3-px error in val = 1.929
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 2.28 HR
+
+0.0001
+
+Iter 26 training loss = 0.276 , time = 0.81
+
+epoch 262 total training loss = 0.010
+
+Iter 0 3-px error in val = 2.262
+
+Iter 1 3-px error in val = 1.100
+
+Iter 2 3-px error in val = 0.792
+
+Iter 3 3-px error in val = 2.669
+
+Iter 4 3-px error in val = 2.784
+
+Iter 5 3-px error in val = 2.224
+
+Iter 6 3-px error in val = 2.566
+
+Iter 7 3-px error in val = 1.607
+
+Iter 8 3-px error in val = 0.943
+
+Iter 9 3-px error in val = 2.178
+
+epoch 262 total 3-px error in val = 1.912
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 2.29 HR
+
+0.0001
+
+Iter 26 training loss = 0.260 , time = 0.83
+
+epoch 263 total training loss = 0.010
+
+Iter 0 3-px error in val = 2.266
+
+Iter 1 3-px error in val = 1.127
+
+Iter 2 3-px error in val = 0.799
+
+Iter 3 3-px error in val = 2.622
+
+Iter 4 3-px error in val = 2.766
+
+Iter 5 3-px error in val = 2.191
+
+Iter 6 3-px error in val = 2.669
+
+Iter 7 3-px error in val = 1.580
+
+Iter 8 3-px error in val = 0.935
+
+Iter 9 3-px error in val = 2.182
+
+epoch 263 total 3-px error in val = 1.914
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 2.30 HR
+
+0.0001
+
+Iter 26 training loss = 0.371 , time = 0.79
+
+epoch 264 total training loss = 0.014
+
+Iter 0 3-px error in val = 2.382
+
+Iter 1 3-px error in val = 1.093
+
+Iter 2 3-px error in val = 0.801
+
+Iter 3 3-px error in val = 2.511
+
+Iter 4 3-px error in val = 2.758
+
+Iter 5 3-px error in val = 2.175
+
+Iter 6 3-px error in val = 2.600
+
+Iter 7 3-px error in val = 1.603
+
+Iter 8 3-px error in val = 0.933
+
+Iter 9 3-px error in val = 2.165
+
+epoch 264 total 3-px error in val = 1.902
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 2.30 HR
+
+0.0001
+
+Iter 26 training loss = 0.304 , time = 0.82
+
+epoch 265 total training loss = 0.011
+
+Iter 0 3-px error in val = 2.437
+
+Iter 1 3-px error in val = 1.122
+
+Iter 2 3-px error in val = 0.793
+
+Iter 3 3-px error in val = 2.513
+
+Iter 4 3-px error in val = 2.778
+
+Iter 5 3-px error in val = 2.185
+
+Iter 6 3-px error in val = 2.637
+
+Iter 7 3-px error in val = 1.592
+
+Iter 8 3-px error in val = 0.948
+
+Iter 9 3-px error in val = 2.170
+
+epoch 265 total 3-px error in val = 1.918
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 2.31 HR
+
+0.0001
+
+Iter 26 training loss = 0.313 , time = 0.82
+
+epoch 266 total training loss = 0.012
+
+Iter 0 3-px error in val = 2.136
+
+Iter 1 3-px error in val = 1.151
+
+Iter 2 3-px error in val = 0.836
+
+Iter 3 3-px error in val = 2.521
+
+Iter 4 3-px error in val = 2.787
+
+Iter 5 3-px error in val = 2.307
+
+Iter 6 3-px error in val = 2.641
+
+Iter 7 3-px error in val = 1.618
+
+Iter 8 3-px error in val = 0.971
+
+Iter 9 3-px error in val = 2.425
+
+epoch 266 total 3-px error in val = 1.939
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 2.32 HR
+
+0.0001
+
+Iter 26 training loss = 0.295 , time = 0.79
+
+epoch 267 total training loss = 0.011
+
+Iter 0 3-px error in val = 2.198
+
+Iter 1 3-px error in val = 1.155
+
+Iter 2 3-px error in val = 0.846
+
+Iter 3 3-px error in val = 2.514
+
+Iter 4 3-px error in val = 2.834
+
+Iter 5 3-px error in val = 2.450
+
+Iter 6 3-px error in val = 2.583
+
+Iter 7 3-px error in val = 1.619
+
+Iter 8 3-px error in val = 0.961
+
+Iter 9 3-px error in val = 2.670
+
+epoch 267 total 3-px error in val = 1.983
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 2.33 HR
+
+0.0001
+
+Iter 26 training loss = 0.332 , time = 0.81
+
+epoch 268 total training loss = 0.012
+
+Iter 0 3-px error in val = 2.546
+
+Iter 1 3-px error in val = 1.166
+
+Iter 2 3-px error in val = 0.834
+
+Iter 3 3-px error in val = 2.557
+
+Iter 4 3-px error in val = 2.830
+
+Iter 5 3-px error in val = 2.384
+
+Iter 6 3-px error in val = 2.590
+
+Iter 7 3-px error in val = 1.607
+
+Iter 8 3-px error in val = 0.941
+
+Iter 9 3-px error in val = 2.291
+
+epoch 268 total 3-px error in val = 1.975
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 2.34 HR
+
+0.0001
+
+Iter 26 training loss = 0.261 , time = 0.83
+
+epoch 269 total training loss = 0.010
+
+Iter 0 3-px error in val = 2.560
+
+Iter 1 3-px error in val = 1.131
+
+Iter 2 3-px error in val = 0.812
+
+Iter 3 3-px error in val = 2.579
+
+Iter 4 3-px error in val = 2.827
+
+Iter 5 3-px error in val = 2.349
+
+Iter 6 3-px error in val = 2.582
+
+Iter 7 3-px error in val = 1.609
+
+Iter 8 3-px error in val = 0.951
+
+Iter 9 3-px error in val = 2.287
+
+epoch 269 total 3-px error in val = 1.968
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 2.35 HR
+
+0.0001
+
+Iter 26 training loss = 0.261 , time = 0.82
+
+epoch 270 total training loss = 0.010
+
+Iter 0 3-px error in val = 2.358
+
+Iter 1 3-px error in val = 1.149
+
+Iter 2 3-px error in val = 0.816
+
+Iter 3 3-px error in val = 2.582
+
+Iter 4 3-px error in val = 2.819
+
+Iter 5 3-px error in val = 2.378
+
+Iter 6 3-px error in val = 2.660
+
+Iter 7 3-px error in val = 1.601
+
+Iter 8 3-px error in val = 0.940
+
+Iter 9 3-px error in val = 2.354
+
+epoch 270 total 3-px error in val = 1.966
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 2.36 HR
+
+0.0001
+
+Iter 26 training loss = 0.438 , time = 0.81
+
+epoch 271 total training loss = 0.016
+
+Iter 0 3-px error in val = 2.273
+
+Iter 1 3-px error in val = 1.140
+
+Iter 2 3-px error in val = 0.816
+
+Iter 3 3-px error in val = 2.650
+
+Iter 4 3-px error in val = 2.831
+
+Iter 5 3-px error in val = 2.353
+
+Iter 6 3-px error in val = 2.579
+
+Iter 7 3-px error in val = 1.569
+
+Iter 8 3-px error in val = 0.935
+
+Iter 9 3-px error in val = 2.253
+
+epoch 271 total 3-px error in val = 1.940
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 2.37 HR
+
+0.0001
+
+Iter 26 training loss = 0.395 , time = 0.79
+
+epoch 272 total training loss = 0.015
+
+Iter 0 3-px error in val = 2.275
+
+Iter 1 3-px error in val = 1.132
+
+Iter 2 3-px error in val = 0.819
+
+Iter 3 3-px error in val = 2.778
+
+Iter 4 3-px error in val = 2.802
+
+Iter 5 3-px error in val = 2.306
+
+Iter 6 3-px error in val = 2.569
+
+Iter 7 3-px error in val = 1.562
+
+Iter 8 3-px error in val = 0.964
+
+Iter 9 3-px error in val = 2.432
+
+epoch 272 total 3-px error in val = 1.964
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 2.37 HR
+
+0.0001
+
+Iter 26 training loss = 0.356 , time = 0.83
+
+epoch 273 total training loss = 0.013
+
+Iter 0 3-px error in val = 2.318
+
+Iter 1 3-px error in val = 1.125
+
+Iter 2 3-px error in val = 0.813
+
+Iter 3 3-px error in val = 2.624
+
+Iter 4 3-px error in val = 2.779
+
+Iter 5 3-px error in val = 2.324
+
+Iter 6 3-px error in val = 2.565
+
+Iter 7 3-px error in val = 1.609
+
+Iter 8 3-px error in val = 0.961
+
+Iter 9 3-px error in val = 2.560
+
+epoch 273 total 3-px error in val = 1.968
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 2.38 HR
+
+0.0001
+
+Iter 26 training loss = 0.327 , time = 0.81
+
+epoch 274 total training loss = 0.012
+
+Iter 0 3-px error in val = 2.352
+
+Iter 1 3-px error in val = 1.133
+
+Iter 2 3-px error in val = 0.776
+
+Iter 3 3-px error in val = 2.631
+
+Iter 4 3-px error in val = 2.817
+
+Iter 5 3-px error in val = 2.351
+
+Iter 6 3-px error in val = 2.622
+
+Iter 7 3-px error in val = 1.594
+
+Iter 8 3-px error in val = 0.961
+
+Iter 9 3-px error in val = 2.524
+
+epoch 274 total 3-px error in val = 1.976
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 2.39 HR
+
+0.0001
+
+Iter 26 training loss = 0.393 , time = 0.80
+
+epoch 275 total training loss = 0.015
+
+Iter 0 3-px error in val = 2.207
+
+Iter 1 3-px error in val = 1.140
+
+Iter 2 3-px error in val = 0.792
+
+Iter 3 3-px error in val = 2.614
+
+Iter 4 3-px error in val = 2.785
+
+Iter 5 3-px error in val = 2.341
+
+Iter 6 3-px error in val = 2.600
+
+Iter 7 3-px error in val = 1.583
+
+Iter 8 3-px error in val = 0.921
+
+Iter 9 3-px error in val = 2.309
+
+epoch 275 total 3-px error in val = 1.929
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 2.40 HR
+
+0.0001
+
+Iter 26 training loss = 0.241 , time = 0.82
+
+epoch 276 total training loss = 0.009
+
+Iter 0 3-px error in val = 2.433
+
+Iter 1 3-px error in val = 1.148
+
+Iter 2 3-px error in val = 0.802
+
+Iter 3 3-px error in val = 2.666
+
+Iter 4 3-px error in val = 2.826
+
+Iter 5 3-px error in val = 2.406
+
+Iter 6 3-px error in val = 2.607
+
+Iter 7 3-px error in val = 1.565
+
+Iter 8 3-px error in val = 0.938
+
+Iter 9 3-px error in val = 2.318
+
+epoch 276 total 3-px error in val = 1.971
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 2.41 HR
+
+0.0001
+
+Iter 26 training loss = 0.291 , time = 0.84
+
+epoch 277 total training loss = 0.011
+
+Iter 0 3-px error in val = 2.190
+
+Iter 1 3-px error in val = 1.145
+
+Iter 2 3-px error in val = 0.831
+
+Iter 3 3-px error in val = 2.565
+
+Iter 4 3-px error in val = 2.800
+
+Iter 5 3-px error in val = 2.408
+
+Iter 6 3-px error in val = 2.578
+
+Iter 7 3-px error in val = 1.611
+
+Iter 8 3-px error in val = 0.947
+
+Iter 9 3-px error in val = 2.640
+
+epoch 277 total 3-px error in val = 1.972
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 2.42 HR
+
+0.0001
+
+Iter 26 training loss = 0.368 , time = 0.82
+
+epoch 278 total training loss = 0.014
+
+Iter 0 3-px error in val = 2.248
+
+Iter 1 3-px error in val = 1.151
+
+Iter 2 3-px error in val = 0.804
+
+Iter 3 3-px error in val = 2.578
+
+Iter 4 3-px error in val = 2.805
+
+Iter 5 3-px error in val = 2.405
+
+Iter 6 3-px error in val = 2.650
+
+Iter 7 3-px error in val = 1.564
+
+Iter 8 3-px error in val = 0.953
+
+Iter 9 3-px error in val = 2.422
+
+epoch 278 total 3-px error in val = 1.958
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 2.43 HR
+
+0.0001
+
+Iter 26 training loss = 0.266 , time = 0.82
+
+epoch 279 total training loss = 0.010
+
+Iter 0 3-px error in val = 2.165
+
+Iter 1 3-px error in val = 1.135
+
+Iter 2 3-px error in val = 0.830
+
+Iter 3 3-px error in val = 2.579
+
+Iter 4 3-px error in val = 2.802
+
+Iter 5 3-px error in val = 2.322
+
+Iter 6 3-px error in val = 2.612
+
+Iter 7 3-px error in val = 1.535
+
+Iter 8 3-px error in val = 0.951
+
+Iter 9 3-px error in val = 2.542
+
+epoch 279 total 3-px error in val = 1.947
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 2.44 HR
+
+0.0001
+
+Iter 26 training loss = 0.310 , time = 0.83
+
+epoch 280 total training loss = 0.011
+
+Iter 0 3-px error in val = 2.179
+
+Iter 1 3-px error in val = 1.127
+
+Iter 2 3-px error in val = 0.796
+
+Iter 3 3-px error in val = 2.573
+
+Iter 4 3-px error in val = 2.798
+
+Iter 5 3-px error in val = 2.394
+
+Iter 6 3-px error in val = 2.599
+
+Iter 7 3-px error in val = 1.595
+
+Iter 8 3-px error in val = 0.972
+
+Iter 9 3-px error in val = 2.620
+
+epoch 280 total 3-px error in val = 1.965
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 2.44 HR
+
+0.0001
+
+Iter 26 training loss = 0.236 , time = 0.82
+
+epoch 281 total training loss = 0.009
+
+Iter 0 3-px error in val = 2.280
+
+Iter 1 3-px error in val = 1.124
+
+Iter 2 3-px error in val = 0.825
+
+Iter 3 3-px error in val = 2.561
+
+Iter 4 3-px error in val = 2.781
+
+Iter 5 3-px error in val = 2.376
+
+Iter 6 3-px error in val = 2.657
+
+Iter 7 3-px error in val = 1.635
+
+Iter 8 3-px error in val = 0.980
+
+Iter 9 3-px error in val = 2.322
+
+epoch 281 total 3-px error in val = 1.954
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 2.45 HR
+
+0.0001
+
+Iter 26 training loss = 0.255 , time = 0.81
+
+epoch 282 total training loss = 0.009
+
+Iter 0 3-px error in val = 2.391
+
+Iter 1 3-px error in val = 1.119
+
+Iter 2 3-px error in val = 0.811
+
+Iter 3 3-px error in val = 2.574
+
+Iter 4 3-px error in val = 2.786
+
+Iter 5 3-px error in val = 2.363
+
+Iter 6 3-px error in val = 2.602
+
+Iter 7 3-px error in val = 1.587
+
+Iter 8 3-px error in val = 0.983
+
+Iter 9 3-px error in val = 2.315
+
+epoch 282 total 3-px error in val = 1.953
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 2.46 HR
+
+0.0001
+
+Iter 26 training loss = 0.262 , time = 0.79
+
+epoch 283 total training loss = 0.010
+
+Iter 0 3-px error in val = 2.081
+
+Iter 1 3-px error in val = 1.148
+
+Iter 2 3-px error in val = 0.842
+
+Iter 3 3-px error in val = 2.575
+
+Iter 4 3-px error in val = 2.804
+
+Iter 5 3-px error in val = 2.414
+
+Iter 6 3-px error in val = 2.569
+
+Iter 7 3-px error in val = 1.621
+
+Iter 8 3-px error in val = 0.986
+
+Iter 9 3-px error in val = 2.507
+
+epoch 283 total 3-px error in val = 1.955
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 2.47 HR
+
+0.0001
+
+Iter 26 training loss = 0.470 , time = 0.80
+
+epoch 284 total training loss = 0.017
+
+Iter 0 3-px error in val = 2.117
+
+Iter 1 3-px error in val = 1.130
+
+Iter 2 3-px error in val = 0.823
+
+Iter 3 3-px error in val = 2.570
+
+Iter 4 3-px error in val = 2.805
+
+Iter 5 3-px error in val = 2.358
+
+Iter 6 3-px error in val = 2.572
+
+Iter 7 3-px error in val = 1.592
+
+Iter 8 3-px error in val = 0.967
+
+Iter 9 3-px error in val = 2.470
+
+epoch 284 total 3-px error in val = 1.940
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 2.48 HR
+
+0.0001
+
+Iter 26 training loss = 0.276 , time = 0.85
+
+epoch 285 total training loss = 0.010
+
+Iter 0 3-px error in val = 2.100
+
+Iter 1 3-px error in val = 1.116
+
+Iter 2 3-px error in val = 0.868
+
+Iter 3 3-px error in val = 2.572
+
+Iter 4 3-px error in val = 2.795
+
+Iter 5 3-px error in val = 2.381
+
+Iter 6 3-px error in val = 2.566
+
+Iter 7 3-px error in val = 1.621
+
+Iter 8 3-px error in val = 0.970
+
+Iter 9 3-px error in val = 2.605
+
+epoch 285 total 3-px error in val = 1.959
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 2.49 HR
+
+0.0001
+
+Iter 26 training loss = 0.578 , time = 0.84
+
+epoch 286 total training loss = 0.021
+
+Iter 0 3-px error in val = 2.318
+
+Iter 1 3-px error in val = 1.140
+
+Iter 2 3-px error in val = 0.822
+
+Iter 3 3-px error in val = 2.594
+
+Iter 4 3-px error in val = 2.801
+
+Iter 5 3-px error in val = 2.302
+
+Iter 6 3-px error in val = 2.561
+
+Iter 7 3-px error in val = 1.646
+
+Iter 8 3-px error in val = 0.958
+
+Iter 9 3-px error in val = 2.509
+
+epoch 286 total 3-px error in val = 1.965
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 2.50 HR
+
+0.0001
+
+Iter 26 training loss = 0.365 , time = 0.80
+
+epoch 287 total training loss = 0.014
+
+Iter 0 3-px error in val = 2.302
+
+Iter 1 3-px error in val = 1.171
+
+Iter 2 3-px error in val = 0.854
+
+Iter 3 3-px error in val = 2.637
+
+Iter 4 3-px error in val = 2.841
+
+Iter 5 3-px error in val = 2.401
+
+Iter 6 3-px error in val = 2.632
+
+Iter 7 3-px error in val = 1.713
+
+Iter 8 3-px error in val = 0.983
+
+Iter 9 3-px error in val = 2.628
+
+epoch 287 total 3-px error in val = 2.016
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 2.51 HR
+
+0.0001
+
+Iter 26 training loss = 0.324 , time = 0.84
+
+epoch 288 total training loss = 0.012
+
+Iter 0 3-px error in val = 2.388
+
+Iter 1 3-px error in val = 1.123
+
+Iter 2 3-px error in val = 0.810
+
+Iter 3 3-px error in val = 2.654
+
+Iter 4 3-px error in val = 2.818
+
+Iter 5 3-px error in val = 2.305
+
+Iter 6 3-px error in val = 2.599
+
+Iter 7 3-px error in val = 1.606
+
+Iter 8 3-px error in val = 0.974
+
+Iter 9 3-px error in val = 2.508
+
+epoch 288 total 3-px error in val = 1.979
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 2.51 HR
+
+0.0001
+
+Iter 26 training loss = 0.229 , time = 0.80
+
+epoch 289 total training loss = 0.008
+
+Iter 0 3-px error in val = 2.427
+
+Iter 1 3-px error in val = 1.162
+
+Iter 2 3-px error in val = 0.781
+
+Iter 3 3-px error in val = 2.549
+
+Iter 4 3-px error in val = 2.772
+
+Iter 5 3-px error in val = 2.326
+
+Iter 6 3-px error in val = 2.634
+
+Iter 7 3-px error in val = 1.622
+
+Iter 8 3-px error in val = 0.964
+
+Iter 9 3-px error in val = 2.295
+
+epoch 289 total 3-px error in val = 1.953
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 2.52 HR
+
+0.0001
+
+Iter 26 training loss = 0.335 , time = 0.84
+
+epoch 290 total training loss = 0.012
+
+Iter 0 3-px error in val = 2.324
+
+Iter 1 3-px error in val = 1.116
+
+Iter 2 3-px error in val = 0.782
+
+Iter 3 3-px error in val = 2.726
+
+Iter 4 3-px error in val = 2.816
+
+Iter 5 3-px error in val = 2.334
+
+Iter 6 3-px error in val = 2.574
+
+Iter 7 3-px error in val = 1.601
+
+Iter 8 3-px error in val = 0.964
+
+Iter 9 3-px error in val = 2.459
+
+epoch 290 total 3-px error in val = 1.970
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 2.53 HR
+
+0.0001
+
+Iter 26 training loss = 0.368 , time = 0.80
+
+epoch 291 total training loss = 0.014
+
+Iter 0 3-px error in val = 2.238
+
+Iter 1 3-px error in val = 1.139
+
+Iter 2 3-px error in val = 0.821
+
+Iter 3 3-px error in val = 2.623
+
+Iter 4 3-px error in val = 2.812
+
+Iter 5 3-px error in val = 2.345
+
+Iter 6 3-px error in val = 2.599
+
+Iter 7 3-px error in val = 1.617
+
+Iter 8 3-px error in val = 0.974
+
+Iter 9 3-px error in val = 2.432
+
+epoch 291 total 3-px error in val = 1.960
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 2.54 HR
+
+0.0001
+
+Iter 26 training loss = 0.262 , time = 0.83
+
+epoch 292 total training loss = 0.010
+
+Iter 0 3-px error in val = 2.102
+
+Iter 1 3-px error in val = 1.126
+
+Iter 2 3-px error in val = 0.856
+
+Iter 3 3-px error in val = 2.619
+
+Iter 4 3-px error in val = 2.834
+
+Iter 5 3-px error in val = 2.425
+
+Iter 6 3-px error in val = 2.556
+
+Iter 7 3-px error in val = 1.609
+
+Iter 8 3-px error in val = 0.969
+
+Iter 9 3-px error in val = 2.591
+
+epoch 292 total 3-px error in val = 1.969
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 2.55 HR
+
+0.0001
+
+Iter 26 training loss = 0.364 , time = 0.80
+
+epoch 293 total training loss = 0.013
+
+Iter 0 3-px error in val = 2.226
+
+Iter 1 3-px error in val = 1.109
+
+Iter 2 3-px error in val = 0.798
+
+Iter 3 3-px error in val = 2.501
+
+Iter 4 3-px error in val = 2.838
+
+Iter 5 3-px error in val = 2.383
+
+Iter 6 3-px error in val = 2.576
+
+Iter 7 3-px error in val = 1.589
+
+Iter 8 3-px error in val = 0.977
+
+Iter 9 3-px error in val = 2.479
+
+epoch 293 total 3-px error in val = 1.947
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 2.56 HR
+
+0.0001
+
+Iter 26 training loss = 0.525 , time = 0.81
+
+epoch 294 total training loss = 0.019
+
+Iter 0 3-px error in val = 2.273
+
+Iter 1 3-px error in val = 1.118
+
+Iter 2 3-px error in val = 0.780
+
+Iter 3 3-px error in val = 2.599
+
+Iter 4 3-px error in val = 2.848
+
+Iter 5 3-px error in val = 2.439
+
+Iter 6 3-px error in val = 2.569
+
+Iter 7 3-px error in val = 1.600
+
+Iter 8 3-px error in val = 0.943
+
+Iter 9 3-px error in val = 2.431
+
+epoch 294 total 3-px error in val = 1.960
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 2.57 HR
+
+0.0001
+
+Iter 26 training loss = 0.475 , time = 0.86
+
+epoch 295 total training loss = 0.018
+
+Iter 0 3-px error in val = 2.163
+
+Iter 1 3-px error in val = 1.158
+
+Iter 2 3-px error in val = 0.824
+
+Iter 3 3-px error in val = 2.641
+
+Iter 4 3-px error in val = 2.816
+
+Iter 5 3-px error in val = 2.416
+
+Iter 6 3-px error in val = 2.619
+
+Iter 7 3-px error in val = 1.617
+
+Iter 8 3-px error in val = 0.951
+
+Iter 9 3-px error in val = 2.548
+
+epoch 295 total 3-px error in val = 1.975
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 2.58 HR
+
+0.0001
+
+Iter 26 training loss = 0.377 , time = 0.83
+
+epoch 296 total training loss = 0.014
+
+Iter 0 3-px error in val = 2.123
+
+Iter 1 3-px error in val = 1.138
+
+Iter 2 3-px error in val = 0.867
+
+Iter 3 3-px error in val = 2.647
+
+Iter 4 3-px error in val = 2.833
+
+Iter 5 3-px error in val = 2.425
+
+Iter 6 3-px error in val = 2.555
+
+Iter 7 3-px error in val = 1.601
+
+Iter 8 3-px error in val = 0.980
+
+Iter 9 3-px error in val = 2.495
+
+epoch 296 total 3-px error in val = 1.966
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 2.58 HR
+
+0.0001
+
+Iter 26 training loss = 0.334 , time = 0.83
+
+epoch 297 total training loss = 0.012
+
+Iter 0 3-px error in val = 2.154
+
+Iter 1 3-px error in val = 1.139
+
+Iter 2 3-px error in val = 0.797
+
+Iter 3 3-px error in val = 2.662
+
+Iter 4 3-px error in val = 2.828
+
+Iter 5 3-px error in val = 2.374
+
+Iter 6 3-px error in val = 2.589
+
+Iter 7 3-px error in val = 1.582
+
+Iter 8 3-px error in val = 0.959
+
+Iter 9 3-px error in val = 2.299
+
+epoch 297 total 3-px error in val = 1.938
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 2.59 HR
+
+0.0001
+
+Iter 26 training loss = 0.381 , time = 0.81
+
+epoch 298 total training loss = 0.014
+
+Iter 0 3-px error in val = 2.105
+
+Iter 1 3-px error in val = 1.109
+
+Iter 2 3-px error in val = 0.778
+
+Iter 3 3-px error in val = 2.595
+
+Iter 4 3-px error in val = 2.799
+
+Iter 5 3-px error in val = 2.289
+
+Iter 6 3-px error in val = 2.511
+
+Iter 7 3-px error in val = 1.579
+
+Iter 8 3-px error in val = 0.951
+
+Iter 9 3-px error in val = 2.517
+
+epoch 298 total 3-px error in val = 1.923
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 2.60 HR
+
+0.0001
+
+Iter 26 training loss = 0.313 , time = 0.85
+
+epoch 299 total training loss = 0.012
+
+Iter 0 3-px error in val = 2.465
+
+Iter 1 3-px error in val = 1.108
+
+Iter 2 3-px error in val = 0.773
+
+Iter 3 3-px error in val = 2.514
+
+Iter 4 3-px error in val = 2.800
+
+Iter 5 3-px error in val = 2.239
+
+Iter 6 3-px error in val = 2.633
+
+Iter 7 3-px error in val = 1.572
+
+Iter 8 3-px error in val = 0.956
+
+Iter 9 3-px error in val = 2.195
+
+epoch 299 total 3-px error in val = 1.925
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 2.61 HR
+
+0.0001
+
+Iter 26 training loss = 0.383 , time = 0.92
+
+epoch 300 total training loss = 0.014
+
+Iter 0 3-px error in val = 2.153
+
+Iter 1 3-px error in val = 1.132
+
+Iter 2 3-px error in val = 0.821
+
+Iter 3 3-px error in val = 2.598
+
+Iter 4 3-px error in val = 2.815
+
+Iter 5 3-px error in val = 2.452
+
+Iter 6 3-px error in val = 2.579
+
+Iter 7 3-px error in val = 1.614
+
+Iter 8 3-px error in val = 0.955
+
+Iter 9 3-px error in val = 2.703
+
+epoch 300 total 3-px error in val = 1.982
+
+MAX epoch 1 total test error = 7.786
+
+full finetune time = 2.62 HR
+
+1
+
+7.786486734715377
