@@ -13,11 +13,13 @@ from scipy.stats import truncnorm
 import random
 import pandas as pd
 import os
+import shutil
+
 
 
 
 # Load your data
-file_path = '/media/william/blueicedrive/Github/UDrive/Analysis/nuScenes/unifiedAnalysis.json'  # Update this with the actual file path
+file_path = '/media/william/mist2/william/Github/UDrive/Analysis/nuScenes/unifiedAnalysis.json'  # Update this with the actual file path
 with open(file_path, 'r') as file:
     data = json.load(file)
 
@@ -402,8 +404,10 @@ class DatasetAnalysis:
         os.makedirs(dest_dir, exist_ok=True)
         for filename in filteredImageNames:
             file_path = os.path.join(src_dir, filename)
-            if os.path.exist(file_path):
-                print(file_path)
+            print(file_path)
+            if os.path.exists(file_path):
+                new_path = os.path.join(dest_dir, filename)
+                shutil.copy2(file_path, new_path)
 
     def compareImages(self, similarity_threshold=1.0): 
         image_subgraph_list = []
@@ -477,14 +481,14 @@ class DatasetAnalysis:
         # self.moveImages(filtered_image_names, similarity_threshold)
         
 
-        with open(f'/media/william/blueicedrive/Github/UDrive/Analysis/nuScenes/results/filtered_imageJaccardSimilaritymatrix.csv_{similarity_threshold}', 'w', newline='') as f:
-            writer = csv.writer(f)
-            writer.writerow([''] + filtered_image_names)
-            for name, row in zip(filtered_image_names, filtered_similarity_matrix):
-                try:
-                    writer.writerow([name] + row)
-                except:
-                    pass
+        # with open(f'/media/william/blueicedrive/Github/UDrive/Analysis/nuScenes/results/filtered_imageJaccardSimilaritymatrix.csv_{similarity_threshold}', 'w', newline='') as f:
+        #     writer = csv.writer(f)
+        #     writer.writerow([''] + filtered_image_names)
+        #     for name, row in zip(filtered_image_names, filtered_similarity_matrix):
+        #         try:
+        #             writer.writerow([name] + row)
+        #         except:
+        #             pass
     
 
     def createRandomDataset(self):
@@ -552,12 +556,21 @@ G = DatasetAnalysis()
 # G.createBasicGraph()
 # print("Compare Scenarios")
 # G.compareScenarios()
+<<<<<<< Updated upstream
 # print("nuScenes Results")
 # for i in range (10, 0, -1):
 #     threshold = i/10
 #     # print(threshold)
 #     G.compareImages(threshold)
 # G.compareImages(0.8)
+=======
+print("nuScenes Results")
+for i in range (10, 0, -1):
+    threshold = i/10
+    # print(threshold)
+    G.compareImages(threshold)
+# G.compareImages(0.9)
+>>>>>>> Stashed changes
     # G.compareImages(0.9)
 # G.calculateDegreeCentrality(20)
 # print("Random Graph Results")

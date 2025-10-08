@@ -394,6 +394,7 @@ class DatasetAnalysis:
     #             data['densities'] = ', '.join(f"{k}:{v}" for k, v in data['densities'].items())
     #             # print(data)
     #             writer.writerow(data)
+<<<<<<< Updated upstream
     def moveImages(self, filteredImageNames, threshold):
         src_dir =  "/media/william/mist2/william/Github/ultralytics/dataset/nuScenesFullNA/images/train"
         dest_dir = f"/media/william/mist2/william/Github/ultralytics/dataset/nuScenesFullNA/images/selected_{threshold}"
@@ -402,6 +403,18 @@ class DatasetAnalysis:
             file_path = os.path.join(src_dir, filename)
             if os.path.exist(file_path):
                 print(file_path)   
+=======
+    # def moveImages(self, filteredImageNames, threshold):
+    #     src_dir =  "/media/william/mist2/william/Github/ultralytics/dataset/nuScenesFullNA/images/train"
+    #     dest_dir = f"/media/william/mist2/william/Github/ultralytics/dataset/nuScenesFullNA/images/selected_{threshold}"
+    #     os.makedirs(dest_dir, exist_ok=True)
+    #     for filename in filteredImageNames:
+    #         file_path = os.path.join(src_dir, filename)
+    #         print(file_path)
+    #         if os.path.exists(file_path):
+    #             new_path = os.path.join(dest_dir, filename)
+    #             shutil.copy2(file_path, new_path)
+>>>>>>> Stashed changes
 
     def compareImages(self, similarity_threshold=1.0): 
         image_subgraph_list = []
